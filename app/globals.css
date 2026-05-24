@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Cormorant Garamond", Georgia, serif;
+    --font-body: "Inter", system-ui, -apple-system, sans-serif;
+    --header-height: 88px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-white text-ink antialiased font-sans;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01", "ss02", "cv11";
+  }
+
+  ::selection {
+    @apply bg-turquoise/30 text-deep-700;
+  }
+
+  /* Smooth focus rings */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-turquoise-500 ring-offset-2 ring-offset-white;
+  }
+
+  /* Headings default tracking */
+  h1, h2, h3, h4 {
+    @apply font-serif text-balance;
+    font-weight: 500;
+  }
+
+  /* Better paragraph wrapping */
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Container with premium gutters */
+  .container-premium {
+    @apply mx-auto w-full max-w-[1400px] px-6 sm:px-8 lg:px-12;
+  }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-[1100px] px-6 sm:px-8 lg:px-12;
+  }
+
+  .container-text {
+    @apply mx-auto w-full max-w-[760px] px-6 sm:px-8;
+  }
+
+  /* Eyebrow label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-eyebrow uppercase tracking-wider2 text-deep-600 font-medium;
+  }
+
+  .eyebrow-light {
+    @apply inline-flex items-center gap-2 text-eyebrow uppercase tracking-wider2 text-white/80 font-medium;
+  }
+
+  .eyebrow::before,
+  .eyebrow-light::before {
+    content: "";
+    @apply block h-px w-8 bg-current opacity-60;
+  }
+
+  /* Premium buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-medium tracking-wide transition-all duration-500 ease-premium will-change-transform whitespace-nowrap;
+  }
+
+  .btn-primary {
+    @apply btn bg-deep-600 text-white hover:bg-deep-700 hover:shadow-premium-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-accent {
+    @apply btn bg-turquoise-500 text-white hover:bg-turquoise-600 hover:shadow-premium-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-ghost {
+    @apply btn bg-white/10 text-white backdrop-blur-md border border-white/30 hover:bg-white/20 hover:border-white/50;
+  }
+
+  .btn-outline {
+    @apply btn border border-deep-200 text-deep-700 hover:bg-deep-50 hover:border-deep-400;
+  }
+
+  .btn-link {
+    @apply inline-flex items-center gap-1.5 text-sm font-medium text-deep-600 hover:text-deep-700 transition-colors duration-300;
+  }
+
+  /* Glass surface */
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-premium;
+  }
+
+  .glass-dark {
+    @apply bg-deep-900/30 backdrop-blur-xl border border-white/10;
+  }
+
+  /* Hairline divider */
+  .hairline {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-deep-200 to-transparent;
+  }
+
+  /* Card */
+  .card-premium {
+    @apply relative overflow-hidden rounded-3xl bg-white shadow-premium-sm border border-sand-200/60 transition-all duration-500 ease-premium hover:shadow-premium-lg hover:-translate-y-1;
+  }
+
+  /* Smooth image hover */
+  .img-hover {
+    @apply transition-transform duration-[1200ms] ease-premium will-change-transform group-hover:scale-[1.06];
+  }
+
+  /* Premium link underline */
+  .link-underline {
+    @apply relative inline-block;
+  }
+  .link-underline::after {
+    content: "";
+    @apply absolute left-0 -bottom-0.5 h-px w-full origin-right scale-x-0 bg-current transition-transform duration-500 ease-premium;
+  }
+  .link-underline:hover::after {
+    @apply origin-left scale-x-100;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-shadow {
+    text-shadow: 0 2px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(180deg, black 70%, transparent 100%);
+    -webkit-mask-image: linear-gradient(180deg, black 70%, transparent 100%);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide on mobile only */
+  .mobile-safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Marquee for trust strip */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}

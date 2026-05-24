@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "siteName": "Master Boat Charter",
+    "tagline": "Seychelles Beyond The Shore",
+    "defaultTitle": "Master Boat Charter — Premium Eco Boat Experiences in Seychelles",
+    "defaultDescription": "Private boat excursions, big game fishing, transfers and rentals across Praslin, La Digue and the Inner Islands of Seychelles. Local captains, eco-conscious experiences, limited daily reservations."
+  },
+  "nav": {
+    "home": "Home",
+    "excursions": "Boat Excursions",
+    "fishing": "Big Game Fishing",
+    "transfers": "Boat Transfers",
+    "rental": "Boat Rental",
+    "about": "About Us",
+    "contact": "Contact",
+    "bookNow": "Book Now",
+    "whatsapp": "WhatsApp",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "discover": "Discover",
+    "learnMore": "Learn more",
+    "bookExperience": "Book your experience",
+    "exploreActivities": "Explore activities",
+    "viewDetails": "View details",
+    "perPerson": "/ person",
+    "from": "From",
+    "duration": "Duration",
+    "capacity": "Capacity",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "highlights": "Highlights",
+    "halfDay": "Half day",
+    "fullDay": "Full day",
+    "sunset": "Sunset",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "selectDate": "Select a date",
+    "selectTime": "Select a time",
+    "guests": "Guests",
+    "next": "Next",
+    "back": "Back",
+    "confirm": "Confirm reservation",
+    "loading": "Loading",
+    "or": "or",
+    "and": "and"
+  },
+  "hero": {
+    "eyebrow": "Seychelles · Praslin · La Digue · Mahé",
+    "title": "Discover Seychelles",
+    "titleAccent": "Beyond The Shore",
+    "subtitle": "Private, eco-conscious boat experiences designed to create unforgettable memories on the most pristine waters of the Indian Ocean.",
+    "ctaPrimary": "Book your experience",
+    "ctaSecondary": "Explore activities",
+    "scrollHint": "Scroll to explore",
+    "stats": {
+      "rating": "Five-star rated",
+      "guests": "500+ happy guests",
+      "local": "100% local experience",
+      "eco": "Eco-conscious approach"
+    }
+  },
+  "activities": {
+    "sectionEyebrow": "Curated experiences",
+    "sectionTitle": "Choose your day at sea",
+    "sectionLead": "Four signature ways to experience the Seychelles archipelago — from castaway islands to deep-blue fishing grounds.",
+    "excursions": {
+      "shortTitle": "Boat Excursions",
+      "title": "Boat Excursions",
+      "tagline": "Castaway islands & secret lagoons",
+      "shortDescription": "Explore the most beautiful islands of Seychelles — Grande Soeur, Curieuse, La Digue and beyond — while respecting local marine ecosystems.",
+      "description": "Discover hidden lagoons, white-sand beaches and protected marine parks aboard a private boat with your local skipper. Each itinerary is designed to minimise our footprint while maximising what you see, taste and remember.",
+      "highlights": [
+        "Private boat with local captain",
+        "Snorkeling at protected marine sites",
+        "Beach stop with optional barbecue",
+        "Drinks included, toilets onboard"
+      ],
+      "fromPrice": "€70"
+    },
+    "fishing": {
+      "shortTitle": "Big Game Fishing",
+      "title": "Big Game Fishing",
+      "tagline": "Sailfish, marlin & dorado grounds",
+      "shortDescription": "Experience big game fishing in Seychelles with experienced local captains using respectful, sustainable marine practices.",
+      "description": "Head out to the deep with skippers who know the seasons, the currents and the right way to do this — tag-and-release first, light tackle when possible, no shortcut to a trophy. Snacks and drinks included.",
+      "highlights": [
+        "1 to 4 anglers per trip",
+        "Quality rods, reels & tackle",
+        "Sustainable fishing practices",
+        "Snacks and drinks onboard"
+      ],
+      "fromPrice": "€450"
+    },
+    "transfers": {
+      "shortTitle": "Boat Transfers",
+      "title": "Private Boat Transfers",
+      "tagline": "Island to island, on your schedule",
+      "shortDescription": "Travel comfortably between Praslin, La Digue and Mahé with private boat transfers tailored to your itinerary.",
+      "description": "Skip the queues and the schedules. Move between the inner islands on your own time, with luggage handled, water onboard and the kind of comfort the public ferry doesn't pretend to offer.",
+      "highlights": [
+        "Door-to-jetty coordination",
+        "Luggage handled with care",
+        "Refreshments onboard",
+        "Flexible departure times"
+      ],
+      "fromPrice": "€150"
+    },
+    "rental": {
+      "shortTitle": "Boat Rental",
+      "title": "Private Boat Rental",
+      "tagline": "The boat is yours for the day",
+      "shortDescription": "Enjoy a fully private boat experience with skipper included — design your day, your route, your stops.",
+      "description": "Up to ten guests, one boat, one local captain, and a coastline to write your own day around. Tell us what matters most — long swims, quiet anchorages, a barbecue ashore — and we shape it from there.",
+      "highlights": [
+        "Up to 10 guests",
+        "Skipper included",
+        "Build your own itinerary",
+        "Drinks and shade onboard"
+      ],
+      "fromPrice": "€400"
+    }
+  },
+  "commitments": {
+    "eyebrow": "Our commitments",
+    "title": "A different kind of day at sea",
+    "lead": "We run one boat. That's a deliberate choice — it keeps the experience personal, the impact light and the standards high.",
+    "items": {
+      "eco": {
+        "title": "Respect for marine ecosystems",
+        "description": "No anchoring on coral, briefings before every snorkel, zero single-use plastics onboard."
+      },
+      "captains": {
+        "title": "Local experienced captains",
+        "description": "Seychellois skippers who grew up on these waters and read them like a second language."
+      },
+      "comfort": {
+        "title": "Comfortable boat experience",
+        "description": "Toilets onboard, drinks included, shade where you need it. Premium without the show."
+      },
+      "limited": {
+        "title": "Limited daily reservations",
+        "description": "One boat, one group at a time. You are the day, not a slot on a schedule."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "The experience",
+    "block1": {
+      "title": "Water so clear it disappears",
+      "body": "Granite islands rising out of glass-flat lagoons. Schools of fish you can count from the surface. Beaches with no footprints but your own. The Seychelles aren't a backdrop — they're the entire point."
+    },
+    "block2": {
+      "title": "Local first, every time",
+      "body": "Our captains are from these islands. The fish they show you, the spots they choose, the way they read the weather — none of it comes from a guidebook. This is what an insider day actually looks like."
+    },
+    "block3": {
+      "title": "Quietly, carefully done",
+      "body": "We keep groups small, our gear in good order and our impact minimal. No loudspeakers, no flotillas, no shortcuts. Just a good boat, a great captain and the Indian Ocean."
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "A glimpse of the days we make"
+  },
+  "testimonials": {
+    "eyebrow": "Travellers say",
+    "title": "Five-star rated by our guests"
+  },
+  "booking": {
+    "eyebrow": "Reservation",
+    "title": "Reserve your day",
+    "lead": "Pick a date, choose a time slot and tell us about your group. We'll confirm by email and WhatsApp within a few hours.",
+    "stepActivity": "Activity",
+    "stepDate": "Date & time",
+    "stepGuests": "Guests",
+    "stepDetails": "Your details",
+    "stepReview": "Review",
+    "noSlots": "No availability for this date",
+    "unavailable": "Already booked",
+    "available": "Available",
+    "selectedDate": "Selected date",
+    "guestsCount": "Number of guests",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone (WhatsApp preferred)",
+    "comments": "Comments or special requests",
+    "commentsPlaceholder": "Tell us anything that helps — children onboard, dietary preferences, special occasions…",
+    "agreeTerms": "I understand that the boat is unique and that my time slot is reserved exclusively for me once confirmed.",
+    "submit": "Send reservation request",
+    "submitting": "Sending…",
+    "successTitle": "Reservation request sent",
+    "successBody": "Thank you. We've received your request and will confirm by email and WhatsApp shortly. The selected slot is held pending confirmation.",
+    "errorTitle": "Something went wrong",
+    "errorBody": "We couldn't send your request. Please try again or reach us directly on WhatsApp.",
+    "policyTitle": "One boat, one booking",
+    "policyBody": "Master Boat Charter operates a single boat. Whenever a slot is booked, all overlapping options become unavailable across every activity. That's how we protect the quality of every day at sea."
+  },
+  "faq": {
+    "eyebrow": "Good to know",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Where do you operate from?",
+        "a": "We're based in Praslin and operate across Praslin, La Digue, Mahé, Curieuse, Cousin, Coco Island, Grande Soeur, Petite Soeur, Félicité, St Pierre and more."
+      },
+      {
+        "q": "Why is there only one boat?",
+        "a": "It's a choice. One boat means we can keep groups small, the experience personal and our impact on the marine environment low. Every guest gets our full attention."
+      },
+      {
+        "q": "Are drinks and food included?",
+        "a": "Drinks are included on every trip. Full-day excursions include a barbecue ashore. Fishing trips include snacks. Specific menus can be tailored."
+      },
+      {
+        "q": "Are marine park fees included?",
+        "a": "No. Marine park fees (for sites such as Curieuse, Saint Pierre, Coco) are paid locally and not included in the rate."
+      },
+      {
+        "q": "What's your cancellation policy?",
+        "a": "Free cancellation up to 72 hours before departure. Inside 72 hours, the slot remains reserved for you and rescheduling is offered subject to availability."
+      },
+      {
+        "q": "Is the boat suitable for children?",
+        "a": "Absolutely. The boat is family-friendly with shade, toilets onboard and flotation gear in every size. Tell us your group composition and we'll prepare accordingly."
+      },
+      {
+        "q": "What about seasickness?",
+        "a": "Inside the Seychelles inner islands the sea is generally calm and protected. For game fishing the swell is larger — we'll advise based on the day's conditions."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "Booking online is reservation only — no card needed at this stage. We'll confirm by email and WhatsApp and arrange payment by bank transfer or cash on the day."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Premium eco boat experiences across the Seychelles archipelago.",
+    "contact": "Contact",
+    "quickLinks": "Quick links",
+    "activities": "Activities",
+    "follow": "Follow",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "rights": "All rights reserved.",
+    "experienceResponsibly": "Experience Seychelles responsibly.",
+    "longDescription": {
+      "title": "Why choose Master Boat Charter?",
+      "intro": "Master Boat Charter is the reference for boat excursions and rentals in Seychelles. From our base in Praslin we run unforgettable days in the most beautiful lagoons of the archipelago.",
+      "block1Title": "Unrivalled local expertise",
+      "block1": "Our captains are Seychellois and passionate about their islands. They know the secret spots: wild coves, deserted islets, untouched reefs. Far more than a ride, a true authentic experience.",
+      "block2Title": "A modern, safe fleet",
+      "block2": "Whether you want a private boat with skipper, a snorkeling outing, a sunset cruise, or a quick island transfer, our fleet adapts to your wishes. Every boat is regularly inspected for safety and comfort.",
+      "block3Title": "Respect for nature & lagoons",
+      "block3": "We are committed to sustainable tourism in Seychelles. Our excursions are designed to minimise environmental impact: no anchoring on coral, low-waste practices, marine wildlife awareness.",
+      "block4Title": "Simple, secure booking",
+      "block4": "Pick your date, pick your activity and book directly online. Our smart calendar prevents double bookings, and confirmation is handled personally by our team.",
+      "block5Title": "A tailored experience",
+      "block5": "Want a picnic on a deserted beach? A swim stop in a turquoise lagoon? A guided visit to Curieuse, Saint-Pierre or Félicité? Every outing is shaped around your wishes for unforgettable memories.",
+      "outro": "Book your excursion now and explore the marine treasures of the Seychelles with Master Boat Charter — your partner at sea."
+    }
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "A single boat. A whole archipelago.",
+    "lead": "Master Boat Charter is a small, local operation built on a simple idea: do less, do it well, and leave the sea exactly as you found it.",
+    "storyTitle": "Our story",
+    "story": "We started with one boat, a deep love for these waters, and a frustration with how mass tourism was handling them. Years later, the boat is the same. So is the approach. What's grown is the trust — from guests who come back, and from local guides and captains who choose to work with us.",
+    "valuesTitle": "What we stand for",
+    "values": [
+      {
+        "title": "Local first",
+        "description": "Seychellois captains, Seychellois suppliers, Seychellois rhythm."
+      },
+      {
+        "title": "Light footprint",
+        "description": "No anchoring on coral, no single-use plastics, briefings on every reef."
+      },
+      {
+        "title": "One group at a time",
+        "description": "We never share the boat between groups. Your day is yours."
+      },
+      {
+        "title": "Honest pricing",
+        "description": "What you see is what you pay. Marine park fees stated, no hidden extras."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Plan your day at sea",
+    "lead": "Tell us a little about your trip and we'll come back to you with a tailored proposal within a few hours.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (WhatsApp preferred)",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending…"
+    },
+    "infoTitle": "Reach us directly",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "baseLabel": "Base",
+    "baseValue": "Praslin, Seychelles"
+  },
+  "pricing": {
+    "perPerson": "per person",
+    "halfDay": "Half day (4h)",
+    "fullDay": "Full day + barbecue",
+    "fullDay8h": "Full day (8h)",
+    "deepSea": "Deep-sea expedition",
+    "sunset": "Sunset cruise",
+    "praslinLaDigue": "Praslin ↔ La Digue",
+    "praslinMahe": "Praslin ↔ Mahé",
+    "drinksIncluded": "Drinks included",
+    "snackIncluded": "Snack included",
+    "toiletOnboard": "Toilet onboard",
+    "skipperIncluded": "Skipper included",
+    "marineParkFees": "Marine park fees not included",
+    "upTo10": "Up to 10 guests",
+    "anglersRange": "1 to 4 anglers",
+    "barbecueIncluded": "Barbecue ashore included",
+    "circuits": {
+      "title1": "Circuit 1 — Grande Soeur, Petite Soeur, Félicité, Coco",
+      "title2": "Circuit 2 — Curieuse, Anse Lazio, Anse Georgette, St Pierre",
+      "title3": "Circuit 3 — La Digue tour"
+    }
+  }
+}

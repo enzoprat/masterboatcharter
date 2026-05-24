@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#155E75"/>
+      <stop offset="100%" stop-color="#06232B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#3ABEDB" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3ABEDB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(80, 120)">
+    <text x="0" y="60" font-family="Georgia, serif" font-size="40" fill="#3ABEDB" letter-spacing="6">SEYCHELLES · PRASLIN · LA DIGUE</text>
+    <text x="0" y="200" font-family="Georgia, serif" font-size="120" fill="#FFFFFF">Discover Seychelles</text>
+    <text x="0" y="320" font-family="Georgia, serif" font-size="120" font-style="italic" fill="#A6E2EE">Beyond The Shore</text>
+    <text x="0" y="420" font-family="Inter, sans-serif" font-size="32" fill="#FFFFFF" opacity="0.8">Private eco-conscious boat experiences</text>
+    <text x="0" y="465" font-family="Inter, sans-serif" font-size="32" fill="#FFFFFF" opacity="0.8">across the Seychelles archipelago.</text>
+  </g>
+  <g transform="translate(980, 480)">
+    <text font-family="Georgia, serif" font-size="36" fill="#FFFFFF" text-anchor="end">Master Boat Charter</text>
+  </g>
+</svg>
