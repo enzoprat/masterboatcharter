@@ -15,6 +15,7 @@ import {
   type PriceOption,
 } from '@/lib/data/activities';
 import { cn, formatPrice } from '@/lib/utils';
+import { FORM_ENDPOINT, SITE } from '@/lib/site';
 import Calendar from './Calendar';
 import SlotPicker from './SlotPicker';
 
@@ -124,10 +125,71 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
     setSubmitting(true);
     setError(null);
     try {
-      // In production POST to /api/bookings
-      await new Promise((r) => setTimeout(r, 1000));
+      const summary = [
+        `Activity: ${tActivities(`${currentActivity.i18nKey}.title`)}`,
+        option ? `Option: ${tRaw(option.labelKey)} (${SLOTS[option.slot].start}–${SLOTS[option.slot].end})` : null,
+        `Date: ${date}`,
+        `Guests: ${guests}`,
+        option
+          ? `Estimated total: ${
+              option.onRequest
+                ? tRaw('pricing.onRequest')
+                : formatPrice(option.perBoat ? option.price : option.price * guests)
+            }`
+          : null,
+      ]
+        .filter(Boolean)
+        .join('\n');
+
+      const res = await fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          _subject: `[Master Boat Charter] New booking request — ${tActivities(`${currentActivity.i18nKey}.title`)} · ${date}`,
+          _template: 'table',
+          _captcha: 'false',
+          name: details.name,
+          email: details.email,
+          phone: details.phone,
+          activity: tActivities(`${currentActivity.i18nKey}.title`),
+          option: option ? tRaw(option.labelKey) : '',
+          date,
+          slot: option ? `${SLOTS[option.slot].start}–${SLOTS[option.slot].end}` : '',
+          guests,
+          total: option
+            ? option.onRequest
+              ? 'On request'
+              : formatPrice(option.perBoat ? option.price : option.price * guests)
+            : '',
+          comments: details.comments,
+          summary,
+        }),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       setSuccess(true);
     } catch (e) {
+      // Mailto fallback so the request still reaches the inbox
+      const body = [
+        `Name: ${details.name}`,
+        `Email: ${details.email}`,
+        `Phone: ${details.phone}`,
+        '',
+        `Activity: ${tActivities(`${currentActivity.i18nKey}.title`)}`,
+        option ? `Option: ${tRaw(option.labelKey)}` : '',
+        `Date: ${date}`,
+        option ? `Slot: ${SLOTS[option.slot].start}–${SLOTS[option.slot].end}` : '',
+        `Guests: ${guests}`,
+        '',
+        details.comments ? `Comments: ${details.comments}` : '',
+      ]
+        .filter(Boolean)
+        .join('\n');
+      window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(
+        `[Master Boat Charter] Booking request — ${date}`
+      )}&body=${encodeURIComponent(body)}`;
       setError(t('errorBody'));
     } finally {
       setSubmitting(false);

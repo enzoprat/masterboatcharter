@@ -5,8 +5,9 @@ import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Send, Check } from 'lucide-react';
+import { Send, Check, AlertCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { FORM_ENDPOINT, SITE } from '@/lib/site';
 
 const schema = z.object({
   name: z.string().min(2, 'Required'),
@@ -21,6 +22,7 @@ type FormData = z.infer<typeof schema>;
 export default function ContactForm() {
   const t = useTranslations('contact.form');
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const {
     register,
     handleSubmit,
@@ -29,12 +31,35 @@ export default function ContactForm() {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   const onSubmit = async (data: FormData) => {
-    // Demo: simulate request
-    await new Promise((r) => setTimeout(r, 900));
-    console.log('Contact submission', data);
-    setSubmitted(true);
-    reset();
-    setTimeout(() => setSubmitted(false), 6000);
+    setError(null);
+    try {
+      const res = await fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          _subject: `[Master Boat Charter] Contact — ${data.subject}`,
+          _template: 'table',
+          _captcha: 'false',
+          ...data,
+        }),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      setSubmitted(true);
+      reset();
+      setTimeout(() => setSubmitted(false), 8000);
+    } catch (e) {
+      // Fallback: open the user's email client so the message still reaches us
+      const body = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nSubject: ${data.subject}\n\n${data.message}`;
+      window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(
+        `[Master Boat Charter] Contact — ${data.subject}`
+      )}&body=${encodeURIComponent(body)}`;
+      setError(
+        'We could not reach our server — your email client has been opened so you can send the message directly.'
+      );
+    }
   };
 
   return (
@@ -73,6 +98,12 @@ export default function ContactForm() {
       <Field label={t('message')} error={errors.message?.message}>
         <textarea {...register('message')} className={cn(inputCls, 'min-h-[160px] resize-y')} />
       </Field>
+      {error && (
+        <div className="flex items-start gap-2.5 rounded-2xl bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700">
+          <AlertCircle className="h-4 w-4 mt-0.5 shrink-0" strokeWidth={1.8} />
+          <span>{error}</span>
+        </div>
+      )}
       <button
         type="submit"
         disabled={isSubmitting || submitted}
