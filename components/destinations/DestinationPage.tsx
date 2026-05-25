@@ -27,6 +27,10 @@ const DESTINATION_HREFS: Record<DestinationSlug, string> = {
   'curieuse-island': '/boat-excursions/curieuse-island',
   'coco-island': '/boat-excursions/coco-island',
   'la-digue-tour': '/boat-excursions/la-digue-tour',
+  'sister-islands': '/boat-excursions/sister-islands',
+  'anse-lazio': '/boat-excursions/anse-lazio',
+  'st-pierre-islet': '/boat-excursions/st-pierre-islet',
+  'sunset-cruise': '/boat-excursions/sunset-cruise',
 };
 
 export default function DestinationPage({

@@ -10,7 +10,11 @@
 export type DestinationSlug =
   | 'curieuse-island'
   | 'coco-island'
-  | 'la-digue-tour';
+  | 'la-digue-tour'
+  | 'sister-islands'
+  | 'anse-lazio'
+  | 'st-pierre-islet'
+  | 'sunset-cruise';
 
 export type Destination = {
   slug: DestinationSlug;
@@ -45,7 +49,7 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
       'St-Pierre Islet — coral reef snorkeling',
     ],
     touristType: ['Family', 'Couple', 'Snorkeler', 'Nature lover'],
-    related: ['coco-island', 'la-digue-tour'],
+    related: ['st-pierre-islet', 'coco-island'],
   },
   'coco-island': {
     slug: 'coco-island',
@@ -61,7 +65,7 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
       'Petite Soeur',
     ],
     touristType: ['Family', 'Couple', 'Snorkeler', 'Photographer'],
-    related: ['curieuse-island', 'la-digue-tour'],
+    related: ['sister-islands', 'curieuse-island'],
   },
   'la-digue-tour': {
     slug: 'la-digue-tour',
@@ -71,13 +75,74 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
     duration: 'PT8H',
     itinerary: [
       'La Digue marina',
-      'Anse Source d’Argent (from sea)',
+      "Anse Source d’Argent (from sea)",
       'Anse Cocos',
       'Grande Anse',
       'Petite Anse',
     ],
     touristType: ['Couple', 'Photographer', 'Honeymooners', 'Sunset cruiser'],
+    related: ['sunset-cruise', 'coco-island'],
+  },
+  'sister-islands': {
+    slug: 'sister-islands',
+    image: '/images/beach-palms.jpg',
+    geo: { lat: -4.297, lng: 55.85 },
+    priceFrom: 130,
+    duration: 'PT8H',
+    itinerary: [
+      'La Digue marina',
+      'Grande Soeur — east beach',
+      'Grande Soeur — west bay (BBQ stop)',
+      'Petite Soeur',
+      'Félicité (from sea)',
+    ],
+    touristType: ['Couple', 'Family', 'Snorkeler', 'Photographer'],
     related: ['coco-island', 'curieuse-island'],
+  },
+  'anse-lazio': {
+    slug: 'anse-lazio',
+    image: '/images/lagoon-swim.jpg',
+    geo: { lat: -4.299, lng: 55.703 },
+    priceFrom: 130,
+    duration: 'PT6H',
+    itinerary: [
+      'La Digue marina',
+      'Anse Lazio — anchorage',
+      'Anse Lazio — north reef snorkeling',
+      'Anse Georgette (from sea)',
+    ],
+    touristType: ['Couple', 'Honeymooners', 'Photographer', 'Swimmer'],
+    related: ['la-digue-tour', 'sunset-cruise'],
+  },
+  'st-pierre-islet': {
+    slug: 'st-pierre-islet',
+    image: '/images/lagoon-swim.jpg',
+    geo: { lat: -4.314, lng: 55.733 },
+    priceFrom: 70,
+    duration: 'PT4H',
+    itinerary: [
+      'La Digue marina',
+      'St-Pierre Islet — south face',
+      'St-Pierre Islet — north drift',
+      'Anse Volbert (Praslin) — beach swim',
+    ],
+    touristType: ['Snorkeler', 'Family', 'Photographer'],
+    related: ['curieuse-island', 'coco-island'],
+  },
+  'sunset-cruise': {
+    slug: 'sunset-cruise',
+    image: '/images/hero-boat-flag.jpg',
+    geo: { lat: -4.359, lng: 55.832 },
+    priceFrom: 70,
+    duration: 'PT3H',
+    itinerary: [
+      'La Digue marina (16:30 boarding)',
+      'East coast cruise',
+      "Anse Source d’Argent at golden hour",
+      'Return to marina (after sunset)',
+    ],
+    touristType: ['Couple', 'Honeymooners', 'Photographer'],
+    related: ['la-digue-tour', 'anse-lazio'],
   },
 };
 

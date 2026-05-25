@@ -2,7 +2,8 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { MessageCircle, Languages } from 'lucide-react';
+import { Link } from '@/i18n/routing';
+import { MessageCircle, Languages, ArrowRight } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 import { whatsappLink } from '@/lib/site';
 
@@ -50,15 +51,24 @@ export default function Captain() {
               <span className="font-medium text-deep-700">{t('languagesLabel')}:</span> {t('languages')}
             </p>
 
-            <a
-              href={whatsappLink('Hello captain, I have a question about your charter:')}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-full bg-deep-700 hover:bg-deep-800 text-white px-6 py-3.5 text-sm font-medium transition-all duration-500 ease-premium hover:shadow-premium-lg hover:-translate-y-0.5"
-            >
-              <MessageCircle className="h-4 w-4" strokeWidth={1.5} />
-              {t('cta')}
-            </a>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <a
+                href={whatsappLink('Hello captain, I have a question about your charter:')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-deep-700 hover:bg-deep-800 text-white px-6 py-3.5 text-sm font-medium transition-all duration-500 ease-premium hover:shadow-premium-lg hover:-translate-y-0.5"
+              >
+                <MessageCircle className="h-4 w-4" strokeWidth={1.5} />
+                {t('cta')}
+              </a>
+              <Link
+                href={'/about/captain' as any}
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-deep-700 hover:text-deep-800 group px-2"
+              >
+                <span className="link-underline">{t('moreLink')}</span>
+                <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" strokeWidth={1.5} />
+              </Link>
+            </div>
           </Reveal>
         </div>
       </div>

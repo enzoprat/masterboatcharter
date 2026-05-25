@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/site';
 import { DESTINATION_SLUGS } from '@/lib/data/destinations';
+import { GUIDE_SLUGS } from '@/lib/data/guides';
 
 /** Pages with a localized FR path different from EN. */
 const LOCALIZED = [
@@ -13,8 +14,12 @@ const LOCALIZED = [
   { en: '/faq', fr: '/faq' },
 ];
 
-/** Pages that share the same path across locales (e.g. /boat-excursions/[island]). */
-const SHARED_PATHS = DESTINATION_SLUGS.map((slug) => `/boat-excursions/${slug}`);
+/** Pages that share the same path across locales. */
+const SHARED_PATHS = [
+  ...DESTINATION_SLUGS.map((slug) => `/boat-excursions/${slug}`),
+  ...GUIDE_SLUGS.map((slug) => `/guides/${slug}`),
+  '/about/captain',
+];
 
 const now = new Date();
 

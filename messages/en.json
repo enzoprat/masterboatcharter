@@ -171,6 +171,130 @@
       "body": "We keep groups small, our gear in good order and our impact minimal. No loudspeakers, no flotillas, no shortcuts. Just a good boat, a great captain and the Indian Ocean."
     }
   },
+  "guides": {
+    "whale-shark-season-seychelles": {
+      "shortTitle": "Whale shark season",
+      "eyebrow": "Guide · Seychelles wildlife",
+      "title": "When can you swim with whale sharks in Seychelles?",
+      "imageAlt": "Snorkeler swimming alongside a whale shark in Seychelles",
+      "metaTitle": "Whale Shark Season Seychelles · When & Where to Swim with Them",
+      "metaDescription": "Whale sharks visit Seychelles from August to October. Best months, top spots, ethical guidelines, what to expect. Plan your swim with a private boat from La Digue.",
+      "updatedLabel": "Updated",
+      "readTime": "6 min read",
+      "lead": "The largest fish in the ocean swims through Seychelles waters every year — and the inner islands are one of the few places on Earth where you can snorkel with them without crowds. Here is everything you need to plan it.",
+      "sections": [
+        {
+          "title": "The whale shark season explained",
+          "body": "Whale sharks (Rhincodon typus) follow plankton blooms across the western Indian Ocean. In Seychelles their main aggregation season runs from August to October — those three months are when sightings peak around Mahé and the inner islands. They are filter feeders, harmless to humans, and reach 8-12 metres in adult length. The animals you see are usually juvenile males between 4 and 8 metres long.\n\nOutside that window — November to July — sightings exist but are rare and unpredictable. If swimming with a whale shark is the highlight of your trip, plan your travel inside the August-October bracket."
+        },
+        {
+          "title": "Best months — and best weeks within them",
+          "body": "September is the historical sweet spot. The plankton bloom is at its richest, the south-east trade winds have settled, and the visibility is excellent — often above 20 metres. October has more variable weather but higher densities of animals near the surface. August is the earliest reliable month and tends to be quieter on the water.\n\nWithin a given month, conditions change week to week. The best advice is to keep your dates flexible by 2-3 days and let the captain pick the window. We rebook free of charge if the day you booked turns out to be a low-probability one and a better day is available within 72 hours."
+        },
+        {
+          "title": "Where they appear",
+          "body": "The main aggregation zone is the deeper water off Mahé's west coast — between Beau Vallon and Anse Major. From La Digue we run the trip as a long day (10-11 hours) with a spotter on board and, when possible, coordination with the Marine Conservation Society Seychelles. Closer to home, we have occasional sightings at the drop-offs off Coco Island and around the south of Félicité — September-October only.\n\nIf you'd rather avoid the long crossing, we recommend basing the whale shark day out of Mahé. We can coordinate the transfer."
+        },
+        {
+          "title": "What to expect — and how we do it ethically",
+          "body": "A whale shark encounter is a snorkel, not a dive. You enter the water about 30 metres from the animal, fins on, mask cleared, and let it approach. The animal sets the pace. We never chase, never touch, never feed.\n\nThe Seychelles guidelines are clear: maximum 8 swimmers in the water at a time, minimum 3 metres from the head and 4 metres from the tail, no flash photography, no scuba diving in the immediate zone. Our captain enforces these rules — they're how the population stays habituated to swimmers year after year.\n\nA typical encounter lasts 5 to 15 minutes per pass. On a good day you may have 3-5 passes with the same or different individuals. On a quiet day you may have none — the sea is not a zoo. We are honest about the day in the morning briefing."
+        },
+        {
+          "title": "What to bring",
+          "body": "Reef-safe sunscreen, your own mask if you have one (we provide quality gear for those who don't), an underwater camera if you want photos (no flash), a long-sleeve rashguard for sun protection during the long boat ride out. We provide drinks, snacks and a hot lunch if the trip is extended."
+        }
+      ],
+      "faqTitle": "Whale sharks — frequently asked",
+      "faq": [
+        {
+          "q": "Is it safe to swim with whale sharks?",
+          "a": "Yes — whale sharks are filter feeders. They have no teeth that bite, no tail strike behaviour, no defensive aggression. The only risks are sunburn, dehydration, and your own enthusiasm carrying you too close. We brief on all three."
+        },
+        {
+          "q": "How likely is a sighting in season?",
+          "a": "In September around Mahé, our hit rate is roughly 80% on a single day, ~95% on a 2-day attempt. August and October are 60-70%. Outside season we don't run dedicated trips."
+        },
+        {
+          "q": "Can children participate?",
+          "a": "Confident swimmers of 10+ years old, yes. Below that we recommend the captain stays with the child near the boat while parents go in."
+        },
+        {
+          "q": "Are there scuba options?",
+          "a": "Scuba is not permitted in the immediate snorkel zone (animal welfare regulation). Snorkel-only."
+        },
+        {
+          "q": "Do I need a license or insurance?",
+          "a": "No license. Travel insurance covering watersports is recommended (most policies cover snorkeling by default)."
+        },
+        {
+          "q": "How long is the trip from La Digue?",
+          "a": "10 to 11 hours door to door if we go to the main Mahé aggregation zone. From Praslin: 8 hours. Many guests prefer to base the trip out of Mahé — we can coordinate."
+        }
+      ],
+      "relatedEyebrow": "Plan your trip",
+      "relatedTitle": "What goes well with this",
+      "ctaTitle": "Time it right — book a private day at sea",
+      "ctaLead": "If you're travelling in the August-October window, a private boat means you can chase the right conditions instead of being stuck on a group schedule.",
+      "ctaButton": "See excursions"
+    },
+    "best-time-to-visit-seychelles": {
+      "shortTitle": "Best time to visit",
+      "eyebrow": "Guide · Seychelles travel",
+      "title": "When is the best time to visit Seychelles?",
+      "imageAlt": "Master Boat Charter at anchor under Seychelles sky",
+      "metaTitle": "Best Time to Visit Seychelles · Month by Month Guide (2026)",
+      "metaDescription": "Month-by-month weather, sea conditions, wildlife, and crowd levels in Seychelles. April-May and September-October are the sweet spots — here's why.",
+      "updatedLabel": "Updated",
+      "readTime": "8 min read",
+      "lead": "Seychelles is good all year — but \"good\" varies. The wind shifts, the rain falls in different places, the sea changes colour. Two windows stand out for boat travellers: April-May and September-October. Here is the full month-by-month breakdown.",
+      "sections": [
+        {
+          "title": "The two monsoons that shape the year",
+          "body": "Seychelles has two trade-wind seasons. The north-west monsoon runs roughly November to March — warmer air, more humidity, occasional heavy rain, calmer sea on the south-east coasts. The south-east monsoon runs May to September — drier, cooler nights, breezier days, choppier sea on the east coasts. Between the two are the transition months — April and October-November — which combine the best of both: warm, dry, calm.\n\nFor boat travel, this is the most important fact. Calm sea + good visibility + low rain = April, May, September, October."
+        },
+        {
+          "title": "Month by month",
+          "body": "**January.** Warm, humid, occasional heavy showers. Sea visibility variable. Lower tourist numbers; good for beach time and short boat trips. Whale sharks: not in season.\n\n**February.** Similar to January. Hot. Some of the strongest rain of the year falls in short bursts. Inner-island snorkeling still works on the lee side.\n\n**March.** Transition begins. Wind drops. Rain decreases. Last chance for the calmest waters before April. Excellent for sunset cruises.\n\n**April.** One of the two best months. Hot, dry, sea like glass, visibility often above 25 metres. Crowds still moderate. Whale sharks not in season but everything else is at its best.\n\n**May.** Trade winds settle. Slightly cooler at night. Inner-island snorkeling still excellent on the lee side. Good prices.\n\n**June.** South-east wind picks up. East-coast beaches can get seaweed. Inner-island west-side spots stay excellent. Fishing season for sailfish opens.\n\n**July.** Windier. Sea cooler. Big game fishing peaks. Inner-island sheltered snorkeling still good.\n\n**August.** Wind eases off mid-month. Whale shark sightings begin. Big game fishing remains strong.\n\n**September.** The other best month. Whale sharks at peak. Sea calming. Visibility excellent again. Slightly more tourists than April.\n\n**October.** Wind drops further. Whale sharks still present early in the month. Excellent inner-island conditions. Honeymoon high season.\n\n**November.** Transition into the north-west monsoon. Calm sea but some rain. Quieter on the water. Good value.\n\n**December.** High season for European holidays. Warm, humid, occasional rain. Christmas/NYE bookings need 3+ months lead time."
+        },
+        {
+          "title": "When to book for what you want",
+          "body": "For a private boat day with maximum visibility: April, May, September, October.\n\nFor whale sharks: August (late) to October. September is the safest bet.\n\nFor big game fishing: June, July, August.\n\nFor honeymoons (calm sea + light + sunsets): April-May or October. Avoid late January-February (rain peak).\n\nFor families with young children: April-May (transition, calm) or November (similar, less expensive)."
+        },
+        {
+          "title": "What we do when the weather turns",
+          "body": "Our cancellation policy is built around weather. If the captain calls it (safety, not preference), we refund or reschedule in full. If you call it, the 72-hour rule applies. In practice, we lose 5-10 days a year to weather across all seasons — usually rescheduled within 48 hours.\n\nThe inner islands are protected enough that the day is rarely completely cancelled. We adapt the route — east coast becomes west coast, full-day becomes half-day, snorkeling site shifts. The skill of the captain is mostly in this adaptation."
+        }
+      ],
+      "faqTitle": "Best time to visit — frequently asked",
+      "faq": [
+        {
+          "q": "What's the absolute best month for a Seychelles boat trip?",
+          "a": "Late April or late September. April for the calmest sea before the south-east winds, September for the post-monsoon clarity and the whale sharks."
+        },
+        {
+          "q": "Is Christmas/New Year a good time?",
+          "a": "Yes for atmosphere and warmth, but it's the highest-rain period and the most expensive. Book 4+ months ahead if that's your window."
+        },
+        {
+          "q": "Are there cyclones in Seychelles?",
+          "a": "Seychelles sits outside the main cyclone tracks — direct hits are rare (last major one: 2018, Cyclone Berguitta brushed past). The country is considered cyclone-safe."
+        },
+        {
+          "q": "When are prices lowest?",
+          "a": "May, early June, late October to mid-December are the quieter and cheaper windows. Our prices stay flat year-round but accommodation around the islands drops by 30-40% in these months."
+        },
+        {
+          "q": "What's the water temperature?",
+          "a": "26-29°C year-round. You don't need a wetsuit. A rashguard is helpful for long days in the sun."
+        }
+      ],
+      "relatedEyebrow": "Plan your trip",
+      "relatedTitle": "What goes well with this",
+      "ctaTitle": "Pick a date and we'll handle the weather",
+      "ctaLead": "Booking with us means a captain who reads the daily forecast for you. If your day isn't right, we move it.",
+      "ctaButton": "See excursions"
+    }
+  },
   "destinations": {
     "curieuse-island": {
       "shortTitle": "Curieuse Island",
@@ -316,6 +440,294 @@
       "backToPillar": "Back to all excursions",
       "ctaTitle": "Reserve your Coco Island day"
     },
+    "sister-islands": {
+      "shortTitle": "Sister Islands",
+      "title": "Sister Islands — Grande Soeur, Petite Soeur & Félicité",
+      "tagline": "Granite twins · castaway beach · BBQ",
+      "lead": "Two granite islets off Félicité, a single deserted beach you can land on, and the kind of empty bay that makes you forget anyone else uses these waters. The Sister Islands are the inner archipelago's best-kept private day.",
+      "imageAlt": "Granite rocks and white sand on the Sister Islands, Seychelles",
+      "metaTitle": "Sister Islands Tour Seychelles · Grande Soeur Boat from La Digue",
+      "metaDescription": "Private boat day to Grande Soeur and Petite Soeur from La Digue. Beach BBQ, snorkeling, Félicité passage. €130/person · drinks & lunch included.",
+      "schemaName": "Sister Islands — Private Boat Day from La Digue",
+      "factDuration": "8 hours",
+      "factCapacity": "Up to 10 guests",
+      "factDepartureLabel": "Departure",
+      "factDeparture": "La Digue marina",
+      "factSeasonLabel": "Season",
+      "factSeason": "Year-round · best Apr-Oct",
+      "sections": [
+        {
+          "title": "Why the Sister Islands are the connoisseur's pick",
+          "body": "Grande Soeur and Petite Soeur sit a couple of kilometres east of Félicité — granite twins with a single beach between them, no road, no jetty, no resort. Most boats pass them on their way to Coco. We make them the destination.\n\nThe west bay of Grande Soeur is one of the quietest landings of the inner islands. The water is glass-flat in the lee of the rock, the sand is the same blinding white as Anse Source d'Argent, and the bay is small enough that one boat takes the whole place. A small landing fee is paid to the island staff on arrival — they keep the trail and the bay clean."
+        },
+        {
+          "title": "What you'll do on a Sister Islands day",
+          "body": "Mornings on the east coast for the snorkeling — the reef shelves off Petite Soeur are alive with sergeant majors, parrotfish and the resident hawksbills. Lunch is a beach barbecue cooked while you swim. Afternoons we walk the trail across Grande Soeur if you want — it's twenty minutes of granite-and-jungle climb to a viewpoint over Félicité.\n\nIf you prefer water over walking, we trade the trail for a second snorkel stop on the way home."
+        },
+        {
+          "title": "Félicité passage and the granite scenery",
+          "body": "On the way out and back, we run close to Félicité — the larger neighbour, half private, half Six Senses estate. Its cliffs fall straight into 80 metres of water and the granite shapes are the most dramatic in the inner islands. We don't land (no public access) but we hold the boat off the south point for the photo and a swim if conditions allow."
+        },
+        {
+          "title": "Sister Islands vs Coco — which one to pick?",
+          "body": "If you want intensity in the water, choose Coco — more fish, more current, a tighter marine park. If you want a beach to yourself, choose Sister Islands. Many guests do Coco one day and Sister Islands the next; we offer a small repeat-guest courtesy on the second booking."
+        }
+      ],
+      "highlightsTitle": "What's included on your Sister Islands day",
+      "highlights": [
+        "Private boat — your group only",
+        "Beach BBQ on Grande Soeur",
+        "Drinks (water, sodas, beer) included",
+        "Snorkeling gear in all sizes",
+        "Optional trail walk across Grande Soeur",
+        "Félicité photo pass"
+      ],
+      "itineraryEyebrow": "A day on the Sister Islands",
+      "itineraryTitle": "Typical itinerary, 09:00 to 17:00",
+      "faqTitle": "Sister Islands — frequently asked",
+      "faq": [
+        {
+          "q": "Is there a landing fee on Grande Soeur?",
+          "a": "Yes, a small fee paid in cash on the beach to the island staff (currently around €15 per adult, free for children under 12). It maintains the trail and the bay."
+        },
+        {
+          "q": "Can we walk between Grande Soeur and Petite Soeur?",
+          "a": "No — they are separated by a shallow channel that you can swim across at low tide, but it's not always safe due to current. The captain will advise on the day."
+        },
+        {
+          "q": "Is the beach really private?",
+          "a": "Most days yes. A handful of private charters pass through; mass-tourism boats don't make this stop. If another boat is in the bay, we move to the east beach."
+        },
+        {
+          "q": "Can we land on Petite Soeur?",
+          "a": "It's a viewing-only stop — no landing. We anchor close enough for great photos and a swim."
+        },
+        {
+          "q": "Is the trail family-friendly?",
+          "a": "Yes — twenty minutes of gradual climb on a marked path. Solid shoes recommended; we provide reef-safe footwear if you didn't pack any."
+        }
+      ],
+      "relatedEyebrow": "Often combined with",
+      "relatedTitle": "Other days at sea around here",
+      "backToPillar": "Back to all excursions",
+      "ctaTitle": "Reserve your Sister Islands day"
+    },
+    "anse-lazio": {
+      "shortTitle": "Anse Lazio",
+      "title": "Anse Lazio by Boat — The Beach Seen from the Water",
+      "tagline": "Praslin · sunset reef · Anse Georgette",
+      "lead": "The most photographed beach of Praslin, approached the way it deserves — from the water, where you see the curve of the bay, the granite shoulders, and the reef shelf that makes Lazio's lagoon the impossible turquoise of every postcard.",
+      "imageAlt": "Turquoise water and granite at Anse Lazio, Praslin, Seychelles",
+      "metaTitle": "Anse Lazio Boat Tour · Praslin from the Sea (Master Boat Charter)",
+      "metaDescription": "Half-day private boat to Anse Lazio from La Digue. Approach by sea, anchor swim, snorkeling on the north reef, optional Anse Georgette stop. €130/person.",
+      "schemaName": "Anse Lazio Private Boat Half-Day from La Digue",
+      "factDuration": "6 hours",
+      "factCapacity": "Up to 10 guests",
+      "factDepartureLabel": "Departure",
+      "factDeparture": "La Digue marina",
+      "factSeasonLabel": "Season",
+      "factSeason": "Year-round · best Oct-Apr",
+      "sections": [
+        {
+          "title": "Why Anse Lazio is better from the water",
+          "body": "Anse Lazio is regularly ranked among the most beautiful beaches in the world. By road you arrive at one end of it, walk through the trees and step onto the sand. By boat you see the whole curve at once — the granite shoulders that frame the bay, the reef bar a hundred metres off the beach, the colour gradient from turquoise to ink-blue as the depth drops.\n\nWe anchor inside the bay, give you the option to swim ashore (no entry fee from the water), and use the north reef for the snorkel stop. It's the best way to see this beach without sharing it with every road tourist on Praslin."
+        },
+        {
+          "title": "The reef on the north side",
+          "body": "The north end of Anse Lazio has a granite outcrop that drops straight into 5-8 metres of clear water. The reef on that face is alive with parrotfish, butterflyfish, the occasional eagle ray and a resident pair of hawksbill turtles. It's one of the most consistent snorkel stops on the west side of Praslin — visibility is best on the morning tide."
+        },
+        {
+          "title": "Optional stop at Anse Georgette",
+          "body": "If conditions allow, we add a short stop at Anse Georgette on the return. Georgette is technically inside the Constance Lemuria resort but accessible from the sea — most boats can't anchor there because of the reef, but we know the line in. It's emptier than Lazio and feels half a degree more remote."
+        },
+        {
+          "title": "Anse Lazio vs the La Digue tour — which to pick?",
+          "body": "Pick Anse Lazio if you want a half-day in the most famous beach of Praslin without the road crowds. Pick the La Digue tour if you'd rather spend the time around your own island and see Anse Source d'Argent from the sea. Both work as half-day options; we run them in the morning or the afternoon, and Lazio is one of our best-rated sunset alternatives."
+        }
+      ],
+      "highlightsTitle": "What's included in the Anse Lazio half-day",
+      "highlights": [
+        "Private boat with captain",
+        "Snorkeling gear in all sizes",
+        "Drinks (water, sodas, beer) included",
+        "Snorkel stop on the north reef",
+        "Optional Anse Georgette photo pass",
+        "Beach swim time at Lazio"
+      ],
+      "itineraryEyebrow": "Half a day at Anse Lazio",
+      "itineraryTitle": "Typical itinerary, 6 hours",
+      "faqTitle": "Anse Lazio — frequently asked",
+      "faq": [
+        {
+          "q": "Is there an entry fee to Anse Lazio?",
+          "a": "Not from the sea. The road access is free; if you swim in from the boat, you simply step onto the public beach."
+        },
+        {
+          "q": "Can we land at Anse Georgette?",
+          "a": "Officially the beach belongs to the Constance Lemuria resort, but it is open to the public from the sea. We can approach by boat and swim ashore depending on conditions."
+        },
+        {
+          "q": "Is the bay safe for children?",
+          "a": "Yes — the lagoon side is shallow and protected. The reef on the north side is for confident swimmers."
+        },
+        {
+          "q": "What about the south-east trade winds?",
+          "a": "From June to September the south-easters can make Lazio choppy in the afternoon. We adapt — morning slot is safer."
+        },
+        {
+          "q": "Can we combine Anse Lazio with St-Pierre Islet?",
+          "a": "Yes, often. The two are 15 minutes apart by boat — many guests do both as a full-day combo."
+        }
+      ],
+      "relatedEyebrow": "Often combined with",
+      "relatedTitle": "Other days at sea around here",
+      "backToPillar": "Back to all excursions",
+      "ctaTitle": "Reserve your Anse Lazio half-day"
+    },
+    "st-pierre-islet": {
+      "shortTitle": "St-Pierre Islet",
+      "title": "St-Pierre Islet — The Best Snorkeling Off Praslin",
+      "tagline": "Coral garden · granite outcrop · half-day",
+      "lead": "A granite outcrop the size of a tennis court, surrounded by a coral garden you can drift over in 4 metres of glass-flat water. St-Pierre is the inner islands' shortest, densest snorkel — and our most-requested half-day.",
+      "imageAlt": "Granite outcrop of St-Pierre Islet near Praslin, Seychelles",
+      "metaTitle": "St-Pierre Islet Snorkeling Tour Seychelles · Half-Day Private Boat",
+      "metaDescription": "Half-day boat tour from La Digue to St-Pierre Islet — one of the richest snorkeling sites near Praslin. €70/person, drinks & gear included.",
+      "schemaName": "St-Pierre Islet — Private Boat Snorkel Tour from La Digue",
+      "factDuration": "4 hours",
+      "factCapacity": "Up to 10 guests",
+      "factDepartureLabel": "Departure",
+      "factDeparture": "La Digue marina",
+      "factSeasonLabel": "Season",
+      "factSeason": "Year-round · best Apr-Oct (visibility)",
+      "sections": [
+        {
+          "title": "Why St-Pierre is the best half-day in the inner islands",
+          "body": "St-Pierre is a single granite outcrop off Anse Volbert — about a kilometre offshore, surrounded on three sides by a healthy coral garden in 3-5 metres of water. The fish density is, honestly, the highest you'll see on the inner-island side of Praslin: thick shoals of sergeant majors, parrotfish in every colour, often a hawksbill turtle resting on the bottom.\n\nWe drop on the south face for the soft current and the wider reef, drift north on the changing tide, and pick you up on the back side. The whole stop runs about 90 minutes — long enough to see everything, short enough that no one tires."
+        },
+        {
+          "title": "Combining St-Pierre with Anse Volbert",
+          "body": "On the way back, we add a beach stop at Anse Volbert — Praslin's main beach on the Côte d'Or, a long arc of white sand with the lagoon hotels on one side and the boats moored on the other. Swim, walk, grab a coconut from the kiosk. Many guests use it as a lunch stop before returning to La Digue."
+        },
+        {
+          "title": "When the visibility is at its best",
+          "body": "St-Pierre is good year-round but the sweet spot is between April and October — light south-east winds, low rainfall, visibility often above 15 metres. December-February can be excellent on calm days but more variable. The captain checks the forecast the morning of and shifts the plan if needed."
+        },
+        {
+          "title": "St-Pierre vs Coco Marine Park",
+          "body": "Coco has more fish density and a larger area, but it's a longer day and requires the marine park fee. St-Pierre is shorter, free of park fees, and the density at the actual outcrop rivals Coco. If you have one half-day, pick St-Pierre. If you have a full day, Coco wins."
+        }
+      ],
+      "highlightsTitle": "What's included in the St-Pierre half-day",
+      "highlights": [
+        "Private boat with captain",
+        "Snorkeling gear in all sizes",
+        "Drinks (water, sodas, beer) included",
+        "90 minutes at the snorkel site",
+        "Anse Volbert beach stop",
+        "No marine park fee"
+      ],
+      "itineraryEyebrow": "Half a day at St-Pierre",
+      "itineraryTitle": "Typical itinerary, 4 hours",
+      "faqTitle": "St-Pierre Islet — frequently asked",
+      "faq": [
+        {
+          "q": "Is there a marine park fee at St-Pierre?",
+          "a": "No — St-Pierre itself sits outside the gazetted parks. No daily fee is required."
+        },
+        {
+          "q": "How deep is the water at the snorkel site?",
+          "a": "Between 3 and 8 metres around the islet — shallower on the south face, dropping off to 12 m past the back of the rock."
+        },
+        {
+          "q": "Can children snorkel here?",
+          "a": "Yes — flotation gear available, the south face is shallow and protected, the captain stays close in the dinghy if needed."
+        },
+        {
+          "q": "Can we land on St-Pierre?",
+          "a": "It's bare granite — no path, no facilities. We don't land. Snorkel only."
+        },
+        {
+          "q": "Can we combine with Curieuse?",
+          "a": "Yes — it adds about an hour and turns the day into a full-day Curieuse + St-Pierre combo. Very popular."
+        }
+      ],
+      "relatedEyebrow": "Often combined with",
+      "relatedTitle": "Other days at sea around here",
+      "backToPillar": "Back to all excursions",
+      "ctaTitle": "Reserve your St-Pierre half-day"
+    },
+    "sunset-cruise": {
+      "shortTitle": "Sunset cruise",
+      "title": "La Digue Sunset Cruise — The Last Light of the Day",
+      "tagline": "Anse Source d'Argent at golden hour · drinks · private",
+      "lead": "Three hours on the water at the only time the inner islands turn gold. We board at 16:30, slide along La Digue's east coast, hold the boat off Anse Source d'Argent for the sunset, and drift back into the marina under the last colour of the day.",
+      "imageAlt": "Master Boat Charter at sunset around La Digue, Seychelles",
+      "metaTitle": "La Digue Sunset Cruise · Private Boat at Golden Hour Seychelles",
+      "metaDescription": "Private sunset cruise from La Digue — Anse Source d'Argent at golden hour, drinks, platter onboard. €70/person · 3 hours · 10 guests max.",
+      "schemaName": "La Digue Sunset Cruise — Private Boat at Golden Hour",
+      "factDuration": "3 hours",
+      "factCapacity": "Up to 10 guests",
+      "factDepartureLabel": "Departure",
+      "factDeparture": "La Digue marina · 16:30",
+      "factSeasonLabel": "Season",
+      "factSeason": "Year-round · sunset 18:00-19:00",
+      "sections": [
+        {
+          "title": "Why the inner islands are at their best at sunset",
+          "body": "Sunset in Seychelles is short — twenty minutes from gold to dark — but those twenty minutes are what people travel for. The granite of La Digue, pink in afternoon light, turns orange and then deep red. The lagoon goes from turquoise to pewter. The reef cuts a darker line on the water. From the boat, with the engine off, the only sound is the swell against the hull.\n\nWe time the cruise to the exact sun angle of the day — boarding at 16:30, holding off Anse Source d'Argent between 17:30 and 18:00, returning to marina between 19:00 and 19:30 depending on the month."
+        },
+        {
+          "title": "Anse Source d'Argent at golden hour",
+          "body": "The land park closes at 18:00. From the sea, the beach stays open as long as you can see it. We hold the boat 80 metres offshore — close enough that the granite shapes feel three storeys tall, far enough that the wash doesn't bother anyone still on the beach. If the tide is right, you can step off the boat and walk to the sand. Most guests just stay onboard with a drink and watch."
+        },
+        {
+          "title": "What's onboard",
+          "body": "A chilled bottle (you choose at booking — sparkling, white, rosé or non-alcoholic), water, sodas, and a small platter — local fruit, cheese, light bites. The captain keeps the engine low and the route smooth. No microphone, no group banter — it's your evening."
+        },
+        {
+          "title": "The honeymoon version",
+          "body": "If you book the sunset for an occasion (honeymoon, anniversary, proposal), tell us. We add a small surprise — flowers from the local market, a card from the captain, a slightly longer route past Petite Anse where almost no other boats go. We do this discreetly; no surprise mention on the boat itself."
+        }
+      ],
+      "highlightsTitle": "What's included in the sunset cruise",
+      "highlights": [
+        "Private boat, your group only",
+        "Chilled bottle of your choice",
+        "Small platter onboard",
+        "Anse Source d'Argent from the water at golden hour",
+        "Optional anchor stop for a swim",
+        "Slow cruise back to the marina"
+      ],
+      "itineraryEyebrow": "Three hours at sunset",
+      "itineraryTitle": "Typical itinerary, 16:30 to 19:30",
+      "faqTitle": "Sunset cruise — frequently asked",
+      "faq": [
+        {
+          "q": "What time does the cruise start?",
+          "a": "Boarding at 16:30 — we adjust by 30 minutes either way depending on the month and the actual sunset time. We'll confirm the exact time the day before."
+        },
+        {
+          "q": "Can we book this for a proposal or honeymoon?",
+          "a": "Yes — tell us at booking and we'll add a small surprise (flowers, captain's card, slightly longer route). It stays discreet."
+        },
+        {
+          "q": "Is there food onboard?",
+          "a": "A small platter (fruit, cheese, light bites) and drinks. For a full dinner we recommend the marina restaurants on return."
+        },
+        {
+          "q": "What if the weather is cloudy?",
+          "a": "If forecast looks completely overcast, we offer a free reschedule. Light cloud often makes the colours more dramatic — we'll be honest the morning of."
+        },
+        {
+          "q": "Can we swim during the cruise?",
+          "a": "Yes, weather allowing — usually a short stop at Anse Source d'Argent or Petite Anse. Bring swimwear."
+        }
+      ],
+      "relatedEyebrow": "Often combined with",
+      "relatedTitle": "Other days at sea around here",
+      "backToPillar": "Back to all excursions",
+      "ctaTitle": "Reserve your sunset cruise"
+    },
     "la-digue-tour": {
       "shortTitle": "La Digue tour",
       "title": "Around La Digue by Sea — Anse Source d'Argent from the Water",
@@ -427,7 +839,41 @@
     "bio": "Born and raised in La Digue. Years of fishing the inner banks before turning to charter. He chose to run a single boat for a simple reason: this way every guest gets his full attention, and every reef stays the way he found it as a kid.",
     "languagesLabel": "Speaks",
     "languages": "English · French · Creole",
-    "cta": "Ask the captain a question on WhatsApp"
+    "cta": "Ask the captain a question on WhatsApp",
+    "moreLink": "More about the captain"
+  },
+  "captainPage": {
+    "metaTitle": "Meet the Captain · Master Boat Charter, La Digue Seychelles",
+    "metaDescription": "Meet the Seychellois captain behind Master Boat Charter. Born and raised in La Digue, years of fishing the inner banks, now running a single private boat across the inner islands.",
+    "eyebrow": "About the captain",
+    "title": "The man at the helm.",
+    "lead": "A single boat. A single captain. A single group at a time. The Seychellois behind Master Boat Charter explains, in his own words, what that means and why he runs it this way.",
+    "imageAlt": "Our Seychellois captain with the Master Boat at La Digue marina",
+    "sections": [
+        {
+          "title": "Born on the right rock",
+          "body": "Born in La Digue, raised between the marina and the reef. School on the island until the secondary years on Praslin, then the family boats — fishing the inner banks with his father from his early teens. The kind of life where you know the names of more fish than streets."
+        },
+        {
+          "title": "From fishing to charter",
+          "body": "After years of commercial fishing, he saw the way mass tourism was handling these islands and decided he'd rather do less and do it well. One boat. Local. Direct. The first private charter day was years ago — same captain, same boat, just more guests now."
+        },
+        {
+          "title": "Why one boat",
+          "body": "\"If I run two boats, I'm a manager. I'm on the phone, I'm doing logistics, I'm not on the water with my guests. If I run one boat, I'm a captain. I know everyone on board, I cook the lunch, I read the weather, I choose the reef. That's what I want to be.\""
+        },
+        {
+          "title": "What he wants you to know",
+          "body": "Tell us what matters most to you. Tortoises? We'll plan around Curieuse. Snorkeling? We'll pick the reef on the morning tide. A quiet beach? We know which one will be empty on the day. The Seychelles are small enough that a captain who grew up here can give you a personal day, every day."
+        }
+      ],
+    "languagesLabel": "Languages",
+    "languages": ["English (fluent)", "French (fluent)", "Seychellois Creole (native)"],
+    "knowsAboutLabel": "Specialised in",
+    "knowsAbout": ["Inner-islands navigation", "Big game fishing", "Snorkeling site selection", "Marine wildlife"],
+    "ctaTitle": "Ready to book your day with the captain?",
+    "ctaButton": "See excursions",
+    "whatsappCta": "Ask the captain a question"
   },
   "day": {
     "eyebrow": "A day at sea",
