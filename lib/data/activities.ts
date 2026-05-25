@@ -88,10 +88,8 @@ export const ACTIVITIES: Activity[] = [
   {
     slug: 'excursions',
     i18nKey: 'excursions',
-    image:
-      'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=2400&q=80',
-    cardImage:
-      'https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?auto=format&fit=crop&w=1600&q=80',
+    image: '/images/excursions-hero.jpg',
+    cardImage: '/images/excursions-card.jpg',
     order: 1,
     maxGuests: 10,
     pricing: {
@@ -179,10 +177,8 @@ export const ACTIVITIES: Activity[] = [
   {
     slug: 'fishing',
     i18nKey: 'fishing',
-    image:
-      'https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=2400&q=80',
-    cardImage:
-      'https://images.unsplash.com/photo-1516571748831-5d81767b788d?auto=format&fit=crop&w=1600&q=80',
+    image: '/images/fishing-hero.jpg',
+    cardImage: '/images/fishing-card.jpg',
     order: 2,
     maxGuests: 4,
     pricing: {
@@ -224,10 +220,8 @@ export const ACTIVITIES: Activity[] = [
   {
     slug: 'transfers',
     i18nKey: 'transfers',
-    image:
-      'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=2400&q=80',
-    cardImage:
-      'https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=1600&q=80',
+    image: '/images/boat-moored.jpg',
+    cardImage: '/images/transfers-card.jpg',
     order: 3,
     maxGuests: 10,
     pricing: {
@@ -264,10 +258,8 @@ export const ACTIVITIES: Activity[] = [
   {
     slug: 'rental',
     i18nKey: 'rental',
-    image:
-      'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=2400&q=80',
-    cardImage:
-      'https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?auto=format&fit=crop&w=1600&q=80',
+    image: '/images/rental-card.jpg',
+    cardImage: '/images/hero-boat-lagoon.jpg',
     order: 4,
     maxGuests: 10,
     pricing: {

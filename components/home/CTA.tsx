@@ -16,8 +16,8 @@ export default function CTA() {
       <div className="container-premium">
         <div className="relative overflow-hidden rounded-[2.5rem] bg-deep-900 min-h-[440px] lg:min-h-[520px] flex items-center">
           <Image
-            src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=2400&q=85"
-            alt="Seychelles seascape"
+            src="/images/beach-palms.jpg"
+            alt="Seychelles coastline"
             fill
             sizes="100vw"
             className="object-cover opacity-60"

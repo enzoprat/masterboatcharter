@@ -78,8 +78,8 @@ function ContactPage() {
 
       <section className="relative h-[420px] overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=2400&q=85"
-          alt="Seychelles coastline"
+          src="/images/excursions-hero.jpg"
+          alt="Seychelles granite island and turquoise lagoon"
           fill
           sizes="100vw"
           className="object-cover"

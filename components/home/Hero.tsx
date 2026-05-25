@@ -19,8 +19,8 @@ export default function Hero() {
         className="absolute inset-0"
       >
         <Image
-          src="https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=2800&q=85"
-          alt="Drone view of a private boat in the turquoise waters of Seychelles"
+          src="/images/hero-boat-flag.jpg"
+          alt="The Master Boat Charter boat at anchor with the Seychelles flag flying, La Digue"
           fill
           priority
           sizes="100vw"

@@ -10,20 +10,17 @@ import { cn } from '@/lib/utils';
 const BLOCKS = [
   {
     key: 'block1',
-    image:
-      'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?auto=format&fit=crop&w=2000&q=85',
+    image: '/images/hero-boat-lagoon.jpg',
     align: 'right',
   },
   {
     key: 'block2',
-    image:
-      'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?auto=format&fit=crop&w=2000&q=85',
+    image: '/images/boat-marina.jpg',
     align: 'left',
   },
   {
     key: 'block3',
-    image:
-      'https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?auto=format&fit=crop&w=2000&q=85',
+    image: '/images/whale-shark.jpg',
     align: 'right',
   },
 ] as const;

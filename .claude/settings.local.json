@@ -11,7 +11,21 @@
       "Bash(git add:*)",
       "Bash(git commit -m ':*)",
       "Bash(git push:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(sips --version)",
+      "Bash(ls -la *.jpg *.jpeg *.png)",
+      "Bash(find public/images/source -iname \"capture*\" -exec cp {} /tmp/ \\\\;)",
+      "Read(//private/tmp/**)",
+      "Bash(cp \"/tmp/Capture d’ecran . 2025-02-13 a 02.37.52.jpeg\" /tmp/cap.jpg)",
+      "Bash(cp /tmp/Capture_d_ecran_._2025-02-13_a_02.37.52-removebg-preview.png /tmp/cap-logo.png)",
+      "Bash(ls -la /tmp/cap*)",
+      "Bash(cp Capture*jpeg cap.jpg)",
+      "Bash(cp Capture*png cap-logo.png)",
+      "Bash(ls cap*)",
+      "Bash(xargs -0 -I{} sips -Z 2400 -s formatOptions 78 -s format jpeg {} --out ../boat-marina.jpg)",
+      "Bash(sips -r -90 fishing-angler.jpg --out fishing-angler.jpg)",
+      "Bash(ls *.jpg *.png)",
+      "Bash(sips -r 180 fishing-angler.jpg --out fishing-angler.jpg)"
     ]
   }
 }

@@ -47,8 +47,8 @@ function AboutHero() {
   return (
     <section className="relative h-[78svh] min-h-[520px] bg-deep-900 overflow-hidden">
       <Image
-        src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?auto=format&fit=crop&w=2400&q=85"
-        alt="Master Boat Charter — about"
+        src="/images/hero-boat-flag.jpg"
+        alt="Master Boat Charter — at anchor in Seychelles"
         fill
         priority
         sizes="100vw"
@@ -77,8 +77,8 @@ function Story() {
       <div className="container-premium grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-center">
         <Reveal direction="right" className="relative aspect-[4/5] rounded-3xl overflow-hidden bg-sand-100">
           <Image
-            src="https://images.unsplash.com/photo-1561489396-888724a1543d?auto=format&fit=crop&w=1600&q=85"
-            alt="Local captain at the wheel"
+            src="/images/boat-marina.jpg"
+            alt="Our captain and crew with our boat at La Digue marina"
             fill
             sizes="(min-width: 1024px) 45vw, 100vw"
             className="object-cover"
