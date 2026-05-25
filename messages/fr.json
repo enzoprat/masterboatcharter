@@ -73,6 +73,9 @@
     "perTransfer": "/ bateau · aller simple",
     "mostBooked": "Le plus réservé",
     "private": "Privé",
+    "destinationsBlockEyebrow": "Où l'on va",
+    "destinationsBlockTitle": "Choisissez l'île que vous voulez explorer",
+    "destinationsBlockLead": "Chaque excursion est une journée privée avec un seul capitaine seychellois. Trois circuits signature, tous dans les îles intérieures, tous réservables en deux minutes.",
     "excursions": {
       "shortTitle": "Excursions",
       "title": "Excursions en bateau",
@@ -166,6 +169,224 @@
     "block3": {
       "title": "Discrètement, avec soin",
       "body": "Groupes restreints, matériel impeccable, impact minimal. Pas de mégaphone, pas de flottille, pas de raccourci. Juste un bon bateau, un grand capitaine et l'océan Indien."
+    }
+  },
+  "destinations": {
+    "curieuse-island": {
+      "shortTitle": "Île Curieuse",
+      "title": "Curieuse — Tortues géantes & plages désertes",
+      "tagline": "Parc marin · Tortues d'Aldabra · Anse Papaie",
+      "lead": "Une journée privée en bateau vers l'une des îles intérieures les plus aimées des Seychelles — tortues géantes d'Aldabra à terre, parc marin corallien protégé dans l'eau, déjeuner sur une plage où les seules traces sont les vôtres.",
+      "imageAlt": "Lagon turquoise du parc marin de l'île Curieuse, Seychelles",
+      "metaTitle": "Excursion Île Curieuse Seychelles · Bateau privé depuis La Digue",
+      "metaDescription": "Excursion à Curieuse depuis La Digue : tortues géantes d'Aldabra, snorkeling parc marin, barbecue à Anse Papaie, arrêt St-Pierre. 175€/personne, boissons et déjeuner inclus.",
+      "schemaName": "Curieuse — Excursion privée journée depuis La Digue",
+      "factDuration": "8 heures",
+      "factCapacity": "Jusqu'à 10 invités",
+      "factDepartureLabel": "Départ",
+      "factDeparture": "La Digue · Praslin sur demande",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Toute l'année · idéal avr-oct",
+      "sections": [
+        {
+          "title": "Pourquoi Curieuse est la plus belle journée en mer des îles intérieures",
+          "body": "Curieuse est la rare île des Seychelles où la terre, le récif et l'histoire se rejoignent en une après-midi. Ancienne léproserie devenue parc national, elle a été reconstruite autour de la réintroduction des tortues géantes d'Aldabra — plus d'une centaine en liberté sur les sentiers. La côte ouest est un parc marin protégé : peu profonde, claire, vivante de poissons-perroquets, demoiselles et tortues imbriquées.\n\nNous passons la matinée au mouillage côté parc marin, dérivons sur le récif à la marée changeante, puis pointons l'étrave à Anse Papaie pour un barbecue préparé par le capitaine pendant que vous parcourez le sentier des tortues."
+        },
+        {
+          "title": "Ce que vous verrez dans le parc marin",
+          "body": "Selon les conditions, nous prévoyons trois arrêts snorkeling — Anse Saint-Joseph pour les coraux table et les sergent-majors, la petite baie sous la station des rangers pour les tortues imbriquées, et la pointe sud pour une dérive lente dans 3-5 mètres d'eau-miroir. Apportez une crème solaire reef-safe — nous fournissons le reste."
+        },
+        {
+          "title": "Le barbecue d'Anse Papaie",
+          "body": "Anse Papaie est une langue de sable blanc accessible uniquement par bateau. Le déjeuner : poisson grillé (capitaine, vivaneau ou bourgeois selon le jour), salades, fruits frais, Seybrew sortie de la glacière. Boissons sans alcool et eau incluses ; pour une boisson spécifique, dites-le à la réservation.\n\nLa plage est partagée avec quelques iguanes terrestres et la tortue occasionnelle qui sort de la forêt. C'est un des déjeuners de plage les plus calmes que l'on puisse vivre dans l'archipel."
+        },
+        {
+          "title": "Combiner Curieuse avec St-Pierre au retour",
+          "body": "Si la mer est calme, nous ajoutons un arrêt snorkeling à l'îlot St-Pierre sur le retour — un affleurement granitique à un kilomètre d'Anse Volbert avec une des plus fortes concentrations de poissons coralliens des îles intérieures. Cela rallonge la journée d'environ 45 minutes, c'est notre extra le plus demandé."
+        }
+      ],
+      "highlightsTitle": "Ce qui est inclus dans votre journée Curieuse",
+      "highlights": [
+        "Bateau privé, aucun autre groupe à bord",
+        "Capitaine seychellois qui connaît chaque récif",
+        "Matériel snorkeling dans toutes les tailles",
+        "Boissons (eau, sodas, bière) incluses",
+        "Barbecue de plage avec poisson grillé et salades",
+        "Aide pour les frais de parc marin (payables à l'arrivée)"
+      ],
+      "itineraryEyebrow": "Une journée à Curieuse",
+      "itineraryTitle": "Itinéraire type, 08h00 à 17h00",
+      "faqTitle": "Île Curieuse — questions fréquentes",
+      "faq": [
+        {
+          "q": "Les taxes du parc marin sont-elles incluses ?",
+          "a": "Non. La taxe du parc marin de Curieuse se paye à l'arrivée aux rangers (environ 27€/adulte, gratuit pour les moins de 12 ans). Notre capitaine gère la paperasse."
+        },
+        {
+          "q": "Verra-t-on vraiment les tortues géantes ?",
+          "a": "Presque toujours. Le sanctuaire d'Anse Saint-Joseph abrite plus de 200 individus en liberté. Certaines ont plus de cent ans."
+        },
+        {
+          "q": "Peut-on visiter la Doctor's House et marcher jusqu'à Anse Saint-Joseph ?",
+          "a": "Oui. Le sentier est doux (environ 30 minutes aller) et nous calons le déjeuner pour vous laisser une fenêtre l'après-midi si vous le souhaitez."
+        },
+        {
+          "q": "L'excursion convient-elle aux enfants ?",
+          "a": "Oui — les spots de snorkeling sont peu profonds et protégés, le sentier est family-friendly, et nous fournissons des gilets dans toutes les tailles."
+        },
+        {
+          "q": "Et le mal de mer ?",
+          "a": "Le trajet entre La Digue et Curieuse est dans le lagon des îles intérieures, abrité la majeure partie de l'année. Les traversées dépassent rarement 30 minutes."
+        }
+      ],
+      "relatedEyebrow": "Souvent combinée avec",
+      "relatedTitle": "D'autres journées en mer dans le coin",
+      "backToPillar": "Retour aux excursions",
+      "ctaTitle": "Réservez votre journée Curieuse"
+    },
+    "coco-island": {
+      "shortTitle": "Île Coco",
+      "title": "Parc marin de Coco & les Sister Islands",
+      "tagline": "Coco · Félicité · Grande & Petite Soeur",
+      "lead": "Un circuit privé en bateau dans le spot de snorkeling le plus sauvage des îles intérieures. Trois îlots granitiques, une eau-miroir, des bancs de poissons coralliens, et des arrêts de plage que la plupart des visiteurs n'atteignent jamais.",
+      "imageAlt": "Cocotiers et granite rose sur une plage déserte des Seychelles",
+      "metaTitle": "Excursion Coco Island & Sister Islands · Snorkeling depuis La Digue",
+      "metaDescription": "Excursion privée bateau au parc marin de Coco, Félicité et Sister Islands. Snorkeling cristallin, plages désertes, barbecue à terre. Dès 130€/personne, boissons incluses.",
+      "schemaName": "Coco & Sister Islands — Excursion privée bateau depuis La Digue",
+      "factDuration": "8 heures",
+      "factCapacity": "Jusqu'à 10 invités",
+      "factDepartureLabel": "Départ",
+      "factDeparture": "Port de La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Toute l'année · idéal mai-sept",
+      "sections": [
+        {
+          "title": "Le parc marin de Coco — le joyau des îles intérieures",
+          "body": "Coco est un petit groupe de rochers granitiques au large de Félicité, entouré d'un parc marin protégé depuis des décennies. Le récif est à quelques mètres sous la surface, l'eau est plate sous le vent des rochers, et la densité de poissons est honnêtement la meilleure autour de La Digue. Comptez des poissons-perroquets de toutes les couleurs, des bancs de sergent-majors, des tortues imbriquées résidentes, et avec un peu de chance des raies-aigles le long du tombant.\n\nNous calons l'arrêt du matin sur l'étale — visibilité optimale et courant minimal. Les enfants de moins de 12 ans entrent gratuitement ; les adultes paient la taxe au ranger sur place."
+        },
+        {
+          "title": "Déjeuner sur Grande Soeur",
+          "body": "Grande Soeur est la plus grande des deux Sister Islands — une seule plage, un cocotier penché, pas de resort, pas de trafic en dehors des rares charters privés qui viennent à terre. Le déjeuner est un barbecue préparé pendant que vous nagez. L'eau côté baie est assez peu profonde pour marcher 50 mètres au large sans perdre pied.\n\nSi vous voulez plus de temps sur la plage, nous échangeons sur le temps de snorkel — c'est tout l'intérêt d'une journée privée."
+        },
+        {
+          "title": "Félicité, Petite Soeur et le décor granitique",
+          "body": "Le circuit passe ensuite devant Félicité — moitié île privée, moitié domaine Six Senses, avec des falaises qui plongent de 80 mètres dans l'eau profonde et ces formes de granite qui ont rendu les Seychelles célèbres. Petite Soeur est la petite jumelle : une bande étroite de sable blanc adossée à une forêt fermée. Nous passons au plus près pour la photo, puis nous mouillons pour une dernière baignade au retour."
+        },
+        {
+          "title": "Ce qui distingue cette journée du circuit Curieuse",
+          "body": "Si Curieuse est une journée de terre — les tortues, le sentier, l'histoire — Coco est une journée d'eau. Le snorkeling est plus dense, les îles plus petites et plus vides, la journée est plus dans la mer que dessus. Beaucoup d'invités font les deux sur un séjour de 2 jours ; nous offrons un petit geste fidélité sur la seconde réservation."
+        }
+      ],
+      "highlightsTitle": "Ce qui est inclus dans votre journée Coco",
+      "highlights": [
+        "Bateau privé, votre groupe uniquement",
+        "Snorkeling sur le récif le plus riche des îles intérieures",
+        "Déjeuner barbecue sur Grande Soeur",
+        "Boissons (eau, sodas, bière) incluses",
+        "Capitaine local · 12+ ans sur ces eaux",
+        "Matériel snorkeling dans toutes les tailles"
+      ],
+      "itineraryEyebrow": "Une journée dans le parc marin",
+      "itineraryTitle": "Itinéraire type, 09h00 à 17h00",
+      "faqTitle": "Île Coco — questions fréquentes",
+      "faq": [
+        {
+          "q": "Les frais du parc marin de Coco sont-ils inclus ?",
+          "a": "Non — ils sont payés en espèces au ranger à l'arrivée (environ 15€/adulte, gratuit pour les moins de 12 ans). Notre capitaine s'occupe des formalités."
+        },
+        {
+          "q": "Comment le snorkeling se compare-t-il à Curieuse ?",
+          "a": "Coco a une plus forte densité de poissons et des tombants plus profonds, Curieuse a plus de variété de coraux et la chance de tortues sur la plage. Les deux sont excellents ; beaucoup choisissent Coco pour l'eau et Curieuse pour la terre."
+        },
+        {
+          "q": "Peut-on débarquer sur les Sister Islands ?",
+          "a": "Oui — Grande Soeur est ouverte aux visites privées moyennant un petit frais réglé sur la plage. Petite Soeur est une halte visuelle depuis le bateau."
+        },
+        {
+          "q": "Verra-t-on des tortues ?",
+          "a": "Les observations sont fréquentes autour du parc marin — tortues imbriquées sur les plateaux récifaux, plus rarement une tortue verte en eau plus profonde."
+        },
+        {
+          "q": "L'excursion convient-elle aux non-nageurs ?",
+          "a": "Oui. Le côté lagon de Grande Soeur est peu profond et calme, et nous fournissons des gilets pour les arrêts snorkeling."
+        }
+      ],
+      "relatedEyebrow": "Souvent combinée avec",
+      "relatedTitle": "D'autres journées en mer dans le coin",
+      "backToPillar": "Retour aux excursions",
+      "ctaTitle": "Réservez votre journée Coco"
+    },
+    "la-digue-tour": {
+      "shortTitle": "Tour de La Digue",
+      "title": "La Digue par la mer — Anse Source d'Argent depuis l'eau",
+      "tagline": "Anse Source d'Argent · Anse Cocos · Grande Anse",
+      "lead": "Demi-journée ou coucher de soleil autour de La Digue, vue comme l'île a toujours dû être vue — depuis l'eau. On glisse le long du granite, on mouille là où aucune route ne va, on finit sur les plages côté falaise à l'heure dorée.",
+      "imageAlt": "Le bateau Master longeant les falaises granitiques de La Digue, Seychelles",
+      "metaTitle": "Tour de La Digue en bateau · Anse Source d'Argent depuis la mer",
+      "metaDescription": "Tour privé demi-journée ou sunset autour de La Digue : Anse Source d'Argent depuis l'eau, Anse Cocos, Grande Anse, Petite Anse. 70€/personne, boissons incluses.",
+      "schemaName": "Tour de La Digue — Bateau privé · Plages & coucher de soleil",
+      "factDuration": "4 heures",
+      "factCapacity": "Jusqu'à 10 invités",
+      "factDepartureLabel": "Départ",
+      "factDeparture": "Port de La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Toute l'année",
+      "sections": [
+        {
+          "title": "Pourquoi la plus belle vue de La Digue se prend depuis le bateau",
+          "body": "La plupart des visiteurs voient La Digue depuis la selle d'un vélo — ce qui est bien, mais partiel. La vraie silhouette de l'île, ce sont ses 9 kilomètres de côte granitique, les falaises de l'est qui plongent dans l'eau profonde, les plages accessibles uniquement par la mer comme Anse Cocos et Petite Anse, et Anse Source d'Argent à l'heure du couchant — quand la route est fermée mais l'eau est ouverte.\n\nNous proposons deux versions. Un circuit matin avec deux mouillages et une baignade. Un circuit coucher de soleil qui cale Anse Source d'Argent sur l'heure dorée et revient au port sous un ciel qu'on ne voit qu'en carte postale."
+        },
+        {
+          "title": "Anse Source d'Argent vue de l'eau",
+          "body": "Depuis la mer, Anse Source d'Argent révèle ce que le sentier ne montre pas : la longue courbe d'épaules de granite derrière le cocotier célèbre, le plateau récifal qui tourne le lagon turquoise, et — à marée basse — un banc de sable où l'on peut quitter le bateau dans 30 cm d'eau et marcher jusqu'à la plage.\n\nLe parc a une taxe d'entrée côté terre ; depuis l'eau, on mouille au large et vous nagez si vous le souhaitez."
+        },
+        {
+          "title": "Anse Cocos et les plages de la côte est",
+          "body": "Anse Cocos est une de ces plages des Seychelles sans accès terrestre facile — longue marche depuis Grande Anse ou courte nage depuis le bateau. Idem pour Petite Anse : un bandeau de sable encadré par deux épaules de granite, avec une seule maison derrière. Nous mouillons sous le vent, vous nagez ou snorklez ; le capitaine reste avec le bateau."
+        },
+        {
+          "title": "La version coucher de soleil",
+          "body": "Réservée entre 16h30 et 19h30 selon la saison. On commence par descendre la côte est, on revient devant Anse Source d'Argent pour la lumière dorée, puis on dérive lentement vers le port sous la dernière couleur du jour. Boissons, petite assiette à bord, et le calme qu'on n'a pas en croisière de groupe."
+        }
+      ],
+      "highlightsTitle": "Ce qui est inclus dans le tour de La Digue",
+      "highlights": [
+        "Bateau privé avec skipper",
+        "Boissons (eau, sodas, bière) incluses",
+        "Matériel snorkeling",
+        "Choix matin ou coucher de soleil",
+        "Photos d'Anse Source d'Argent depuis la mer",
+        "Mouillage baignade"
+      ],
+      "itineraryEyebrow": "Demi-journée autour de l'île",
+      "itineraryTitle": "Itinéraire type, 4 heures",
+      "faqTitle": "Tour de La Digue — questions fréquentes",
+      "faq": [
+        {
+          "q": "Peut-on débarquer à Anse Source d'Argent ?",
+          "a": "Oui — vous nagez depuis le bateau mouillé. À marée basse c'est à peine plus qu'une marche. La taxe parc côté terre n'est nécessaire que si vous allez plus loin à l'intérieur."
+        },
+        {
+          "q": "Sunset cruise ou tour matin — lequel choisir ?",
+          "a": "Coucher de soleil pour la lumière et le calme. Matin si vous voulez plus de temps de baignade et de snorkel."
+        },
+        {
+          "q": "Ce tour convient-il aux jeunes mariés ?",
+          "a": "Beaucoup réservent pour une occasion. Sur demande, nous ajoutons une petite assiette, une bouteille fraîche et un rythme plus doux."
+        },
+        {
+          "q": "Verra-t-on d'autres bateaux ?",
+          "a": "Sur l'étendue Anse Source d'Argent, parfois un ou deux. Passé la pointe sud, presque jamais."
+        },
+        {
+          "q": "La mer est-elle calme toute l'année ?",
+          "a": "À l'intérieur de La Digue, calme la majeure partie de l'année. Côté est, les alizés de sud-est (juin-septembre) amènent un peu de houle — nous adaptons la route."
+        }
+      ],
+      "relatedEyebrow": "Souvent combinée avec",
+      "relatedTitle": "D'autres journées en mer dans le coin",
+      "backToPillar": "Retour aux excursions",
+      "ctaTitle": "Réservez votre tour de La Digue"
     }
   },
   "boat": {
@@ -298,6 +519,94 @@
     "errorBody": "Nous n'avons pas pu envoyer votre demande. Réessayez ou contactez-nous directement sur WhatsApp.",
     "policyTitle": "Un bateau, une réservation",
     "policyBody": "Master Boat Charter opère un seul bateau. Lorsqu'un créneau est réservé, toutes les options qui le chevauchent deviennent indisponibles, pour toutes les activités. C'est ainsi que nous protégeons la qualité de chaque journée en mer."
+  },
+  "faqPage": {
+    "metaTitle": "FAQ · Excursions, réservation, annulation — Master Boat Charter",
+    "metaDescription": "Réponses à toutes vos questions sur les charters privés aux Seychelles : réservation, annulation, inclusions, parcs marins, enfants, météo, paiement.",
+    "eyebrow": "Aide & réponses",
+    "title": "Tout ce qu'on voudrait demander avant de réserver.",
+    "lead": "Réserver un bateau privé dans un autre pays mérite des réponses claires. Si la vôtre n'est pas là, WhatsApp le capitaine directement.",
+    "sections": [
+      {
+        "title": "Réservation & paiement",
+        "items": [
+          {
+            "q": "Comment réserver une excursion en bateau ?",
+            "a": "Choisissez une date et un créneau sur la page de réservation (environ 2 minutes). Vous recevez une confirmation par email et WhatsApp sous 2 heures. Aucune carte n'est demandée à ce stade — paiement par virement ou en espèces le jour-même."
+          },
+          {
+            "q": "Faut-il payer à l'avance ?",
+            "a": "Non. Les réservations sont confirmées sans acompte. Nous faisons confiance à nos invités et demandons la même chose en retour — annulez au moins 72h avant si vos plans changent."
+          },
+          {
+            "q": "Quelle est la politique d'annulation ?",
+            "a": "Annulation gratuite jusqu'à 72h avant le départ. En-deçà, nous proposons un report selon disponibilité. Si le capitaine annule pour cause de météo, remboursement intégral ou report gratuit assurés."
+          },
+          {
+            "q": "Sous combien de temps confirmez-vous la réservation ?",
+            "a": "Sous 2 heures pendant nos heures d'opération (8h-20h heure Seychelles, UTC+4)."
+          },
+          {
+            "q": "Peut-on réserver un groupe privé de 12+ personnes ?",
+            "a": "Notre bateau accueille 10 invités. Pour des groupes plus grands, nous coordonnons avec un bateau partenaire — contactez le capitaine sur WhatsApp."
+          }
+        ]
+      },
+      {
+        "title": "À bord",
+        "items": [
+          {
+            "q": "Y a-t-il des toilettes à bord ?",
+            "a": "Oui — toilettes marines avec porte, pour tous les invités."
+          },
+          {
+            "q": "Boissons et nourriture sont-elles incluses ?",
+            "a": "Les boissons (eau, sodas, bière) sont incluses sur chaque sortie. Les journées complètes incluent un barbecue à terre — poisson grillé, salades, fruits frais. Pour des besoins spécifiques (allergies, etc.), précisez-le à la réservation."
+          },
+          {
+            "q": "Fournissez-vous le matériel de snorkeling ?",
+            "a": "Oui — masques, tubas et palmes dans toutes les tailles. Apportez le vôtre si vous préférez."
+          },
+          {
+            "q": "Le bateau est-il abrité du soleil ?",
+            "a": "Oui, un T-top intégral couvre le cockpit. La proue est ouverte pour les nageurs et les amateurs de soleil."
+          },
+          {
+            "q": "Y a-t-il du Wi-Fi à bord ?",
+            "a": "Non, mais le capitaine a un hotspot mobile en cas d'urgence et pour partager les photos."
+          }
+        ]
+      },
+      {
+        "title": "Faune, météo, pratique",
+        "items": [
+          {
+            "q": "Verra-t-on des tortues ?",
+            "a": "Très souvent — les tortues imbriquées sont présentes toute l'année sur nos sites de snorkeling autour de Curieuse, Coco et St-Pierre. Les tortues vertes pondent en saison sur les plages protégées."
+          },
+          {
+            "q": "Quand peut-on voir des requins-baleines ?",
+            "a": "D'août à octobre, pic de saison autour des îles intérieures. Hors de cette fenêtre les observations sont rares ; le capitaine sera honnête si ce n'est pas le bon moment."
+          },
+          {
+            "q": "Et le mal de mer ?",
+            "a": "À l'intérieur des îles intérieures, la mer est généralement calme et protégée. En pêche au gros la houle est plus marquée — nous adaptons selon les prévisions du jour."
+          },
+          {
+            "q": "Les enfants peuvent-ils embarquer ?",
+            "a": "Oui. Bateau family-friendly avec gilets de toutes les tailles et zones d'ombre. Indiquez les âges à la réservation, nous adaptons en conséquence."
+          },
+          {
+            "q": "Que se passe-t-il si la météo est mauvaise ?",
+            "a": "Report sans frais, ou remboursement intégral si aucune date alternative ne convient. Le capitaine décide en fonction de la sécurité, pas des réservations."
+          },
+          {
+            "q": "Que faut-il apporter ?",
+            "a": "Crème solaire reef-safe, serviette, maillot, casquette, une couche légère pour le retour. Nous fournissons le reste — matériel snorkeling, boissons, repas en journée complète, gilets, trousse de premiers soins."
+          }
+        ]
+      }
+    ]
   },
   "faq": {
     "eyebrow": "Bon à savoir",

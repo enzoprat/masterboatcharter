@@ -73,6 +73,8 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('defaultTitle'),
       description: t('defaultDescription'),
+      images: ['/og-image.jpg'],
+      creator: '@masterboatcharter',
     },
     robots: {
       index: true,

@@ -26,5 +26,5 @@ export default async function Page({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <ActivityPage slug="excursions" />;
+  return <ActivityPage slug="excursions" locale={locale} />;
 }

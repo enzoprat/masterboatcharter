@@ -126,6 +126,7 @@ export default function Footer() {
               <ul className="mt-5 space-y-3">
                 <FooterLink href="/about">{tNav('about')}</FooterLink>
                 <FooterLink href="/contact">{tNav('contact')}</FooterLink>
+                <FooterLink href="/faq">FAQ</FooterLink>
                 <FooterLink href={'/book/excursions' as any}>{tNav('bookNow')}</FooterLink>
               </ul>
             </div>
