@@ -22,20 +22,13 @@ export default function JsonLdOrganization() {
       latitude: -4.3186,
       longitude: 55.7307,
     },
-    sameAs: [SITE.social.instagram, SITE.social.facebook],
     areaServed: [
-      { '@type': 'Place', name: 'Praslin' },
       { '@type': 'Place', name: 'La Digue' },
+      { '@type': 'Place', name: 'Praslin' },
       { '@type': 'Place', name: 'Mahé' },
       { '@type': 'Place', name: 'Curieuse' },
       { '@type': 'Place', name: 'Coco Island' },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '500',
-      bestRating: '5',
-    },
   };
 
   return (

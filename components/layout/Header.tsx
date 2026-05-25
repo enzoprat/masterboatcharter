@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
-import { Menu, X, MessageCircle, Globe } from 'lucide-react';
+import { Menu, X, MessageCircle, Globe, Phone } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { whatsappLink } from '@/lib/site';
+import { SITE, whatsappLink } from '@/lib/site';
 import Logo from '@/components/ui/Logo';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -109,6 +109,19 @@ export default function Header() {
 
             {/* Right cluster */}
             <div className="flex items-center gap-2 sm:gap-3">
+              <a
+                href={`tel:${SITE.whatsappDigits}`}
+                aria-label={t('phone')}
+                className={cn(
+                  'hidden md:inline-flex items-center gap-2 px-3 h-10 rounded-full text-sm font-medium transition-all duration-300',
+                  textLight && !scrolled
+                    ? 'text-white/90 hover:bg-white/10 hover:text-white'
+                    : 'text-deep-600 hover:bg-sand-100'
+                )}
+              >
+                <Phone className="h-[16px] w-[16px]" strokeWidth={1.5} />
+                <span className="tabular-nums">{SITE.whatsapp}</span>
+              </a>
               <LocaleSwitcher light={textLight && !scrolled} />
               <a
                 href={whatsappLink()}
@@ -130,7 +143,7 @@ export default function Header() {
                   'hidden md:inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-medium tracking-wide transition-all duration-500 ease-premium',
                   textLight && !scrolled
                     ? 'bg-white text-deep-700 hover:bg-turquoise-50 hover:shadow-premium'
-                    : 'bg-deep-600 text-white hover:bg-deep-700 hover:shadow-premium-lg hover:-translate-y-px'
+                    : 'bg-turquoise-500 text-white hover:bg-turquoise-600 hover:shadow-premium-lg hover:-translate-y-px'
                 )}
               >
                 {t('bookNow')}
@@ -193,7 +206,7 @@ export default function Header() {
                     >
                       <Link
                         href={item.href as any}
-                        className="block px-3 py-3.5 text-2xl font-serif text-deep-700 hover:text-turquoise-600 transition-colors border-b border-sand-200/60"
+                        className="block px-3 py-3 text-lg font-serif text-deep-700 hover:text-turquoise-600 transition-colors border-b border-sand-200/60"
                       >
                         {t(item.key as any)}
                       </Link>

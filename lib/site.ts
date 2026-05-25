@@ -5,9 +5,13 @@ export const SITE = {
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '+33 7 52 06 60 32',
   whatsappDigits: (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '+33752066032').replace(/\D/g, ''),
   base: 'La Digue, Seychelles',
+  /**
+   * Social URLs. Set to `null` while accounts are not live — UI will
+   * hide the icons entirely. Replace with real handles when ready.
+   */
   social: {
-    instagram: 'https://instagram.com',
-    facebook: 'https://facebook.com',
+    instagram: null as string | null,
+    facebook: null as string | null,
   },
 } as const;
 

@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Check, ArrowRight, Users } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
+import ReassuranceBar from '@/components/ui/ReassuranceBar';
 import type { Activity, PriceOption, Circuit } from '@/lib/data/activities';
 import { formatPrice } from '@/lib/utils';
 
@@ -13,12 +14,18 @@ export default function Pricing({ activity }: { activity: Activity }) {
   return (
     <section id="pricing" className="py-24 lg:py-32 bg-white">
       <div className="container-premium">
-        <Reveal className="max-w-2xl">
-          <span className="eyebrow">{tCommon('learnMore')}</span>
-          <h2 className="mt-5 font-serif text-display-lg text-deep-700">
-            {tCommon('from')} <span className="italic font-light">·</span> {tCommon('bookExperience')}
-          </h2>
-        </Reveal>
+        <div className="grid lg:grid-cols-[1fr_auto] gap-8 lg:gap-12 items-end mb-2">
+          <Reveal className="max-w-2xl">
+            <span className="eyebrow">{tCommon('learnMore')}</span>
+            <h2 className="mt-5 font-serif text-display-lg text-deep-700">
+              {tCommon('from')} <span className="italic font-light">·</span>{' '}
+              {tCommon('bookExperience')}
+            </h2>
+          </Reveal>
+          <Reveal delay={0.1} className="lg:max-w-md w-full">
+            <ReassuranceBar />
+          </Reveal>
+        </div>
 
         <div className="mt-14 lg:mt-20 space-y-10">
           {activity.pricing.type === 'circuits'

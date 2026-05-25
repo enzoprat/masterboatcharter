@@ -1,13 +1,14 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Logo from '@/components/ui/Logo';
-import { Mail, MessageCircle, MapPin, Instagram, Facebook, Anchor, Leaf } from 'lucide-react';
+import { Mail, MessageCircle, MapPin, Instagram, Facebook, Anchor, Leaf, ShieldCheck, FileCheck } from 'lucide-react';
 import { SITE, whatsappLink } from '@/lib/site';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
   const tContact = useTranslations('contact');
+  const tLegal = useTranslations('legal');
   const year = new Date().getFullYear();
 
   return (
@@ -71,32 +72,37 @@ export default function Footer() {
                 {t('tagline')}
               </p>
               <div className="mt-8 flex items-center gap-3">
-                <a
-                  href={SITE.social.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Instagram"
-                  className="inline-flex items-center justify-center h-10 w-10 rounded-full border border-white/15 text-white/80 hover:bg-white/10 hover:border-white/30 hover:text-white transition-all"
-                >
-                  <Instagram className="h-4 w-4" strokeWidth={1.5} />
-                </a>
-                <a
-                  href={SITE.social.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Facebook"
-                  className="inline-flex items-center justify-center h-10 w-10 rounded-full border border-white/15 text-white/80 hover:bg-white/10 hover:border-white/30 hover:text-white transition-all"
-                >
-                  <Facebook className="h-4 w-4" strokeWidth={1.5} />
-                </a>
+                {SITE.social.instagram && (
+                  <a
+                    href={SITE.social.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                    className="inline-flex items-center justify-center h-10 w-10 rounded-full border border-white/15 text-white/80 hover:bg-white/10 hover:border-white/30 hover:text-white transition-all"
+                  >
+                    <Instagram className="h-4 w-4" strokeWidth={1.5} />
+                  </a>
+                )}
+                {SITE.social.facebook && (
+                  <a
+                    href={SITE.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                    className="inline-flex items-center justify-center h-10 w-10 rounded-full border border-white/15 text-white/80 hover:bg-white/10 hover:border-white/30 hover:text-white transition-all"
+                  >
+                    <Facebook className="h-4 w-4" strokeWidth={1.5} />
+                  </a>
+                )}
                 <a
                   href={whatsappLink()}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="WhatsApp"
-                  className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-turquoise-500 text-white hover:bg-turquoise-400 transition-all"
+                  className="inline-flex items-center gap-2 rounded-full bg-turquoise-500 hover:bg-turquoise-400 transition-all px-4 h-10 text-white font-medium text-sm"
                 >
                   <MessageCircle className="h-4 w-4" strokeWidth={1.5} />
+                  <span>WhatsApp</span>
                 </a>
               </div>
             </div>
@@ -154,6 +160,39 @@ export default function Footer() {
                   <span>{tContact('baseValue')}</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Legal & trust strip */}
+        <div className="border-t border-white/10 bg-deep-900/40">
+          <div className="container-premium py-7 grid sm:grid-cols-3 gap-5 text-xs text-white/65">
+            <div className="flex items-start gap-2.5">
+              <FileCheck className="h-4 w-4 text-turquoise-300 mt-px shrink-0" strokeWidth={1.6} />
+              <div>
+                <p className="text-[0.65rem] uppercase tracking-wider2 text-white/45 font-medium">
+                  {tLegal('operator')}
+                </p>
+                <p className="mt-0.5 text-white/80">{tLegal('operatorValue')}</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-2.5">
+              <ShieldCheck className="h-4 w-4 text-turquoise-300 mt-px shrink-0" strokeWidth={1.6} />
+              <div>
+                <p className="text-[0.65rem] uppercase tracking-wider2 text-white/45 font-medium">
+                  {tLegal('insurance')}
+                </p>
+                <p className="mt-0.5 text-white/80">{tLegal('insuranceValue')}</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-2.5">
+              <Anchor className="h-4 w-4 text-turquoise-300 mt-px shrink-0" strokeWidth={1.6} />
+              <div>
+                <p className="text-[0.65rem] uppercase tracking-wider2 text-white/45 font-medium">
+                  {tLegal('registration')}
+                </p>
+                <p className="mt-0.5 text-white/80">{tLegal('registrationValue')}</p>
+              </div>
             </div>
           </div>
         </div>

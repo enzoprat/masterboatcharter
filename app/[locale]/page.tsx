@@ -1,10 +1,11 @@
 import { setRequestLocale } from 'next-intl/server';
 import Hero from '@/components/home/Hero';
 import ActivitiesGrid from '@/components/home/ActivitiesGrid';
+import Boat from '@/components/home/Boat';
+import Captain from '@/components/home/Captain';
+import DayAtSea from '@/components/home/DayAtSea';
 import Commitments from '@/components/home/Commitments';
-import Experience from '@/components/home/Experience';
 import Gallery from '@/components/home/Gallery';
-import Testimonials from '@/components/home/Testimonials';
 import FAQ from '@/components/home/FAQ';
 import CTA from '@/components/home/CTA';
 
@@ -20,10 +21,11 @@ export default async function HomePage({
     <>
       <Hero />
       <ActivitiesGrid />
+      <Boat />
+      <Captain />
+      <DayAtSea />
       <Commitments />
-      <Experience />
       <Gallery />
-      <Testimonials />
       <FAQ />
       <CTA />
     </>

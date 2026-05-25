@@ -133,13 +133,13 @@ export default function Calendar({ value, onChange }: Props) {
               onClick={() => !disabled && onChange(iso)}
               disabled={disabled}
               className={cn(
-                'relative aspect-square rounded-xl text-sm font-medium transition-all duration-300',
+                'relative aspect-square min-h-[44px] rounded-xl text-sm font-medium transition-all duration-300',
                 'flex flex-col items-center justify-center gap-0.5',
                 !inMonth && 'opacity-0 pointer-events-none',
                 past && 'text-deep-200 cursor-not-allowed',
                 fullyBlocked && 'text-deep-200 cursor-not-allowed line-through',
                 selected && 'bg-deep-700 text-white shadow-premium-sm',
-                !selected && !disabled && 'text-deep-700 hover:bg-sand-100',
+                !selected && !disabled && 'text-deep-700 hover:bg-sand-100 active:bg-sand-200',
                 isToday && !selected && 'ring-1 ring-turquoise-300'
               )}
               aria-label={iso}

@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { ArrowUpRight } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
-import { ACTIVITIES } from '@/lib/data/activities';
+import { ACTIVITIES, type ActivitySlug } from '@/lib/data/activities';
 
 const ACTIVITY_HREFS = {
   excursions: '/boat-excursions',
@@ -13,6 +13,15 @@ const ACTIVITY_HREFS = {
   transfers: '/boat-transfers',
   rental: '/boat-rental',
 } as const;
+
+const PRICE_UNIT: Record<ActivitySlug, string> = {
+  excursions: 'perPersonHalf',
+  fishing: 'perBoatHalf',
+  transfers: 'perTransfer',
+  rental: 'perBoatHalf',
+};
+
+const FEATURED: ActivitySlug = 'excursions';
 
 export default function ActivitiesGrid() {
   const t = useTranslations('activities');
@@ -55,10 +64,26 @@ export default function ActivitiesGrid() {
                   {/* Gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-deep-900/85 via-deep-900/20 to-transparent" />
 
+                  {/* Featured badge */}
+                  {activity.slug === FEATURED && (
+                    <div className="absolute top-5 left-5 inline-flex items-center gap-1.5 rounded-full bg-turquoise-500 text-white px-3 py-1 text-[0.65rem] uppercase tracking-wider2 font-medium shadow-premium">
+                      ★ {t('mostBooked')}
+                    </div>
+                  )}
+
                   {/* Price chip */}
-                  <div className="absolute top-5 right-5 flex items-center gap-1 rounded-full bg-white/95 backdrop-blur-md px-3.5 py-1.5 text-xs font-medium text-deep-700">
-                    <span className="text-deep-400 mr-0.5">{tCommon('from')}</span>
-                    {t(`${key}.fromPrice`)}
+                  <div className="absolute top-5 right-5 flex flex-col items-end gap-0.5 rounded-2xl bg-white/95 backdrop-blur-md px-3.5 py-2 shadow-premium-sm">
+                    <div className="flex items-baseline gap-1">
+                      <span className="text-[0.65rem] uppercase tracking-wider2 text-deep-400">
+                        {tCommon('from')}
+                      </span>
+                      <span className="font-serif text-lg text-deep-700 leading-none">
+                        {t(`${key}.fromPrice`)}
+                      </span>
+                    </div>
+                    <span className="text-[0.6rem] text-deep-400 leading-none">
+                      {t(PRICE_UNIT[activity.slug] as any, { n: activity.maxGuests })}
+                    </span>
                   </div>
 
                   {/* Content */}

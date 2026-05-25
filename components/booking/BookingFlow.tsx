@@ -18,6 +18,7 @@ import { cn, formatPrice } from '@/lib/utils';
 import { FORM_ENDPOINT, WEB3FORMS_KEY, whatsappLink } from '@/lib/site';
 import Calendar from './Calendar';
 import SlotPicker from './SlotPicker';
+import ReassuranceBar from '@/components/ui/ReassuranceBar';
 
 type Step = 'datetime' | 'details' | 'review';
 
@@ -224,7 +225,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
   }
 
   return (
-    <div className="pt-[120px] lg:pt-[140px] pb-20 bg-sand-50 min-h-screen">
+    <div className="pt-[120px] lg:pt-[140px] pb-32 lg:pb-20 bg-sand-50 min-h-screen">
       <div className="container-premium">
         {/* Header */}
         <div className="max-w-3xl mb-10 lg:mb-14">
@@ -242,6 +243,11 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
           <p className="mt-5 text-lg text-ink-muted leading-relaxed max-w-xl">
             {t('lead')}
           </p>
+
+          {/* Trust strip */}
+          <div className="mt-8 max-w-2xl">
+            <ReassuranceBar />
+          </div>
         </div>
 
         {/* Stepper */}
@@ -612,6 +618,46 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
               </p>
             </div>
           </aside>
+        </div>
+      </div>
+
+      {/* Mobile sticky recap bar — visible only on small screens */}
+      <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 mobile-safe-bottom pointer-events-none">
+        <div className="m-3 rounded-2xl bg-deep-900/95 backdrop-blur-xl text-white shadow-premium-lg border border-white/10 flex items-center gap-3 px-4 py-3 pointer-events-auto">
+          <div className="flex-1 min-w-0">
+            <p className="text-[0.65rem] uppercase tracking-wider2 text-turquoise-200 leading-tight">
+              {date
+                ? new Date(date + 'T00:00:00').toLocaleDateString(
+                    locale === 'fr' ? 'fr-FR' : 'en-US',
+                    { day: 'numeric', month: 'short' }
+                  )
+                : tCommon('selectDate')}{' '}
+              · {guests} {tCommon('guests').toLowerCase()}
+            </p>
+            <p className="font-serif text-xl text-white leading-tight truncate">
+              {total === null ? tRaw('pricing.onRequest') : formatPrice(total ?? 0)}
+            </p>
+          </div>
+          {step !== 'review' ? (
+            <button
+              type="button"
+              onClick={goNext}
+              disabled={step === 'datetime' ? !canContinueDate : !canContinueDetails}
+              className="shrink-0 inline-flex items-center gap-1.5 rounded-full bg-turquoise-500 hover:bg-turquoise-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium text-sm px-5 h-11 transition-colors"
+            >
+              {tCommon('next')}
+              <ArrowRight className="h-4 w-4" strokeWidth={1.5} />
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={submit}
+              disabled={submitting}
+              className="shrink-0 inline-flex items-center gap-1.5 rounded-full bg-turquoise-500 hover:bg-turquoise-600 disabled:opacity-60 text-white font-medium text-sm px-5 h-11 transition-colors"
+            >
+              {submitting ? t('submitting') : t('confirm')}
+            </button>
+          )}
         </div>
       </div>
     </div>

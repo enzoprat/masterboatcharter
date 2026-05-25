@@ -1,9 +1,9 @@
 {
   "meta": {
     "siteName": "Master Boat Charter",
-    "tagline": "Seychelles Beyond The Shore",
-    "defaultTitle": "Master Boat Charter — Premium Eco Boat Experiences in Seychelles",
-    "defaultDescription": "Private boat excursions, big game fishing, transfers and rentals across La Digue, Praslin and the Inner Islands of Seychelles. Local captain, eco-conscious experiences, limited daily reservations."
+    "tagline": "The Seychelles, yours alone for a day.",
+    "defaultTitle": "Master Boat Charter — Private Boat Charter & Excursions, La Digue Seychelles",
+    "defaultDescription": "Private boat charter from La Digue: excursions to Curieuse, Coco, Sister Islands, La Digue tour, big game fishing and inter-island transfers. One boat, one Seychellois captain, ten guests max. From €70 per person — book in 2 minutes."
   },
   "nav": {
     "home": "Home",
@@ -15,6 +15,7 @@
     "contact": "Contact",
     "bookNow": "Book Now",
     "whatsapp": "WhatsApp",
+    "phone": "Call",
     "menu": "Menu",
     "close": "Close"
   },
@@ -47,24 +48,31 @@
     "and": "and"
   },
   "hero": {
-    "eyebrow": "Seychelles · Praslin · La Digue · Mahé",
-    "title": "Discover Seychelles",
-    "titleAccent": "Beyond The Shore",
-    "subtitle": "Private, eco-conscious boat experiences designed to create unforgettable memories on the most pristine waters of the Indian Ocean.",
-    "ctaPrimary": "Book your experience",
-    "ctaSecondary": "Explore activities",
+    "eyebrow": "Private boat charter · La Digue, Seychelles",
+    "title": "The Seychelles,",
+    "titleAccent": "yours alone for a day.",
+    "subtitle": "One boat, one captain, one group at a time. Private excursions, big game fishing and inter-island transfers across La Digue, Praslin and the inner islands.",
+    "ctaPrimary": "Check availability",
+    "ctaSecondary": "See activities & prices",
     "scrollHint": "Scroll to explore",
     "stats": {
-      "rating": "Five-star rated",
-      "guests": "500+ happy guests",
-      "local": "100% local experience",
-      "eco": "Eco-conscious approach"
+      "boat": "1 boat · 10 guests max",
+      "since": "Operating since 2019",
+      "local": "Seychellois captain",
+      "eco": "No anchoring on coral"
     }
   },
   "activities": {
     "sectionEyebrow": "Curated experiences",
     "sectionTitle": "Choose your day at sea",
     "sectionLead": "Four signature ways to experience the Seychelles archipelago — from castaway islands to deep-blue fishing grounds.",
+    "perPersonHalf": "/ person · half day",
+    "perBoatHalf": "/ boat · half day · up to {n}",
+    "perPersonFull": "/ person · full day",
+    "perBoatFull": "/ boat · full day · up to {n}",
+    "perTransfer": "/ boat · one-way",
+    "mostBooked": "Most booked",
+    "private": "Private",
     "excursions": {
       "shortTitle": "Boat Excursions",
       "title": "Boat Excursions",
@@ -159,6 +167,100 @@
       "title": "Quietly, carefully done",
       "body": "We keep groups small, our gear in good order and our impact minimal. No loudspeakers, no flotillas, no shortcuts. Just a good boat, a great captain and the Indian Ocean."
     }
+  },
+  "boat": {
+    "eyebrow": "The boat",
+    "title": "Built for the inner islands",
+    "lead": "A modern center console rigged for everything from snorkeling to deep-sea fishing — comfortable, fast, quiet at anchor.",
+    "specs": {
+      "capacity": {
+        "label": "Capacity",
+        "value": "10 guests"
+      },
+      "length": {
+        "label": "Length",
+        "value": "8 metres"
+      },
+      "engines": {
+        "label": "Engines",
+        "value": "Twin outboards"
+      },
+      "shade": {
+        "label": "Shade",
+        "value": "Full T-top"
+      },
+      "toilet": {
+        "label": "Onboard",
+        "value": "Toilet · cooler · sound system"
+      },
+      "safety": {
+        "label": "Safety",
+        "value": "Life jackets · first aid · VHF"
+      }
+    }
+  },
+  "captain": {
+    "eyebrow": "Meet the captain",
+    "title": "A Seychellois at the helm.",
+    "lead": "Your day belongs to the captain who knows these waters by heart — every reef, every wind shift, every quiet anchorage tourists never reach.",
+    "bio": "Born and raised in La Digue. Years of fishing the inner banks before turning to charter. He chose to run a single boat for a simple reason: this way every guest gets his full attention, and every reef stays the way he found it as a kid.",
+    "languagesLabel": "Speaks",
+    "languages": "English · French · Creole",
+    "cta": "Ask the captain a question on WhatsApp"
+  },
+  "day": {
+    "eyebrow": "A day at sea",
+    "title": "What a full day on the Master looks like.",
+    "lead": "A typical full-day excursion. Times shift with the weather, the tide and your wishes — that's the whole point of going private.",
+    "steps": [
+      {
+        "time": "08:00",
+        "title": "Departure from La Digue",
+        "body": "Pickup at the jetty. Briefing, life jackets, snorkeling gear fitted. Coffee onboard."
+      },
+      {
+        "time": "09:00",
+        "title": "First snorkeling stop",
+        "body": "A protected reef chosen by your captain that morning, based on visibility and current."
+      },
+      {
+        "time": "11:00",
+        "title": "Castaway island",
+        "body": "Walk, swim, climb the granite. A beach with no other boats in sight when possible."
+      },
+      {
+        "time": "13:00",
+        "title": "Lunch ashore",
+        "body": "Barbecue on a quiet beach — grilled fish, salads, fresh fruit. Drinks included."
+      },
+      {
+        "time": "15:00",
+        "title": "Second snorkeling or swim",
+        "body": "Another reef, a quiet anchorage, or a long swim in glass-flat water."
+      },
+      {
+        "time": "17:00",
+        "title": "Return to La Digue",
+        "body": "Slow ride back. The light at this hour is what people remember."
+      }
+    ]
+  },
+  "reassurance": {
+    "noPayment": "No card needed",
+    "confirm": "Confirmation within 2h",
+    "cancel": "Free cancellation up to 72h",
+    "oneGroup": "One group per day"
+  },
+  "legal": {
+    "title": "Master Boat Charter",
+    "operator": "Operator",
+    "operatorValue": "Licensed boat charter operator · Seychelles",
+    "insurance": "Insurance",
+    "insuranceValue": "Full marine liability insurance",
+    "registration": "Registration",
+    "registrationValue": "Seychelles Licensing Authority — license available on request",
+    "termsLink": "Terms & conditions",
+    "privacyLink": "Privacy policy"
   },
   "gallery": {
     "eyebrow": "Gallery",

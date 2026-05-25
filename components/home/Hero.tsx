@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
-import { ArrowDown, Star, Leaf, MapPin } from 'lucide-react';
+import { ArrowDown, Anchor, Leaf, MapPin, Calendar } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -147,18 +147,21 @@ export default function Hero() {
           className="grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-white/15 bg-white/5 backdrop-blur-md max-w-4xl"
         >
           <Stat
-            icon={
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-3 w-3 fill-turquoise-300 text-turquoise-300" />
-                ))}
-              </div>
-            }
-            label={t('stats.rating')}
+            icon={<Anchor className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
+            label={t('stats.boat')}
           />
-          <Stat label={t('stats.guests')} value="500+" />
-          <Stat label={t('stats.local')} icon={<MapPin className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />} />
-          <Stat label={t('stats.eco')} icon={<Leaf className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />} />
+          <Stat
+            icon={<Calendar className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
+            label={t('stats.since')}
+          />
+          <Stat
+            label={t('stats.local')}
+            icon={<MapPin className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
+          />
+          <Stat
+            label={t('stats.eco')}
+            icon={<Leaf className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
+          />
         </motion.div>
 
         {/* Scroll hint */}
