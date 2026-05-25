@@ -25,7 +25,13 @@
       "Bash(xargs -0 -I{} sips -Z 2400 -s formatOptions 78 -s format jpeg {} --out ../boat-marina.jpg)",
       "Bash(sips -r -90 fishing-angler.jpg --out fishing-angler.jpg)",
       "Bash(ls *.jpg *.png)",
-      "Bash(sips -r 180 fishing-angler.jpg --out fishing-angler.jpg)"
+      "Bash(sips -r 180 fishing-angler.jpg --out fishing-angler.jpg)",
+      "Bash(ls -la ~/Downloads/*.mov ~/Downloads/*.MOV)",
+      "Bash(sort -k6,7)",
+      "Bash(ffmpeg -version)",
+      "Bash(ffprobe -v error -show_entries stream=width,height,duration,codec_name -of default=noprint_wrappers=1 \"video fond marin.mov\")",
+      "Bash(ffmpeg -y -i '../images/video fond marin.mov' -vf 'scale='\\\\''min\\(1600,iw\\)'\\\\'':-2' -c:v libvpx-vp9 -crf 34 -b:v 0 -row-mt 1 -threads 4 -an hero-underwater.webm)",
+      "Bash(ffmpeg -y -i hero-underwater.mp4 -ss 00:00:03 -frames:v 1 -q:v 3 ../images/hero-underwater-poster.jpg)"
     ]
   }
 }

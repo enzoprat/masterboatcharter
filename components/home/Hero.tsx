@@ -11,23 +11,37 @@ export default function Hero() {
 
   return (
     <section className="relative h-[100svh] min-h-[640px] w-full overflow-hidden bg-deep-900">
-      {/* Background image */}
+      {/* Background video */}
       <motion.div
         initial={{ scale: 1.08, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }}
         className="absolute inset-0"
       >
+        <video
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          poster="/images/hero-underwater-poster.jpg"
+          aria-hidden
+        >
+          <source src="/videos/hero-underwater.webm" type="video/webm" />
+          <source src="/videos/hero-underwater.mp4" type="video/mp4" />
+        </video>
+        {/* Static fallback image (shown if video disabled) */}
         <Image
-          src="/images/hero-boat-flag.jpg"
-          alt="The Master Boat Charter boat at anchor with the Seychelles flag flying, La Digue"
+          src="/images/hero-underwater-poster.jpg"
+          alt="Diver gliding over a colorful coral reef in Seychelles waters"
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover -z-10"
         />
         <div className="absolute inset-0 bg-hero-overlay" />
-        <div className="absolute inset-0 bg-deep-900/15" />
+        <div className="absolute inset-0 bg-deep-900/25" />
       </motion.div>
 
       {/* Subtle grain */}
