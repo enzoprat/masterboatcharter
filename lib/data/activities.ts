@@ -48,9 +48,11 @@ export type PriceOption = {
   labelKey: string;
   /** Slot this option occupies */
   slot: SlotKey;
-  /** Per-person price in EUR, OR per-boat if perBoat is true */
+  /** Per-person price in EUR, OR per-boat if perBoat is true. Ignored if onRequest is true. */
   price: number;
   perBoat?: boolean;
+  /** Display "On request" instead of price */
+  onRequest?: boolean;
   /** Min/max guests if specified */
   minGuests?: number;
   maxGuests?: number;
@@ -244,6 +246,15 @@ export const ACTIVITIES: Activity[] = [
           labelKey: 'pricing.praslinMahe',
           slot: 'full',
           price: 800,
+          perBoat: true,
+          maxGuests: 10,
+        },
+        {
+          id: 'trans-mahe-ladigue',
+          labelKey: 'pricing.maheLaDigue',
+          slot: 'full',
+          price: 0,
+          onRequest: true,
           perBoat: true,
           maxGuests: 10,
         },

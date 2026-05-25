@@ -3,7 +3,7 @@
     "siteName": "Master Boat Charter",
     "tagline": "Les Seychelles au-delà du rivage",
     "defaultTitle": "Master Boat Charter — Excursions en bateau premium aux Seychelles",
-    "defaultDescription": "Excursions privées, pêche au gros, transferts et locations de bateau à Praslin, La Digue et les îles intérieures des Seychelles. Capitaines locaux, expériences éco-responsables, réservations limitées."
+    "defaultDescription": "Excursions privées, pêche au gros, transferts et locations de bateau à La Digue, Praslin et les îles intérieures des Seychelles. Capitaine local, expérience éco-responsable, réservations limitées."
   },
   "nav": {
     "home": "Accueil",
@@ -83,7 +83,7 @@
       "shortTitle": "Pêche au gros",
       "title": "Pêche au gros",
       "tagline": "Voiliers, marlins & dorades",
-      "shortDescription": "Vivez la pêche au gros aux Seychelles avec des capitaines locaux expérimentés, dans une approche marine respectueuse.",
+      "shortDescription": "Vivez la pêche au gros aux Seychelles avec un capitaine local expérimenté, dans une approche marine respectueuse.",
       "description": "Cap au large avec des skippers qui connaissent les saisons, les courants et la bonne manière de faire — no-kill quand c'est possible, matériel léger, pas de raccourci. Snacks et boissons à bord.",
       "highlights": [
         "1 à 4 pêcheurs par sortie",
@@ -132,8 +132,8 @@
         "description": "Pas d'ancrage sur les coraux, briefing avant chaque snorkeling, zéro plastique à usage unique."
       },
       "captains": {
-        "title": "Capitaines locaux expérimentés",
-        "description": "Des skippers seychellois qui ont grandi sur ces eaux et les lisent comme une seconde langue."
+        "title": "Capitaine local expérimenté",
+        "description": "Notre skipper seychellois a grandi sur ces eaux et les lit comme une seconde langue."
       },
       "comfort": {
         "title": "Confort à bord",
@@ -153,7 +153,7 @@
     },
     "block2": {
       "title": "Local, toujours",
-      "body": "Nos capitaines viennent de ces îles. Les poissons qu'ils vous montrent, les spots qu'ils choisissent, leur lecture du ciel — rien ne sort d'un guide. Voilà ce qu'est une vraie journée d'initié."
+      "body": "Notre capitaine vient de ces îles. Les poissons qu'il vous montre, les spots qu'il choisit, sa lecture du ciel — rien ne sort d'un guide. Voilà ce qu'est une vraie journée d'initié."
     },
     "block3": {
       "title": "Discrètement, avec soin",
@@ -203,7 +203,7 @@
     "items": [
       {
         "q": "Où êtes-vous basés ?",
-        "a": "Nous sommes basés à Praslin et opérons à Praslin, La Digue, Mahé, Curieuse, Cousin, Coco, Grande Soeur, Petite Soeur, Félicité, St Pierre et plus."
+        "a": "Nous sommes basés à La Digue et opérons à La Digue, Praslin, Mahé, Curieuse, Cousin, Coco, Grande Soeur, Petite Soeur, Félicité, St Pierre et plus."
       },
       {
         "q": "Pourquoi un seul bateau ?",
@@ -248,9 +248,9 @@
     "experienceResponsibly": "Vivez les Seychelles de façon responsable.",
     "longDescription": {
       "title": "Pourquoi choisir Master Boat Charter ?",
-      "intro": "Master Boat Charter est la référence pour vos excursions en mer et locations de bateau aux Seychelles. Depuis nos bases à Mahé, Praslin et La Digue, nous vous proposons des sorties inoubliables dans les plus beaux lagons de l'archipel.",
+      "intro": "Master Boat Charter est la référence pour vos excursions en mer et locations de bateau aux Seychelles. Depuis notre base à La Digue, nous vous proposons des sorties inoubliables dans les plus beaux lagons de l'archipel.",
       "block1Title": "Une expertise locale inégalée",
-      "block1": "Nos capitaines sont tous Seychellois et passionnés par leur île. Ils connaissent les meilleurs spots secrets : criques sauvages, îlots désertiques, fonds marins préservés. Bien plus qu'une balade, une vraie expérience authentique.",
+      "block1": "Notre capitaine est Seychellois et passionné par son île. Il connaît les meilleurs spots secrets : criques sauvages, îlots désertiques, fonds marins préservés. Bien plus qu'une balade, une vraie expérience authentique.",
       "block2Title": "Une flotte moderne et sécurisée",
       "block2": "Que vous recherchiez un bateau privé avec skipper, une sortie snorkeling, une croisière au coucher du soleil, ou un transfert rapide entre les îles, notre flotte s'adapte. Tous nos bateaux sont régulièrement contrôlés.",
       "block3Title": "Respect de la nature et des lagons",
@@ -267,12 +267,12 @@
     "title": "Un seul bateau. Un archipel entier.",
     "lead": "Master Boat Charter est une petite structure locale fondée sur une idée simple : faire moins, le faire bien, et laisser la mer exactement comme on l'a trouvée.",
     "storyTitle": "Notre histoire",
-    "story": "Nous avons commencé avec un bateau, un amour profond pour ces eaux et une frustration face au tourisme de masse. Des années plus tard, le bateau est le même. L'approche aussi. Ce qui a grandi, c'est la confiance — celle des invités qui reviennent, celle des guides et capitaines locaux qui choisissent de travailler avec nous.",
+    "story": "Nous avons commencé avec un bateau, un amour profond pour ces eaux et une frustration face au tourisme de masse. Des années plus tard, le bateau est le même. L'approche aussi. Ce qui a grandi, c'est la confiance — celle des invités qui reviennent, et celle des guides locaux qui choisissent de travailler avec nous.",
     "valuesTitle": "Ce qui nous tient à cœur",
     "values": [
       {
         "title": "Local d'abord",
-        "description": "Capitaines seychellois, fournisseurs seychellois, rythme seychellois."
+        "description": "Capitaine seychellois, fournisseurs seychellois, rythme seychellois."
       },
       {
         "title": "Empreinte légère",
@@ -305,7 +305,7 @@
     "whatsappLabel": "WhatsApp",
     "emailLabel": "Email",
     "baseLabel": "Base",
-    "baseValue": "Praslin, Seychelles"
+    "baseValue": "La Digue, Seychelles"
   },
   "pricing": {
     "perPerson": "par personne",
@@ -316,6 +316,8 @@
     "sunset": "Croisière coucher de soleil",
     "praslinLaDigue": "Praslin ↔ La Digue",
     "praslinMahe": "Praslin ↔ Mahé",
+    "maheLaDigue": "Mahé ↔ La Digue",
+    "onRequest": "Sur demande",
     "drinksIncluded": "Boissons incluses",
     "snackIncluded": "Snack inclus",
     "toiletOnboard": "Toilettes à bord",

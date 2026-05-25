@@ -3,7 +3,7 @@
     "siteName": "Master Boat Charter",
     "tagline": "Seychelles Beyond The Shore",
     "defaultTitle": "Master Boat Charter — Premium Eco Boat Experiences in Seychelles",
-    "defaultDescription": "Private boat excursions, big game fishing, transfers and rentals across Praslin, La Digue and the Inner Islands of Seychelles. Local captains, eco-conscious experiences, limited daily reservations."
+    "defaultDescription": "Private boat excursions, big game fishing, transfers and rentals across La Digue, Praslin and the Inner Islands of Seychelles. Local captain, eco-conscious experiences, limited daily reservations."
   },
   "nav": {
     "home": "Home",
@@ -83,7 +83,7 @@
       "shortTitle": "Big Game Fishing",
       "title": "Big Game Fishing",
       "tagline": "Sailfish, marlin & dorado grounds",
-      "shortDescription": "Experience big game fishing in Seychelles with experienced local captains using respectful, sustainable marine practices.",
+      "shortDescription": "Experience big game fishing in Seychelles with our experienced local captain using respectful, sustainable marine practices.",
       "description": "Head out to the deep with skippers who know the seasons, the currents and the right way to do this — tag-and-release first, light tackle when possible, no shortcut to a trophy. Snacks and drinks included.",
       "highlights": [
         "1 to 4 anglers per trip",
@@ -132,8 +132,8 @@
         "description": "No anchoring on coral, briefings before every snorkel, zero single-use plastics onboard."
       },
       "captains": {
-        "title": "Local experienced captains",
-        "description": "Seychellois skippers who grew up on these waters and read them like a second language."
+        "title": "Local experienced captain",
+        "description": "A Seychellois skipper who grew up on these waters and reads them like a second language."
       },
       "comfort": {
         "title": "Comfortable boat experience",
@@ -153,7 +153,7 @@
     },
     "block2": {
       "title": "Local first, every time",
-      "body": "Our captains are from these islands. The fish they show you, the spots they choose, the way they read the weather — none of it comes from a guidebook. This is what an insider day actually looks like."
+      "body": "Our captain is from these islands. The fish he shows you, the spots he chooses, the way he reads the weather — none of it comes from a guidebook. This is what an insider day actually looks like."
     },
     "block3": {
       "title": "Quietly, carefully done",
@@ -203,7 +203,7 @@
     "items": [
       {
         "q": "Where do you operate from?",
-        "a": "We're based in Praslin and operate across Praslin, La Digue, Mahé, Curieuse, Cousin, Coco Island, Grande Soeur, Petite Soeur, Félicité, St Pierre and more."
+        "a": "We're based in La Digue and operate across La Digue, Praslin, Mahé, Curieuse, Cousin, Coco Island, Grande Soeur, Petite Soeur, Félicité, St Pierre and more."
       },
       {
         "q": "Why is there only one boat?",
@@ -248,9 +248,9 @@
     "experienceResponsibly": "Experience Seychelles responsibly.",
     "longDescription": {
       "title": "Why choose Master Boat Charter?",
-      "intro": "Master Boat Charter is the reference for boat excursions and rentals in Seychelles. From our base in Praslin we run unforgettable days in the most beautiful lagoons of the archipelago.",
+      "intro": "Master Boat Charter is the reference for boat excursions and rentals in Seychelles. From our base in La Digue we run unforgettable days in the most beautiful lagoons of the archipelago.",
       "block1Title": "Unrivalled local expertise",
-      "block1": "Our captains are Seychellois and passionate about their islands. They know the secret spots: wild coves, deserted islets, untouched reefs. Far more than a ride, a true authentic experience.",
+      "block1": "Our captain is Seychellois and passionate about his island. He knows the secret spots: wild coves, deserted islets, untouched reefs. Far more than a ride, a true authentic experience.",
       "block2Title": "A modern, safe fleet",
       "block2": "Whether you want a private boat with skipper, a snorkeling outing, a sunset cruise, or a quick island transfer, our fleet adapts to your wishes. Every boat is regularly inspected for safety and comfort.",
       "block3Title": "Respect for nature & lagoons",
@@ -272,7 +272,7 @@
     "values": [
       {
         "title": "Local first",
-        "description": "Seychellois captains, Seychellois suppliers, Seychellois rhythm."
+        "description": "Seychellois captain, Seychellois suppliers, Seychellois rhythm."
       },
       {
         "title": "Light footprint",
@@ -305,7 +305,7 @@
     "whatsappLabel": "WhatsApp",
     "emailLabel": "Email",
     "baseLabel": "Base",
-    "baseValue": "Praslin, Seychelles"
+    "baseValue": "La Digue, Seychelles"
   },
   "pricing": {
     "perPerson": "per person",
@@ -316,6 +316,8 @@
     "sunset": "Sunset cruise",
     "praslinLaDigue": "Praslin ↔ La Digue",
     "praslinMahe": "Praslin ↔ Mahé",
+    "maheLaDigue": "Mahé ↔ La Digue",
+    "onRequest": "On request",
     "drinksIncluded": "Drinks included",
     "snackIncluded": "Snack included",
     "toiletOnboard": "Toilet onboard",

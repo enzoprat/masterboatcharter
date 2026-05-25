@@ -132,7 +132,7 @@ function OptionCard({
             {t(option.labelKey)}
           </p>
           <p className="mt-3 font-serif text-4xl text-deep-700 leading-none">
-            {formatPrice(option.price)}
+            {option.onRequest ? t('pricing.onRequest') : formatPrice(option.price)}
           </p>
           <p className="mt-1 text-sm text-ink-muted">
             {option.perBoat ? `${tCommon('capacity')} ${option.maxGuests}` : tCommon('perPerson')}

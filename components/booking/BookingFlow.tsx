@@ -96,9 +96,11 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
   }, [option, minGuests, maxGuests, guests]);
 
   const total = option
-    ? option.perBoat
-      ? option.price
-      : option.price * guests
+    ? option.onRequest
+      ? null
+      : option.perBoat
+        ? option.price
+        : option.price * guests
     : 0;
 
   const canContinueDate = !!(date && option);
@@ -521,9 +523,9 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                   <span className="text-white/70 text-sm">Total</span>
                   <div className="text-right">
                     <p className="font-serif text-4xl text-white leading-none">
-                      {formatPrice(total)}
+                      {total === null ? tRaw('pricing.onRequest') : formatPrice(total ?? 0)}
                     </p>
-                    {option && !option.perBoat && (
+                    {option && !option.perBoat && !option.onRequest && (
                       <p className="text-xs text-white/60 mt-1">
                         {formatPrice(option.price)} × {guests}
                       </p>

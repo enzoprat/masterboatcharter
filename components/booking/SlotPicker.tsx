@@ -97,7 +97,7 @@ export default function SlotPicker({
                     isSelected ? 'text-white' : 'text-deep-700'
                   )}
                 >
-                  {formatPrice(opt.price)}
+                  {opt.onRequest ? t('pricing.onRequest') : formatPrice(opt.price)}
                 </p>
                 <p
                   className={cn(
