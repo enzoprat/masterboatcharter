@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { motion } from 'framer-motion';
@@ -8,6 +9,37 @@ import { ArrowDown, Star, Leaf, MapPin } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // iOS Safari sometimes refuses autoplay unless we kick it explicitly.
+  // Also resumes playback when the page becomes visible again.
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    const tryPlay = () => {
+      v.play().catch(() => {
+        /* swallow — iOS low-power mode etc. The poster + fallback covers this. */
+      });
+    };
+    tryPlay();
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') tryPlay();
+    };
+    document.addEventListener('visibilitychange', onVisible);
+    // First user gesture (mobile low-power mode workaround)
+    const onFirstTouch = () => {
+      tryPlay();
+      window.removeEventListener('touchstart', onFirstTouch);
+      window.removeEventListener('click', onFirstTouch);
+    };
+    window.addEventListener('touchstart', onFirstTouch, { once: true, passive: true });
+    window.addEventListener('click', onFirstTouch, { once: true });
+    return () => {
+      document.removeEventListener('visibilitychange', onVisible);
+      window.removeEventListener('touchstart', onFirstTouch);
+      window.removeEventListener('click', onFirstTouch);
+    };
+  }, []);
 
   return (
     <section className="relative h-[100svh] min-h-[640px] w-full overflow-hidden bg-deep-900">
@@ -19,6 +51,7 @@ export default function Hero() {
         className="absolute inset-0"
       >
         <video
+          ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
           autoPlay
           loop
@@ -26,10 +59,14 @@ export default function Hero() {
           playsInline
           preload="auto"
           poster="/images/hero-underwater-poster.jpg"
+          disablePictureInPicture
+          controls={false}
           aria-hidden
+          {...({ 'webkit-playsinline': 'true', 'x5-playsinline': 'true', 'x5-video-player-type': 'h5' } as Record<string, string>)}
         >
-          <source src="/videos/hero-underwater.webm" type="video/webm" />
+          {/* MP4 first: better universal mobile support (iOS Safari prefers H.264) */}
           <source src="/videos/hero-underwater.mp4" type="video/mp4" />
+          <source src="/videos/hero-underwater.webm" type="video/webm" />
         </video>
         {/* Static fallback image (shown if video disabled) */}
         <Image
