@@ -15,7 +15,7 @@ import {
   type PriceOption,
 } from '@/lib/data/activities';
 import { cn, formatPrice } from '@/lib/utils';
-import { FORM_ENDPOINT, SITE } from '@/lib/site';
+import { FORM_ENDPOINT, WEB3FORMS_KEY, whatsappLink } from '@/lib/site';
 import Calendar from './Calendar';
 import SlotPicker from './SlotPicker';
 
@@ -148,9 +148,9 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          _subject: `[Master Boat Charter] New booking request — ${tActivities(`${currentActivity.i18nKey}.title`)} · ${date}`,
-          _template: 'table',
-          _captcha: 'false',
+          access_key: WEB3FORMS_KEY,
+          subject: `[Master Boat Charter] New booking request — ${tActivities(`${currentActivity.i18nKey}.title`)} · ${date}`,
+          from_name: 'Master Boat Charter — Booking',
           name: details.name,
           email: details.email,
           phone: details.phone,
@@ -165,14 +165,17 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
               : formatPrice(option.perBoat ? option.price : option.price * guests)
             : '',
           comments: details.comments,
-          summary,
+          message: summary,
         }),
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json().catch(() => ({} as { success?: boolean }));
+      if (!res.ok || !json.success) throw new Error(`HTTP ${res.status}`);
       setSuccess(true);
     } catch (e) {
-      // Mailto fallback so the request still reaches the inbox
+      // WhatsApp fallback so the lead still reaches us (without exposing our inbox)
       const body = [
+        `Hello, I would like to book a trip via your website.`,
+        '',
         `Name: ${details.name}`,
         `Email: ${details.email}`,
         `Phone: ${details.phone}`,
@@ -187,9 +190,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
       ]
         .filter(Boolean)
         .join('\n');
-      window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(
-        `[Master Boat Charter] Booking request — ${date}`
-      )}&body=${encodeURIComponent(body)}`;
+      window.open(whatsappLink(body), '_blank', 'noopener,noreferrer');
       setError(t('errorBody'));
     } finally {
       setSubmitting(false);

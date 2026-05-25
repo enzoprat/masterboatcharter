@@ -141,13 +141,13 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href={`mailto:${SITE.email}`}
+                  <Link
+                    href="/contact"
                     className="group flex items-start gap-3 text-white/75 hover:text-white transition-colors"
                   >
                     <Mail className="h-4 w-4 mt-1 text-turquoise-300 shrink-0" strokeWidth={1.5} />
-                    <span className="break-all">{SITE.email}</span>
-                  </a>
+                    <span>{tNav('contact')}</span>
+                  </Link>
                 </li>
                 <li className="flex items-start gap-3 text-white/75">
                   <MapPin className="h-4 w-4 mt-1 text-turquoise-300 shrink-0" strokeWidth={1.5} />

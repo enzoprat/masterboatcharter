@@ -7,7 +7,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { Send, Check, AlertCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { FORM_ENDPOINT, SITE } from '@/lib/site';
+import { FORM_ENDPOINT, WEB3FORMS_KEY, whatsappLink } from '@/lib/site';
 
 const schema = z.object({
   name: z.string().min(2, 'Required'),
@@ -40,24 +40,29 @@ export default function ContactForm() {
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          _subject: `[Master Boat Charter] Contact — ${data.subject}`,
-          _template: 'table',
-          _captcha: 'false',
-          ...data,
+          access_key: WEB3FORMS_KEY,
+          subject: `[Master Boat Charter] Contact — ${data.subject}`,
+          from_name: 'Master Boat Charter — Contact form',
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          form_subject: data.subject,
+          message: data.message,
         }),
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json().catch(() => ({} as { success?: boolean }));
+      if (!res.ok || !json.success) throw new Error(`HTTP ${res.status}`);
       setSubmitted(true);
       reset();
       setTimeout(() => setSubmitted(false), 8000);
     } catch (e) {
-      // Fallback: open the user's email client so the message still reaches us
-      const body = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nSubject: ${data.subject}\n\n${data.message}`;
-      window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(
-        `[Master Boat Charter] Contact — ${data.subject}`
-      )}&body=${encodeURIComponent(body)}`;
+      // Fallback: invite the visitor to reach us on WhatsApp so the lead is not lost
+      const body = `Hello, I tried to send a message via your website but it didn't go through.\n\nName: ${data.name}\nPhone: ${data.phone}\nSubject: ${data.subject}\n\n${data.message}`;
+      const fallback = whatsappLink(body);
+      // Open WhatsApp in a new tab — keeps the visitor on the page
+      window.open(fallback, '_blank', 'noopener,noreferrer');
       setError(
-        'We could not reach our server — your email client has been opened so you can send the message directly.'
+        'We could not send your message right now. WhatsApp has been opened so you can reach us directly.'
       );
     }
   };

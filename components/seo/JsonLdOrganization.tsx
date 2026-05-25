@@ -9,8 +9,7 @@ export default function JsonLdOrganization() {
     image: `${SITE.url}/og-image.jpg`,
     logo: `${SITE.url}/logo.png`,
     description:
-      'Premium eco-conscious boat experiences in Seychelles: excursions, big game fishing, transfers and rentals from Praslin.',
-    email: SITE.email,
+      'Premium eco-conscious boat experiences in Seychelles: excursions, big game fishing, transfers and rentals from La Digue.',
     telephone: SITE.whatsapp,
     priceRange: '€€€',
     address: {

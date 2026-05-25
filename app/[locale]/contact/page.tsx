@@ -4,7 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Reveal from '@/components/ui/Reveal';
 import ContactForm from '@/components/contact/ContactForm';
-import { Mail, MessageCircle, MapPin } from 'lucide-react';
+import { MessageCircle, MapPin } from 'lucide-react';
 import { SITE, whatsappLink } from '@/lib/site';
 
 export async function generateMetadata({
@@ -55,12 +55,6 @@ function ContactPage() {
                 label={t('whatsappLabel')}
                 value={SITE.whatsapp}
                 href={whatsappLink()}
-              />
-              <InfoRow
-                icon={<Mail className="h-5 w-5" strokeWidth={1.5} />}
-                label={t('emailLabel')}
-                value={SITE.email}
-                href={`mailto:${SITE.email}`}
               />
               <InfoRow
                 icon={<MapPin className="h-5 w-5" strokeWidth={1.5} />}

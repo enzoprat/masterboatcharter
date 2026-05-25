@@ -32,7 +32,9 @@
       "Bash(ffprobe -v error -show_entries stream=width,height,duration,codec_name -of default=noprint_wrappers=1 \"video fond marin.mov\")",
       "Bash(ffmpeg -y -i '../images/video fond marin.mov' -vf 'scale='\\\\''min\\(1600,iw\\)'\\\\'':-2' -c:v libvpx-vp9 -crf 34 -b:v 0 -row-mt 1 -threads 4 -an hero-underwater.webm)",
       "Bash(ffmpeg -y -i hero-underwater.mp4 -ss 00:00:03 -frames:v 1 -q:v 3 ../images/hero-underwater-poster.jpg)",
-      "Bash(git commit --allow-empty -m ':*)"
+      "Bash(git commit --allow-empty -m ':*)",
+      "Bash(curl -sS -X POST https://api.web3forms.com/submit -H 'Content-Type: application/json' -H 'Accept: application/json' -d '{:*)",
+      "Bash(grep -n \"import.*Mail\\\\|^import\" app/[locale]/contact/page.tsx)"
     ]
   }
 }
