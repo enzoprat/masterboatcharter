@@ -84,7 +84,7 @@ export default function Header() {
                     key={item.href}
                     href={item.href as any}
                     className={cn(
-                      'relative px-3.5 py-2 text-sm font-medium transition-colors duration-300',
+                      'relative px-3 py-2 text-sm font-medium transition-colors duration-300 whitespace-nowrap',
                       textLight && !scrolled
                         ? 'text-white/90 hover:text-white'
                         : 'text-ink-soft hover:text-deep-700',
@@ -96,7 +96,7 @@ export default function Header() {
                       <motion.span
                         layoutId="active-pill"
                         className={cn(
-                          'absolute -bottom-px left-3.5 right-3.5 h-px',
+                          'absolute -bottom-px left-3 right-3 h-px',
                           textLight && !scrolled ? 'bg-white' : 'bg-deep-600'
                         )}
                         transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
@@ -113,14 +113,16 @@ export default function Header() {
                 href={`tel:${SITE.whatsappDigits}`}
                 aria-label={t('phone')}
                 className={cn(
-                  'hidden md:inline-flex items-center gap-2 px-3 h-10 rounded-full text-sm font-medium transition-all duration-300',
+                  'hidden lg:inline-flex items-center gap-2 h-10 rounded-full text-sm font-medium transition-all duration-300 whitespace-nowrap',
+                  // icon only on lg/xl, full label only on 2xl+ to fit nav comfortably
+                  'lg:w-10 lg:justify-center 2xl:w-auto 2xl:px-3',
                   textLight && !scrolled
                     ? 'text-white/90 hover:bg-white/10 hover:text-white'
                     : 'text-deep-600 hover:bg-sand-100'
                 )}
               >
                 <Phone className="h-[16px] w-[16px]" strokeWidth={1.5} />
-                <span className="tabular-nums">{SITE.whatsapp}</span>
+                <span className="hidden 2xl:inline tabular-nums">{SITE.whatsapp}</span>
               </a>
               <LocaleSwitcher light={textLight && !scrolled} />
               <a
