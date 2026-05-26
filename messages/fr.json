@@ -171,6 +171,13 @@
       "body": "Groupes restreints, matériel impeccable, impact minimal. Pas de mégaphone, pas de flottille, pas de raccourci. Juste un bon bateau, un grand capitaine et l'océan Indien."
     }
   },
+  "guidesIndex": {
+    "metaTitle": "Guides voyage bateau Seychelles · Saisons, faune, conseils",
+    "metaDescription": "Guides pratiques pour planifier vos journées en bateau aux Seychelles — quand partir mois par mois, saison requins-baleines, spots de snorkeling, tortues marines et plus.",
+    "eyebrow": "Guides",
+    "title": "Préparez votre journée en mer, sérieusement.",
+    "lead": "Des guides courts et tranchés — écrits par un capitaine qui fait ces eaux, pas par un blogueur de passage. Mis à jour à chaque saison."
+  },
   "guides": {
     "whale-shark-season-seychelles": {
       "shortTitle": "Saison requin-baleine",

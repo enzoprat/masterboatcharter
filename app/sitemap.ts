@@ -12,6 +12,7 @@ const LOCALIZED = [
   { en: '/about', fr: '/a-propos' },
   { en: '/contact', fr: '/contact' },
   { en: '/faq', fr: '/faq' },
+  { en: '/guides', fr: '/guides' },
 ];
 
 /** Pages that share the same path across locales. */
