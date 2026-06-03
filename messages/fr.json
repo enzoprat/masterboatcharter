@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "Master Boat Charter",
     "tagline": "Les Seychelles, rien que pour vous, une journée.",
-    "defaultTitle": "Master Boat Charter — Charter privé & excursions en bateau, La Digue Seychelles",
-    "defaultDescription": "Charter privé depuis La Digue : excursions à Curieuse, Coco, Sister Islands, tour de La Digue, pêche au gros et transferts inter-îles. Un seul bateau, un capitaine seychellois, dix invités max. À partir de 70€/personne — réservation en 2 minutes."
+    "defaultTitle": "Master Boat Charter. Charter privé & excursions en bateau, La Digue Seychelles",
+    "defaultDescription": "Charter privé depuis La Digue : excursions à Curieuse, Coco, Sister Islands, tour de La Digue, pêche au gros et transferts inter-îles. Un seul bateau, un capitaine seychellois, douze invités max. À partir de 70€/personne, confirmation Express, 20% d'acompte seulement."
   },
   "nav": {
     "home": "Accueil",
@@ -56,7 +56,7 @@
     "ctaSecondary": "Activités & tarifs",
     "scrollHint": "Faites défiler",
     "stats": {
-      "boat": "1 bateau · 10 invités max",
+      "boat": "1 bateau · 12 invités max",
       "since": "Sur l'eau depuis 2019",
       "local": "Capitaine seychellois",
       "eco": "Aucun ancrage sur corail"
@@ -65,7 +65,7 @@
   "activities": {
     "sectionEyebrow": "Expériences sur-mesure",
     "sectionTitle": "Choisissez votre journée en mer",
-    "sectionLead": "Quatre façons signature de découvrir l'archipel — des îlots déserts aux profondeurs bleues.",
+    "sectionLead": "Quatre façons signature de découvrir l'archipel. des îlots déserts aux profondeurs bleues.",
     "perPersonHalf": "/ personne · demi-journée",
     "perBoatHalf": "/ bateau · demi-journée · jusqu'à {n}",
     "perPersonFull": "/ personne · journée",
@@ -80,13 +80,15 @@
       "shortTitle": "Excursions",
       "title": "Excursions en bateau",
       "tagline": "Îles désertes & lagons secrets",
-      "shortDescription": "Explorez les plus belles îles des Seychelles — Grande Soeur, Curieuse, La Digue et au-delà — dans le respect des écosystèmes marins.",
+      "shortDescription": "Explorez les plus belles îles des Seychelles. Grande Soeur, Curieuse, La Digue et au-delà. dans le respect des écosystèmes marins.",
       "description": "Découvrez des lagons cachés, des plages de sable blanc et des parcs marins protégés à bord d'un bateau privé avec votre skipper local. Chaque itinéraire est conçu pour minimiser notre empreinte et maximiser ce que vous voyez, goûtez et retenez.",
       "highlights": [
         "Bateau privé avec capitaine local",
-        "Snorkeling sur sites marins protégés",
+        "Snorkeling sur sites marins protégés : tortues, poissons, coraux",
+        "Palmes, masques, tubas inclus à bord",
         "Arrêt plage et barbecue en option",
-        "Boissons incluses, toilettes à bord"
+        "Boissons incluses, toilettes à bord",
+        "À partir de 2 personnes"
       ],
       "fromPrice": "70€"
     },
@@ -95,14 +97,14 @@
       "title": "Pêche au gros",
       "tagline": "Voiliers, marlins & dorades",
       "shortDescription": "Vivez la pêche au gros aux Seychelles avec un capitaine local expérimenté, dans une approche marine respectueuse.",
-      "description": "Cap au large avec des skippers qui connaissent les saisons, les courants et la bonne manière de faire — no-kill quand c'est possible, matériel léger, pas de raccourci. Snacks et boissons à bord.",
+      "description": "Cap au large avec des skippers qui connaissent les saisons, les courants et la bonne manière de faire. no-kill quand c'est possible, matériel léger, pas de raccourci. Snacks et boissons à bord.",
       "highlights": [
         "1 à 4 pêcheurs par sortie",
         "Cannes et moulinets de qualité",
         "Pratiques de pêche durables",
         "Snacks et boissons à bord"
       ],
-      "fromPrice": "450€"
+      "fromPrice": "500€"
     },
     "transfers": {
       "shortTitle": "Transferts",
@@ -116,27 +118,27 @@
         "Boissons à bord",
         "Horaires flexibles"
       ],
-      "fromPrice": "150€"
+      "fromPrice": "Devis"
     },
     "rental": {
       "shortTitle": "Location",
       "title": "Location de bateau privée",
       "tagline": "Le bateau est à vous pour la journée",
-      "shortDescription": "Vivez une expérience totalement privée avec skipper inclus — dessinez votre journée, votre route, vos arrêts.",
-      "description": "Jusqu'à dix invités, un bateau, un capitaine local, et un littoral pour composer votre propre journée. Dites-nous ce qui compte — longues nages, mouillages calmes, barbecue à terre — et nous façonnons à partir de là.",
+      "shortDescription": "Vivez une expérience totalement privée avec skipper inclus. dessinez votre journée, votre route, vos arrêts.",
+      "description": "Jusqu'à dix invités, un bateau, un capitaine local, et un littoral pour composer votre propre journée. Dites-nous ce qui compte. longues nages, mouillages calmes, barbecue à terre. et nous façonnons à partir de là.",
       "highlights": [
-        "Jusqu'à 10 personnes",
+        "Jusqu'à 12 personnes",
         "Skipper inclus",
         "Itinéraire sur-mesure",
         "Boissons et ombre à bord"
       ],
-      "fromPrice": "400€"
+      "fromPrice": "Sur demande"
     }
   },
   "commitments": {
     "eyebrow": "Nos engagements",
     "title": "Une autre façon d'aller en mer",
-    "lead": "Nous opérons un seul bateau. Un choix délibéré — pour garder l'expérience personnelle, l'impact léger et les standards élevés.",
+    "lead": "Nous opérons un seul bateau. Un choix délibéré. pour garder l'expérience personnelle, l'impact léger et les standards élevés.",
     "items": {
       "eco": {
         "title": "Respect des écosystèmes marins",
@@ -160,11 +162,11 @@
     "eyebrow": "L'expérience",
     "block1": {
       "title": "Une eau si claire qu'elle disparaît",
-      "body": "Des îles granitiques qui émergent de lagons-miroirs. Des bancs de poissons que vous comptez depuis la surface. Des plages sans autres traces que les vôtres. Les Seychelles ne sont pas un décor — elles sont le sujet."
+      "body": "Des îles granitiques qui émergent de lagons-miroirs. Des bancs de poissons que vous comptez depuis la surface. Des plages sans autres traces que les vôtres. Les Seychelles ne sont pas un décor. elles sont le sujet."
     },
     "block2": {
       "title": "Local, toujours",
-      "body": "Notre capitaine vient de ces îles. Les poissons qu'il vous montre, les spots qu'il choisit, sa lecture du ciel — rien ne sort d'un guide. Voilà ce qu'est une vraie journée d'initié."
+      "body": "Notre capitaine vient de ces îles. Les poissons qu'il vous montre, les spots qu'il choisit, sa lecture du ciel. rien ne sort d'un guide. Voilà ce qu'est une vraie journée d'initié."
     },
     "block3": {
       "title": "Discrètement, avec soin",
@@ -173,10 +175,10 @@
   },
   "guidesIndex": {
     "metaTitle": "Guides voyage bateau Seychelles · Saisons, faune, conseils",
-    "metaDescription": "Guides pratiques pour planifier vos journées en bateau aux Seychelles — quand partir mois par mois, saison requins-baleines, spots de snorkeling, tortues marines et plus.",
+    "metaDescription": "Guides pratiques pour planifier vos journées en bateau aux Seychelles. quand partir mois par mois, saison requins-baleines, spots de snorkeling, tortues marines et plus.",
     "eyebrow": "Guides",
     "title": "Préparez votre journée en mer, sérieusement.",
-    "lead": "Des guides courts et tranchés — écrits par un capitaine qui fait ces eaux, pas par un blogueur de passage. Mis à jour à chaque saison."
+    "lead": "Des guides courts et tranchés. écrits par un capitaine qui fait ces eaux, pas par un blogueur de passage. Mis à jour à chaque saison."
   },
   "guides": {
     "whale-shark-season-seychelles": {
@@ -188,34 +190,34 @@
       "metaDescription": "Les requins-baleines visitent les Seychelles d'août à octobre. Meilleurs mois, meilleurs spots, règles éthiques, à quoi s'attendre. Planifiez votre nage depuis La Digue.",
       "updatedLabel": "Mis à jour",
       "readTime": "6 min de lecture",
-      "lead": "Le plus grand poisson de l'océan traverse les eaux des Seychelles chaque année — et les îles intérieures sont l'un des rares endroits sur Terre où vous pouvez nager avec eux sans la foule. Voici tout ce qu'il faut savoir pour planifier.",
+      "lead": "Le plus grand poisson de l'océan traverse les eaux des Seychelles chaque année. et les îles intérieures sont l'un des rares endroits sur Terre où vous pouvez nager avec eux sans la foule. Voici tout ce qu'il faut savoir pour planifier.",
       "sections": [
         {
           "title": "La saison du requin-baleine expliquée",
-          "body": "Les requins-baleines (Rhincodon typus) suivent les blooms de plancton à travers l'océan Indien occidental. Aux Seychelles, leur principale saison d'agrégation court d'août à octobre — ces trois mois sont le pic de fréquentation autour de Mahé et des îles intérieures. Ce sont des filtreurs, inoffensifs pour l'homme, qui atteignent 8 à 12 mètres adultes. Les animaux que vous voyez sont généralement des mâles juvéniles de 4 à 8 mètres.\n\nHors de cette fenêtre — de novembre à juillet — les observations existent mais sont rares et imprévisibles. Si nager avec un requin-baleine est le point fort de votre voyage, planifiez votre séjour dans la tranche août-octobre."
+          "body": "Les requins-baleines (Rhincodon typus) suivent les blooms de plancton à travers l'océan Indien occidental. Aux Seychelles, leur principale saison d'agrégation court d'août à octobre. ces trois mois sont le pic de fréquentation autour de Mahé et des îles intérieures. Ce sont des filtreurs, inoffensifs pour l'homme, qui atteignent 8 à 12 mètres adultes. Les animaux que vous voyez sont généralement des mâles juvéniles de 4 à 8 mètres.\n\nHors de cette fenêtre. de novembre à juillet. les observations existent mais sont rares et imprévisibles. Si nager avec un requin-baleine est le point fort de votre voyage, planifiez votre séjour dans la tranche août-octobre."
         },
         {
-          "title": "Meilleurs mois — et meilleures semaines",
-          "body": "Septembre est le sweet spot historique. Le bloom de plancton est à son pic, les alizés de sud-est se sont posés, et la visibilité est excellente — souvent au-dessus de 20 mètres. Octobre a une météo plus variable mais une plus forte densité d'animaux près de la surface. Août est le premier mois fiable et tend à être plus calme sur l'eau.\n\nÀ l'intérieur d'un mois donné, les conditions changent de semaine en semaine. Le mieux est de garder vos dates flexibles de 2-3 jours et de laisser le capitaine choisir la fenêtre. Nous re-réservons sans frais si le jour réservé s'avère peu probable et qu'un meilleur jour est disponible sous 72 heures."
+          "title": "Meilleurs mois. et meilleures semaines",
+          "body": "Septembre est le sweet spot historique. Le bloom de plancton est à son pic, les alizés de sud-est se sont posés, et la visibilité est excellente. souvent au-dessus de 20 mètres. Octobre a une météo plus variable mais une plus forte densité d'animaux près de la surface. Août est le premier mois fiable et tend à être plus calme sur l'eau.\n\nÀ l'intérieur d'un mois donné, les conditions changent de semaine en semaine. Le mieux est de garder vos dates flexibles de 2-3 jours et de laisser le capitaine choisir la fenêtre. Nous re-réservons sans frais si le jour réservé s'avère peu probable et qu'un meilleur jour est disponible sous 72 heures."
         },
         {
           "title": "Où ils apparaissent",
-          "body": "La principale zone d'agrégation est l'eau profonde au large de la côte ouest de Mahé — entre Beau Vallon et Anse Major. Depuis La Digue, nous organisons la sortie en journée longue (10-11 heures) avec un guetteur à bord et, quand c'est possible, en coordination avec la Marine Conservation Society Seychelles. Plus près, nous avons des observations ponctuelles au tombant de Coco Island et au sud de Félicité — septembre-octobre uniquement.\n\nSi vous préférez éviter la longue traversée, nous recommandons de baser la journée requin-baleine depuis Mahé. Nous pouvons coordonner le transfert."
+          "body": "La principale zone d'agrégation est l'eau profonde au large de la côte ouest de Mahé. entre Beau Vallon et Anse Major. Depuis La Digue, nous organisons la sortie en journée longue (10-11 heures) avec un guetteur à bord et, quand c'est possible, en coordination avec la Marine Conservation Society Seychelles. Plus près, nous avons des observations ponctuelles au tombant de Coco Island et au sud de Félicité. septembre-octobre uniquement.\n\nSi vous préférez éviter la longue traversée, nous recommandons de baser la journée requin-baleine depuis Mahé. Nous pouvons coordonner le transfert."
         },
         {
-          "title": "À quoi s'attendre — et comment on procède éthiquement",
-          "body": "Une rencontre avec un requin-baleine est un snorkeling, pas une plongée. Vous entrez dans l'eau à environ 30 mètres de l'animal, palmes aux pieds, masque nettoyé, et le laissez approcher. L'animal donne le rythme. Nous ne chassons jamais, ne touchons jamais, ne nourrissons jamais.\n\nLes règles des Seychelles sont claires : maximum 8 nageurs dans l'eau à la fois, minimum 3 mètres de la tête et 4 mètres de la queue, pas de flash photo, pas de plongée scaphandre dans la zone immédiate. Notre capitaine applique ces règles — c'est ainsi que la population reste habituée aux nageurs année après année.\n\nUne rencontre type dure 5 à 15 minutes par passage. Sur un bon jour vous pouvez avoir 3-5 passages avec le même ou différents individus. Sur un jour calme, aucun — la mer n'est pas un zoo. Nous sommes honnêtes le matin du briefing."
+          "title": "À quoi s'attendre. et comment on procède éthiquement",
+          "body": "Une rencontre avec un requin-baleine est un snorkeling, pas une plongée. Vous entrez dans l'eau à environ 30 mètres de l'animal, palmes aux pieds, masque nettoyé, et le laissez approcher. L'animal donne le rythme. Nous ne chassons jamais, ne touchons jamais, ne nourrissons jamais.\n\nLes règles des Seychelles sont claires : maximum 8 nageurs dans l'eau à la fois, minimum 3 mètres de la tête et 4 mètres de la queue, pas de flash photo, pas de plongée scaphandre dans la zone immédiate. Notre capitaine applique ces règles. c'est ainsi que la population reste habituée aux nageurs année après année.\n\nUne rencontre type dure 5 à 15 minutes par passage. Sur un bon jour vous pouvez avoir 3-5 passages avec le même ou différents individus. Sur un jour calme, aucun. la mer n'est pas un zoo. Nous sommes honnêtes le matin du briefing."
         },
         {
           "title": "Ce qu'il faut apporter",
           "body": "Crème solaire reef-safe, votre propre masque si vous en avez un (nous fournissons du matériel de qualité sinon), un appareil photo sous-marin si vous voulez des photos (pas de flash), un rashguard manches longues pour protection solaire pendant la longue navigation. Nous fournissons boissons, snacks et un déjeuner chaud si la sortie est prolongée."
         }
       ],
-      "faqTitle": "Requins-baleines — questions fréquentes",
+      "faqTitle": "Requins-baleines. questions fréquentes",
       "faq": [
         {
           "q": "Est-ce sûr de nager avec un requin-baleine ?",
-          "a": "Oui — les requins-baleines sont des filtreurs. Pas de dents qui mordent, pas de comportement de défense, pas d'agressivité. Les seuls risques sont le coup de soleil, la déshydratation, et votre propre enthousiasme qui vous rapproche trop. Nous briefons sur les trois."
+          "a": "Oui. les requins-baleines sont des filtreurs. Pas de dents qui mordent, pas de comportement de défense, pas d'agressivité. Les seuls risques sont le coup de soleil, la déshydratation, et votre propre enthousiasme qui vous rapproche trop. Nous briefons sur les trois."
         },
         {
           "q": "Quelle est la probabilité d'observation en saison ?",
@@ -235,12 +237,12 @@
         },
         {
           "q": "Combien de temps dure la sortie depuis La Digue ?",
-          "a": "10 à 11 heures porte à porte si nous allons à la zone principale de Mahé. Depuis Praslin : 8 heures. Beaucoup d'invités préfèrent baser la sortie depuis Mahé — nous pouvons coordonner."
+          "a": "10 à 11 heures porte à porte si nous allons à la zone principale de Mahé. Depuis Praslin : 8 heures. Beaucoup d'invités préfèrent baser la sortie depuis Mahé. nous pouvons coordonner."
         }
       ],
       "relatedEyebrow": "Préparez votre séjour",
       "relatedTitle": "Ce qui va bien avec",
-      "ctaTitle": "Bien calé dans le temps — réservez votre journée privée",
+      "ctaTitle": "Bien calé dans le temps. réservez votre journée privée",
       "ctaLead": "Si vous voyagez dans la fenêtre août-octobre, un bateau privé vous laisse poursuivre les bonnes conditions au lieu de subir un planning de groupe.",
       "ctaButton": "Voir les excursions"
     },
@@ -250,14 +252,14 @@
       "title": "Quand partir aux Seychelles ?",
       "imageAlt": "Le bateau Master au mouillage sous le ciel des Seychelles",
       "metaTitle": "Quand partir aux Seychelles · Guide mois par mois (2026)",
-      "metaDescription": "Météo, état de la mer, faune et affluence mois par mois aux Seychelles. Avril-mai et septembre-octobre sont les meilleurs créneaux — voici pourquoi.",
+      "metaDescription": "Météo, état de la mer, faune et affluence mois par mois aux Seychelles. Avril-mai et septembre-octobre sont les meilleurs créneaux. voici pourquoi.",
       "updatedLabel": "Mis à jour",
       "readTime": "8 min de lecture",
-      "lead": "Les Seychelles, c'est bon toute l'année — mais \"bon\" varie. Le vent tourne, la pluie tombe à des endroits différents, la mer change de couleur. Deux fenêtres se détachent pour les voyageurs en bateau : avril-mai et septembre-octobre. Voici le détail mois par mois.",
+      "lead": "Les Seychelles, c'est bon toute l'année. mais \"bon\" varie. Le vent tourne, la pluie tombe à des endroits différents, la mer change de couleur. Deux fenêtres se détachent pour les voyageurs en bateau : avril-mai et septembre-octobre. Voici le détail mois par mois.",
       "sections": [
         {
           "title": "Les deux moussons qui rythment l'année",
-          "body": "Les Seychelles ont deux saisons d'alizés. La mousson de nord-ouest court grosso modo de novembre à mars — air plus chaud, plus d'humidité, averses fortes occasionnelles, mer plus calme sur les côtes sud-est. La mousson de sud-est court de mai à septembre — plus sec, nuits plus fraîches, journées plus ventées, mer plus agitée sur les côtes est. Entre les deux, les mois de transition — avril et octobre-novembre — combinent le meilleur des deux : chaud, sec, calme.\n\nPour voyager en bateau, c'est le fait le plus important. Mer calme + bonne visibilité + faible pluie = avril, mai, septembre, octobre."
+          "body": "Les Seychelles ont deux saisons d'alizés. La mousson de nord-ouest court grosso modo de novembre à mars. air plus chaud, plus d'humidité, averses fortes occasionnelles, mer plus calme sur les côtes sud-est. La mousson de sud-est court de mai à septembre. plus sec, nuits plus fraîches, journées plus ventées, mer plus agitée sur les côtes est. Entre les deux, les mois de transition. avril et octobre-novembre. combinent le meilleur des deux : chaud, sec, calme.\n\nPour voyager en bateau, c'est le fait le plus important. Mer calme + bonne visibilité + faible pluie = avril, mai, septembre, octobre."
         },
         {
           "title": "Mois par mois",
@@ -269,10 +271,10 @@
         },
         {
           "title": "Ce qu'on fait quand la météo tourne",
-          "body": "Notre politique d'annulation est construite autour de la météo. Si le capitaine appelle (sécurité, pas préférence), nous remboursons ou reportons intégralement. Si vous appelez, la règle des 72 heures s'applique. En pratique, nous perdons 5-10 jours par an pour cause de météo, toutes saisons confondues — généralement reportés sous 48 heures.\n\nLes îles intérieures sont assez protégées pour que la journée soit rarement complètement annulée. Nous adaptons la route — côte est devient côte ouest, journée complète devient demi-journée, site de snorkeling change. L'art du capitaine est surtout dans cette adaptation."
+          "body": "Notre politique d'annulation est construite autour de la météo. Si le capitaine appelle (sécurité, pas préférence), nous remboursons ou reportons intégralement. Si vous appelez, la règle des 72 heures s'applique. En pratique, nous perdons 5-10 jours par an pour cause de météo, toutes saisons confondues. généralement reportés sous 48 heures.\n\nLes îles intérieures sont assez protégées pour que la journée soit rarement complètement annulée. Nous adaptons la route. côte est devient côte ouest, journée complète devient demi-journée, site de snorkeling change. L'art du capitaine est surtout dans cette adaptation."
         }
       ],
-      "faqTitle": "Quand partir — questions fréquentes",
+      "faqTitle": "Quand partir. questions fréquentes",
       "faq": [
         {
           "q": "Quel est le meilleur mois absolu pour une sortie bateau aux Seychelles ?",
@@ -284,7 +286,7 @@
         },
         {
           "q": "Y a-t-il des cyclones aux Seychelles ?",
-          "a": "Les Seychelles sont hors des principales trajectoires cycloniques — les impacts directs sont rares (dernier majeur : 2018, cyclone Berguitta passé à distance). Le pays est considéré comme cyclone-safe."
+          "a": "Les Seychelles sont hors des principales trajectoires cycloniques. les impacts directs sont rares (dernier majeur : 2018, cyclone Berguitta passé à distance). Le pays est considéré comme cyclone-safe."
         },
         {
           "q": "Quand les prix sont-ils les plus bas ?",
@@ -302,16 +304,49 @@
       "ctaButton": "Voir les excursions"
     }
   },
+  "transferQuote": {
+    "eyebrow": "Devis sur-mesure",
+    "title": "Planifiez votre transfert",
+    "lead": "Choisissez votre île de départ et d'arrivée, vos besoins, et nous vous envoyons un devis personnalisé en quelques minutes.",
+    "fromLabel": "Île de départ",
+    "toLabel": "Île d'arrivée",
+    "returnLabel": "Aller-retour",
+    "returnYes": "Oui, retour nécessaire",
+    "returnNo": "Non, aller simple",
+    "guestsLabel": "Nombre de voyageurs",
+    "bagsLabel": "Bagages",
+    "dateLabel": "Date souhaitée",
+    "nameLabel": "Nom complet",
+    "emailLabel": "Email",
+    "phoneLabel": "Téléphone (WhatsApp préféré)",
+    "submit": "Demander un devis",
+    "submitting": "Envoi en cours...",
+    "successTitle": "Demande de devis reçue",
+    "successBody": "Merci. Notre capitaine vous répond avec un devis sur-mesure en quelques minutes par email et WhatsApp.",
+    "errorTitle": "Envoi impossible",
+    "errorBody": "Réessayez ou contactez-nous sur WhatsApp.",
+    "selectIsland": "Sélectionnez une île",
+    "samePickError": "Le départ et l'arrivée doivent être différents",
+    "islands": {
+      "la-digue": "La Digue",
+      "praslin": "Praslin",
+      "mahe": "Mahé",
+      "curieuse": "Curieuse",
+      "felicite": "Félicité",
+      "grande-soeur": "Grande Soeur",
+      "petite-soeur": "Petite Soeur"
+    }
+  },
   "destinations": {
     "curieuse-island": {
       "shortTitle": "Île Curieuse",
-      "title": "Curieuse — Tortues géantes & plages désertes",
+      "title": "Curieuse. Tortues géantes & plages désertes",
       "tagline": "Parc marin · Tortues d'Aldabra · Anse Papaie",
-      "lead": "Une journée privée en bateau vers l'une des îles intérieures les plus aimées des Seychelles — tortues géantes d'Aldabra à terre, parc marin corallien protégé dans l'eau, déjeuner sur une plage où les seules traces sont les vôtres.",
+      "lead": "Une journée privée en bateau vers l'une des îles intérieures les plus aimées des Seychelles. tortues géantes d'Aldabra à terre, parc marin corallien protégé dans l'eau, déjeuner sur une plage où les seules traces sont les vôtres.",
       "imageAlt": "Lagon turquoise du parc marin de l'île Curieuse, Seychelles",
       "metaTitle": "Excursion Île Curieuse Seychelles · Bateau privé depuis La Digue",
       "metaDescription": "Excursion à Curieuse depuis La Digue : tortues géantes d'Aldabra, snorkeling parc marin, barbecue à Anse Papaie, arrêt St-Pierre. 175€/personne, boissons et déjeuner inclus.",
-      "schemaName": "Curieuse — Excursion privée journée depuis La Digue",
+      "schemaName": "Curieuse. Excursion privée journée depuis La Digue",
       "factDuration": "8 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -321,11 +356,11 @@
       "sections": [
         {
           "title": "Pourquoi Curieuse est la plus belle journée en mer des îles intérieures",
-          "body": "Curieuse est la rare île des Seychelles où la terre, le récif et l'histoire se rejoignent en une après-midi. Ancienne léproserie devenue parc national, elle a été reconstruite autour de la réintroduction des tortues géantes d'Aldabra — plus d'une centaine en liberté sur les sentiers. La côte ouest est un parc marin protégé : peu profonde, claire, vivante de poissons-perroquets, demoiselles et tortues imbriquées.\n\nNous passons la matinée au mouillage côté parc marin, dérivons sur le récif à la marée changeante, puis pointons l'étrave à Anse Papaie pour un barbecue préparé par le capitaine pendant que vous parcourez le sentier des tortues."
+          "body": "Curieuse est la rare île des Seychelles où la terre, le récif et l'histoire se rejoignent en une après-midi. Ancienne léproserie devenue parc national, elle a été reconstruite autour de la réintroduction des tortues géantes d'Aldabra. plus d'une centaine en liberté sur les sentiers. La côte ouest est un parc marin protégé : peu profonde, claire, vivante de poissons-perroquets, demoiselles et tortues imbriquées.\n\nNous passons la matinée au mouillage côté parc marin, dérivons sur le récif à la marée changeante, puis pointons l'étrave à Anse Papaie pour un barbecue préparé par le capitaine pendant que vous parcourez le sentier des tortues."
         },
         {
           "title": "Ce que vous verrez dans le parc marin",
-          "body": "Selon les conditions, nous prévoyons trois arrêts snorkeling — Anse Saint-Joseph pour les coraux table et les sergent-majors, la petite baie sous la station des rangers pour les tortues imbriquées, et la pointe sud pour une dérive lente dans 3-5 mètres d'eau-miroir. Apportez une crème solaire reef-safe — nous fournissons le reste."
+          "body": "Selon les conditions, nous prévoyons trois arrêts snorkeling. Anse Saint-Joseph pour les coraux table et les sergent-majors, la petite baie sous la station des rangers pour les tortues imbriquées, et la pointe sud pour une dérive lente dans 3-5 mètres d'eau-miroir. Apportez une crème solaire reef-safe. nous fournissons le reste."
         },
         {
           "title": "Le barbecue d'Anse Papaie",
@@ -333,7 +368,7 @@
         },
         {
           "title": "Combiner Curieuse avec St-Pierre au retour",
-          "body": "Si la mer est calme, nous ajoutons un arrêt snorkeling à l'îlot St-Pierre sur le retour — un affleurement granitique à un kilomètre d'Anse Volbert avec une des plus fortes concentrations de poissons coralliens des îles intérieures. Cela rallonge la journée d'environ 45 minutes, c'est notre extra le plus demandé."
+          "body": "Si la mer est calme, nous ajoutons un arrêt snorkeling à l'îlot St-Pierre sur le retour. un affleurement granitique à un kilomètre d'Anse Volbert avec une des plus fortes concentrations de poissons coralliens des îles intérieures. Cela rallonge la journée d'environ 45 minutes, c'est notre extra le plus demandé."
         }
       ],
       "highlightsTitle": "Ce qui est inclus dans votre journée Curieuse",
@@ -347,7 +382,7 @@
       ],
       "itineraryEyebrow": "Une journée à Curieuse",
       "itineraryTitle": "Itinéraire type, 08h00 à 17h00",
-      "faqTitle": "Île Curieuse — questions fréquentes",
+      "faqTitle": "Île Curieuse. questions fréquentes",
       "faq": [
         {
           "q": "Les taxes du parc marin sont-elles incluses ?",
@@ -363,7 +398,7 @@
         },
         {
           "q": "L'excursion convient-elle aux enfants ?",
-          "a": "Oui — les spots de snorkeling sont peu profonds et protégés, le sentier est family-friendly, et nous fournissons des gilets dans toutes les tailles."
+          "a": "Oui. les spots de snorkeling sont peu profonds et protégés, le sentier est family-friendly, et nous fournissons des gilets dans toutes les tailles."
         },
         {
           "q": "Et le mal de mer ?",
@@ -383,7 +418,7 @@
       "imageAlt": "Cocotiers et granite rose sur une plage déserte des Seychelles",
       "metaTitle": "Excursion Coco Island & Sister Islands · Snorkeling depuis La Digue",
       "metaDescription": "Excursion privée bateau au parc marin de Coco, Félicité et Sister Islands. Snorkeling cristallin, plages désertes, barbecue à terre. Dès 130€/personne, boissons incluses.",
-      "schemaName": "Coco & Sister Islands — Excursion privée bateau depuis La Digue",
+      "schemaName": "Coco & Sister Islands. Excursion privée bateau depuis La Digue",
       "factDuration": "8 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -392,20 +427,20 @@
       "factSeason": "Toute l'année · idéal mai-sept",
       "sections": [
         {
-          "title": "Le parc marin de Coco — le joyau des îles intérieures",
-          "body": "Coco est un petit groupe de rochers granitiques au large de Félicité, entouré d'un parc marin protégé depuis des décennies. Le récif est à quelques mètres sous la surface, l'eau est plate sous le vent des rochers, et la densité de poissons est honnêtement la meilleure autour de La Digue. Comptez des poissons-perroquets de toutes les couleurs, des bancs de sergent-majors, des tortues imbriquées résidentes, et avec un peu de chance des raies-aigles le long du tombant.\n\nNous calons l'arrêt du matin sur l'étale — visibilité optimale et courant minimal. Les enfants de moins de 12 ans entrent gratuitement ; les adultes paient la taxe au ranger sur place."
+          "title": "Le parc marin de Coco. le joyau des îles intérieures",
+          "body": "Coco est un petit groupe de rochers granitiques au large de Félicité, entouré d'un parc marin protégé depuis des décennies. Le récif est à quelques mètres sous la surface, l'eau est plate sous le vent des rochers, et la densité de poissons est honnêtement la meilleure autour de La Digue. Comptez des poissons-perroquets de toutes les couleurs, des bancs de sergent-majors, des tortues imbriquées résidentes, et avec un peu de chance des raies-aigles le long du tombant.\n\nNous calons l'arrêt du matin sur l'étale. visibilité optimale et courant minimal. Les enfants de moins de 12 ans entrent gratuitement ; les adultes paient la taxe au ranger sur place."
         },
         {
           "title": "Déjeuner sur Grande Soeur",
-          "body": "Grande Soeur est la plus grande des deux Sister Islands — une seule plage, un cocotier penché, pas de resort, pas de trafic en dehors des rares charters privés qui viennent à terre. Le déjeuner est un barbecue préparé pendant que vous nagez. L'eau côté baie est assez peu profonde pour marcher 50 mètres au large sans perdre pied.\n\nSi vous voulez plus de temps sur la plage, nous échangeons sur le temps de snorkel — c'est tout l'intérêt d'une journée privée."
+          "body": "Grande Soeur est la plus grande des deux Sister Islands. une seule plage, un cocotier penché, pas de resort, pas de trafic en dehors des rares charters privés qui viennent à terre. Le déjeuner est un barbecue préparé pendant que vous nagez. L'eau côté baie est assez peu profonde pour marcher 50 mètres au large sans perdre pied.\n\nSi vous voulez plus de temps sur la plage, nous échangeons sur le temps de snorkel. c'est tout l'intérêt d'une journée privée."
         },
         {
           "title": "Félicité, Petite Soeur et le décor granitique",
-          "body": "Le circuit passe ensuite devant Félicité — moitié île privée, moitié domaine Six Senses, avec des falaises qui plongent de 80 mètres dans l'eau profonde et ces formes de granite qui ont rendu les Seychelles célèbres. Petite Soeur est la petite jumelle : une bande étroite de sable blanc adossée à une forêt fermée. Nous passons au plus près pour la photo, puis nous mouillons pour une dernière baignade au retour."
+          "body": "Le circuit passe ensuite devant Félicité. moitié île privée, moitié domaine Six Senses, avec des falaises qui plongent de 80 mètres dans l'eau profonde et ces formes de granite qui ont rendu les Seychelles célèbres. Petite Soeur est la petite jumelle : une bande étroite de sable blanc adossée à une forêt fermée. Nous passons au plus près pour la photo, puis nous mouillons pour une dernière baignade au retour."
         },
         {
           "title": "Ce qui distingue cette journée du circuit Curieuse",
-          "body": "Si Curieuse est une journée de terre — les tortues, le sentier, l'histoire — Coco est une journée d'eau. Le snorkeling est plus dense, les îles plus petites et plus vides, la journée est plus dans la mer que dessus. Beaucoup d'invités font les deux sur un séjour de 2 jours ; nous offrons un petit geste fidélité sur la seconde réservation."
+          "body": "Si Curieuse est une journée de terre. les tortues, le sentier, l'histoire. Coco est une journée d'eau. Le snorkeling est plus dense, les îles plus petites et plus vides, la journée est plus dans la mer que dessus. Beaucoup d'invités font les deux sur un séjour de 2 jours ; nous offrons un petit geste fidélité sur la seconde réservation."
         }
       ],
       "highlightsTitle": "Ce qui est inclus dans votre journée Coco",
@@ -419,11 +454,11 @@
       ],
       "itineraryEyebrow": "Une journée dans le parc marin",
       "itineraryTitle": "Itinéraire type, 09h00 à 17h00",
-      "faqTitle": "Île Coco — questions fréquentes",
+      "faqTitle": "Île Coco. questions fréquentes",
       "faq": [
         {
           "q": "Les frais du parc marin de Coco sont-ils inclus ?",
-          "a": "Non — ils sont payés en espèces au ranger à l'arrivée (environ 15€/adulte, gratuit pour les moins de 12 ans). Notre capitaine s'occupe des formalités."
+          "a": "Non. ils sont payés en espèces au ranger à l'arrivée (environ 15€/adulte, gratuit pour les moins de 12 ans). Notre capitaine s'occupe des formalités."
         },
         {
           "q": "Comment le snorkeling se compare-t-il à Curieuse ?",
@@ -431,11 +466,11 @@
         },
         {
           "q": "Peut-on débarquer sur les Sister Islands ?",
-          "a": "Oui — Grande Soeur est ouverte aux visites privées moyennant un petit frais réglé sur la plage. Petite Soeur est une halte visuelle depuis le bateau."
+          "a": "Oui. Grande Soeur est ouverte aux visites privées moyennant un petit frais réglé sur la plage. Petite Soeur est une halte visuelle depuis le bateau."
         },
         {
           "q": "Verra-t-on des tortues ?",
-          "a": "Les observations sont fréquentes autour du parc marin — tortues imbriquées sur les plateaux récifaux, plus rarement une tortue verte en eau plus profonde."
+          "a": "Les observations sont fréquentes autour du parc marin. tortues imbriquées sur les plateaux récifaux, plus rarement une tortue verte en eau plus profonde."
         },
         {
           "q": "L'excursion convient-elle aux non-nageurs ?",
@@ -449,13 +484,13 @@
     },
     "sister-islands": {
       "shortTitle": "Sister Islands",
-      "title": "Sister Islands — Grande Soeur, Petite Soeur & Félicité",
+      "title": "Sister Islands. Grande Soeur, Petite Soeur & Félicité",
       "tagline": "Jumelles granitiques · plage déserte · barbecue",
       "lead": "Deux îlots granitiques au large de Félicité, une plage déserte sur laquelle on peut débarquer, et une baie vide qui vous fait oublier que quelqu'un d'autre utilise ces eaux. Les Sister Islands sont la journée privée la mieux gardée des îles intérieures.",
       "imageAlt": "Rochers granitiques et sable blanc sur les Sister Islands, Seychelles",
       "metaTitle": "Excursion Sister Islands · Grande Soeur en bateau depuis La Digue",
       "metaDescription": "Journée privée en bateau à Grande Soeur et Petite Soeur depuis La Digue. Barbecue de plage, snorkeling, passage devant Félicité. 130€/personne · boissons et déjeuner inclus.",
-      "schemaName": "Sister Islands — Journée privée en bateau depuis La Digue",
+      "schemaName": "Sister Islands. Journée privée en bateau depuis La Digue",
       "factDuration": "8 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -465,24 +500,24 @@
       "sections": [
         {
           "title": "Pourquoi les Sister Islands sont le choix des connaisseurs",
-          "body": "Grande Soeur et Petite Soeur reposent à quelques kilomètres à l'est de Félicité — des jumelles granitiques avec une plage unique entre elles, pas de route, pas de jetée, pas de resort. La plupart des bateaux les croisent en route vers Coco. Nous en faisons la destination.\n\nLa baie ouest de Grande Soeur est un des débarquements les plus calmes des îles intérieures. L'eau est plate sous le vent du rocher, le sable est le même blanc aveuglant qu'Anse Source d'Argent, et la baie est assez petite pour qu'un bateau l'occupe tout entière. Une petite taxe d'accès se règle au staff de l'île à l'arrivée — elle entretient le sentier et la baie."
+          "body": "Grande Soeur et Petite Soeur reposent à quelques kilomètres à l'est de Félicité. des jumelles granitiques avec une plage unique entre elles, pas de route, pas de jetée, pas de resort. La plupart des bateaux les croisent en route vers Coco. Nous en faisons la destination.\n\nLa baie ouest de Grande Soeur est un des débarquements les plus calmes des îles intérieures. L'eau est plate sous le vent du rocher, le sable est le même blanc aveuglant qu'Anse Source d'Argent, et la baie est assez petite pour qu'un bateau l'occupe tout entière. Une petite taxe d'accès se règle au staff de l'île à l'arrivée. elle entretient le sentier et la baie."
         },
         {
           "title": "Ce qu'on fait sur une journée Sister Islands",
-          "body": "Matins côte est pour le snorkeling — les plateaux récifaux au large de Petite Soeur grouillent de sergent-majors, poissons-perroquets et tortues imbriquées résidentes. Déjeuner barbecue préparé pendant que vous nagez. Après-midi on fait le sentier qui traverse Grande Soeur si vous voulez — vingt minutes de granite et jungle jusqu'à un point de vue sur Félicité.\n\nSi vous préférez l'eau à la marche, on échange le sentier contre un second arrêt snorkeling sur le retour."
+          "body": "Matins côte est pour le snorkeling. les plateaux récifaux au large de Petite Soeur grouillent de sergent-majors, poissons-perroquets et tortues imbriquées résidentes. Déjeuner barbecue préparé pendant que vous nagez. Après-midi on fait le sentier qui traverse Grande Soeur si vous voulez. vingt minutes de granite et jungle jusqu'à un point de vue sur Félicité.\n\nSi vous préférez l'eau à la marche, on échange le sentier contre un second arrêt snorkeling sur le retour."
         },
         {
           "title": "Passage de Félicité et décor granitique",
-          "body": "À l'aller et au retour, nous longeons Félicité — la grande voisine, moitié privée, moitié domaine Six Senses. Ses falaises plongent dans 80 mètres d'eau et les formes granitiques y sont les plus spectaculaires des îles intérieures. Nous ne débarquons pas (aucun accès public) mais nous tenons le bateau au large de la pointe sud pour la photo et une baignade selon les conditions."
+          "body": "À l'aller et au retour, nous longeons Félicité. la grande voisine, moitié privée, moitié domaine Six Senses. Ses falaises plongent dans 80 mètres d'eau et les formes granitiques y sont les plus spectaculaires des îles intérieures. Nous ne débarquons pas (aucun accès public) mais nous tenons le bateau au large de la pointe sud pour la photo et une baignade selon les conditions."
         },
         {
-          "title": "Sister Islands vs Coco — laquelle choisir ?",
-          "body": "Pour l'intensité dans l'eau, choisissez Coco — plus de poissons, plus de courant, un parc marin plus serré. Pour avoir une plage à soi, choisissez Sister Islands. Beaucoup d'invités font Coco un jour et Sister Islands le lendemain ; nous offrons un petit geste fidélité sur la seconde réservation."
+          "title": "Sister Islands vs Coco. laquelle choisir ?",
+          "body": "Pour l'intensité dans l'eau, choisissez Coco. plus de poissons, plus de courant, un parc marin plus serré. Pour avoir une plage à soi, choisissez Sister Islands. Beaucoup d'invités font Coco un jour et Sister Islands le lendemain ; nous offrons un petit geste fidélité sur la seconde réservation."
         }
       ],
       "highlightsTitle": "Ce qui est inclus dans votre journée Sister Islands",
       "highlights": [
-        "Bateau privé — votre groupe uniquement",
+        "Bateau privé. votre groupe uniquement",
         "Barbecue à terre sur Grande Soeur",
         "Boissons (eau, sodas, bière) incluses",
         "Matériel snorkeling dans toutes les tailles",
@@ -491,7 +526,7 @@
       ],
       "itineraryEyebrow": "Une journée aux Sister Islands",
       "itineraryTitle": "Itinéraire type, 09h00 à 17h00",
-      "faqTitle": "Sister Islands — questions fréquentes",
+      "faqTitle": "Sister Islands. questions fréquentes",
       "faq": [
         {
           "q": "Y a-t-il une taxe d'accès à Grande Soeur ?",
@@ -499,7 +534,7 @@
         },
         {
           "q": "Peut-on marcher entre Grande Soeur et Petite Soeur ?",
-          "a": "Non — elles sont séparées par un chenal peu profond traversable à la nage à marée basse, mais pas toujours sûr à cause du courant. Le capitaine conseille selon le jour."
+          "a": "Non. elles sont séparées par un chenal peu profond traversable à la nage à marée basse, mais pas toujours sûr à cause du courant. Le capitaine conseille selon le jour."
         },
         {
           "q": "La plage est-elle vraiment privée ?",
@@ -507,11 +542,11 @@
         },
         {
           "q": "Peut-on débarquer sur Petite Soeur ?",
-          "a": "Arrêt visuel uniquement — pas de débarquement. Nous mouillons assez près pour de belles photos et une baignade."
+          "a": "Arrêt visuel uniquement. pas de débarquement. Nous mouillons assez près pour de belles photos et une baignade."
         },
         {
           "q": "Le sentier convient-il aux familles ?",
-          "a": "Oui — vingt minutes de montée progressive sur un sentier balisé. Chaussures solides recommandées ; nous fournissons des chaussures reef-safe si vous n'en avez pas."
+          "a": "Oui. vingt minutes de montée progressive sur un sentier balisé. Chaussures solides recommandées ; nous fournissons des chaussures reef-safe si vous n'en avez pas."
         }
       ],
       "relatedEyebrow": "Souvent combinée avec",
@@ -521,13 +556,13 @@
     },
     "anse-lazio": {
       "shortTitle": "Anse Lazio",
-      "title": "Anse Lazio en bateau — La plage vue depuis l'eau",
+      "title": "Anse Lazio en bateau. La plage vue depuis l'eau",
       "tagline": "Praslin · récif nord · Anse Georgette",
-      "lead": "La plage la plus photographiée de Praslin, abordée comme elle le mérite — depuis l'eau, où l'on voit la courbe complète de la baie, les épaules granitiques et le plateau récifal qui donnent au lagon de Lazio ce turquoise impossible des cartes postales.",
+      "lead": "La plage la plus photographiée de Praslin, abordée comme elle le mérite. depuis l'eau, où l'on voit la courbe complète de la baie, les épaules granitiques et le plateau récifal qui donnent au lagon de Lazio ce turquoise impossible des cartes postales.",
       "imageAlt": "Eau turquoise et granite à Anse Lazio, Praslin, Seychelles",
       "metaTitle": "Excursion Anse Lazio en bateau · Praslin depuis la mer",
       "metaDescription": "Demi-journée privée bateau à Anse Lazio depuis La Digue. Approche par la mer, baignade au mouillage, snorkeling sur le récif nord, arrêt optionnel Anse Georgette. 130€/personne.",
-      "schemaName": "Anse Lazio — Demi-journée privée bateau depuis La Digue",
+      "schemaName": "Anse Lazio. Demi-journée privée bateau depuis La Digue",
       "factDuration": "6 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -537,18 +572,18 @@
       "sections": [
         {
           "title": "Pourquoi Anse Lazio est meilleure depuis l'eau",
-          "body": "Anse Lazio est régulièrement classée parmi les plus belles plages du monde. Par la route on arrive d'un côté, on marche entre les arbres, on pose le pied sur le sable. En bateau, on voit la baie tout entière d'un coup — les épaules granitiques qui l'encadrent, la barre récifale à cent mètres du rivage, le dégradé de couleur du turquoise à l'encre bleu profond.\n\nNous mouillons dans la baie, on vous propose de nager jusqu'à la plage (aucune taxe d'entrée par l'eau), et on utilise le récif nord pour l'arrêt snorkeling. C'est la meilleure manière de voir cette plage sans la partager avec tous les touristes routiers de Praslin."
+          "body": "Anse Lazio est régulièrement classée parmi les plus belles plages du monde. Par la route on arrive d'un côté, on marche entre les arbres, on pose le pied sur le sable. En bateau, on voit la baie tout entière d'un coup. les épaules granitiques qui l'encadrent, la barre récifale à cent mètres du rivage, le dégradé de couleur du turquoise à l'encre bleu profond.\n\nNous mouillons dans la baie, on vous propose de nager jusqu'à la plage (aucune taxe d'entrée par l'eau), et on utilise le récif nord pour l'arrêt snorkeling. C'est la meilleure manière de voir cette plage sans la partager avec tous les touristes routiers de Praslin."
         },
         {
           "title": "Le récif côté nord",
-          "body": "L'extrémité nord d'Anse Lazio a un affleurement granitique qui plonge directement dans 5-8 mètres d'eau claire. Le récif sur cette face est vivant de poissons-perroquets, demoiselles, raie-aigle occasionnelle et une paire résidente de tortues imbriquées. C'est un des arrêts snorkeling les plus constants du côté ouest de Praslin — la visibilité est optimale à la marée du matin."
+          "body": "L'extrémité nord d'Anse Lazio a un affleurement granitique qui plonge directement dans 5-8 mètres d'eau claire. Le récif sur cette face est vivant de poissons-perroquets, demoiselles, raie-aigle occasionnelle et une paire résidente de tortues imbriquées. C'est un des arrêts snorkeling les plus constants du côté ouest de Praslin. la visibilité est optimale à la marée du matin."
         },
         {
           "title": "Arrêt optionnel à Anse Georgette",
-          "body": "Si les conditions le permettent, nous ajoutons un court arrêt à Anse Georgette au retour. Georgette est techniquement dans le domaine du Constance Lemuria mais accessible depuis la mer — la plupart des bateaux ne peuvent y mouiller à cause du récif, mais nous connaissons la ligne d'entrée. Elle est plus vide que Lazio et donne l'impression d'être un demi-degré plus reculée."
+          "body": "Si les conditions le permettent, nous ajoutons un court arrêt à Anse Georgette au retour. Georgette est techniquement dans le domaine du Constance Lemuria mais accessible depuis la mer. la plupart des bateaux ne peuvent y mouiller à cause du récif, mais nous connaissons la ligne d'entrée. Elle est plus vide que Lazio et donne l'impression d'être un demi-degré plus reculée."
         },
         {
-          "title": "Anse Lazio vs Tour de La Digue — laquelle ?",
+          "title": "Anse Lazio vs Tour de La Digue. laquelle ?",
           "body": "Choisissez Anse Lazio pour une demi-journée sur la plus célèbre plage de Praslin sans les foules routières. Choisissez le tour de La Digue pour passer le temps autour de votre propre île et voir Anse Source d'Argent depuis la mer. Les deux fonctionnent en demi-journée ; nous les opérons matin ou après-midi, et Lazio est une de nos meilleures alternatives sunset."
         }
       ],
@@ -563,7 +598,7 @@
       ],
       "itineraryEyebrow": "Demi-journée à Anse Lazio",
       "itineraryTitle": "Itinéraire type, 6 heures",
-      "faqTitle": "Anse Lazio — questions fréquentes",
+      "faqTitle": "Anse Lazio. questions fréquentes",
       "faq": [
         {
           "q": "Y a-t-il une taxe d'entrée à Anse Lazio ?",
@@ -575,15 +610,15 @@
         },
         {
           "q": "La baie est-elle sûre pour les enfants ?",
-          "a": "Oui — le côté lagon est peu profond et protégé. Le récif nord est pour nageurs confirmés."
+          "a": "Oui. le côté lagon est peu profond et protégé. Le récif nord est pour nageurs confirmés."
         },
         {
           "q": "Et les alizés de sud-est ?",
-          "a": "De juin à septembre, les sud-est peuvent rendre Lazio agitée l'après-midi. Nous adaptons — le créneau matin est plus sûr."
+          "a": "De juin à septembre, les sud-est peuvent rendre Lazio agitée l'après-midi. Nous adaptons. le créneau matin est plus sûr."
         },
         {
           "q": "Peut-on combiner Anse Lazio avec St-Pierre ?",
-          "a": "Oui, souvent. Les deux sont à 15 minutes en bateau — beaucoup d'invités font la combinaison en journée complète."
+          "a": "Oui, souvent. Les deux sont à 15 minutes en bateau. beaucoup d'invités font la combinaison en journée complète."
         }
       ],
       "relatedEyebrow": "Souvent combinée avec",
@@ -593,13 +628,13 @@
     },
     "st-pierre-islet": {
       "shortTitle": "Îlot St-Pierre",
-      "title": "Îlot St-Pierre — Le meilleur snorkeling au large de Praslin",
+      "title": "Îlot St-Pierre. Le meilleur snorkeling au large de Praslin",
       "tagline": "Jardin corallien · affleurement granitique · demi-journée",
-      "lead": "Un affleurement granitique de la taille d'un court de tennis, entouré d'un jardin corallien sur lequel on dérive dans 4 mètres d'eau-miroir. St-Pierre est le snorkeling le plus court et le plus dense des îles intérieures — et notre demi-journée la plus demandée.",
+      "lead": "Un affleurement granitique de la taille d'un court de tennis, entouré d'un jardin corallien sur lequel on dérive dans 4 mètres d'eau-miroir. St-Pierre est le snorkeling le plus court et le plus dense des îles intérieures. et notre demi-journée la plus demandée.",
       "imageAlt": "Affleurement granitique de l'îlot St-Pierre près de Praslin, Seychelles",
       "metaTitle": "Excursion îlot St-Pierre · Snorkeling demi-journée bateau privé",
-      "metaDescription": "Demi-journée en bateau depuis La Digue à l'îlot St-Pierre — un des sites de snorkeling les plus riches près de Praslin. 70€/personne, boissons et matériel inclus.",
-      "schemaName": "Îlot St-Pierre — Excursion snorkeling bateau privé depuis La Digue",
+      "metaDescription": "Demi-journée en bateau depuis La Digue à l'îlot St-Pierre. un des sites de snorkeling les plus riches près de Praslin. 70€/personne, boissons et matériel inclus.",
+      "schemaName": "Îlot St-Pierre. Excursion snorkeling bateau privé depuis La Digue",
       "factDuration": "4 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -609,15 +644,15 @@
       "sections": [
         {
           "title": "Pourquoi St-Pierre est la meilleure demi-journée des îles intérieures",
-          "body": "St-Pierre est un seul affleurement granitique au large d'Anse Volbert — environ un kilomètre du rivage, entouré sur trois côtés par un jardin corallien sain dans 3-5 mètres d'eau. La densité de poissons est, honnêtement, la plus forte que vous verrez du côté îles intérieures de Praslin : bancs serrés de sergent-majors, poissons-perroquets de toutes couleurs, souvent une tortue imbriquée au repos sur le fond.\n\nNous nous mettons à l'eau sur la face sud pour le courant doux et le récif plus large, dérivons vers le nord sur la marée changeante, et vous récupérons sur l'arrière. L'arrêt complet dure environ 90 minutes — assez long pour tout voir, assez court pour ne fatiguer personne."
+          "body": "St-Pierre est un seul affleurement granitique au large d'Anse Volbert. environ un kilomètre du rivage, entouré sur trois côtés par un jardin corallien sain dans 3-5 mètres d'eau. La densité de poissons est, honnêtement, la plus forte que vous verrez du côté îles intérieures de Praslin : bancs serrés de sergent-majors, poissons-perroquets de toutes couleurs, souvent une tortue imbriquée au repos sur le fond.\n\nNous nous mettons à l'eau sur la face sud pour le courant doux et le récif plus large, dérivons vers le nord sur la marée changeante, et vous récupérons sur l'arrière. L'arrêt complet dure environ 90 minutes. assez long pour tout voir, assez court pour ne fatiguer personne."
         },
         {
           "title": "Combiner St-Pierre avec Anse Volbert",
-          "body": "Sur le retour, nous ajoutons un arrêt plage à Anse Volbert — la plage principale de Praslin sur la Côte d'Or, un long arc de sable blanc avec les hôtels du lagon d'un côté et les bateaux au mouillage de l'autre. Baignade, marche, noix de coco au kiosque. Beaucoup d'invités l'utilisent comme arrêt déjeuner avant de rentrer à La Digue."
+          "body": "Sur le retour, nous ajoutons un arrêt plage à Anse Volbert. la plage principale de Praslin sur la Côte d'Or, un long arc de sable blanc avec les hôtels du lagon d'un côté et les bateaux au mouillage de l'autre. Baignade, marche, noix de coco au kiosque. Beaucoup d'invités l'utilisent comme arrêt déjeuner avant de rentrer à La Digue."
         },
         {
           "title": "Quand la visibilité est à son meilleur",
-          "body": "St-Pierre est bon toute l'année mais le sweet spot est entre avril et octobre — vents légers de sud-est, faible pluviométrie, visibilité souvent supérieure à 15 mètres. Décembre-février peut être excellent les jours calmes mais plus variable. Le capitaine vérifie les prévisions le matin et adapte le plan si besoin."
+          "body": "St-Pierre est bon toute l'année mais le sweet spot est entre avril et octobre. vents légers de sud-est, faible pluviométrie, visibilité souvent supérieure à 15 mètres. Décembre-février peut être excellent les jours calmes mais plus variable. Le capitaine vérifie les prévisions le matin et adapte le plan si besoin."
         },
         {
           "title": "St-Pierre vs Parc marin de Coco",
@@ -635,27 +670,27 @@
       ],
       "itineraryEyebrow": "Demi-journée à St-Pierre",
       "itineraryTitle": "Itinéraire type, 4 heures",
-      "faqTitle": "Îlot St-Pierre — questions fréquentes",
+      "faqTitle": "Îlot St-Pierre. questions fréquentes",
       "faq": [
         {
           "q": "Y a-t-il une taxe de parc marin à St-Pierre ?",
-          "a": "Non — St-Pierre lui-même est hors des parcs gazettés. Aucune taxe journalière requise."
+          "a": "Non. St-Pierre lui-même est hors des parcs gazettés. Aucune taxe journalière requise."
         },
         {
           "q": "Quelle est la profondeur sur le site de snorkeling ?",
-          "a": "Entre 3 et 8 mètres autour de l'îlot — plus peu profond sur la face sud, descendant à 12 m derrière le rocher."
+          "a": "Entre 3 et 8 mètres autour de l'îlot. plus peu profond sur la face sud, descendant à 12 m derrière le rocher."
         },
         {
           "q": "Les enfants peuvent-ils snorkeler ici ?",
-          "a": "Oui — gilets disponibles, face sud peu profonde et protégée, le capitaine reste à proximité dans l'annexe si besoin."
+          "a": "Oui. gilets disponibles, face sud peu profonde et protégée, le capitaine reste à proximité dans l'annexe si besoin."
         },
         {
           "q": "Peut-on débarquer sur St-Pierre ?",
-          "a": "C'est du granite nu — pas de sentier, pas d'installations. Pas de débarquement. Snorkeling uniquement."
+          "a": "C'est du granite nu. pas de sentier, pas d'installations. Pas de débarquement. Snorkeling uniquement."
         },
         {
           "q": "Peut-on combiner avec Curieuse ?",
-          "a": "Oui — cela ajoute environ une heure et transforme la journée en combinaison Curieuse + St-Pierre. Très populaire."
+          "a": "Oui. cela ajoute environ une heure et transforme la journée en combinaison Curieuse + St-Pierre. Très populaire."
         }
       ],
       "relatedEyebrow": "Souvent combinée avec",
@@ -665,13 +700,13 @@
     },
     "sunset-cruise": {
       "shortTitle": "Coucher de soleil",
-      "title": "Croisière coucher de soleil La Digue — La dernière lumière du jour",
+      "title": "Croisière coucher de soleil La Digue. La dernière lumière du jour",
       "tagline": "Anse Source d'Argent à l'heure dorée · boissons · privé",
       "lead": "Trois heures sur l'eau au seul moment où les îles intérieures virent à l'or. Embarquement à 16h30, nous longeons la côte est de La Digue, tenons le bateau au large d'Anse Source d'Argent pour le coucher de soleil, et dérivons jusqu'au port sous la dernière couleur du jour.",
       "imageAlt": "Le bateau Master au coucher du soleil autour de La Digue, Seychelles",
       "metaTitle": "Croisière sunset La Digue · Bateau privé à l'heure dorée Seychelles",
-      "metaDescription": "Croisière coucher de soleil privée depuis La Digue — Anse Source d'Argent à l'heure dorée, boissons, plateau à bord. 70€/personne · 3 heures · 10 invités max.",
-      "schemaName": "Croisière coucher de soleil La Digue — Bateau privé à l'heure dorée",
+      "metaDescription": "Croisière coucher de soleil privée depuis La Digue. Anse Source d'Argent à l'heure dorée, boissons, plateau à bord. 70€/personne · 3 heures · 10 invités max.",
+      "schemaName": "Croisière coucher de soleil La Digue. Bateau privé à l'heure dorée",
       "factDuration": "3 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -681,19 +716,19 @@
       "sections": [
         {
           "title": "Pourquoi les îles intérieures sont à leur apogée au coucher",
-          "body": "Le coucher de soleil aux Seychelles est court — vingt minutes du doré au noir — mais ces vingt minutes-là sont pour quoi les gens voyagent. Le granite de La Digue, rose en lumière d'après-midi, tourne à l'orange puis au rouge profond. Le lagon passe du turquoise à l'étain. Le récif dessine une ligne plus sombre sur l'eau. Depuis le bateau, moteur coupé, le seul son est celui de la houle contre la coque.\n\nNous calons la croisière sur l'angle solaire du jour — embarquement à 16h30, position au large d'Anse Source d'Argent entre 17h30 et 18h00, retour au port entre 19h00 et 19h30 selon le mois."
+          "body": "Le coucher de soleil aux Seychelles est court. vingt minutes du doré au noir. mais ces vingt minutes-là sont pour quoi les gens voyagent. Le granite de La Digue, rose en lumière d'après-midi, tourne à l'orange puis au rouge profond. Le lagon passe du turquoise à l'étain. Le récif dessine une ligne plus sombre sur l'eau. Depuis le bateau, moteur coupé, le seul son est celui de la houle contre la coque.\n\nNous calons la croisière sur l'angle solaire du jour. embarquement à 16h30, position au large d'Anse Source d'Argent entre 17h30 et 18h00, retour au port entre 19h00 et 19h30 selon le mois."
         },
         {
           "title": "Anse Source d'Argent à l'heure dorée",
-          "body": "Le parc terrestre ferme à 18h00. Depuis la mer, la plage reste ouverte tant qu'on peut la voir. Nous tenons le bateau à 80 mètres du rivage — assez près pour que les formes granitiques semblent hautes de trois étages, assez loin pour que le sillage ne dérange personne encore sur la plage. Si la marée le permet, vous pouvez quitter le bateau et marcher jusqu'au sable. La plupart des invités restent à bord avec un verre et regardent."
+          "body": "Le parc terrestre ferme à 18h00. Depuis la mer, la plage reste ouverte tant qu'on peut la voir. Nous tenons le bateau à 80 mètres du rivage. assez près pour que les formes granitiques semblent hautes de trois étages, assez loin pour que le sillage ne dérange personne encore sur la plage. Si la marée le permet, vous pouvez quitter le bateau et marcher jusqu'au sable. La plupart des invités restent à bord avec un verre et regardent."
         },
         {
           "title": "Ce qu'il y a à bord",
-          "body": "Une bouteille fraîche (vous choisissez à la réservation — pétillant, blanc, rosé ou sans alcool), eau, sodas, et une petite assiette — fruits locaux, fromage, petites bouchées. Le capitaine garde le moteur bas et la route douce. Pas de micro, pas d'animation de groupe — c'est votre soirée."
+          "body": "Une bouteille fraîche (vous choisissez à la réservation. pétillant, blanc, rosé ou sans alcool), eau, sodas, et une petite assiette. fruits locaux, fromage, petites bouchées. Le capitaine garde le moteur bas et la route douce. Pas de micro, pas d'animation de groupe. c'est votre soirée."
         },
         {
           "title": "La version honeymoon",
-          "body": "Si vous réservez le sunset pour une occasion (voyage de noces, anniversaire, demande en mariage), dites-le. Nous ajoutons une petite surprise — des fleurs du marché local, une carte du capitaine, un itinéraire un peu plus long qui passe par Petite Anse où presque aucun autre bateau ne va. Nous faisons ça discrètement ; aucune mention de la surprise à bord."
+          "body": "Si vous réservez le sunset pour une occasion (voyage de noces, anniversaire, demande en mariage), dites-le. Nous ajoutons une petite surprise. des fleurs du marché local, une carte du capitaine, un itinéraire un peu plus long qui passe par Petite Anse où presque aucun autre bateau ne va. Nous faisons ça discrètement ; aucune mention de la surprise à bord."
         }
       ],
       "highlightsTitle": "Ce qui est inclus dans la croisière coucher de soleil",
@@ -707,15 +742,15 @@
       ],
       "itineraryEyebrow": "Trois heures au coucher",
       "itineraryTitle": "Itinéraire type, 16h30 à 19h30",
-      "faqTitle": "Coucher de soleil — questions fréquentes",
+      "faqTitle": "Coucher de soleil. questions fréquentes",
       "faq": [
         {
           "q": "À quelle heure commence la croisière ?",
-          "a": "Embarquement à 16h30 — nous ajustons de 30 minutes selon le mois et l'heure réelle du coucher. Nous confirmons l'heure exacte la veille."
+          "a": "Embarquement à 16h30. nous ajustons de 30 minutes selon le mois et l'heure réelle du coucher. Nous confirmons l'heure exacte la veille."
         },
         {
           "q": "Peut-on réserver pour une demande en mariage ou un voyage de noces ?",
-          "a": "Oui — dites-le à la réservation et nous ajoutons une petite surprise (fleurs, carte du capitaine, route un peu plus longue). Ça reste discret."
+          "a": "Oui. dites-le à la réservation et nous ajoutons une petite surprise (fleurs, carte du capitaine, route un peu plus longue). Ça reste discret."
         },
         {
           "q": "Y a-t-il à manger à bord ?",
@@ -723,11 +758,11 @@
         },
         {
           "q": "Et si le temps est couvert ?",
-          "a": "Si les prévisions annoncent un ciel complètement couvert, nous proposons un report gratuit. Des nuages légers rendent souvent les couleurs plus spectaculaires — nous serons honnêtes le matin-même."
+          "a": "Si les prévisions annoncent un ciel complètement couvert, nous proposons un report gratuit. Des nuages légers rendent souvent les couleurs plus spectaculaires. nous serons honnêtes le matin-même."
         },
         {
           "q": "Peut-on se baigner pendant la croisière ?",
-          "a": "Oui, selon la météo — généralement un court arrêt à Anse Source d'Argent ou Petite Anse. Apportez un maillot."
+          "a": "Oui, selon la météo. généralement un court arrêt à Anse Source d'Argent ou Petite Anse. Apportez un maillot."
         }
       ],
       "relatedEyebrow": "Souvent combinée avec",
@@ -737,13 +772,13 @@
     },
     "la-digue-tour": {
       "shortTitle": "Tour de La Digue",
-      "title": "La Digue par la mer — Anse Source d'Argent depuis l'eau",
+      "title": "La Digue par la mer. Anse Source d'Argent depuis l'eau",
       "tagline": "Anse Source d'Argent · Anse Cocos · Grande Anse",
-      "lead": "Demi-journée ou coucher de soleil autour de La Digue, vue comme l'île a toujours dû être vue — depuis l'eau. On glisse le long du granite, on mouille là où aucune route ne va, on finit sur les plages côté falaise à l'heure dorée.",
+      "lead": "Demi-journée ou coucher de soleil autour de La Digue, vue comme l'île a toujours dû être vue. depuis l'eau. On glisse le long du granite, on mouille là où aucune route ne va, on finit sur les plages côté falaise à l'heure dorée.",
       "imageAlt": "Le bateau Master longeant les falaises granitiques de La Digue, Seychelles",
       "metaTitle": "Tour de La Digue en bateau · Anse Source d'Argent depuis la mer",
       "metaDescription": "Tour privé demi-journée ou sunset autour de La Digue : Anse Source d'Argent depuis l'eau, Anse Cocos, Grande Anse, Petite Anse. 70€/personne, boissons incluses.",
-      "schemaName": "Tour de La Digue — Bateau privé · Plages & coucher de soleil",
+      "schemaName": "Tour de La Digue. Bateau privé · Plages & coucher de soleil",
       "factDuration": "4 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
@@ -753,15 +788,15 @@
       "sections": [
         {
           "title": "Pourquoi la plus belle vue de La Digue se prend depuis le bateau",
-          "body": "La plupart des visiteurs voient La Digue depuis la selle d'un vélo — ce qui est bien, mais partiel. La vraie silhouette de l'île, ce sont ses 9 kilomètres de côte granitique, les falaises de l'est qui plongent dans l'eau profonde, les plages accessibles uniquement par la mer comme Anse Cocos et Petite Anse, et Anse Source d'Argent à l'heure du couchant — quand la route est fermée mais l'eau est ouverte.\n\nNous proposons deux versions. Un circuit matin avec deux mouillages et une baignade. Un circuit coucher de soleil qui cale Anse Source d'Argent sur l'heure dorée et revient au port sous un ciel qu'on ne voit qu'en carte postale."
+          "body": "La plupart des visiteurs voient La Digue depuis la selle d'un vélo. ce qui est bien, mais partiel. La vraie silhouette de l'île, ce sont ses 9 kilomètres de côte granitique, les falaises de l'est qui plongent dans l'eau profonde, les plages accessibles uniquement par la mer comme Anse Cocos et Petite Anse, et Anse Source d'Argent à l'heure du couchant. quand la route est fermée mais l'eau est ouverte.\n\nNous proposons deux versions. Un circuit matin avec deux mouillages et une baignade. Un circuit coucher de soleil qui cale Anse Source d'Argent sur l'heure dorée et revient au port sous un ciel qu'on ne voit qu'en carte postale."
         },
         {
           "title": "Anse Source d'Argent vue de l'eau",
-          "body": "Depuis la mer, Anse Source d'Argent révèle ce que le sentier ne montre pas : la longue courbe d'épaules de granite derrière le cocotier célèbre, le plateau récifal qui tourne le lagon turquoise, et — à marée basse — un banc de sable où l'on peut quitter le bateau dans 30 cm d'eau et marcher jusqu'à la plage.\n\nLe parc a une taxe d'entrée côté terre ; depuis l'eau, on mouille au large et vous nagez si vous le souhaitez."
+          "body": "Depuis la mer, Anse Source d'Argent révèle ce que le sentier ne montre pas : la longue courbe d'épaules de granite derrière le cocotier célèbre, le plateau récifal qui tourne le lagon turquoise, et. à marée basse. un banc de sable où l'on peut quitter le bateau dans 30 cm d'eau et marcher jusqu'à la plage.\n\nLe parc a une taxe d'entrée côté terre ; depuis l'eau, on mouille au large et vous nagez si vous le souhaitez."
         },
         {
           "title": "Anse Cocos et les plages de la côte est",
-          "body": "Anse Cocos est une de ces plages des Seychelles sans accès terrestre facile — longue marche depuis Grande Anse ou courte nage depuis le bateau. Idem pour Petite Anse : un bandeau de sable encadré par deux épaules de granite, avec une seule maison derrière. Nous mouillons sous le vent, vous nagez ou snorklez ; le capitaine reste avec le bateau."
+          "body": "Anse Cocos est une de ces plages des Seychelles sans accès terrestre facile. longue marche depuis Grande Anse ou courte nage depuis le bateau. Idem pour Petite Anse : un bandeau de sable encadré par deux épaules de granite, avec une seule maison derrière. Nous mouillons sous le vent, vous nagez ou snorklez ; le capitaine reste avec le bateau."
         },
         {
           "title": "La version coucher de soleil",
@@ -779,14 +814,14 @@
       ],
       "itineraryEyebrow": "Demi-journée autour de l'île",
       "itineraryTitle": "Itinéraire type, 4 heures",
-      "faqTitle": "Tour de La Digue — questions fréquentes",
+      "faqTitle": "Tour de La Digue. questions fréquentes",
       "faq": [
         {
           "q": "Peut-on débarquer à Anse Source d'Argent ?",
-          "a": "Oui — vous nagez depuis le bateau mouillé. À marée basse c'est à peine plus qu'une marche. La taxe parc côté terre n'est nécessaire que si vous allez plus loin à l'intérieur."
+          "a": "Oui. vous nagez depuis le bateau mouillé. À marée basse c'est à peine plus qu'une marche. La taxe parc côté terre n'est nécessaire que si vous allez plus loin à l'intérieur."
         },
         {
-          "q": "Sunset cruise ou tour matin — lequel choisir ?",
+          "q": "Sunset cruise ou tour matin. lequel choisir ?",
           "a": "Coucher de soleil pour la lumière et le calme. Matin si vous voulez plus de temps de baignade et de snorkel."
         },
         {
@@ -799,7 +834,7 @@
         },
         {
           "q": "La mer est-elle calme toute l'année ?",
-          "a": "À l'intérieur de La Digue, calme la majeure partie de l'année. Côté est, les alizés de sud-est (juin-septembre) amènent un peu de houle — nous adaptons la route."
+          "a": "À l'intérieur de La Digue, calme la majeure partie de l'année. Côté est, les alizés de sud-est (juin-septembre) amènent un peu de houle. nous adaptons la route."
         }
       ],
       "relatedEyebrow": "Souvent combinée avec",
@@ -811,19 +846,19 @@
   "boat": {
     "eyebrow": "Le bateau",
     "title": "Pensé pour les îles intérieures",
-    "lead": "Un center console moderne, équipé du snorkeling à la pêche au large — confortable, rapide, silencieux au mouillage.",
+    "lead": "Un center console moderne, équipé du snorkeling à la pêche au large. confortable, rapide, silencieux au mouillage.",
     "specs": {
       "capacity": {
         "label": "Capacité",
-        "value": "10 invités"
+        "value": "12 invités"
       },
       "length": {
         "label": "Longueur",
-        "value": "8 mètres"
+        "value": "9 mètres"
       },
       "engines": {
         "label": "Moteurs",
-        "value": "Hors-bords jumelés"
+        "value": "2 × 250 ch Yamaha"
       },
       "shade": {
         "label": "Ombre",
@@ -835,14 +870,14 @@
       },
       "safety": {
         "label": "Sécurité",
-        "value": "Gilets · trousse · VHF"
+        "value": "Conforme aux normes maritimes des Seychelles"
       }
     }
   },
   "captain": {
     "eyebrow": "Le capitaine",
     "title": "Un Seychellois à la barre.",
-    "lead": "Votre journée est confiée au capitaine qui connaît ces eaux par cœur — chaque récif, chaque vent qui tourne, chaque mouillage discret que les touristes n'atteignent jamais.",
+    "lead": "Votre journée est confiée au capitaine qui connaît ces eaux par cœur. chaque récif, chaque vent qui tourne, chaque mouillage discret que les touristes n'atteignent jamais.",
     "bio": "Né et grandi à La Digue. Des années à pêcher sur les bancs intérieurs avant de se mettre au charter. Un seul bateau, par choix : chaque invité reçoit toute son attention, et chaque récif reste comme il l'a connu enfant.",
     "languagesLabel": "Parle",
     "languages": "Anglais · Français · Créole",
@@ -859,11 +894,11 @@
     "sections": [
         {
           "title": "Né sur le bon rocher",
-          "body": "Né à La Digue, grandi entre le port et le récif. École sur l'île jusqu'au secondaire à Praslin, puis les bateaux de la famille — la pêche sur les bancs intérieurs avec son père dès l'adolescence. Le genre de vie où l'on connaît le nom de plus de poissons que de rues."
+          "body": "Né à La Digue, grandi entre le port et le récif. École sur l'île jusqu'au secondaire à Praslin, puis les bateaux de la famille. la pêche sur les bancs intérieurs avec son père dès l'adolescence. Le genre de vie où l'on connaît le nom de plus de poissons que de rues."
         },
         {
           "title": "De la pêche au charter",
-          "body": "Après des années de pêche commerciale, il a vu comment le tourisme de masse traitait ces îles et a décidé qu'il préférerait en faire moins et le faire bien. Un bateau. Local. Direct. La première journée charter privée remonte à des années — même capitaine, même bateau, juste plus d'invités aujourd'hui."
+          "body": "Après des années de pêche commerciale, il a vu comment le tourisme de masse traitait ces îles et a décidé qu'il préférerait en faire moins et le faire bien. Un bateau. Local. Direct. La première journée charter privée remonte à des années. même capitaine, même bateau, juste plus d'invités aujourd'hui."
         },
         {
           "title": "Pourquoi un seul bateau",
@@ -885,27 +920,27 @@
   "day": {
     "eyebrow": "Une journée en mer",
     "title": "À quoi ressemble une journée sur le Master.",
-    "lead": "Une journée type. Les horaires bougent avec la météo, la marée et vos envies — c'est tout l'intérêt d'être en privé.",
+    "lead": "Une journée type. Les horaires bougent avec la météo, la marée et vos envies. c'est tout l'intérêt d'être en privé.",
     "steps": [
       {
-        "time": "08:00",
+        "time": "09:00",
         "title": "Départ de La Digue",
         "body": "Embarquement au ponton. Briefing, gilets, palmes-masque-tuba ajustés. Café à bord."
       },
       {
-        "time": "09:00",
+        "time": "10:00",
         "title": "Premier spot snorkeling",
-        "body": "Un récif protégé choisi le matin même par le capitaine, en fonction de la visibilité et du courant."
+        "body": "Un récif protégé choisi le matin même par le capitaine, en fonction de la visibilité et du courant. Tortues, poissons coralliens, coraux."
       },
       {
-        "time": "11:00",
+        "time": "12:00",
         "title": "Île déserte",
         "body": "Marche, baignade, escalade des rochers granitiques. Une plage où l'on ne voit aucun autre bateau quand c'est possible."
       },
       {
         "time": "13:00",
         "title": "Déjeuner à terre",
-        "body": "Barbecue sur une plage tranquille — poisson grillé, salades, fruits frais. Boissons incluses."
+        "body": "Barbecue sur une plage tranquille : poisson grillé, salades, fruits frais. Boissons incluses. Les invités demi-journée débarquent ici."
       },
       {
         "time": "15:00",
@@ -920,8 +955,8 @@
     ]
   },
   "reassurance": {
-    "noPayment": "Sans carte bancaire",
-    "confirm": "Confirmation sous 2h",
+    "noPayment": "20% d'acompte seulement",
+    "confirm": "Confirmation Express",
     "cancel": "Annulation gratuite jusqu'à 72h",
     "oneGroup": "Un groupe par jour"
   },
@@ -932,7 +967,7 @@
     "insurance": "Assurance",
     "insuranceValue": "Responsabilité civile marine complète",
     "registration": "Immatriculation",
-    "registrationValue": "Seychelles Licensing Authority — licence disponible sur demande",
+    "registrationValue": "Seychelles Licensing Authority. licence disponible sur demande",
     "termsLink": "Conditions générales",
     "privacyLink": "Politique de confidentialité"
   },
@@ -947,7 +982,8 @@
   "booking": {
     "eyebrow": "Réservation",
     "title": "Réservez votre journée",
-    "lead": "Choisissez une date, un créneau et parlez-nous de votre groupe. Nous confirmons par email et WhatsApp en quelques heures.",
+    "lead": "Choisissez une date, un créneau et parlez-nous de votre groupe. Confirmation Express par email et WhatsApp. Un acompte de 20% confirme la réservation, le solde se règle le jour-même.",
+    "depositLabel": "20% d'acompte confirme · solde le jour-même",
     "stepActivity": "Activité",
     "stepDate": "Date & horaire",
     "stepGuests": "Personnes",
@@ -962,12 +998,12 @@
     "email": "Email",
     "phone": "Téléphone (WhatsApp préféré)",
     "comments": "Commentaires ou demandes spéciales",
-    "commentsPlaceholder": "Dites-nous tout ce qui peut aider — enfants à bord, régimes, occasions spéciales…",
+    "commentsPlaceholder": "Dites-nous tout ce qui peut aider. enfants à bord, régimes, occasions spéciales…",
     "agreeTerms": "Je comprends que le bateau est unique et que mon créneau m'est réservé en exclusivité après confirmation.",
     "submit": "Envoyer la demande",
     "submitting": "Envoi…",
     "successTitle": "Demande envoyée",
-    "successBody": "Merci. Nous avons reçu votre demande et confirmerons par email et WhatsApp très prochainement. Le créneau est tenu en attente de confirmation.",
+    "successBody": "Merci. Nous avons reçu votre demande. Confirmation Express par email et WhatsApp très prochainement, avec les instructions pour l'acompte de 20%. Le créneau est tenu en attente de confirmation.",
     "errorTitle": "Une erreur est survenue",
     "errorBody": "Nous n'avons pas pu envoyer votre demande. Réessayez ou contactez-nous directement sur WhatsApp.",
     "policyTitle": "Un bateau, une réservation",
@@ -985,11 +1021,11 @@
         "items": [
           {
             "q": "Comment réserver une excursion en bateau ?",
-            "a": "Choisissez une date et un créneau sur la page de réservation (environ 2 minutes). Vous recevez une confirmation par email et WhatsApp sous 2 heures. Aucune carte n'est demandée à ce stade — paiement par virement ou en espèces le jour-même."
+            "a": "Choisissez une date et un créneau sur la page de réservation (environ 2 minutes). Vous recevez une confirmation par email et WhatsApp sous 2 heures. Aucune carte n'est demandée à ce stade. paiement par virement ou en espèces le jour-même."
           },
           {
             "q": "Faut-il payer à l'avance ?",
-            "a": "Non. Les réservations sont confirmées sans acompte. Nous faisons confiance à nos invités et demandons la même chose en retour — annulez au moins 72h avant si vos plans changent."
+            "a": "Un acompte de 20% est requis pour confirmer votre réservation. Le solde est réglé le jour de l'activité, par virement ou en espèces."
           },
           {
             "q": "Quelle est la politique d'annulation ?",
@@ -997,11 +1033,11 @@
           },
           {
             "q": "Sous combien de temps confirmez-vous la réservation ?",
-            "a": "Sous 2 heures pendant nos heures d'opération (8h-20h heure Seychelles, UTC+4)."
+            "a": "Confirmation Express pendant nos heures d'opération (8h-20h heure Seychelles, UTC+4), généralement en quelques minutes par WhatsApp."
           },
           {
             "q": "Peut-on réserver un groupe privé de 12+ personnes ?",
-            "a": "Notre bateau accueille 10 invités. Pour des groupes plus grands, nous coordonnons avec un bateau partenaire — contactez le capitaine sur WhatsApp."
+            "a": "Notre bateau accueille 10 invités. Pour des groupes plus grands, nous coordonnons avec un bateau partenaire. contactez le capitaine sur WhatsApp."
           }
         ]
       },
@@ -1010,15 +1046,15 @@
         "items": [
           {
             "q": "Y a-t-il des toilettes à bord ?",
-            "a": "Oui — toilettes marines avec porte, pour tous les invités."
+            "a": "Oui. toilettes marines avec porte, pour tous les invités."
           },
           {
             "q": "Boissons et nourriture sont-elles incluses ?",
-            "a": "Les boissons (eau, sodas, bière) sont incluses sur chaque sortie. Les journées complètes incluent un barbecue à terre — poisson grillé, salades, fruits frais. Pour des besoins spécifiques (allergies, etc.), précisez-le à la réservation."
+            "a": "Les boissons (eau, sodas, bière) sont incluses sur chaque sortie. Les journées complètes incluent un barbecue à terre. poisson grillé, salades, fruits frais. Pour des besoins spécifiques (allergies, etc.), précisez-le à la réservation."
           },
           {
             "q": "Fournissez-vous le matériel de snorkeling ?",
-            "a": "Oui — masques, tubas et palmes dans toutes les tailles. Apportez le vôtre si vous préférez."
+            "a": "Oui. masques, tubas et palmes dans toutes les tailles. Apportez le vôtre si vous préférez."
           },
           {
             "q": "Le bateau est-il abrité du soleil ?",
@@ -1035,7 +1071,7 @@
         "items": [
           {
             "q": "Verra-t-on des tortues ?",
-            "a": "Très souvent — les tortues imbriquées sont présentes toute l'année sur nos sites de snorkeling autour de Curieuse, Coco et St-Pierre. Les tortues vertes pondent en saison sur les plages protégées."
+            "a": "Très souvent. les tortues imbriquées sont présentes toute l'année sur nos sites de snorkeling autour de Curieuse, Coco et St-Pierre. Les tortues vertes pondent en saison sur les plages protégées."
           },
           {
             "q": "Quand peut-on voir des requins-baleines ?",
@@ -1043,7 +1079,7 @@
           },
           {
             "q": "Et le mal de mer ?",
-            "a": "À l'intérieur des îles intérieures, la mer est généralement calme et protégée. En pêche au gros la houle est plus marquée — nous adaptons selon les prévisions du jour."
+            "a": "À l'intérieur des îles intérieures, la mer est généralement calme et protégée. En pêche au gros la houle est plus marquée. nous adaptons selon les prévisions du jour."
           },
           {
             "q": "Les enfants peuvent-ils embarquer ?",
@@ -1055,7 +1091,7 @@
           },
           {
             "q": "Que faut-il apporter ?",
-            "a": "Crème solaire reef-safe, serviette, maillot, casquette, une couche légère pour le retour. Nous fournissons le reste — matériel snorkeling, boissons, repas en journée complète, gilets, trousse de premiers soins."
+            "a": "Crème solaire reef-safe, serviette, maillot, casquette, une couche légère pour le retour. Nous fournissons le reste. matériel snorkeling, boissons, repas en journée complète, gilets, trousse de premiers soins."
           }
         ]
       }
@@ -1067,7 +1103,7 @@
     "items": [
       {
         "q": "Où êtes-vous basés ?",
-        "a": "Nous sommes basés à La Digue et opérons à La Digue, Praslin, Mahé, Curieuse, Cousin, Coco, Grande Soeur, Petite Soeur, Félicité, St Pierre et plus."
+        "a": "Nous opérons depuis La Digue pour visiter toutes les îles intérieures : Praslin, Mahé, Curieuse, Cousin, Coco, Grande Soeur, Petite Soeur, Félicité, St Pierre et plus."
       },
       {
         "q": "Pourquoi un seul bateau ?",
@@ -1075,7 +1111,11 @@
       },
       {
         "q": "Boissons et nourriture incluses ?",
-        "a": "Les boissons sont incluses sur chaque sortie. Les journées complètes incluent un barbecue à terre. La pêche inclut des snacks. Menus personnalisables."
+        "a": "Les boissons sont incluses sur chaque sortie. La nourriture est incluse selon la formule : les journées complètes incluent un barbecue à terre, la pêche inclut des snacks. Menus personnalisables sur demande."
+      },
+      {
+        "q": "Comment payer ?",
+        "a": "Un acompte de 20% confirme la réservation. Le solde est réglé le jour de l'activité, par virement ou en espèces."
       },
       {
         "q": "Les taxes parc marin sont-elles incluses ?",
@@ -1091,11 +1131,11 @@
       },
       {
         "q": "Et le mal de mer ?",
-        "a": "À l'intérieur des îles intérieures, la mer est généralement calme et protégée. En pêche au gros la houle est plus marquée — nous adaptons selon les conditions du jour."
+        "a": "À l'intérieur des îles intérieures, la mer est généralement calme et protégée. En pêche au gros la houle est plus marquée. nous adaptons selon les conditions du jour."
       },
       {
         "q": "Comment payer ?",
-        "a": "La réservation en ligne est une demande — aucune carte n'est demandée à ce stade. Nous confirmons par email et WhatsApp et organisons le paiement par virement ou en espèces le jour-même."
+        "a": "La réservation en ligne est une demande. aucune carte n'est demandée à ce stade. Nous confirmons par email et WhatsApp et organisons le paiement par virement ou en espèces le jour-même."
       }
     ]
   },
@@ -1123,7 +1163,7 @@
       "block4": "Choisissez votre date, votre activité et réservez en ligne. Grâce à notre calendrier intelligent, vous ne pouvez pas réserver un créneau déjà pris, et chaque confirmation est traitée par notre équipe.",
       "block5Title": "Une expérience sur-mesure",
       "block5": "Pique-nique sur une plage déserte ? Arrêt baignade dans un lagon turquoise ? Visite guidée de Curieuse, Saint-Pierre ou Félicité ? Chaque sortie est adaptée à vos envies.",
-      "outro": "Réservez votre excursion dès maintenant et partez à la découverte des trésors marins des Seychelles avec Master Boat Charter — votre partenaire mer & aventure."
+      "outro": "Réservez votre excursion dès maintenant et partez à la découverte des trésors marins des Seychelles avec Master Boat Charter. votre partenaire mer & aventure."
     }
   },
   "about": {
@@ -1131,7 +1171,7 @@
     "title": "Un seul bateau. Un archipel entier.",
     "lead": "Master Boat Charter est une petite structure locale fondée sur une idée simple : faire moins, le faire bien, et laisser la mer exactement comme on l'a trouvée.",
     "storyTitle": "Notre histoire",
-    "story": "Nous avons commencé avec un bateau, un amour profond pour ces eaux et une frustration face au tourisme de masse. Des années plus tard, le bateau est le même. L'approche aussi. Ce qui a grandi, c'est la confiance — celle des invités qui reviennent, et celle des guides locaux qui choisissent de travailler avec nous.",
+    "story": "Nous avons commencé avec un bateau, un amour profond pour ces eaux et une frustration face au tourisme de masse. Des années plus tard, le bateau est le même. L'approche aussi. Ce qui a grandi, c'est la confiance. celle des invités qui reviennent, et celle des guides locaux qui choisissent de travailler avec nous.",
     "valuesTitle": "Ce qui nous tient à cœur",
     "values": [
       {
@@ -1182,18 +1222,21 @@
     "praslinMahe": "Praslin ↔ Mahé",
     "maheLaDigue": "Mahé ↔ La Digue",
     "onRequest": "Sur demande",
+    "transferQuote": "Devis transfert sur-mesure",
+    "snorkelingGearIncluded": "Palmes, masques, tubas inclus à bord",
+    "depositInfo": "20% d'acompte confirme la réservation, solde le jour-même",
     "drinksIncluded": "Boissons incluses",
     "snackIncluded": "Snack inclus",
     "toiletOnboard": "Toilettes à bord",
     "skipperIncluded": "Skipper inclus",
     "marineParkFees": "Taxes parc marin non incluses",
-    "upTo10": "Jusqu'à 10 personnes",
+    "upTo10": "Jusqu'à 12 personnes",
     "anglersRange": "1 à 4 pêcheurs",
     "barbecueIncluded": "Barbecue à terre inclus",
     "circuits": {
-      "title1": "Circuit 1 — Grande Soeur, Petite Soeur, Félicité, Coco",
-      "title2": "Circuit 2 — Curieuse, Anse Lazio, Anse Georgette, St Pierre",
-      "title3": "Circuit 3 — Tour de La Digue"
+      "title1": "Circuit 1. Grande Soeur, Petite Soeur, Félicité, Coco",
+      "title2": "Circuit 2. Curieuse, Anse Lazio, Anse Georgette, St Pierre",
+      "title3": "Circuit 3. Tour de La Digue"
     }
   }
 }

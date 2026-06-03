@@ -2,8 +2,8 @@
   "meta": {
     "siteName": "Master Boat Charter",
     "tagline": "The Seychelles, yours alone for a day.",
-    "defaultTitle": "Master Boat Charter — Private Boat Charter & Excursions, La Digue Seychelles",
-    "defaultDescription": "Private boat charter from La Digue: excursions to Curieuse, Coco, Sister Islands, La Digue tour, big game fishing and inter-island transfers. One boat, one Seychellois captain, ten guests max. From €70 per person — book in 2 minutes."
+    "defaultTitle": "Master Boat Charter. Private Boat Charter & Excursions, La Digue Seychelles",
+    "defaultDescription": "Private boat charter from La Digue: excursions to Curieuse, Coco, Sister Islands, La Digue tour, big game fishing and inter-island transfers. One boat, one Seychellois captain, twelve guests max. From €70 per person, express confirmation, 20% deposit only."
   },
   "nav": {
     "home": "Home",
@@ -56,7 +56,7 @@
     "ctaSecondary": "See activities & prices",
     "scrollHint": "Scroll to explore",
     "stats": {
-      "boat": "1 boat · 10 guests max",
+      "boat": "1 boat · 12 guests max",
       "since": "Operating since 2019",
       "local": "Seychellois captain",
       "eco": "No anchoring on coral"
@@ -65,7 +65,7 @@
   "activities": {
     "sectionEyebrow": "Curated experiences",
     "sectionTitle": "Choose your day at sea",
-    "sectionLead": "Four signature ways to experience the Seychelles archipelago — from castaway islands to deep-blue fishing grounds.",
+    "sectionLead": "Four signature ways to experience the Seychelles archipelago. from castaway islands to deep-blue fishing grounds.",
     "perPersonHalf": "/ person · half day",
     "perBoatHalf": "/ boat · half day · up to {n}",
     "perPersonFull": "/ person · full day",
@@ -80,13 +80,15 @@
       "shortTitle": "Boat Excursions",
       "title": "Boat Excursions",
       "tagline": "Castaway islands & secret lagoons",
-      "shortDescription": "Explore the most beautiful islands of Seychelles — Grande Soeur, Curieuse, La Digue and beyond — while respecting local marine ecosystems.",
+      "shortDescription": "Explore the most beautiful islands of Seychelles. Grande Soeur, Curieuse, La Digue and beyond. while respecting local marine ecosystems.",
       "description": "Discover hidden lagoons, white-sand beaches and protected marine parks aboard a private boat with your local skipper. Each itinerary is designed to minimise our footprint while maximising what you see, taste and remember.",
       "highlights": [
         "Private boat with local captain",
-        "Snorkeling at protected marine sites",
+        "Snorkeling at protected marine sites: turtles, reef fish, corals",
+        "Masks, snorkels & fins included onboard",
         "Beach stop with optional barbecue",
-        "Drinks included, toilets onboard"
+        "Drinks included, toilets onboard",
+        "From 2 guests"
       ],
       "fromPrice": "€70"
     },
@@ -95,14 +97,14 @@
       "title": "Big Game Fishing",
       "tagline": "Sailfish, marlin & dorado grounds",
       "shortDescription": "Experience big game fishing in Seychelles with our experienced local captain using respectful, sustainable marine practices.",
-      "description": "Head out to the deep with skippers who know the seasons, the currents and the right way to do this — tag-and-release first, light tackle when possible, no shortcut to a trophy. Snacks and drinks included.",
+      "description": "Head out to the deep with skippers who know the seasons, the currents and the right way to do this. tag-and-release first, light tackle when possible, no shortcut to a trophy. Snacks and drinks included.",
       "highlights": [
         "1 to 4 anglers per trip",
         "Quality rods, reels & tackle",
         "Sustainable fishing practices",
         "Snacks and drinks onboard"
       ],
-      "fromPrice": "€450"
+      "fromPrice": "€500"
     },
     "transfers": {
       "shortTitle": "Boat Transfers",
@@ -116,27 +118,27 @@
         "Refreshments onboard",
         "Flexible departure times"
       ],
-      "fromPrice": "€150"
+      "fromPrice": "Quote"
     },
     "rental": {
       "shortTitle": "Boat Rental",
       "title": "Private Boat Rental",
       "tagline": "The boat is yours for the day",
-      "shortDescription": "Enjoy a fully private boat experience with skipper included — design your day, your route, your stops.",
-      "description": "Up to ten guests, one boat, one local captain, and a coastline to write your own day around. Tell us what matters most — long swims, quiet anchorages, a barbecue ashore — and we shape it from there.",
+      "shortDescription": "Enjoy a fully private boat experience with skipper included. design your day, your route, your stops.",
+      "description": "Up to ten guests, one boat, one local captain, and a coastline to write your own day around. Tell us what matters most. long swims, quiet anchorages, a barbecue ashore. and we shape it from there.",
       "highlights": [
-        "Up to 10 guests",
+        "Up to 12 guests",
         "Skipper included",
         "Build your own itinerary",
         "Drinks and shade onboard"
       ],
-      "fromPrice": "€400"
+      "fromPrice": "On request"
     }
   },
   "commitments": {
     "eyebrow": "Our commitments",
     "title": "A different kind of day at sea",
-    "lead": "We run one boat. That's a deliberate choice — it keeps the experience personal, the impact light and the standards high.",
+    "lead": "We run one boat. That's a deliberate choice. it keeps the experience personal, the impact light and the standards high.",
     "items": {
       "eco": {
         "title": "Respect for marine ecosystems",
@@ -160,11 +162,11 @@
     "eyebrow": "The experience",
     "block1": {
       "title": "Water so clear it disappears",
-      "body": "Granite islands rising out of glass-flat lagoons. Schools of fish you can count from the surface. Beaches with no footprints but your own. The Seychelles aren't a backdrop — they're the entire point."
+      "body": "Granite islands rising out of glass-flat lagoons. Schools of fish you can count from the surface. Beaches with no footprints but your own. The Seychelles aren't a backdrop. they're the entire point."
     },
     "block2": {
       "title": "Local first, every time",
-      "body": "Our captain is from these islands. The fish he shows you, the spots he chooses, the way he reads the weather — none of it comes from a guidebook. This is what an insider day actually looks like."
+      "body": "Our captain is from these islands. The fish he shows you, the spots he chooses, the way he reads the weather. none of it comes from a guidebook. This is what an insider day actually looks like."
     },
     "block3": {
       "title": "Quietly, carefully done",
@@ -173,10 +175,10 @@
   },
   "guidesIndex": {
     "metaTitle": "Seychelles Boat Travel Guides · Tips, Seasons & Wildlife",
-    "metaDescription": "Practical guides for planning your boat days in Seychelles — best time to visit month by month, whale shark season, snorkeling spots, sea turtles and more.",
+    "metaDescription": "Practical guides for planning your boat days in Seychelles. best time to visit month by month, whale shark season, snorkeling spots, sea turtles and more.",
     "eyebrow": "Guides",
     "title": "Plan your day at sea, properly.",
-    "lead": "Short, opinionated guides — written by a captain who runs these waters, not a travel blogger who flew in. Updated as the seasons change."
+    "lead": "Short, opinionated guides. written by a captain who runs these waters, not a travel blogger who flew in. Updated as the seasons change."
   },
   "guides": {
     "whale-shark-season-seychelles": {
@@ -188,34 +190,34 @@
       "metaDescription": "Whale sharks visit Seychelles from August to October. Best months, top spots, ethical guidelines, what to expect. Plan your swim with a private boat from La Digue.",
       "updatedLabel": "Updated",
       "readTime": "6 min read",
-      "lead": "The largest fish in the ocean swims through Seychelles waters every year — and the inner islands are one of the few places on Earth where you can snorkel with them without crowds. Here is everything you need to plan it.",
+      "lead": "The largest fish in the ocean swims through Seychelles waters every year. and the inner islands are one of the few places on Earth where you can snorkel with them without crowds. Here is everything you need to plan it.",
       "sections": [
         {
           "title": "The whale shark season explained",
-          "body": "Whale sharks (Rhincodon typus) follow plankton blooms across the western Indian Ocean. In Seychelles their main aggregation season runs from August to October — those three months are when sightings peak around Mahé and the inner islands. They are filter feeders, harmless to humans, and reach 8-12 metres in adult length. The animals you see are usually juvenile males between 4 and 8 metres long.\n\nOutside that window — November to July — sightings exist but are rare and unpredictable. If swimming with a whale shark is the highlight of your trip, plan your travel inside the August-October bracket."
+          "body": "Whale sharks (Rhincodon typus) follow plankton blooms across the western Indian Ocean. In Seychelles their main aggregation season runs from August to October. those three months are when sightings peak around Mahé and the inner islands. They are filter feeders, harmless to humans, and reach 8-12 metres in adult length. The animals you see are usually juvenile males between 4 and 8 metres long.\n\nOutside that window. November to July. sightings exist but are rare and unpredictable. If swimming with a whale shark is the highlight of your trip, plan your travel inside the August-October bracket."
         },
         {
-          "title": "Best months — and best weeks within them",
-          "body": "September is the historical sweet spot. The plankton bloom is at its richest, the south-east trade winds have settled, and the visibility is excellent — often above 20 metres. October has more variable weather but higher densities of animals near the surface. August is the earliest reliable month and tends to be quieter on the water.\n\nWithin a given month, conditions change week to week. The best advice is to keep your dates flexible by 2-3 days and let the captain pick the window. We rebook free of charge if the day you booked turns out to be a low-probability one and a better day is available within 72 hours."
+          "title": "Best months. and best weeks within them",
+          "body": "September is the historical sweet spot. The plankton bloom is at its richest, the south-east trade winds have settled, and the visibility is excellent. often above 20 metres. October has more variable weather but higher densities of animals near the surface. August is the earliest reliable month and tends to be quieter on the water.\n\nWithin a given month, conditions change week to week. The best advice is to keep your dates flexible by 2-3 days and let the captain pick the window. We rebook free of charge if the day you booked turns out to be a low-probability one and a better day is available within 72 hours."
         },
         {
           "title": "Where they appear",
-          "body": "The main aggregation zone is the deeper water off Mahé's west coast — between Beau Vallon and Anse Major. From La Digue we run the trip as a long day (10-11 hours) with a spotter on board and, when possible, coordination with the Marine Conservation Society Seychelles. Closer to home, we have occasional sightings at the drop-offs off Coco Island and around the south of Félicité — September-October only.\n\nIf you'd rather avoid the long crossing, we recommend basing the whale shark day out of Mahé. We can coordinate the transfer."
+          "body": "The main aggregation zone is the deeper water off Mahé's west coast. between Beau Vallon and Anse Major. From La Digue we run the trip as a long day (10-11 hours) with a spotter on board and, when possible, coordination with the Marine Conservation Society Seychelles. Closer to home, we have occasional sightings at the drop-offs off Coco Island and around the south of Félicité. September-October only.\n\nIf you'd rather avoid the long crossing, we recommend basing the whale shark day out of Mahé. We can coordinate the transfer."
         },
         {
-          "title": "What to expect — and how we do it ethically",
-          "body": "A whale shark encounter is a snorkel, not a dive. You enter the water about 30 metres from the animal, fins on, mask cleared, and let it approach. The animal sets the pace. We never chase, never touch, never feed.\n\nThe Seychelles guidelines are clear: maximum 8 swimmers in the water at a time, minimum 3 metres from the head and 4 metres from the tail, no flash photography, no scuba diving in the immediate zone. Our captain enforces these rules — they're how the population stays habituated to swimmers year after year.\n\nA typical encounter lasts 5 to 15 minutes per pass. On a good day you may have 3-5 passes with the same or different individuals. On a quiet day you may have none — the sea is not a zoo. We are honest about the day in the morning briefing."
+          "title": "What to expect. and how we do it ethically",
+          "body": "A whale shark encounter is a snorkel, not a dive. You enter the water about 30 metres from the animal, fins on, mask cleared, and let it approach. The animal sets the pace. We never chase, never touch, never feed.\n\nThe Seychelles guidelines are clear: maximum 8 swimmers in the water at a time, minimum 3 metres from the head and 4 metres from the tail, no flash photography, no scuba diving in the immediate zone. Our captain enforces these rules. they're how the population stays habituated to swimmers year after year.\n\nA typical encounter lasts 5 to 15 minutes per pass. On a good day you may have 3-5 passes with the same or different individuals. On a quiet day you may have none. the sea is not a zoo. We are honest about the day in the morning briefing."
         },
         {
           "title": "What to bring",
           "body": "Reef-safe sunscreen, your own mask if you have one (we provide quality gear for those who don't), an underwater camera if you want photos (no flash), a long-sleeve rashguard for sun protection during the long boat ride out. We provide drinks, snacks and a hot lunch if the trip is extended."
         }
       ],
-      "faqTitle": "Whale sharks — frequently asked",
+      "faqTitle": "Whale sharks. frequently asked",
       "faq": [
         {
           "q": "Is it safe to swim with whale sharks?",
-          "a": "Yes — whale sharks are filter feeders. They have no teeth that bite, no tail strike behaviour, no defensive aggression. The only risks are sunburn, dehydration, and your own enthusiasm carrying you too close. We brief on all three."
+          "a": "Yes. whale sharks are filter feeders. They have no teeth that bite, no tail strike behaviour, no defensive aggression. The only risks are sunburn, dehydration, and your own enthusiasm carrying you too close. We brief on all three."
         },
         {
           "q": "How likely is a sighting in season?",
@@ -235,12 +237,12 @@
         },
         {
           "q": "How long is the trip from La Digue?",
-          "a": "10 to 11 hours door to door if we go to the main Mahé aggregation zone. From Praslin: 8 hours. Many guests prefer to base the trip out of Mahé — we can coordinate."
+          "a": "10 to 11 hours door to door if we go to the main Mahé aggregation zone. From Praslin: 8 hours. Many guests prefer to base the trip out of Mahé. we can coordinate."
         }
       ],
       "relatedEyebrow": "Plan your trip",
       "relatedTitle": "What goes well with this",
-      "ctaTitle": "Time it right — book a private day at sea",
+      "ctaTitle": "Time it right. book a private day at sea",
       "ctaLead": "If you're travelling in the August-October window, a private boat means you can chase the right conditions instead of being stuck on a group schedule.",
       "ctaButton": "See excursions"
     },
@@ -250,14 +252,14 @@
       "title": "When is the best time to visit Seychelles?",
       "imageAlt": "Master Boat Charter at anchor under Seychelles sky",
       "metaTitle": "Best Time to Visit Seychelles · Month by Month Guide (2026)",
-      "metaDescription": "Month-by-month weather, sea conditions, wildlife, and crowd levels in Seychelles. April-May and September-October are the sweet spots — here's why.",
+      "metaDescription": "Month-by-month weather, sea conditions, wildlife, and crowd levels in Seychelles. April-May and September-October are the sweet spots. here's why.",
       "updatedLabel": "Updated",
       "readTime": "8 min read",
-      "lead": "Seychelles is good all year — but \"good\" varies. The wind shifts, the rain falls in different places, the sea changes colour. Two windows stand out for boat travellers: April-May and September-October. Here is the full month-by-month breakdown.",
+      "lead": "Seychelles is good all year. but \"good\" varies. The wind shifts, the rain falls in different places, the sea changes colour. Two windows stand out for boat travellers: April-May and September-October. Here is the full month-by-month breakdown.",
       "sections": [
         {
           "title": "The two monsoons that shape the year",
-          "body": "Seychelles has two trade-wind seasons. The north-west monsoon runs roughly November to March — warmer air, more humidity, occasional heavy rain, calmer sea on the south-east coasts. The south-east monsoon runs May to September — drier, cooler nights, breezier days, choppier sea on the east coasts. Between the two are the transition months — April and October-November — which combine the best of both: warm, dry, calm.\n\nFor boat travel, this is the most important fact. Calm sea + good visibility + low rain = April, May, September, October."
+          "body": "Seychelles has two trade-wind seasons. The north-west monsoon runs roughly November to March. warmer air, more humidity, occasional heavy rain, calmer sea on the south-east coasts. The south-east monsoon runs May to September. drier, cooler nights, breezier days, choppier sea on the east coasts. Between the two are the transition months. April and October-November. which combine the best of both: warm, dry, calm.\n\nFor boat travel, this is the most important fact. Calm sea + good visibility + low rain = April, May, September, October."
         },
         {
           "title": "Month by month",
@@ -269,10 +271,10 @@
         },
         {
           "title": "What we do when the weather turns",
-          "body": "Our cancellation policy is built around weather. If the captain calls it (safety, not preference), we refund or reschedule in full. If you call it, the 72-hour rule applies. In practice, we lose 5-10 days a year to weather across all seasons — usually rescheduled within 48 hours.\n\nThe inner islands are protected enough that the day is rarely completely cancelled. We adapt the route — east coast becomes west coast, full-day becomes half-day, snorkeling site shifts. The skill of the captain is mostly in this adaptation."
+          "body": "Our cancellation policy is built around weather. If the captain calls it (safety, not preference), we refund or reschedule in full. If you call it, the 72-hour rule applies. In practice, we lose 5-10 days a year to weather across all seasons. usually rescheduled within 48 hours.\n\nThe inner islands are protected enough that the day is rarely completely cancelled. We adapt the route. east coast becomes west coast, full-day becomes half-day, snorkeling site shifts. The skill of the captain is mostly in this adaptation."
         }
       ],
-      "faqTitle": "Best time to visit — frequently asked",
+      "faqTitle": "Best time to visit. frequently asked",
       "faq": [
         {
           "q": "What's the absolute best month for a Seychelles boat trip?",
@@ -284,7 +286,7 @@
         },
         {
           "q": "Are there cyclones in Seychelles?",
-          "a": "Seychelles sits outside the main cyclone tracks — direct hits are rare (last major one: 2018, Cyclone Berguitta brushed past). The country is considered cyclone-safe."
+          "a": "Seychelles sits outside the main cyclone tracks. direct hits are rare (last major one: 2018, Cyclone Berguitta brushed past). The country is considered cyclone-safe."
         },
         {
           "q": "When are prices lowest?",
@@ -302,12 +304,45 @@
       "ctaButton": "See excursions"
     }
   },
+  "transferQuote": {
+    "eyebrow": "Custom quote",
+    "title": "Plan your transfer",
+    "lead": "Pick your departure and arrival islands, your travel needs, and we'll send you a tailored quote within minutes.",
+    "fromLabel": "Departure island",
+    "toLabel": "Arrival island",
+    "returnLabel": "Return trip",
+    "returnYes": "Yes, return needed",
+    "returnNo": "No, one-way only",
+    "guestsLabel": "Number of travellers",
+    "bagsLabel": "Luggage pieces",
+    "dateLabel": "Preferred date",
+    "nameLabel": "Full name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone (WhatsApp preferred)",
+    "submit": "Request quote",
+    "submitting": "Sending request...",
+    "successTitle": "Quote request received",
+    "successBody": "Thank you. Our captain will reply with a tailored quote within minutes by email and WhatsApp.",
+    "errorTitle": "Could not send",
+    "errorBody": "Please try again or reach us on WhatsApp.",
+    "selectIsland": "Select an island",
+    "samePickError": "Departure and arrival must be different",
+    "islands": {
+      "la-digue": "La Digue",
+      "praslin": "Praslin",
+      "mahe": "Mahé",
+      "curieuse": "Curieuse",
+      "felicite": "Félicité",
+      "grande-soeur": "Grande Soeur",
+      "petite-soeur": "Petite Soeur"
+    }
+  },
   "destinations": {
     "curieuse-island": {
       "shortTitle": "Curieuse Island",
-      "title": "Curieuse Island — Giant Tortoises & Castaway Beaches",
+      "title": "Curieuse Island. Giant Tortoises & Castaway Beaches",
       "tagline": "Marine park · Aldabra tortoises · Anse Papaie",
-      "lead": "A private boat day to one of the most beloved inner islands of Seychelles — Aldabra giant tortoises on land, a protected coral marine park in the water, and a beach lunch where the only footprints are yours.",
+      "lead": "A private boat day to one of the most beloved inner islands of Seychelles. Aldabra giant tortoises on land, a protected coral marine park in the water, and a beach lunch where the only footprints are yours.",
       "imageAlt": "Turquoise lagoon at Curieuse Island Marine Park, Seychelles",
       "metaTitle": "Curieuse Island Tour Seychelles · Private Boat from La Digue",
       "metaDescription": "Curieuse Island day tour from La Digue: Aldabra giant tortoises, marine park snorkeling, Anse Papaie beach BBQ, St-Pierre Islet stop. €175 / person, drinks & lunch included. Local Seychellois captain.",
@@ -321,11 +356,11 @@
       "sections": [
         {
           "title": "Why Curieuse is the most rewarding day at sea in the inner islands",
-          "body": "Curieuse is the rare Seychelles island where land, reef and history meet on a single afternoon. Once a leper colony, today it is a national park rebuilt around the reintroduction of Aldabra giant tortoises — over a hundred of them roam freely on the trails. The west coast is a protected marine park: shallow, clear, alive with parrotfish, butterflyfish and the occasional hawksbill turtle.\n\nWe spend the morning at anchor on the marine park side, drift over the reef on the changing tide, then beach the bow at Anse Papaie for a barbecue cooked by your captain while you walk the tortoise trail."
+          "body": "Curieuse is the rare Seychelles island where land, reef and history meet on a single afternoon. Once a leper colony, today it is a national park rebuilt around the reintroduction of Aldabra giant tortoises. over a hundred of them roam freely on the trails. The west coast is a protected marine park: shallow, clear, alive with parrotfish, butterflyfish and the occasional hawksbill turtle.\n\nWe spend the morning at anchor on the marine park side, drift over the reef on the changing tide, then beach the bow at Anse Papaie for a barbecue cooked by your captain while you walk the tortoise trail."
         },
         {
           "title": "What you'll see in the marine park",
-          "body": "Conditions permitting, we plan three snorkeling drops on this trip — Anse Saint-Joseph for the table corals and sergeant majors, the small bay below the ranger station for hawksbill turtles, and the southern point for a slow drift in 3-5 metres of glass-flat water. Bring a reef-safe sunscreen — we provide everything else."
+          "body": "Conditions permitting, we plan three snorkeling drops on this trip. Anse Saint-Joseph for the table corals and sergeant majors, the small bay below the ranger station for hawksbill turtles, and the southern point for a slow drift in 3-5 metres of glass-flat water. Bring a reef-safe sunscreen. we provide everything else."
         },
         {
           "title": "The barbecue on Anse Papaie",
@@ -333,7 +368,7 @@
         },
         {
           "title": "Combine Curieuse with St-Pierre Islet on the way home",
-          "body": "If the sea is calm, we add a snorkel stop at St-Pierre Islet on the return leg — a granite outcrop a kilometre off Anse Volbert with one of the densest concentrations of reef fish in the inner islands. It adds about 45 minutes to the day and is one of our most-requested extras."
+          "body": "If the sea is calm, we add a snorkel stop at St-Pierre Islet on the return leg. a granite outcrop a kilometre off Anse Volbert with one of the densest concentrations of reef fish in the inner islands. It adds about 45 minutes to the day and is one of our most-requested extras."
         }
       ],
       "highlightsTitle": "What's included in your Curieuse day",
@@ -347,7 +382,7 @@
       ],
       "itineraryEyebrow": "A day on Curieuse",
       "itineraryTitle": "Typical itinerary, 08:00 to 17:00",
-      "faqTitle": "Curieuse Island — frequently asked",
+      "faqTitle": "Curieuse Island. frequently asked",
       "faq": [
         {
           "q": "Are the marine park fees included in the price?",
@@ -355,7 +390,7 @@
         },
         {
           "q": "Will we actually see the giant tortoises?",
-          "a": "Almost always. The tortoise sanctuary on Anse Saint-Joseph hosts more than 200 individuals — they roam freely. Some are over a hundred years old."
+          "a": "Almost always. The tortoise sanctuary on Anse Saint-Joseph hosts more than 200 individuals. they roam freely. Some are over a hundred years old."
         },
         {
           "q": "Can we visit the Doctor's House and walk to Anse Saint-Joseph?",
@@ -363,7 +398,7 @@
         },
         {
           "q": "Is the trip suitable for children?",
-          "a": "Yes — the snorkeling sites are shallow and protected, the trail is family-friendly, and we provide life jackets in all sizes."
+          "a": "Yes. the snorkeling sites are shallow and protected, the trail is family-friendly, and we provide life jackets in all sizes."
         },
         {
           "q": "What about seasickness?",
@@ -392,20 +427,20 @@
       "factSeason": "Year-round · best May-Sept",
       "sections": [
         {
-          "title": "Coco Island Marine Park — the inner islands' jewel",
-          "body": "Coco is a small group of granite rocks off Félicité, surrounded by a marine park that has been protected for decades. The reef is just metres below the surface, the water is glass-flat in the lee of the rocks, and the fish density is honestly the best around La Digue. Expect parrotfish in every colour, sergeant majors in shoals, the resident hawksbill turtles, and on the lucky day eagle rays cruising the drop-off.\n\nWe time the morning drop on the slack tide — visibility is at its best and the current is at its lowest. Children under 12 enter the park free; adults pay the marine park fee on arrival to the ranger."
+          "title": "Coco Island Marine Park. the inner islands' jewel",
+          "body": "Coco is a small group of granite rocks off Félicité, surrounded by a marine park that has been protected for decades. The reef is just metres below the surface, the water is glass-flat in the lee of the rocks, and the fish density is honestly the best around La Digue. Expect parrotfish in every colour, sergeant majors in shoals, the resident hawksbill turtles, and on the lucky day eagle rays cruising the drop-off.\n\nWe time the morning drop on the slack tide. visibility is at its best and the current is at its lowest. Children under 12 enter the park free; adults pay the marine park fee on arrival to the ranger."
         },
         {
           "title": "Lunch on Grande Soeur",
-          "body": "Grande Soeur is the larger of the two Sister Islands — a single beach with a leaning palm tree, no resort, no boat traffic outside the few private charters that come ashore. Lunch is a beach barbecue cooked while you swim. The water on the bay side is shallow enough to wade out 50 metres without losing your footing.\n\nIf you want a longer beach session, we trade snorkel time for it — that's the point of the private day."
+          "body": "Grande Soeur is the larger of the two Sister Islands. a single beach with a leaning palm tree, no resort, no boat traffic outside the few private charters that come ashore. Lunch is a beach barbecue cooked while you swim. The water on the bay side is shallow enough to wade out 50 metres without losing your footing.\n\nIf you want a longer beach session, we trade snorkel time for it. that's the point of the private day."
         },
         {
           "title": "Félicité, Petite Soeur and the granite scenery",
-          "body": "The circuit continues past Félicité — half private island, half Six Senses estate, with cliffs that drop 80 metres into deep water and the kind of granite shapes that made the Seychelles famous. Petite Soeur is the smaller twin: a narrow strip of white sand backed by a forest you can't enter. We swing close for the photo opportunity, then anchor for a last swim on the return."
+          "body": "The circuit continues past Félicité. half private island, half Six Senses estate, with cliffs that drop 80 metres into deep water and the kind of granite shapes that made the Seychelles famous. Petite Soeur is the smaller twin: a narrow strip of white sand backed by a forest you can't enter. We swing close for the photo opportunity, then anchor for a last swim on the return."
         },
         {
           "title": "What makes this day different from the Curieuse circuit",
-          "body": "If Curieuse is about land — the tortoises, the trail, the history — Coco is about the water. The snorkeling is denser, the islands are smaller and emptier, the day is more about being in the sea than walking on it. Many guests do both on a 2-day stay; we offer a small repeat-guest courtesy on the second booking."
+          "body": "If Curieuse is about land. the tortoises, the trail, the history. Coco is about the water. The snorkeling is denser, the islands are smaller and emptier, the day is more about being in the sea than walking on it. Many guests do both on a 2-day stay; we offer a small repeat-guest courtesy on the second booking."
         }
       ],
       "highlightsTitle": "What's included in your Coco day",
@@ -419,11 +454,11 @@
       ],
       "itineraryEyebrow": "A day in the marine park",
       "itineraryTitle": "Typical itinerary, 09:00 to 17:00",
-      "faqTitle": "Coco Island — frequently asked",
+      "faqTitle": "Coco Island. frequently asked",
       "faq": [
         {
           "q": "Is the Coco Marine Park fee included?",
-          "a": "No — it is paid in cash to the ranger on arrival (currently around €15 per adult, free for under 12s). Our captain handles the formalities."
+          "a": "No. it is paid in cash to the ranger on arrival (currently around €15 per adult, free for under 12s). Our captain handles the formalities."
         },
         {
           "q": "How is the snorkeling compared to Curieuse?",
@@ -431,11 +466,11 @@
         },
         {
           "q": "Can we land on Sister Islands?",
-          "a": "Yes — Grande Soeur is open to private visits via a small private fee paid on the beach. Petite Soeur is a viewing-only stop from the boat."
+          "a": "Yes. Grande Soeur is open to private visits via a small private fee paid on the beach. Petite Soeur is a viewing-only stop from the boat."
         },
         {
           "q": "Will we see turtles?",
-          "a": "Sightings are common around the marine park — hawksbills on the reef shelves, very occasionally a green turtle in deeper water."
+          "a": "Sightings are common around the marine park. hawksbills on the reef shelves, very occasionally a green turtle in deeper water."
         },
         {
           "q": "Is this trip suitable for non-swimmers?",
@@ -449,13 +484,13 @@
     },
     "sister-islands": {
       "shortTitle": "Sister Islands",
-      "title": "Sister Islands — Grande Soeur, Petite Soeur & Félicité",
+      "title": "Sister Islands. Grande Soeur, Petite Soeur & Félicité",
       "tagline": "Granite twins · castaway beach · BBQ",
       "lead": "Two granite islets off Félicité, a single deserted beach you can land on, and the kind of empty bay that makes you forget anyone else uses these waters. The Sister Islands are the inner archipelago's best-kept private day.",
       "imageAlt": "Granite rocks and white sand on the Sister Islands, Seychelles",
       "metaTitle": "Sister Islands Tour Seychelles · Grande Soeur Boat from La Digue",
       "metaDescription": "Private boat day to Grande Soeur and Petite Soeur from La Digue. Beach BBQ, snorkeling, Félicité passage. €130/person · drinks & lunch included.",
-      "schemaName": "Sister Islands — Private Boat Day from La Digue",
+      "schemaName": "Sister Islands. Private Boat Day from La Digue",
       "factDuration": "8 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
@@ -465,24 +500,24 @@
       "sections": [
         {
           "title": "Why the Sister Islands are the connoisseur's pick",
-          "body": "Grande Soeur and Petite Soeur sit a couple of kilometres east of Félicité — granite twins with a single beach between them, no road, no jetty, no resort. Most boats pass them on their way to Coco. We make them the destination.\n\nThe west bay of Grande Soeur is one of the quietest landings of the inner islands. The water is glass-flat in the lee of the rock, the sand is the same blinding white as Anse Source d'Argent, and the bay is small enough that one boat takes the whole place. A small landing fee is paid to the island staff on arrival — they keep the trail and the bay clean."
+          "body": "Grande Soeur and Petite Soeur sit a couple of kilometres east of Félicité. granite twins with a single beach between them, no road, no jetty, no resort. Most boats pass them on their way to Coco. We make them the destination.\n\nThe west bay of Grande Soeur is one of the quietest landings of the inner islands. The water is glass-flat in the lee of the rock, the sand is the same blinding white as Anse Source d'Argent, and the bay is small enough that one boat takes the whole place. A small landing fee is paid to the island staff on arrival. they keep the trail and the bay clean."
         },
         {
           "title": "What you'll do on a Sister Islands day",
-          "body": "Mornings on the east coast for the snorkeling — the reef shelves off Petite Soeur are alive with sergeant majors, parrotfish and the resident hawksbills. Lunch is a beach barbecue cooked while you swim. Afternoons we walk the trail across Grande Soeur if you want — it's twenty minutes of granite-and-jungle climb to a viewpoint over Félicité.\n\nIf you prefer water over walking, we trade the trail for a second snorkel stop on the way home."
+          "body": "Mornings on the east coast for the snorkeling. the reef shelves off Petite Soeur are alive with sergeant majors, parrotfish and the resident hawksbills. Lunch is a beach barbecue cooked while you swim. Afternoons we walk the trail across Grande Soeur if you want. it's twenty minutes of granite-and-jungle climb to a viewpoint over Félicité.\n\nIf you prefer water over walking, we trade the trail for a second snorkel stop on the way home."
         },
         {
           "title": "Félicité passage and the granite scenery",
-          "body": "On the way out and back, we run close to Félicité — the larger neighbour, half private, half Six Senses estate. Its cliffs fall straight into 80 metres of water and the granite shapes are the most dramatic in the inner islands. We don't land (no public access) but we hold the boat off the south point for the photo and a swim if conditions allow."
+          "body": "On the way out and back, we run close to Félicité. the larger neighbour, half private, half Six Senses estate. Its cliffs fall straight into 80 metres of water and the granite shapes are the most dramatic in the inner islands. We don't land (no public access) but we hold the boat off the south point for the photo and a swim if conditions allow."
         },
         {
-          "title": "Sister Islands vs Coco — which one to pick?",
-          "body": "If you want intensity in the water, choose Coco — more fish, more current, a tighter marine park. If you want a beach to yourself, choose Sister Islands. Many guests do Coco one day and Sister Islands the next; we offer a small repeat-guest courtesy on the second booking."
+          "title": "Sister Islands vs Coco. which one to pick?",
+          "body": "If you want intensity in the water, choose Coco. more fish, more current, a tighter marine park. If you want a beach to yourself, choose Sister Islands. Many guests do Coco one day and Sister Islands the next; we offer a small repeat-guest courtesy on the second booking."
         }
       ],
       "highlightsTitle": "What's included on your Sister Islands day",
       "highlights": [
-        "Private boat — your group only",
+        "Private boat. your group only",
         "Beach BBQ on Grande Soeur",
         "Drinks (water, sodas, beer) included",
         "Snorkeling gear in all sizes",
@@ -491,7 +526,7 @@
       ],
       "itineraryEyebrow": "A day on the Sister Islands",
       "itineraryTitle": "Typical itinerary, 09:00 to 17:00",
-      "faqTitle": "Sister Islands — frequently asked",
+      "faqTitle": "Sister Islands. frequently asked",
       "faq": [
         {
           "q": "Is there a landing fee on Grande Soeur?",
@@ -499,7 +534,7 @@
         },
         {
           "q": "Can we walk between Grande Soeur and Petite Soeur?",
-          "a": "No — they are separated by a shallow channel that you can swim across at low tide, but it's not always safe due to current. The captain will advise on the day."
+          "a": "No. they are separated by a shallow channel that you can swim across at low tide, but it's not always safe due to current. The captain will advise on the day."
         },
         {
           "q": "Is the beach really private?",
@@ -507,11 +542,11 @@
         },
         {
           "q": "Can we land on Petite Soeur?",
-          "a": "It's a viewing-only stop — no landing. We anchor close enough for great photos and a swim."
+          "a": "It's a viewing-only stop. no landing. We anchor close enough for great photos and a swim."
         },
         {
           "q": "Is the trail family-friendly?",
-          "a": "Yes — twenty minutes of gradual climb on a marked path. Solid shoes recommended; we provide reef-safe footwear if you didn't pack any."
+          "a": "Yes. twenty minutes of gradual climb on a marked path. Solid shoes recommended; we provide reef-safe footwear if you didn't pack any."
         }
       ],
       "relatedEyebrow": "Often combined with",
@@ -521,9 +556,9 @@
     },
     "anse-lazio": {
       "shortTitle": "Anse Lazio",
-      "title": "Anse Lazio by Boat — The Beach Seen from the Water",
+      "title": "Anse Lazio by Boat. The Beach Seen from the Water",
       "tagline": "Praslin · sunset reef · Anse Georgette",
-      "lead": "The most photographed beach of Praslin, approached the way it deserves — from the water, where you see the curve of the bay, the granite shoulders, and the reef shelf that makes Lazio's lagoon the impossible turquoise of every postcard.",
+      "lead": "The most photographed beach of Praslin, approached the way it deserves. from the water, where you see the curve of the bay, the granite shoulders, and the reef shelf that makes Lazio's lagoon the impossible turquoise of every postcard.",
       "imageAlt": "Turquoise water and granite at Anse Lazio, Praslin, Seychelles",
       "metaTitle": "Anse Lazio Boat Tour · Praslin from the Sea (Master Boat Charter)",
       "metaDescription": "Half-day private boat to Anse Lazio from La Digue. Approach by sea, anchor swim, snorkeling on the north reef, optional Anse Georgette stop. €130/person.",
@@ -537,18 +572,18 @@
       "sections": [
         {
           "title": "Why Anse Lazio is better from the water",
-          "body": "Anse Lazio is regularly ranked among the most beautiful beaches in the world. By road you arrive at one end of it, walk through the trees and step onto the sand. By boat you see the whole curve at once — the granite shoulders that frame the bay, the reef bar a hundred metres off the beach, the colour gradient from turquoise to ink-blue as the depth drops.\n\nWe anchor inside the bay, give you the option to swim ashore (no entry fee from the water), and use the north reef for the snorkel stop. It's the best way to see this beach without sharing it with every road tourist on Praslin."
+          "body": "Anse Lazio is regularly ranked among the most beautiful beaches in the world. By road you arrive at one end of it, walk through the trees and step onto the sand. By boat you see the whole curve at once. the granite shoulders that frame the bay, the reef bar a hundred metres off the beach, the colour gradient from turquoise to ink-blue as the depth drops.\n\nWe anchor inside the bay, give you the option to swim ashore (no entry fee from the water), and use the north reef for the snorkel stop. It's the best way to see this beach without sharing it with every road tourist on Praslin."
         },
         {
           "title": "The reef on the north side",
-          "body": "The north end of Anse Lazio has a granite outcrop that drops straight into 5-8 metres of clear water. The reef on that face is alive with parrotfish, butterflyfish, the occasional eagle ray and a resident pair of hawksbill turtles. It's one of the most consistent snorkel stops on the west side of Praslin — visibility is best on the morning tide."
+          "body": "The north end of Anse Lazio has a granite outcrop that drops straight into 5-8 metres of clear water. The reef on that face is alive with parrotfish, butterflyfish, the occasional eagle ray and a resident pair of hawksbill turtles. It's one of the most consistent snorkel stops on the west side of Praslin. visibility is best on the morning tide."
         },
         {
           "title": "Optional stop at Anse Georgette",
-          "body": "If conditions allow, we add a short stop at Anse Georgette on the return. Georgette is technically inside the Constance Lemuria resort but accessible from the sea — most boats can't anchor there because of the reef, but we know the line in. It's emptier than Lazio and feels half a degree more remote."
+          "body": "If conditions allow, we add a short stop at Anse Georgette on the return. Georgette is technically inside the Constance Lemuria resort but accessible from the sea. most boats can't anchor there because of the reef, but we know the line in. It's emptier than Lazio and feels half a degree more remote."
         },
         {
-          "title": "Anse Lazio vs the La Digue tour — which to pick?",
+          "title": "Anse Lazio vs the La Digue tour. which to pick?",
           "body": "Pick Anse Lazio if you want a half-day in the most famous beach of Praslin without the road crowds. Pick the La Digue tour if you'd rather spend the time around your own island and see Anse Source d'Argent from the sea. Both work as half-day options; we run them in the morning or the afternoon, and Lazio is one of our best-rated sunset alternatives."
         }
       ],
@@ -563,7 +598,7 @@
       ],
       "itineraryEyebrow": "Half a day at Anse Lazio",
       "itineraryTitle": "Typical itinerary, 6 hours",
-      "faqTitle": "Anse Lazio — frequently asked",
+      "faqTitle": "Anse Lazio. frequently asked",
       "faq": [
         {
           "q": "Is there an entry fee to Anse Lazio?",
@@ -575,15 +610,15 @@
         },
         {
           "q": "Is the bay safe for children?",
-          "a": "Yes — the lagoon side is shallow and protected. The reef on the north side is for confident swimmers."
+          "a": "Yes. the lagoon side is shallow and protected. The reef on the north side is for confident swimmers."
         },
         {
           "q": "What about the south-east trade winds?",
-          "a": "From June to September the south-easters can make Lazio choppy in the afternoon. We adapt — morning slot is safer."
+          "a": "From June to September the south-easters can make Lazio choppy in the afternoon. We adapt. morning slot is safer."
         },
         {
           "q": "Can we combine Anse Lazio with St-Pierre Islet?",
-          "a": "Yes, often. The two are 15 minutes apart by boat — many guests do both as a full-day combo."
+          "a": "Yes, often. The two are 15 minutes apart by boat. many guests do both as a full-day combo."
         }
       ],
       "relatedEyebrow": "Often combined with",
@@ -593,13 +628,13 @@
     },
     "st-pierre-islet": {
       "shortTitle": "St-Pierre Islet",
-      "title": "St-Pierre Islet — The Best Snorkeling Off Praslin",
+      "title": "St-Pierre Islet. The Best Snorkeling Off Praslin",
       "tagline": "Coral garden · granite outcrop · half-day",
-      "lead": "A granite outcrop the size of a tennis court, surrounded by a coral garden you can drift over in 4 metres of glass-flat water. St-Pierre is the inner islands' shortest, densest snorkel — and our most-requested half-day.",
+      "lead": "A granite outcrop the size of a tennis court, surrounded by a coral garden you can drift over in 4 metres of glass-flat water. St-Pierre is the inner islands' shortest, densest snorkel. and our most-requested half-day.",
       "imageAlt": "Granite outcrop of St-Pierre Islet near Praslin, Seychelles",
       "metaTitle": "St-Pierre Islet Snorkeling Tour Seychelles · Half-Day Private Boat",
-      "metaDescription": "Half-day boat tour from La Digue to St-Pierre Islet — one of the richest snorkeling sites near Praslin. €70/person, drinks & gear included.",
-      "schemaName": "St-Pierre Islet — Private Boat Snorkel Tour from La Digue",
+      "metaDescription": "Half-day boat tour from La Digue to St-Pierre Islet. one of the richest snorkeling sites near Praslin. €70/person, drinks & gear included.",
+      "schemaName": "St-Pierre Islet. Private Boat Snorkel Tour from La Digue",
       "factDuration": "4 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
@@ -609,15 +644,15 @@
       "sections": [
         {
           "title": "Why St-Pierre is the best half-day in the inner islands",
-          "body": "St-Pierre is a single granite outcrop off Anse Volbert — about a kilometre offshore, surrounded on three sides by a healthy coral garden in 3-5 metres of water. The fish density is, honestly, the highest you'll see on the inner-island side of Praslin: thick shoals of sergeant majors, parrotfish in every colour, often a hawksbill turtle resting on the bottom.\n\nWe drop on the south face for the soft current and the wider reef, drift north on the changing tide, and pick you up on the back side. The whole stop runs about 90 minutes — long enough to see everything, short enough that no one tires."
+          "body": "St-Pierre is a single granite outcrop off Anse Volbert. about a kilometre offshore, surrounded on three sides by a healthy coral garden in 3-5 metres of water. The fish density is, honestly, the highest you'll see on the inner-island side of Praslin: thick shoals of sergeant majors, parrotfish in every colour, often a hawksbill turtle resting on the bottom.\n\nWe drop on the south face for the soft current and the wider reef, drift north on the changing tide, and pick you up on the back side. The whole stop runs about 90 minutes. long enough to see everything, short enough that no one tires."
         },
         {
           "title": "Combining St-Pierre with Anse Volbert",
-          "body": "On the way back, we add a beach stop at Anse Volbert — Praslin's main beach on the Côte d'Or, a long arc of white sand with the lagoon hotels on one side and the boats moored on the other. Swim, walk, grab a coconut from the kiosk. Many guests use it as a lunch stop before returning to La Digue."
+          "body": "On the way back, we add a beach stop at Anse Volbert. Praslin's main beach on the Côte d'Or, a long arc of white sand with the lagoon hotels on one side and the boats moored on the other. Swim, walk, grab a coconut from the kiosk. Many guests use it as a lunch stop before returning to La Digue."
         },
         {
           "title": "When the visibility is at its best",
-          "body": "St-Pierre is good year-round but the sweet spot is between April and October — light south-east winds, low rainfall, visibility often above 15 metres. December-February can be excellent on calm days but more variable. The captain checks the forecast the morning of and shifts the plan if needed."
+          "body": "St-Pierre is good year-round but the sweet spot is between April and October. light south-east winds, low rainfall, visibility often above 15 metres. December-February can be excellent on calm days but more variable. The captain checks the forecast the morning of and shifts the plan if needed."
         },
         {
           "title": "St-Pierre vs Coco Marine Park",
@@ -635,27 +670,27 @@
       ],
       "itineraryEyebrow": "Half a day at St-Pierre",
       "itineraryTitle": "Typical itinerary, 4 hours",
-      "faqTitle": "St-Pierre Islet — frequently asked",
+      "faqTitle": "St-Pierre Islet. frequently asked",
       "faq": [
         {
           "q": "Is there a marine park fee at St-Pierre?",
-          "a": "No — St-Pierre itself sits outside the gazetted parks. No daily fee is required."
+          "a": "No. St-Pierre itself sits outside the gazetted parks. No daily fee is required."
         },
         {
           "q": "How deep is the water at the snorkel site?",
-          "a": "Between 3 and 8 metres around the islet — shallower on the south face, dropping off to 12 m past the back of the rock."
+          "a": "Between 3 and 8 metres around the islet. shallower on the south face, dropping off to 12 m past the back of the rock."
         },
         {
           "q": "Can children snorkel here?",
-          "a": "Yes — flotation gear available, the south face is shallow and protected, the captain stays close in the dinghy if needed."
+          "a": "Yes. flotation gear available, the south face is shallow and protected, the captain stays close in the dinghy if needed."
         },
         {
           "q": "Can we land on St-Pierre?",
-          "a": "It's bare granite — no path, no facilities. We don't land. Snorkel only."
+          "a": "It's bare granite. no path, no facilities. We don't land. Snorkel only."
         },
         {
           "q": "Can we combine with Curieuse?",
-          "a": "Yes — it adds about an hour and turns the day into a full-day Curieuse + St-Pierre combo. Very popular."
+          "a": "Yes. it adds about an hour and turns the day into a full-day Curieuse + St-Pierre combo. Very popular."
         }
       ],
       "relatedEyebrow": "Often combined with",
@@ -665,13 +700,13 @@
     },
     "sunset-cruise": {
       "shortTitle": "Sunset cruise",
-      "title": "La Digue Sunset Cruise — The Last Light of the Day",
+      "title": "La Digue Sunset Cruise. The Last Light of the Day",
       "tagline": "Anse Source d'Argent at golden hour · drinks · private",
       "lead": "Three hours on the water at the only time the inner islands turn gold. We board at 16:30, slide along La Digue's east coast, hold the boat off Anse Source d'Argent for the sunset, and drift back into the marina under the last colour of the day.",
       "imageAlt": "Master Boat Charter at sunset around La Digue, Seychelles",
       "metaTitle": "La Digue Sunset Cruise · Private Boat at Golden Hour Seychelles",
-      "metaDescription": "Private sunset cruise from La Digue — Anse Source d'Argent at golden hour, drinks, platter onboard. €70/person · 3 hours · 10 guests max.",
-      "schemaName": "La Digue Sunset Cruise — Private Boat at Golden Hour",
+      "metaDescription": "Private sunset cruise from La Digue. Anse Source d'Argent at golden hour, drinks, platter onboard. €70/person · 3 hours · 10 guests max.",
+      "schemaName": "La Digue Sunset Cruise. Private Boat at Golden Hour",
       "factDuration": "3 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
@@ -681,19 +716,19 @@
       "sections": [
         {
           "title": "Why the inner islands are at their best at sunset",
-          "body": "Sunset in Seychelles is short — twenty minutes from gold to dark — but those twenty minutes are what people travel for. The granite of La Digue, pink in afternoon light, turns orange and then deep red. The lagoon goes from turquoise to pewter. The reef cuts a darker line on the water. From the boat, with the engine off, the only sound is the swell against the hull.\n\nWe time the cruise to the exact sun angle of the day — boarding at 16:30, holding off Anse Source d'Argent between 17:30 and 18:00, returning to marina between 19:00 and 19:30 depending on the month."
+          "body": "Sunset in Seychelles is short. twenty minutes from gold to dark. but those twenty minutes are what people travel for. The granite of La Digue, pink in afternoon light, turns orange and then deep red. The lagoon goes from turquoise to pewter. The reef cuts a darker line on the water. From the boat, with the engine off, the only sound is the swell against the hull.\n\nWe time the cruise to the exact sun angle of the day. boarding at 16:30, holding off Anse Source d'Argent between 17:30 and 18:00, returning to marina between 19:00 and 19:30 depending on the month."
         },
         {
           "title": "Anse Source d'Argent at golden hour",
-          "body": "The land park closes at 18:00. From the sea, the beach stays open as long as you can see it. We hold the boat 80 metres offshore — close enough that the granite shapes feel three storeys tall, far enough that the wash doesn't bother anyone still on the beach. If the tide is right, you can step off the boat and walk to the sand. Most guests just stay onboard with a drink and watch."
+          "body": "The land park closes at 18:00. From the sea, the beach stays open as long as you can see it. We hold the boat 80 metres offshore. close enough that the granite shapes feel three storeys tall, far enough that the wash doesn't bother anyone still on the beach. If the tide is right, you can step off the boat and walk to the sand. Most guests just stay onboard with a drink and watch."
         },
         {
           "title": "What's onboard",
-          "body": "A chilled bottle (you choose at booking — sparkling, white, rosé or non-alcoholic), water, sodas, and a small platter — local fruit, cheese, light bites. The captain keeps the engine low and the route smooth. No microphone, no group banter — it's your evening."
+          "body": "A chilled bottle (you choose at booking. sparkling, white, rosé or non-alcoholic), water, sodas, and a small platter. local fruit, cheese, light bites. The captain keeps the engine low and the route smooth. No microphone, no group banter. it's your evening."
         },
         {
           "title": "The honeymoon version",
-          "body": "If you book the sunset for an occasion (honeymoon, anniversary, proposal), tell us. We add a small surprise — flowers from the local market, a card from the captain, a slightly longer route past Petite Anse where almost no other boats go. We do this discreetly; no surprise mention on the boat itself."
+          "body": "If you book the sunset for an occasion (honeymoon, anniversary, proposal), tell us. We add a small surprise. flowers from the local market, a card from the captain, a slightly longer route past Petite Anse where almost no other boats go. We do this discreetly; no surprise mention on the boat itself."
         }
       ],
       "highlightsTitle": "What's included in the sunset cruise",
@@ -707,15 +742,15 @@
       ],
       "itineraryEyebrow": "Three hours at sunset",
       "itineraryTitle": "Typical itinerary, 16:30 to 19:30",
-      "faqTitle": "Sunset cruise — frequently asked",
+      "faqTitle": "Sunset cruise. frequently asked",
       "faq": [
         {
           "q": "What time does the cruise start?",
-          "a": "Boarding at 16:30 — we adjust by 30 minutes either way depending on the month and the actual sunset time. We'll confirm the exact time the day before."
+          "a": "Boarding at 16:30. we adjust by 30 minutes either way depending on the month and the actual sunset time. We'll confirm the exact time the day before."
         },
         {
           "q": "Can we book this for a proposal or honeymoon?",
-          "a": "Yes — tell us at booking and we'll add a small surprise (flowers, captain's card, slightly longer route). It stays discreet."
+          "a": "Yes. tell us at booking and we'll add a small surprise (flowers, captain's card, slightly longer route). It stays discreet."
         },
         {
           "q": "Is there food onboard?",
@@ -723,11 +758,11 @@
         },
         {
           "q": "What if the weather is cloudy?",
-          "a": "If forecast looks completely overcast, we offer a free reschedule. Light cloud often makes the colours more dramatic — we'll be honest the morning of."
+          "a": "If forecast looks completely overcast, we offer a free reschedule. Light cloud often makes the colours more dramatic. we'll be honest the morning of."
         },
         {
           "q": "Can we swim during the cruise?",
-          "a": "Yes, weather allowing — usually a short stop at Anse Source d'Argent or Petite Anse. Bring swimwear."
+          "a": "Yes, weather allowing. usually a short stop at Anse Source d'Argent or Petite Anse. Bring swimwear."
         }
       ],
       "relatedEyebrow": "Often combined with",
@@ -737,13 +772,13 @@
     },
     "la-digue-tour": {
       "shortTitle": "La Digue tour",
-      "title": "Around La Digue by Sea — Anse Source d'Argent from the Water",
+      "title": "Around La Digue by Sea. Anse Source d'Argent from the Water",
       "tagline": "Anse Source d'Argent · Anse Cocos · Grande Anse",
-      "lead": "Half a day or sunset around La Digue, seen the way the island was always meant to be seen — from the water. We slip along the granite shore, anchor where no road reaches, and finish on the cliff-side beaches at golden hour.",
+      "lead": "Half a day or sunset around La Digue, seen the way the island was always meant to be seen. from the water. We slip along the granite shore, anchor where no road reaches, and finish on the cliff-side beaches at golden hour.",
       "imageAlt": "Master Boat Charter cruising past the granite cliffs of La Digue, Seychelles",
       "metaTitle": "La Digue Boat Tour · Anse Source d'Argent from the Sea",
       "metaDescription": "Private half-day or sunset boat tour around La Digue: Anse Source d'Argent from the water, Anse Cocos, Grande Anse, Petite Anse. €70 / person, drinks included.",
-      "schemaName": "La Digue Private Boat Tour — Beaches & Sunset Cruise",
+      "schemaName": "La Digue Private Boat Tour. Beaches & Sunset Cruise",
       "factDuration": "4 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
@@ -753,15 +788,15 @@
       "sections": [
         {
           "title": "Why the best view of La Digue is from the boat",
-          "body": "Most visitors see La Digue from a bicycle saddle — which is good, but partial. The island's true silhouette is its 9 kilometres of granite coastline, the cliffs that fall straight into deep water on the east side, the sea-only beaches at Anse Cocos and Petite Anse, and Anse Source d'Argent at sunset when the road is closed but the water is open.\n\nWe run two versions of this trip. A morning circuit with two anchorages and a swim. A sunset circuit that times Anse Source d'Argent for the golden hour and finishes back in the marina under a sky most people only see in postcards."
+          "body": "Most visitors see La Digue from a bicycle saddle. which is good, but partial. The island's true silhouette is its 9 kilometres of granite coastline, the cliffs that fall straight into deep water on the east side, the sea-only beaches at Anse Cocos and Petite Anse, and Anse Source d'Argent at sunset when the road is closed but the water is open.\n\nWe run two versions of this trip. A morning circuit with two anchorages and a swim. A sunset circuit that times Anse Source d'Argent for the golden hour and finishes back in the marina under a sky most people only see in postcards."
         },
         {
           "title": "Anse Source d'Argent from the water",
-          "body": "From the sea, Anse Source d'Argent reveals what you can't see from the path: the long curve of granite shoulders behind the famous palm tree, the offshore reef shelf that turns the lagoon turquoise, and — at low tide — a sandbank where you can step off the boat into 30 cm of water and walk to the beach.\n\nThe park has an entry fee on the land side; from the water we simply anchor offshore and you swim in if you like."
+          "body": "From the sea, Anse Source d'Argent reveals what you can't see from the path: the long curve of granite shoulders behind the famous palm tree, the offshore reef shelf that turns the lagoon turquoise, and. at low tide. a sandbank where you can step off the boat into 30 cm of water and walk to the beach.\n\nThe park has an entry fee on the land side; from the water we simply anchor offshore and you swim in if you like."
         },
         {
           "title": "Anse Cocos and the east-coast beaches",
-          "body": "Anse Cocos is one of those Seychelles beaches that has no easy land access — a long walk from Grande Anse or a short swim from the boat. Same for Petite Anse: a sliver of sand framed by two granite shoulders, with a single house behind it. We anchor in the lee, you swim or snorkel; the captain stays with the boat."
+          "body": "Anse Cocos is one of those Seychelles beaches that has no easy land access. a long walk from Grande Anse or a short swim from the boat. Same for Petite Anse: a sliver of sand framed by two granite shoulders, with a single house behind it. We anchor in the lee, you swim or snorkel; the captain stays with the boat."
         },
         {
           "title": "The sunset version of this trip",
@@ -779,14 +814,14 @@
       ],
       "itineraryEyebrow": "Half a day around the island",
       "itineraryTitle": "Typical itinerary, 4 hours",
-      "faqTitle": "La Digue tour — frequently asked",
+      "faqTitle": "La Digue tour. frequently asked",
       "faq": [
         {
           "q": "Can we land at Anse Source d'Argent?",
-          "a": "Yes — you swim ashore from the anchored boat at low tide it is barely a wade. The land park fee is only required if you walk further inland."
+          "a": "Yes. you swim ashore from the anchored boat at low tide it is barely a wade. The land park fee is only required if you walk further inland."
         },
         {
-          "q": "Sunset cruise vs morning cruise — which to pick?",
+          "q": "Sunset cruise vs morning cruise. which to pick?",
           "a": "Sunset for the light and the calm. Morning if you want the longer swim and snorkel windows."
         },
         {
@@ -799,7 +834,7 @@
         },
         {
           "q": "Is the sea calm year-round?",
-          "a": "Inside La Digue it is calm most of the year. On the east coast the south-east trade winds (June-September) bring some swell — we adapt the route."
+          "a": "Inside La Digue it is calm most of the year. On the east coast the south-east trade winds (June-September) bring some swell. we adapt the route."
         }
       ],
       "relatedEyebrow": "Often combined with",
@@ -811,19 +846,19 @@
   "boat": {
     "eyebrow": "The boat",
     "title": "Built for the inner islands",
-    "lead": "A modern center console rigged for everything from snorkeling to deep-sea fishing — comfortable, fast, quiet at anchor.",
+    "lead": "A modern center console rigged for everything from snorkeling to deep-sea fishing. comfortable, fast, quiet at anchor.",
     "specs": {
       "capacity": {
         "label": "Capacity",
-        "value": "10 guests"
+        "value": "12 guests"
       },
       "length": {
         "label": "Length",
-        "value": "8 metres"
+        "value": "9 metres"
       },
       "engines": {
         "label": "Engines",
-        "value": "Twin outboards"
+        "value": "2 × 250 hp Yamaha"
       },
       "shade": {
         "label": "Shade",
@@ -835,14 +870,14 @@
       },
       "safety": {
         "label": "Safety",
-        "value": "Life jackets · first aid · VHF"
+        "value": "Compliant with Seychelles maritime safety standards"
       }
     }
   },
   "captain": {
     "eyebrow": "Meet the captain",
     "title": "A Seychellois at the helm.",
-    "lead": "Your day belongs to the captain who knows these waters by heart — every reef, every wind shift, every quiet anchorage tourists never reach.",
+    "lead": "Your day belongs to the captain who knows these waters by heart. every reef, every wind shift, every quiet anchorage tourists never reach.",
     "bio": "Born and raised in La Digue. Years of fishing the inner banks before turning to charter. He chose to run a single boat for a simple reason: this way every guest gets his full attention, and every reef stays the way he found it as a kid.",
     "languagesLabel": "Speaks",
     "languages": "English · French · Creole",
@@ -859,11 +894,11 @@
     "sections": [
         {
           "title": "Born on the right rock",
-          "body": "Born in La Digue, raised between the marina and the reef. School on the island until the secondary years on Praslin, then the family boats — fishing the inner banks with his father from his early teens. The kind of life where you know the names of more fish than streets."
+          "body": "Born in La Digue, raised between the marina and the reef. School on the island until the secondary years on Praslin, then the family boats. fishing the inner banks with his father from his early teens. The kind of life where you know the names of more fish than streets."
         },
         {
           "title": "From fishing to charter",
-          "body": "After years of commercial fishing, he saw the way mass tourism was handling these islands and decided he'd rather do less and do it well. One boat. Local. Direct. The first private charter day was years ago — same captain, same boat, just more guests now."
+          "body": "After years of commercial fishing, he saw the way mass tourism was handling these islands and decided he'd rather do less and do it well. One boat. Local. Direct. The first private charter day was years ago. same captain, same boat, just more guests now."
         },
         {
           "title": "Why one boat",
@@ -885,27 +920,27 @@
   "day": {
     "eyebrow": "A day at sea",
     "title": "What a full day on the Master looks like.",
-    "lead": "A typical full-day excursion. Times shift with the weather, the tide and your wishes — that's the whole point of going private.",
+    "lead": "A typical full-day excursion. Times shift with the weather, the tide and your wishes. that's the whole point of going private.",
     "steps": [
       {
-        "time": "08:00",
+        "time": "09:00",
         "title": "Departure from La Digue",
         "body": "Pickup at the jetty. Briefing, life jackets, snorkeling gear fitted. Coffee onboard."
       },
       {
-        "time": "09:00",
+        "time": "10:00",
         "title": "First snorkeling stop",
-        "body": "A protected reef chosen by your captain that morning, based on visibility and current."
+        "body": "A protected reef chosen by your captain that morning, based on visibility and current. Turtles, reef fish, corals."
       },
       {
-        "time": "11:00",
+        "time": "12:00",
         "title": "Castaway island",
         "body": "Walk, swim, climb the granite. A beach with no other boats in sight when possible."
       },
       {
         "time": "13:00",
         "title": "Lunch ashore",
-        "body": "Barbecue on a quiet beach — grilled fish, salads, fresh fruit. Drinks included."
+        "body": "Barbecue on a quiet beach: grilled fish, salads, fresh fruit. Drinks included. Half-day guests disembark here."
       },
       {
         "time": "15:00",
@@ -920,8 +955,8 @@
     ]
   },
   "reassurance": {
-    "noPayment": "No card needed",
-    "confirm": "Confirmation within 2h",
+    "noPayment": "20% deposit only",
+    "confirm": "Express confirmation",
     "cancel": "Free cancellation up to 72h",
     "oneGroup": "One group per day"
   },
@@ -932,7 +967,7 @@
     "insurance": "Insurance",
     "insuranceValue": "Full marine liability insurance",
     "registration": "Registration",
-    "registrationValue": "Seychelles Licensing Authority — license available on request",
+    "registrationValue": "Seychelles Licensing Authority. license available on request",
     "termsLink": "Terms & conditions",
     "privacyLink": "Privacy policy"
   },
@@ -947,7 +982,8 @@
   "booking": {
     "eyebrow": "Reservation",
     "title": "Reserve your day",
-    "lead": "Pick a date, choose a time slot and tell us about your group. We'll confirm by email and WhatsApp within a few hours.",
+    "lead": "Pick a date, choose a time slot and tell us about your group. Express confirmation by email and WhatsApp. A 20% deposit confirms the booking, balance on the day.",
+    "depositLabel": "20% deposit confirms · balance on the day",
     "stepActivity": "Activity",
     "stepDate": "Date & time",
     "stepGuests": "Guests",
@@ -962,12 +998,12 @@
     "email": "Email",
     "phone": "Phone (WhatsApp preferred)",
     "comments": "Comments or special requests",
-    "commentsPlaceholder": "Tell us anything that helps — children onboard, dietary preferences, special occasions…",
+    "commentsPlaceholder": "Tell us anything that helps. children onboard, dietary preferences, special occasions…",
     "agreeTerms": "I understand that the boat is unique and that my time slot is reserved exclusively for me once confirmed.",
     "submit": "Send reservation request",
     "submitting": "Sending…",
     "successTitle": "Reservation request sent",
-    "successBody": "Thank you. We've received your request and will confirm by email and WhatsApp shortly. The selected slot is held pending confirmation.",
+    "successBody": "Thank you. We've received your request. Express confirmation by email and WhatsApp shortly, with payment instructions for the 20% deposit. The selected slot is held pending confirmation.",
     "errorTitle": "Something went wrong",
     "errorBody": "We couldn't send your request. Please try again or reach us directly on WhatsApp.",
     "policyTitle": "One boat, one booking",
@@ -985,11 +1021,11 @@
         "items": [
           {
             "q": "How do I book a boat tour with Master Boat Charter?",
-            "a": "Pick a date and a slot on the booking page (about 2 minutes). You'll get a confirmation by email and WhatsApp within 2 hours. No card is required at this stage — payment is by bank transfer or cash on the day."
+            "a": "Pick a date and a slot on the booking page (about 2 minutes). You'll get a confirmation by email and WhatsApp within 2 hours. No card is required at this stage. payment is by bank transfer or cash on the day."
           },
           {
             "q": "Do I need to pay in advance?",
-            "a": "No. Reservations are confirmed without a deposit. We trust our guests and we ask for the same in return — cancel at least 72h before if your plans change."
+            "a": "A 20% deposit is required to confirm your reservation. The remaining balance is paid on the day of the activity, by bank transfer or in cash."
           },
           {
             "q": "What's your cancellation policy?",
@@ -997,11 +1033,11 @@
           },
           {
             "q": "How quickly do you confirm a booking?",
-            "a": "Within 2 hours during operating hours (8 AM – 8 PM Seychelles time, UTC+4)."
+            "a": "Express confirmation during operating hours (8 AM to 8 PM Seychelles time, UTC+4), usually within a few minutes by WhatsApp."
           },
           {
             "q": "Can I book a private group of 12 or more?",
-            "a": "Our boat holds 10 guests. For larger parties we coordinate with a partner boat — message the captain on WhatsApp and we'll arrange it."
+            "a": "Our boat holds 10 guests. For larger parties we coordinate with a partner boat. message the captain on WhatsApp and we'll arrange it."
           }
         ]
       },
@@ -1010,15 +1046,15 @@
         "items": [
           {
             "q": "Is there a toilet onboard?",
-            "a": "Yes — a marine toilet with a door, for all guests."
+            "a": "Yes. a marine toilet with a door, for all guests."
           },
           {
             "q": "Are drinks and food included?",
-            "a": "Drinks (water, soft drinks, beer) are included on every trip. Full-day excursions include a beach barbecue — grilled fish, salads, fresh fruit. For specific dietary needs, tell us at booking."
+            "a": "Drinks (water, soft drinks, beer) are included on every trip. Full-day excursions include a beach barbecue. grilled fish, salads, fresh fruit. For specific dietary needs, tell us at booking."
           },
           {
             "q": "Do you provide snorkeling gear?",
-            "a": "Yes — masks, snorkels and fins in all sizes. Bring your own if you prefer."
+            "a": "Yes. masks, snorkels and fins in all sizes. Bring your own if you prefer."
           },
           {
             "q": "Is the boat covered from the sun?",
@@ -1035,7 +1071,7 @@
         "items": [
           {
             "q": "Can we see sea turtles?",
-            "a": "Very often — hawksbill turtles are present year-round at our snorkeling sites around Curieuse, Coco and St-Pierre. Greens nest seasonally on protected beaches."
+            "a": "Very often. hawksbill turtles are present year-round at our snorkeling sites around Curieuse, Coco and St-Pierre. Greens nest seasonally on protected beaches."
           },
           {
             "q": "When can we see whale sharks?",
@@ -1043,7 +1079,7 @@
           },
           {
             "q": "What about seasickness?",
-            "a": "Inside the inner islands the sea is generally calm and protected. For big game fishing the swell is larger — we advise based on the day's forecast and can adapt the route."
+            "a": "Inside the inner islands the sea is generally calm and protected. For big game fishing the swell is larger. we advise based on the day's forecast and can adapt the route."
           },
           {
             "q": "Can children come on board?",
@@ -1055,7 +1091,7 @@
           },
           {
             "q": "What should I bring?",
-            "a": "Reef-safe sunscreen, towel, swimwear, hat, a light layer for the return. We provide everything else — snorkeling gear, drinks, food on full-day trips, flotation gear, first aid."
+            "a": "Reef-safe sunscreen, towel, swimwear, hat, a light layer for the return. We provide everything else. snorkeling gear, drinks, food on full-day trips, flotation gear, first aid."
           }
         ]
       }
@@ -1067,7 +1103,7 @@
     "items": [
       {
         "q": "Where do you operate from?",
-        "a": "We're based in La Digue and operate across La Digue, Praslin, Mahé, Curieuse, Cousin, Coco Island, Grande Soeur, Petite Soeur, Félicité, St Pierre and more."
+        "a": "We operate from La Digue to visit every inner island: Praslin, Mahé, Curieuse, Cousin, Coco Island, Grande Soeur, Petite Soeur, Félicité, St Pierre and more."
       },
       {
         "q": "Why is there only one boat?",
@@ -1075,7 +1111,11 @@
       },
       {
         "q": "Are drinks and food included?",
-        "a": "Drinks are included on every trip. Full-day excursions include a barbecue ashore. Fishing trips include snacks. Specific menus can be tailored."
+        "a": "Drinks are included on every trip. Food is included depending on the package: full-day excursions include a beach barbecue, fishing trips include snacks. Specific menus can be tailored on request."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "A 20% deposit confirms your booking. The balance is paid on the day of the activity, by bank transfer or in cash."
       },
       {
         "q": "Are marine park fees included?",
@@ -1091,11 +1131,11 @@
       },
       {
         "q": "What about seasickness?",
-        "a": "Inside the Seychelles inner islands the sea is generally calm and protected. For game fishing the swell is larger — we'll advise based on the day's conditions."
+        "a": "Inside the Seychelles inner islands the sea is generally calm and protected. For game fishing the swell is larger. we'll advise based on the day's conditions."
       },
       {
         "q": "How do I pay?",
-        "a": "Booking online is reservation only — no card needed at this stage. We'll confirm by email and WhatsApp and arrange payment by bank transfer or cash on the day."
+        "a": "Booking online is reservation only. no card needed at this stage. We'll confirm by email and WhatsApp and arrange payment by bank transfer or cash on the day."
       }
     ]
   },
@@ -1123,7 +1163,7 @@
       "block4": "Pick your date, pick your activity and book directly online. Our smart calendar prevents double bookings, and confirmation is handled personally by our team.",
       "block5Title": "A tailored experience",
       "block5": "Want a picnic on a deserted beach? A swim stop in a turquoise lagoon? A guided visit to Curieuse, Saint-Pierre or Félicité? Every outing is shaped around your wishes for unforgettable memories.",
-      "outro": "Book your excursion now and explore the marine treasures of the Seychelles with Master Boat Charter — your partner at sea."
+      "outro": "Book your excursion now and explore the marine treasures of the Seychelles with Master Boat Charter. your partner at sea."
     }
   },
   "about": {
@@ -1131,7 +1171,7 @@
     "title": "A single boat. A whole archipelago.",
     "lead": "Master Boat Charter is a small, local operation built on a simple idea: do less, do it well, and leave the sea exactly as you found it.",
     "storyTitle": "Our story",
-    "story": "We started with one boat, a deep love for these waters, and a frustration with how mass tourism was handling them. Years later, the boat is the same. So is the approach. What's grown is the trust — from guests who come back, and from local guides and captains who choose to work with us.",
+    "story": "We started with one boat, a deep love for these waters, and a frustration with how mass tourism was handling them. Years later, the boat is the same. So is the approach. What's grown is the trust. from guests who come back, and from local guides and captains who choose to work with us.",
     "valuesTitle": "What we stand for",
     "values": [
       {
@@ -1182,18 +1222,21 @@
     "praslinMahe": "Praslin ↔ Mahé",
     "maheLaDigue": "Mahé ↔ La Digue",
     "onRequest": "On request",
+    "transferQuote": "Custom transfer quote",
+    "snorkelingGearIncluded": "Masks, snorkels & fins included onboard",
+    "depositInfo": "20% deposit confirms the booking, balance on the day",
     "drinksIncluded": "Drinks included",
     "snackIncluded": "Snack included",
     "toiletOnboard": "Toilet onboard",
     "skipperIncluded": "Skipper included",
     "marineParkFees": "Marine park fees not included",
-    "upTo10": "Up to 10 guests",
+    "upTo10": "Up to 12 guests",
     "anglersRange": "1 to 4 anglers",
     "barbecueIncluded": "Barbecue ashore included",
     "circuits": {
-      "title1": "Circuit 1 — Grande Soeur, Petite Soeur, Félicité, Coco",
-      "title2": "Circuit 2 — Curieuse, Anse Lazio, Anse Georgette, St Pierre",
-      "title3": "Circuit 3 — La Digue tour"
+      "title1": "Circuit 1. Grande Soeur, Petite Soeur, Félicité, Coco",
+      "title2": "Circuit 2. Curieuse, Anse Lazio, Anse Georgette, St Pierre",
+      "title3": "Circuit 3. La Digue tour"
     }
   }
 }

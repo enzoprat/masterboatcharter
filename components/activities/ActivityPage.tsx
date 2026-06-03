@@ -9,6 +9,7 @@ import CTA from '@/components/home/CTA';
 import DestinationsGrid from '@/components/destinations/DestinationsGrid';
 import JsonLdBreadcrumb from '@/components/seo/JsonLdBreadcrumb';
 import JsonLdTouristTrip from '@/components/seo/JsonLdTouristTrip';
+import TransferQuoteForm from './TransferQuoteForm';
 
 const PILLAR_PATHS: Record<ActivitySlug, string> = {
   excursions: '/boat-excursions',
@@ -62,7 +63,11 @@ export default async function ActivityPage({
       <Highlights activity={activity} />
       {/* Pillar-only: expose the per-destination sub-pages just before pricing */}
       {slug === 'excursions' && <DestinationsGrid />}
-      <Pricing activity={activity} />
+      {slug === 'transfers' ? (
+        <TransferQuoteForm />
+      ) : (
+        <Pricing activity={activity} />
+      )}
       <RelatedActivities exclude={slug} />
       <FAQ />
       <CTA />

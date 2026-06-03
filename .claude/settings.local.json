@@ -38,7 +38,12 @@
       "Bash(curl -s -L http://localhost:3000/guides/whale-shark-season-seychelles -o /tmp/x.html)",
       "Bash(echo \"started pid $!\" sleep 4 curl -s -o /tmp/guide.html -w \"HTTP %{http_code} bytes %{size_download}\\\\n\" http://localhost:3000/guides/whale-shark-season-seychelles curl -s -o /tmp/captain.html -w \"HTTP %{http_code} bytes %{size_download}\\\\n\" http://localhost:3000/about/captain curl -s -o /tmp/dest.html -w \"HTTP %{http_code} bytes %{size_download}\\\\n\" http://localhost:3000/boat-excursions/sister-islands)",
       "Read(//Users/pratenzo/Documents/masterboatcharter/**)",
-      "Bash(wait echo:*)"
+      "Bash(wait echo:*)",
+      "Bash(sed -i.bak 's/ — /. /g' messages/en.json)",
+      "Bash(sed -i.bak 's/ — /. /g' messages/fr.json)",
+      "Bash(sed -i.bak 's/\\\\.\\\\. /. /g' messages/en.json)",
+      "Bash(sed -i.bak 's/\\\\.\\\\. /. /g' messages/fr.json)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('messages/en.json'\\)\\)\")"
     ]
   }
 }

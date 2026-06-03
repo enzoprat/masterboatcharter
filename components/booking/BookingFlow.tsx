@@ -244,8 +244,14 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
             {t('lead')}
           </p>
 
+          {/* Deposit badge */}
+          <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-turquoise-50 border border-turquoise-200 px-4 py-2 text-sm text-deep-700">
+            <span className="font-serif text-base text-turquoise-700">20%</span>
+            <span>{t('depositLabel')}</span>
+          </div>
+
           {/* Trust strip */}
-          <div className="mt-8 max-w-2xl">
+          <div className="mt-6 max-w-2xl">
             <ReassuranceBar />
           </div>
         </div>
@@ -495,7 +501,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
 
                     {error && (
                       <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm text-red-700">
-                        <strong>{t('errorTitle')}</strong> — {error}
+                        <strong>{t('errorTitle')}.</strong> {error}
                       </div>
                     )}
                   </div>

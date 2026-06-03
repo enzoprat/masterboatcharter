@@ -253,10 +253,10 @@ function LocaleSwitcher({ light }: { light: boolean }) {
       locale={other}
       aria-label={`Switch to ${other.toUpperCase()}`}
       className={cn(
-        'inline-flex items-center gap-1.5 rounded-full px-3 h-9 text-xs font-medium uppercase tracking-wider transition-colors',
+        'inline-flex items-center gap-1.5 rounded-full px-3 h-10 min-w-[3.25rem] justify-center text-xs font-semibold uppercase tracking-wider transition-colors border',
         light
-          ? 'text-white/85 hover:bg-white/10 hover:text-white'
-          : 'text-ink-soft hover:bg-sand-100 hover:text-deep-700'
+          ? 'border-white/30 text-white hover:bg-white/10'
+          : 'border-sand-300 text-deep-600 hover:bg-sand-100 hover:text-deep-700'
       )}
     >
       <Globe className="h-3.5 w-3.5" strokeWidth={1.5} />
