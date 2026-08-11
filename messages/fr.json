@@ -982,9 +982,17 @@
   "booking": {
     "eyebrow": "Réservation",
     "title": "Réservez votre journée",
-    "lead": "Choisissez une date, un créneau et parlez-nous de votre groupe. Confirmation Express par email et WhatsApp. Un acompte de 20% confirme la réservation, le solde se règle le jour-même.",
+    "lead": "Choisissez votre itinéraire, une date et un créneau, puis parlez-nous de votre groupe. Confirmation Express par email et WhatsApp. Un acompte de 20% confirme la réservation, le solde se règle le jour-même.",
     "depositLabel": "20% d'acompte confirme · solde le jour-même",
     "stepActivity": "Activité",
+    "stepItinerary": "Itinéraire",
+    "itineraryHint": "Choisissez les îles que vous souhaitez découvrir. Chaque itinéraire a sa durée et son tarif.",
+    "selectItineraryFirst": "Choisissez d'abord votre itinéraire",
+    "customTourBadge": "Sur mesure",
+    "customItinerary": "Quelles îles souhaitez-vous visiter ?",
+    "customItineraryPlaceholder": "Par exemple : demi-journée snorkeling à Coco Island et Félicité, départ de La Digue le matin…",
+    "customItineraryNote": "Nous confirmons le parcours et vous envoyons un tarif par email et WhatsApp.",
+    "taxNotice": "Tarifs hors taxes. Les taxes parc marin (Curieuse, St Pierre, Coco…) se règlent sur place en cas de plongée dans un parc protégé.",
     "stepDate": "Date & horaire",
     "stepGuests": "Personnes",
     "stepDetails": "Vos coordonnées",
@@ -999,7 +1007,6 @@
     "phone": "Téléphone (WhatsApp préféré)",
     "comments": "Commentaires ou demandes spéciales",
     "commentsPlaceholder": "Dites-nous tout ce qui peut aider. enfants à bord, régimes, occasions spéciales…",
-    "agreeTerms": "Je comprends que le bateau est unique et que mon créneau m'est réservé en exclusivité après confirmation.",
     "submit": "Envoyer la demande",
     "submitting": "Envoi…",
     "successTitle": "Demande envoyée",
@@ -1236,7 +1243,8 @@
     "circuits": {
       "title1": "Circuit 1. Grande Soeur, Petite Soeur, Félicité, Coco",
       "title2": "Circuit 2. Curieuse, Anse Lazio, Anse Georgette, St Pierre",
-      "title3": "Circuit 3. Tour de La Digue"
+      "title3": "Circuit 3. Tour de La Digue",
+      "titleCustom": "Tour personnalisé. Composez votre itinéraire"
     }
   }
 }

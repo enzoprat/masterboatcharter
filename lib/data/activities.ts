@@ -65,6 +65,8 @@ export type Circuit = {
   titleKey: string;
   islands: string[];
   options: PriceOption[];
+  /** Free-form itinerary: the guest describes what they want, we quote. */
+  custom?: boolean;
 };
 
 export type Activity = {
@@ -175,6 +177,47 @@ export const ACTIVITIES: Activity[] = [
               minGuests: 2,
               includes: [
                 'pricing.drinksIncluded',
+                'pricing.toiletOnboard',
+              ],
+            },
+          ],
+        },
+        {
+          id: 'circuit-custom',
+          titleKey: 'pricing.circuits.titleCustom',
+          custom: true,
+          islands: [
+            'Coco Island',
+            'Félicité',
+            'Grande Soeur',
+            'Curieuse',
+            'St Pierre',
+            'Anse Lazio',
+          ],
+          options: [
+            {
+              id: 'cx-half',
+              labelKey: 'pricing.halfDay',
+              slot: 'morning',
+              price: 0,
+              onRequest: true,
+              minGuests: 2,
+              includes: [
+                'pricing.drinksIncluded',
+                'pricing.snorkelingGearIncluded',
+                'pricing.toiletOnboard',
+              ],
+            },
+            {
+              id: 'cx-full',
+              labelKey: 'pricing.fullDay8h',
+              slot: 'full',
+              price: 0,
+              onRequest: true,
+              minGuests: 2,
+              includes: [
+                'pricing.drinksIncluded',
+                'pricing.snorkelingGearIncluded',
                 'pricing.toiletOnboard',
               ],
             },

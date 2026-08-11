@@ -63,7 +63,7 @@ function CircuitCard({
         <div className="p-8 lg:p-10 bg-gradient-to-br from-deep-700 to-deep-800 text-white flex flex-col justify-between gap-6">
           <div>
             <span className="text-eyebrow uppercase tracking-wider2 text-turquoise-200 font-medium">
-              Circuit
+              {circuit.custom ? t('booking.customTourBadge') : 'Circuit'}
             </span>
             <h3 className="mt-3 font-serif text-2xl lg:text-3xl text-balance leading-tight">
               {t(circuit.titleKey)}
@@ -87,9 +87,9 @@ function CircuitCard({
                     {t(opt.labelKey)}
                   </p>
                   <p className="mt-3 font-serif text-3xl text-deep-700">
-                    {formatPrice(opt.price)}
+                    {opt.onRequest ? t('pricing.onRequest') : formatPrice(opt.price)}
                     <span className="text-base text-ink-muted ml-1 font-sans">
-                      {opt.perBoat ? '' : `${tCommon('perPerson')}`}
+                      {opt.onRequest || opt.perBoat ? '' : `${tCommon('perPerson')}`}
                     </span>
                   </p>
                 </div>

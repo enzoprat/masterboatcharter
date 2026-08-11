@@ -982,9 +982,17 @@
   "booking": {
     "eyebrow": "Reservation",
     "title": "Reserve your day",
-    "lead": "Pick a date, choose a time slot and tell us about your group. Express confirmation by email and WhatsApp. A 20% deposit confirms the booking, balance on the day.",
+    "lead": "Choose your itinerary, a date and a time slot, then tell us about your group. Express confirmation by email and WhatsApp. A 20% deposit confirms the booking, balance on the day.",
     "depositLabel": "20% deposit confirms · balance on the day",
     "stepActivity": "Activity",
+    "stepItinerary": "Itinerary",
+    "itineraryHint": "Pick the islands you want to sail to. Each itinerary has its own duration and price.",
+    "selectItineraryFirst": "Choose your itinerary first",
+    "customTourBadge": "Tailor-made",
+    "customItinerary": "Which islands would you like to visit?",
+    "customItineraryPlaceholder": "For example: half day snorkelling at Coco Island and Félicité, leaving La Digue in the morning…",
+    "customItineraryNote": "We'll confirm the route and send you a price by email and WhatsApp.",
+    "taxNotice": "Rates exclude taxes. Marine park fees (Curieuse, St Pierre, Coco…) are paid on site if you snorkel inside a protected park.",
     "stepDate": "Date & time",
     "stepGuests": "Guests",
     "stepDetails": "Your details",
@@ -999,7 +1007,6 @@
     "phone": "Phone (WhatsApp preferred)",
     "comments": "Comments or special requests",
     "commentsPlaceholder": "Tell us anything that helps. children onboard, dietary preferences, special occasions…",
-    "agreeTerms": "I understand that the boat is unique and that my time slot is reserved exclusively for me once confirmed.",
     "submit": "Send reservation request",
     "submitting": "Sending…",
     "successTitle": "Reservation request sent",
@@ -1236,7 +1243,8 @@
     "circuits": {
       "title1": "Circuit 1. Grande Soeur, Petite Soeur, Félicité, Coco",
       "title2": "Circuit 2. Curieuse, Anse Lazio, Anse Georgette, St Pierre",
-      "title3": "Circuit 3. La Digue tour"
+      "title3": "Circuit 3. La Digue tour",
+      "titleCustom": "Custom tour. Build your own itinerary"
     }
   }
 }

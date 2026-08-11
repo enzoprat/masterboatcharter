@@ -6,14 +6,16 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Check, Info, Minus, Plus, ShieldCheck, CalendarDays, Users, Clock } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, Info, Map, Minus, Plus, ShieldCheck, CalendarDays, Users, Clock } from 'lucide-react';
 import {
   ACTIVITIES,
   getActivity,
   SLOTS,
   type ActivitySlug,
+  type Circuit,
   type PriceOption,
 } from '@/lib/data/activities';
+import { isSlotAvailable } from '@/lib/booking/availability';
 import { cn, formatPrice } from '@/lib/utils';
 import { FORM_ENDPOINT, WEB3FORMS_KEY, whatsappLink } from '@/lib/site';
 import Calendar from './Calendar';
@@ -36,30 +38,27 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
   const locale = useLocale();
   const search = useSearchParams();
 
-  const activity = getActivity(slug);
-  const allOptions: PriceOption[] = useMemo(() => {
-    if (activity.pricing.type === 'circuits') {
-      return activity.pricing.circuits.flatMap((c) => c.options);
-    }
-    return activity.pricing.options;
-  }, [activity]);
-
-  // Prefill from query (?option=)
-  const initialOptionId = search.get('option') ?? allOptions[0]?.id;
+  // Prefill from query (?option=), e.g. from the pricing cards
+  const initialOptionId = search.get('option');
+  const initialCircuit = circuitsOf(slug).find((c) =>
+    c.options.some((o) => o.id === initialOptionId)
+  );
+  const initialOption =
+    optionsOf(slug).find((o) => o.id === initialOptionId) ??
+    (circuitsOf(slug).length ? undefined : optionsOf(slug)[0]);
 
   const [step, setStep] = useState<Step>('datetime');
   const [activitySlug, setActivitySlug] = useState<ActivitySlug>(slug);
   const [date, setDate] = useState<string | null>(null);
-  const [option, setOption] = useState<PriceOption | undefined>(
-    allOptions.find((o) => o.id === initialOptionId) ?? allOptions[0]
-  );
+  const [circuitId, setCircuitId] = useState<string | undefined>(initialCircuit?.id);
+  const [option, setOption] = useState<PriceOption | undefined>(initialOption);
+  const [customItinerary, setCustomItinerary] = useState('');
   const [guests, setGuests] = useState<number>(2);
   const [details, setDetails] = useState({
     name: '',
     email: '',
     phone: '',
     comments: '',
-    agree: false,
   });
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -70,23 +69,30 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [step]);
 
-  // When activity changes (sidebar), refresh options
-  useEffect(() => {
-    const a = getActivity(activitySlug);
-    const opts =
-      a.pricing.type === 'circuits'
-        ? a.pricing.circuits.flatMap((c) => c.options)
-        : a.pricing.options;
-    setOption(opts[0]);
-  }, [activitySlug]);
-
   const currentActivity = getActivity(activitySlug);
-  const currentOptions: PriceOption[] = useMemo(() => {
-    if (currentActivity.pricing.type === 'circuits') {
-      return currentActivity.pricing.circuits.flatMap((c) => c.options);
-    }
-    return currentActivity.pricing.options;
-  }, [currentActivity]);
+  const circuits: Circuit[] = useMemo(() => circuitsOf(activitySlug), [activitySlug]);
+  const circuit = circuits.find((c) => c.id === circuitId);
+  const isCustom = !!circuit?.custom;
+
+  // Options offered for the selected itinerary (or all of them when the
+  // activity has no circuits, e.g. fishing).
+  const currentOptions: PriceOption[] = circuits.length
+    ? (circuit?.options ?? [])
+    : optionsOf(activitySlug);
+
+  const selectActivity = (next: ActivitySlug) => {
+    setActivitySlug(next);
+    const nextCircuits = circuitsOf(next);
+    setCircuitId(undefined);
+    setCustomItinerary('');
+    setOption(nextCircuits.length ? undefined : optionsOf(next)[0]);
+  };
+
+  const selectCircuit = (c: Circuit) => {
+    setCircuitId(c.id);
+    setOption(c.options[0]);
+    if (!c.custom) setCustomItinerary('');
+  };
 
   const maxGuests = option?.maxGuests ?? currentActivity.maxGuests;
   const minGuests = option?.minGuests ?? 1;
@@ -97,20 +103,33 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
     if (guests > maxGuests) setGuests(maxGuests);
   }, [option, minGuests, maxGuests, guests]);
 
-  const total = option
-    ? option.onRequest
+  /** number = amount · null = on request · undefined = nothing selected yet */
+  const total = !option
+    ? undefined
+    : option.onRequest
       ? null
       : option.perBoat
         ? option.price
-        : option.price * guests
-    : 0;
+        : option.price * guests;
 
-  const canContinueDate = !!(date && option);
+  const totalLabel =
+    total === undefined
+      ? '—'
+      : total === null
+        ? tRaw('pricing.onRequest')
+        : formatPrice(total);
+
+  const canContinueDate = !!(
+    date &&
+    option &&
+    isSlotAvailable(date, option.slot) &&
+    (circuits.length === 0 || circuit) &&
+    (!isCustom || customItinerary.trim().length > 5)
+  );
   const canContinueDetails =
     details.name.length > 1 &&
     /^\S+@\S+\.\S+$/.test(details.email) &&
-    details.phone.length > 4 &&
-    details.agree;
+    details.phone.length > 4;
 
   const goNext = () => {
     if (step === 'datetime' && canContinueDate) setStep('details');
@@ -128,6 +147,8 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
     try {
       const summary = [
         `Activity: ${tActivities(`${currentActivity.i18nKey}.title`)}`,
+        circuit ? `Itinerary: ${tRaw(circuit.titleKey)}` : null,
+        isCustom ? `Requested itinerary: ${customItinerary}` : null,
         option ? `Option: ${tRaw(option.labelKey)} (${SLOTS[option.slot].start}–${SLOTS[option.slot].end})` : null,
         `Date: ${date}`,
         `Guests: ${guests}`,
@@ -150,12 +171,14 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
         },
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
-          subject: `[Master Boat Charter] New booking request — ${tActivities(`${currentActivity.i18nKey}.title`)} · ${date}`,
+          subject: `[Master Boat Charter] New booking request — ${tActivities(`${currentActivity.i18nKey}.title`)}${circuit ? ` · ${tRaw(circuit.titleKey)}` : ''} · ${date}`,
           from_name: 'Master Boat Charter — Booking',
           name: details.name,
           email: details.email,
           phone: details.phone,
           activity: tActivities(`${currentActivity.i18nKey}.title`),
+          itinerary: circuit ? tRaw(circuit.titleKey) : '',
+          custom_itinerary: isCustom ? customItinerary : '',
           option: option ? tRaw(option.labelKey) : '',
           date,
           slot: option ? `${SLOTS[option.slot].start}–${SLOTS[option.slot].end}` : '',
@@ -182,6 +205,8 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
         `Phone: ${details.phone}`,
         '',
         `Activity: ${tActivities(`${currentActivity.i18nKey}.title`)}`,
+        circuit ? `Itinerary: ${tRaw(circuit.titleKey)}` : '',
+        isCustom ? `Requested itinerary: ${customItinerary}` : '',
         option ? `Option: ${tRaw(option.labelKey)}` : '',
         `Date: ${date}`,
         option ? `Slot: ${SLOTS[option.slot].start}–${SLOTS[option.slot].end}` : '',
@@ -319,7 +344,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                           <button
                             key={a.slug}
                             type="button"
-                            onClick={() => setActivitySlug(a.slug)}
+                            onClick={() => selectActivity(a.slug)}
                             className={cn(
                               'rounded-2xl border px-4 py-3.5 text-left transition-all duration-300',
                               active
@@ -344,6 +369,50 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                     </div>
                   </div>
 
+                  {/* Itinerary — which islands you will visit */}
+                  {circuits.length > 0 && (
+                    <div className="rounded-3xl bg-white border border-sand-200 p-5 sm:p-6">
+                      <h2 className="font-serif text-xl text-deep-700 mb-1">
+                        {t('stepItinerary')}
+                      </h2>
+                      <p className="text-sm text-deep-400 mb-5">{t('itineraryHint')}</p>
+                      <div className="grid sm:grid-cols-2 gap-3">
+                        {circuits.map((c) => (
+                          <CircuitCard
+                            key={c.id}
+                            circuit={c}
+                            selected={c.id === circuitId}
+                            onSelect={() => selectCircuit(c)}
+                            title={tRaw(c.titleKey)}
+                            customLabel={t('customTourBadge')}
+                            fromLabel={tCommon('from')}
+                            perPersonLabel={tCommon('perPerson')}
+                            onRequestLabel={tRaw('pricing.onRequest')}
+                          />
+                        ))}
+                      </div>
+
+                      {isCustom && (
+                        <label className="block mt-5">
+                          <span className="block text-xs uppercase tracking-wider2 text-deep-500 font-medium mb-2">
+                            {t('customItinerary')}
+                          </span>
+                          <textarea
+                            value={customItinerary}
+                            onChange={(e) => setCustomItinerary(e.target.value)}
+                            placeholder={t('customItineraryPlaceholder')}
+                            rows={4}
+                            className="w-full bg-white border border-sand-300 rounded-2xl px-4 py-3.5 text-deep-700 placeholder-deep-300 focus:border-deep-500 focus:ring-2 focus:ring-deep-200 outline-none transition-all duration-300 resize-y"
+                          />
+                          <span className="mt-2 flex items-start gap-2 text-xs text-deep-400">
+                            <Info className="h-3.5 w-3.5 text-turquoise-500 mt-px shrink-0" strokeWidth={1.5} />
+                            {t('customItineraryNote')}
+                          </span>
+                        </label>
+                      )}
+                    </div>
+                  )}
+
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-3">
                       <h2 className="font-serif text-xl text-deep-700">
@@ -356,12 +425,18 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                       <h2 className="font-serif text-xl text-deep-700">
                         {tCommon('selectTime')}
                       </h2>
-                      <SlotPicker
-                        date={date}
-                        options={currentOptions}
-                        selectedOptionId={option?.id}
-                        onSelect={(o) => setOption(o)}
-                      />
+                      {circuits.length > 0 && !circuit ? (
+                        <div className="rounded-3xl border-2 border-dashed border-sand-300 p-8 text-center text-ink-muted">
+                          <p className="text-sm">{t('selectItineraryFirst')}</p>
+                        </div>
+                      ) : (
+                        <SlotPicker
+                          date={date}
+                          options={currentOptions}
+                          selectedOptionId={option?.id}
+                          onSelect={(o) => setOption(o)}
+                        />
+                      )}
                     </div>
                   </div>
 
@@ -446,19 +521,6 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                         className="w-full bg-white border border-sand-300 rounded-2xl px-4 py-3.5 text-deep-700 placeholder-deep-300 focus:border-deep-500 focus:ring-2 focus:ring-deep-200 outline-none transition-all duration-300 resize-y"
                       />
                     </label>
-                    <label className="flex items-start gap-3 cursor-pointer group">
-                      <input
-                        type="checkbox"
-                        checked={details.agree}
-                        onChange={(e) =>
-                          setDetails({ ...details, agree: e.target.checked })
-                        }
-                        className="mt-1 h-4 w-4 rounded border-sand-400 text-deep-700 focus:ring-deep-300"
-                      />
-                      <span className="text-sm text-ink-muted leading-relaxed group-hover:text-deep-700 transition-colors">
-                        {t('agreeTerms')}
-                      </span>
-                    </label>
                   </div>
                 </motion.div>
               )}
@@ -476,6 +538,12 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                       {t('stepReview')}
                     </h2>
                     <ReviewRow label={t('stepActivity')} value={tActivities(`${currentActivity.i18nKey}.title`)} />
+                    {circuit && (
+                      <ReviewRow label={t('stepItinerary')} value={tRaw(circuit.titleKey)} />
+                    )}
+                    {isCustom && customItinerary && (
+                      <ReviewRow label={t('customItinerary')} value={customItinerary} />
+                    )}
                     {option && (
                       <ReviewRow
                         label={tRaw(option.labelKey)}
@@ -498,6 +566,11 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                     {details.comments && (
                       <ReviewRow label={t('comments')} value={details.comments} />
                     )}
+
+                    <div className="flex items-start gap-2.5 rounded-2xl bg-sand-50 border border-sand-200 p-4 text-xs text-ink-muted leading-relaxed">
+                      <Info className="h-4 w-4 text-turquoise-600 mt-px shrink-0" strokeWidth={1.5} />
+                      <p>{t('taxNotice')}</p>
+                    </div>
 
                     {error && (
                       <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm text-red-700">
@@ -567,6 +640,13 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
               </div>
 
               <div className="p-6 space-y-5">
+                {circuits.length > 0 && (
+                  <SummaryRow
+                    icon={<Map className="h-4 w-4" strokeWidth={1.5} />}
+                    label={t('stepItinerary')}
+                    value={circuit ? tRaw(circuit.titleKey) : '—'}
+                  />
+                )}
                 <SummaryRow
                   icon={<CalendarDays className="h-4 w-4" strokeWidth={1.5} />}
                   label={t('selectedDate')}
@@ -598,7 +678,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                   <span className="text-white/70 text-sm">Total</span>
                   <div className="text-right">
                     <p className="font-serif text-4xl text-white leading-none">
-                      {total === null ? tRaw('pricing.onRequest') : formatPrice(total ?? 0)}
+                      {totalLabel}
                     </p>
                     {option && !option.perBoat && !option.onRequest && (
                       <p className="text-xs text-white/60 mt-1">
@@ -607,6 +687,10 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                     )}
                   </div>
                 </div>
+
+                <p className="text-xs text-white/55 leading-relaxed">
+                  {t('taxNotice')}
+                </p>
               </div>
 
               <div className="p-5 bg-deep-800/60 border-t border-white/10">
@@ -641,7 +725,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
               · {guests} {tCommon('guests').toLowerCase()}
             </p>
             <p className="font-serif text-xl text-white leading-tight truncate">
-              {total === null ? tRaw('pricing.onRequest') : formatPrice(total ?? 0)}
+              {totalLabel}
             </p>
           </div>
           {step !== 'review' ? (
@@ -670,12 +754,105 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
   );
 }
 
+function optionsOf(slug: ActivitySlug): PriceOption[] {
+  const p = getActivity(slug).pricing;
+  return p.type === 'circuits' ? p.circuits.flatMap((c) => c.options) : p.options;
+}
+
+function circuitsOf(slug: ActivitySlug): Circuit[] {
+  const p = getActivity(slug).pricing;
+  return p.type === 'circuits' ? p.circuits : [];
+}
+
 const slugToActivityRoute: Record<ActivitySlug, string> = {
   excursions: 'boat-excursions',
   fishing: 'big-game-fishing',
   transfers: 'boat-transfers',
   rental: 'boat-rental',
 };
+
+function CircuitCard({
+  circuit,
+  selected,
+  onSelect,
+  title,
+  customLabel,
+  fromLabel,
+  perPersonLabel,
+  onRequestLabel,
+}: {
+  circuit: Circuit;
+  selected: boolean;
+  onSelect: () => void;
+  title: string;
+  customLabel: string;
+  fromLabel: string;
+  perPersonLabel: string;
+  onRequestLabel: string;
+}) {
+  const cheapest = Math.min(...circuit.options.map((o) => o.price));
+
+  return (
+    <button
+      type="button"
+      onClick={onSelect}
+      aria-pressed={selected}
+      className={cn(
+        'text-left rounded-2xl border p-5 transition-all duration-500 ease-premium h-full flex flex-col',
+        selected
+          ? 'border-deep-600 bg-deep-700 text-white shadow-premium'
+          : 'border-sand-200 bg-white text-deep-700 hover:border-deep-400 hover:shadow-premium-sm'
+      )}
+    >
+      <div className="flex items-start justify-between gap-3">
+        <p className="font-serif text-lg leading-snug text-balance">{title}</p>
+        <span
+          className={cn(
+            'h-7 w-7 shrink-0 inline-flex items-center justify-center rounded-full border-2 transition-all',
+            selected
+              ? 'bg-white text-deep-700 border-white'
+              : 'border-sand-300 text-deep-400'
+          )}
+        >
+          {selected ? <Check className="h-3.5 w-3.5" strokeWidth={2.5} /> : null}
+        </span>
+      </div>
+
+      <ul
+        className={cn(
+          'mt-3 flex flex-wrap gap-x-3 gap-y-1 text-xs flex-1',
+          selected ? 'text-white/75' : 'text-deep-400'
+        )}
+      >
+        {circuit.islands.map((island) => (
+          <li key={island} className="flex items-center gap-1.5">
+            <span
+              className={cn(
+                'h-1 w-1 rounded-full',
+                selected ? 'bg-turquoise-300' : 'bg-turquoise-500'
+              )}
+            />
+            {island}
+          </li>
+        ))}
+      </ul>
+
+      <p className={cn('mt-4 text-sm', selected ? 'text-turquoise-200' : 'text-deep-500')}>
+        {circuit.custom ? (
+          <span className="uppercase tracking-wider2 text-xs font-medium">
+            {customLabel} · {onRequestLabel}
+          </span>
+        ) : (
+          <>
+            {fromLabel}{' '}
+            <span className="font-serif text-lg">{formatPrice(cheapest)}</span>{' '}
+            {perPersonLabel}
+          </>
+        )}
+      </p>
+    </button>
+  );
+}
 
 function Input({
   label,
