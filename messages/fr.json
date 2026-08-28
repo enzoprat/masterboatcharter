@@ -957,8 +957,7 @@
   "reassurance": {
     "noPayment": "20% d'acompte seulement",
     "confirm": "Confirmation Express",
-    "cancel": "Annulation gratuite jusqu'à 72h",
-    "oneGroup": "Un groupe par jour"
+    "cancel": "Annulation gratuite jusqu'à 72h"
   },
   "legal": {
     "title": "Master Boat Charter",
@@ -992,6 +991,9 @@
     "customItinerary": "Quelles îles souhaitez-vous visiter ?",
     "customItineraryPlaceholder": "Par exemple : demi-journée snorkeling à Coco Island et Félicité, départ de La Digue le matin…",
     "customItineraryNote": "Nous confirmons le parcours et vous envoyons un tarif par email et WhatsApp.",
+    "transferRoute": "Votre trajet",
+    "transferRouteHint": "Indiquez-nous votre point de départ et votre destination. Chaque transfert est tarifé au cas par cas.",
+    "transferRoutePlaceholder": "Par exemple : Praslin (jetée de Baie Sainte Anne) vers La Digue, 4 personnes avec bagages, arrivée par le ferry de 14h30…",
     "taxNotice": "Tarifs hors taxes. Les taxes parc marin (Curieuse, St Pierre, Coco…) se règlent sur place en cas de plongée dans un parc protégé.",
     "stepDate": "Date & horaire",
     "stepGuests": "Personnes",

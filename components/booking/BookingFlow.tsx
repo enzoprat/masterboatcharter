@@ -73,6 +73,9 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
   const circuits: Circuit[] = useMemo(() => circuitsOf(activitySlug), [activitySlug]);
   const circuit = circuits.find((c) => c.id === circuitId);
   const isCustom = !!circuit?.custom;
+  const isTransfer = activitySlug === 'transfers';
+  /** Free-text route/itinerary the guest has to describe before we can quote. */
+  const needsItinerary = isCustom || isTransfer;
 
   // Options offered for the selected itinerary (or all of them when the
   // activity has no circuits, e.g. fishing).
@@ -124,7 +127,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
     option &&
     isSlotAvailable(date, option.slot) &&
     (circuits.length === 0 || circuit) &&
-    (!isCustom || customItinerary.trim().length > 5)
+    (!needsItinerary || customItinerary.trim().length > 5)
   );
   const canContinueDetails =
     details.name.length > 1 &&
@@ -148,7 +151,9 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
       const summary = [
         `Activity: ${tActivities(`${currentActivity.i18nKey}.title`)}`,
         circuit ? `Itinerary: ${tRaw(circuit.titleKey)}` : null,
-        isCustom ? `Requested itinerary: ${customItinerary}` : null,
+        needsItinerary
+          ? `${isTransfer ? 'Route' : 'Requested itinerary'}: ${customItinerary}`
+          : null,
         option ? `Option: ${tRaw(option.labelKey)} (${SLOTS[option.slot].start}–${SLOTS[option.slot].end})` : null,
         `Date: ${date}`,
         `Guests: ${guests}`,
@@ -178,7 +183,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
           phone: details.phone,
           activity: tActivities(`${currentActivity.i18nKey}.title`),
           itinerary: circuit ? tRaw(circuit.titleKey) : '',
-          custom_itinerary: isCustom ? customItinerary : '',
+          custom_itinerary: needsItinerary ? customItinerary : '',
           option: option ? tRaw(option.labelKey) : '',
           date,
           slot: option ? `${SLOTS[option.slot].start}–${SLOTS[option.slot].end}` : '',
@@ -206,7 +211,9 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
         '',
         `Activity: ${tActivities(`${currentActivity.i18nKey}.title`)}`,
         circuit ? `Itinerary: ${tRaw(circuit.titleKey)}` : '',
-        isCustom ? `Requested itinerary: ${customItinerary}` : '',
+        needsItinerary
+          ? `${isTransfer ? 'Route' : 'Requested itinerary'}: ${customItinerary}`
+          : '',
         option ? `Option: ${tRaw(option.labelKey)}` : '',
         `Date: ${date}`,
         option ? `Slot: ${SLOTS[option.slot].start}–${SLOTS[option.slot].end}` : '',
@@ -413,6 +420,27 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                     </div>
                   )}
 
+                  {/* Transfers — the guest tells us where they sail from and to */}
+                  {isTransfer && (
+                    <div className="rounded-3xl bg-white border border-sand-200 p-5 sm:p-6">
+                      <h2 className="font-serif text-xl text-deep-700 mb-1">
+                        {t('transferRoute')}
+                      </h2>
+                      <p className="text-sm text-deep-400 mb-5">{t('transferRouteHint')}</p>
+                      <textarea
+                        value={customItinerary}
+                        onChange={(e) => setCustomItinerary(e.target.value)}
+                        placeholder={t('transferRoutePlaceholder')}
+                        rows={4}
+                        className="w-full bg-white border border-sand-300 rounded-2xl px-4 py-3.5 text-deep-700 placeholder-deep-300 focus:border-deep-500 focus:ring-2 focus:ring-deep-200 outline-none transition-all duration-300 resize-y"
+                      />
+                      <span className="mt-2 flex items-start gap-2 text-xs text-deep-400">
+                        <Info className="h-3.5 w-3.5 text-turquoise-500 mt-px shrink-0" strokeWidth={1.5} />
+                        {t('customItineraryNote')}
+                      </span>
+                    </div>
+                  )}
+
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-3">
                       <h2 className="font-serif text-xl text-deep-700">
@@ -541,8 +569,11 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                     {circuit && (
                       <ReviewRow label={t('stepItinerary')} value={tRaw(circuit.titleKey)} />
                     )}
-                    {isCustom && customItinerary && (
-                      <ReviewRow label={t('customItinerary')} value={customItinerary} />
+                    {needsItinerary && customItinerary && (
+                      <ReviewRow
+                        label={isTransfer ? t('transferRoute') : t('customItinerary')}
+                        value={customItinerary}
+                      />
                     )}
                     {option && (
                       <ReviewRow

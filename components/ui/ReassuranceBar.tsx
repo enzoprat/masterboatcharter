@@ -1,14 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { CreditCard, Clock, RotateCcw, Users } from 'lucide-react';
+import { CreditCard, Clock, RotateCcw } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const ITEMS = [
   { key: 'noPayment', icon: CreditCard },
   { key: 'confirm', icon: Clock },
   { key: 'cancel', icon: RotateCcw },
-  { key: 'oneGroup', icon: Users },
 ] as const;
 
 export default function ReassuranceBar({
@@ -23,7 +22,7 @@ export default function ReassuranceBar({
   return (
     <div
       className={cn(
-        'grid grid-cols-2 lg:grid-cols-4 gap-px rounded-2xl overflow-hidden border',
+        'grid grid-cols-1 sm:grid-cols-3 gap-px rounded-2xl overflow-hidden border',
         variant === 'dark'
           ? 'bg-white/5 border-white/10'
           : 'bg-sand-200/60 border-sand-200',
