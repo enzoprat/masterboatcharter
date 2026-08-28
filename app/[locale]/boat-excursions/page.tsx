@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import ActivityPage from '@/components/activities/ActivityPage';
+import { alternates } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -12,10 +13,7 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('shortDescription'),
-    alternates: {
-      canonical: '/boat-excursions',
-      languages: { en: '/boat-excursions', fr: '/fr/excursions-en-bateau' },
-    },
+    alternates: alternates(locale, '/boat-excursions'),
   };
 }
 

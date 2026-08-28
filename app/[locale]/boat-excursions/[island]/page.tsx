@@ -10,6 +10,7 @@ import {
   getDestination,
 } from '@/lib/data/destinations';
 import { SITE } from '@/lib/site';
+import { alternates } from '@/lib/seo';
 
 export function generateStaticParams() {
   return DESTINATION_SLUGS.map((island) => ({ island }));
@@ -29,21 +30,15 @@ export async function generateMetadata({
     namespace: `destinations.${destination.slug}`,
   });
 
-  const url = `/boat-excursions/${destination.slug}`;
+  const alts = alternates(locale, `/boat-excursions/${destination.slug}`);
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
-    alternates: {
-      canonical: url,
-      languages: {
-        en: url,
-        fr: `/fr${url}`,
-      },
-    },
+    alternates: alts,
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDescription'),
-      url,
+      url: alts.canonical,
       images: [{ url: destination.image, width: 1600, height: 1067 }],
       type: 'article',
     },

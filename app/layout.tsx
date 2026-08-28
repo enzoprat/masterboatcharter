@@ -1,8 +1,9 @@
 import './globals.css';
 import type { Metadata, Viewport } from 'next';
+import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://masterboatcharter.com'),
+  metadataBase: new URL(SITE.url),
 };
 
 export const viewport: Viewport = {

@@ -8,6 +8,7 @@ import Reveal from '@/components/ui/Reveal';
 import JsonLdBreadcrumb from '@/components/seo/JsonLdBreadcrumb';
 import JsonLdPerson from '@/components/seo/JsonLdPerson';
 import { whatsappLink } from '@/lib/site';
+import { alternates } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -19,10 +20,7 @@ export async function generateMetadata({
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
-    alternates: {
-      canonical: '/about/captain',
-      languages: { en: '/about/captain', fr: '/fr/about/captain' },
-    },
+    alternates: alternates(locale, '/about/captain'),
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDescription'),

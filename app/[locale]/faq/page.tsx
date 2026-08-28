@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import Reveal from '@/components/ui/Reveal';
 import JsonLdBreadcrumb from '@/components/seo/JsonLdBreadcrumb';
 import JsonLdFaq from '@/components/seo/JsonLdFaq';
+import { alternates } from '@/lib/seo';
 
 type Section = {
   title: string;
@@ -20,10 +21,7 @@ export async function generateMetadata({
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
-    alternates: {
-      canonical: '/faq',
-      languages: { en: '/faq', fr: '/fr/faq' },
-    },
+    alternates: alternates(locale, '/faq'),
   };
 }
 

@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import Reveal from '@/components/ui/Reveal';
 import Commitments from '@/components/home/Commitments';
 import CTA from '@/components/home/CTA';
+import { alternates } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -16,10 +17,7 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('lead'),
-    alternates: {
-      canonical: '/about',
-      languages: { en: '/about', fr: '/fr/a-propos' },
-    },
+    alternates: alternates(locale, '/about'),
   };
 }
 

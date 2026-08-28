@@ -11,6 +11,36 @@ export const routing = defineRouting({
       en: '/boat-excursions',
       fr: '/excursions-en-bateau',
     },
+    // Destination sub-pages. Declared slug by slug (rather than as a
+    // `[island]` template) so plain string hrefs keep resolving.
+    '/boat-excursions/curieuse-island': {
+      en: '/boat-excursions/curieuse-island',
+      fr: '/excursions-en-bateau/ile-curieuse',
+    },
+    '/boat-excursions/coco-island': {
+      en: '/boat-excursions/coco-island',
+      fr: '/excursions-en-bateau/ile-coco',
+    },
+    '/boat-excursions/la-digue-tour': {
+      en: '/boat-excursions/la-digue-tour',
+      fr: '/excursions-en-bateau/tour-de-la-digue',
+    },
+    '/boat-excursions/sister-islands': {
+      en: '/boat-excursions/sister-islands',
+      fr: '/excursions-en-bateau/iles-soeurs',
+    },
+    '/boat-excursions/anse-lazio': {
+      en: '/boat-excursions/anse-lazio',
+      fr: '/excursions-en-bateau/anse-lazio',
+    },
+    '/boat-excursions/st-pierre-islet': {
+      en: '/boat-excursions/st-pierre-islet',
+      fr: '/excursions-en-bateau/ilot-saint-pierre',
+    },
+    '/boat-excursions/sunset-cruise': {
+      en: '/boat-excursions/sunset-cruise',
+      fr: '/excursions-en-bateau/croisiere-coucher-de-soleil',
+    },
     '/big-game-fishing': {
       en: '/big-game-fishing',
       fr: '/peche-au-gros',
@@ -27,6 +57,10 @@ export const routing = defineRouting({
       en: '/about',
       fr: '/a-propos',
     },
+    '/about/captain': {
+      en: '/about/captain',
+      fr: '/a-propos/capitaine',
+    },
     '/contact': {
       en: '/contact',
       fr: '/contact',
@@ -38,6 +72,14 @@ export const routing = defineRouting({
     '/guides': {
       en: '/guides',
       fr: '/guides',
+    },
+    '/guides/whale-shark-season-seychelles': {
+      en: '/guides/whale-shark-season-seychelles',
+      fr: '/guides/saison-requin-baleine-seychelles',
+    },
+    '/guides/best-time-to-visit-seychelles': {
+      en: '/guides/best-time-to-visit-seychelles',
+      fr: '/guides/quand-partir-aux-seychelles',
     },
   },
 });

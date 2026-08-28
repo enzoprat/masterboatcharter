@@ -9,6 +9,7 @@ import Footer from '@/components/layout/Footer';
 import MobileBookBar from '@/components/layout/MobileBookBar';
 import JsonLdOrganization from '@/components/seo/JsonLdOrganization';
 import { SITE } from '@/lib/site';
+import { alternates } from '@/lib/seo';
 
 const display = Cormorant_Garamond({
   subsets: ['latin'],
@@ -56,7 +57,7 @@ export async function generateMetadata({
     openGraph: {
       type: 'website',
       locale: locale === 'fr' ? 'fr_FR' : 'en_US',
-      url: SITE.url,
+      url: locale === 'fr' ? `${SITE.url}/fr` : SITE.url,
       title: t('defaultTitle'),
       description: t('defaultDescription'),
       siteName: t('siteName'),
@@ -86,13 +87,7 @@ export async function generateMetadata({
         'max-snippet': -1,
       },
     },
-    alternates: {
-      canonical: '/',
-      languages: {
-        en: '/',
-        fr: '/fr',
-      },
-    },
+    alternates: alternates(locale, '/'),
   };
 }
 

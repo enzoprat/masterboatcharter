@@ -6,6 +6,7 @@ import Reveal from '@/components/ui/Reveal';
 import ContactForm from '@/components/contact/ContactForm';
 import { MessageCircle, MapPin } from 'lucide-react';
 import { SITE, whatsappLink } from '@/lib/site';
+import { alternates } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -17,10 +18,7 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('lead'),
-    alternates: {
-      canonical: '/contact',
-      languages: { en: '/contact', fr: '/fr/contact' },
-    },
+    alternates: alternates(locale, '/contact'),
   };
 }
 

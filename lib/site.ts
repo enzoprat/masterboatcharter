@@ -1,6 +1,6 @@
 export const SITE = {
   name: 'Master Boat Charter',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://masterboatcharter.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.masterboatcharter.com',
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? 'nathanjosephin4@gmail.com',
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '+33 7 52 06 60 32',
   whatsappDigits: (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '+33752066032').replace(/\D/g, ''),

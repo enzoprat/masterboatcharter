@@ -7,6 +7,7 @@ import JsonLdArticle from '@/components/seo/JsonLdArticle';
 import JsonLdFaq from '@/components/seo/JsonLdFaq';
 import { GUIDE_SLUGS, getGuide } from '@/lib/data/guides';
 import { SITE } from '@/lib/site';
+import { alternates } from '@/lib/seo';
 
 export function generateStaticParams() {
   return GUIDE_SLUGS.map((slug) => ({ slug }));
@@ -26,18 +27,15 @@ export async function generateMetadata({
     namespace: `guides.${guide.slug}`,
   });
 
-  const url = `/guides/${guide.slug}`;
+  const alts = alternates(locale, `/guides/${guide.slug}`);
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
-    alternates: {
-      canonical: url,
-      languages: { en: url, fr: `/fr${url}` },
-    },
+    alternates: alts,
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDescription'),
-      url,
+      url: alts.canonical,
       images: [{ url: guide.image }],
       type: 'article',
       publishedTime: guide.datePublished,

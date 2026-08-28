@@ -7,6 +7,7 @@ import { Calendar, ArrowRight } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 import JsonLdBreadcrumb from '@/components/seo/JsonLdBreadcrumb';
 import { GUIDE_SLUGS, GUIDES } from '@/lib/data/guides';
+import { alternates } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -18,10 +19,7 @@ export async function generateMetadata({
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
-    alternates: {
-      canonical: '/guides',
-      languages: { en: '/guides', fr: '/fr/guides' },
-    },
+    alternates: alternates(locale, '/guides'),
   };
 }
 
