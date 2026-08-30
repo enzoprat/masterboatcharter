@@ -1,7 +1,7 @@
 import { SLOTS, type SlotKey } from '@/lib/data/activities';
 
 /**
- * Mock booking data (in-memory). In production this becomes a DB query
+ * Booking source (in-memory). In production this becomes a DB query
  * (Supabase, Postgres, etc). The shape stays the same.
  */
 export type ExistingBooking = {
@@ -9,32 +9,16 @@ export type ExistingBooking = {
   slot: SlotKey;
 };
 
-// A small, deterministic-ish set of "already booked" slots for demo purposes.
-// We tag a handful of upcoming days so the UI clearly shows conflicts.
-function pseudoBookings(): ExistingBooking[] {
-  const today = new Date();
-  const out: ExistingBooking[] = [];
-  for (let i = 1; i <= 30; i++) {
-    const d = new Date(today);
-    d.setDate(today.getDate() + i);
-    const day = d.getDay();
-    const iso = d.toISOString().slice(0, 10);
-    // Saturdays: full day booked
-    if (day === 6) out.push({ date: iso, slot: 'full' });
-    // Every Tuesday: morning booked
-    if (day === 2) out.push({ date: iso, slot: 'morning' });
-    // Every Friday: sunset booked
-    if (day === 5) out.push({ date: iso, slot: 'sunset' });
-  }
-  return out;
-}
-
-const DEMO_BOOKINGS = pseudoBookings();
+/**
+ * Real bookings, once there is a backend to read them from. Until then this
+ * stays empty: blocking a date the captain never blocked costs a booking.
+ */
+const BOOKINGS: ExistingBooking[] = [];
 
 /** Returns the slots blocked on `date` given existing bookings. */
 export function getBlockedSlots(
   date: string,
-  bookings: ExistingBooking[] = DEMO_BOOKINGS
+  bookings: ExistingBooking[] = BOOKINGS
 ): Set<SlotKey> {
   const blocked = new Set<SlotKey>();
   for (const b of bookings) {
@@ -51,9 +35,17 @@ export function isSlotAvailable(date: string, slot: SlotKey): boolean {
   return !getBlockedSlots(date).has(slot);
 }
 
-/** Helper: format date for input fields */
+/**
+ * Helper: format date for input fields.
+ *
+ * Uses the local calendar fields, not `toISOString()` — the calendar builds
+ * its cells at local midnight, which in any timezone east of Greenwich
+ * (France, Germany, Seychelles) converts back to the *previous* day in UTC.
+ */
 export function toISODate(d: Date): string {
-  return d.toISOString().slice(0, 10);
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${month}-${day}`;
 }
 
 /** Helper: today at start-of-day */
