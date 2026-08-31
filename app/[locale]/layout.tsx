@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Cormorant_Garamond } from 'next/font/google';
+import { Fraunces } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -11,18 +11,23 @@ import JsonLdOrganization from '@/components/seo/JsonLdOrganization';
 import { SITE } from '@/lib/site';
 import { alternates } from '@/lib/seo';
 
-const display = Cormorant_Garamond({
+/**
+ * Display face. Cormorant Garamond is the default "luxury travel" serif —
+ * every villa rental and yacht template uses it, so it reads as a genre
+ * signal rather than an identity. Fraunces is a variable serif with an
+ * optical-size axis: at display sizes it gets the warm, slightly hand-cut
+ * quality of a painted boat name, which is what this business actually is.
+ *
+ * Body text uses the system stack (see globals.css) — real SF Pro on the
+ * Apple devices most of this audience browses on, and one less font to
+ * download.
+ */
+const display = Fraunces({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-display',
-  weight: ['400', '500', '600', '700'],
-});
-
-const body = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-body',
-  weight: ['300', '400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  axes: ['SOFT', 'WONK', 'opsz'],
 });
 
 export function generateStaticParams() {
@@ -108,7 +113,15 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${display.variable} ${body.variable}`}>
+    <html lang={locale} className={display.variable}>
+      <head>
+        {/* Every Reveal renders at opacity 0 and waits for framer-motion to
+            bring it in. With scripting off that leaves the entire page below
+            the hero blank, so pin the end state. */}
+        <noscript>
+          <style>{`[style*="opacity:0"],[style*="opacity: 0"]{opacity:1!important;transform:none!important}`}</style>
+        </noscript>
+      </head>
       <body className="min-h-screen flex flex-col bg-white">
         <NextIntlClientProvider messages={messages}>
           <JsonLdOrganization />

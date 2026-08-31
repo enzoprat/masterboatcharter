@@ -850,11 +850,15 @@
     "specs": {
       "capacity": {
         "label": "Capacity",
-        "value": "12 guests"
+        "value": "12 guests",
+        "figure": "12",
+        "unit": "guests aboard"
       },
       "length": {
         "label": "Length",
-        "value": "9 metres"
+        "value": "9 metres",
+        "figure": "9",
+        "unit": "metres of hull"
       },
       "engines": {
         "label": "Engines",
@@ -892,27 +896,36 @@
     "lead": "A single boat. A single captain. A single group at a time. The Seychellois behind Master Boat Charter explains, in his own words, what that means and why he runs it this way.",
     "imageAlt": "Our Seychellois captain with the Master Boat at La Digue marina",
     "sections": [
-        {
-          "title": "Born on the right rock",
-          "body": "Born in La Digue, raised between the marina and the reef. School on the island until the secondary years on Praslin, then the family boats. fishing the inner banks with his father from his early teens. The kind of life where you know the names of more fish than streets."
-        },
-        {
-          "title": "From fishing to charter",
-          "body": "After years of commercial fishing, he saw the way mass tourism was handling these islands and decided he'd rather do less and do it well. One boat. Local. Direct. The first private charter day was years ago. same captain, same boat, just more guests now."
-        },
-        {
-          "title": "Why one boat",
-          "body": "\"If I run two boats, I'm a manager. I'm on the phone, I'm doing logistics, I'm not on the water with my guests. If I run one boat, I'm a captain. I know everyone on board, I cook the lunch, I read the weather, I choose the reef. That's what I want to be.\""
-        },
-        {
-          "title": "What he wants you to know",
-          "body": "Tell us what matters most to you. Tortoises? We'll plan around Curieuse. Snorkeling? We'll pick the reef on the morning tide. A quiet beach? We know which one will be empty on the day. The Seychelles are small enough that a captain who grew up here can give you a personal day, every day."
-        }
-      ],
+      {
+        "title": "Born on the right rock",
+        "body": "Born in La Digue, raised between the marina and the reef. School on the island until the secondary years on Praslin, then the family boats. fishing the inner banks with his father from his early teens. The kind of life where you know the names of more fish than streets."
+      },
+      {
+        "title": "From fishing to charter",
+        "body": "After years of commercial fishing, he saw the way mass tourism was handling these islands and decided he'd rather do less and do it well. One boat. Local. Direct. The first private charter day was years ago. same captain, same boat, just more guests now."
+      },
+      {
+        "title": "Why one boat",
+        "body": "\"If I run two boats, I'm a manager. I'm on the phone, I'm doing logistics, I'm not on the water with my guests. If I run one boat, I'm a captain. I know everyone on board, I cook the lunch, I read the weather, I choose the reef. That's what I want to be.\""
+      },
+      {
+        "title": "What he wants you to know",
+        "body": "Tell us what matters most to you. Tortoises? We'll plan around Curieuse. Snorkeling? We'll pick the reef on the morning tide. A quiet beach? We know which one will be empty on the day. The Seychelles are small enough that a captain who grew up here can give you a personal day, every day."
+      }
+    ],
     "languagesLabel": "Languages",
-    "languages": ["English (fluent)", "French (fluent)", "Seychellois Creole (native)"],
+    "languages": [
+      "English (fluent)",
+      "French (fluent)",
+      "Seychellois Creole (native)"
+    ],
     "knowsAboutLabel": "Specialised in",
-    "knowsAbout": ["Inner-islands navigation", "Big game fishing", "Snorkeling site selection", "Marine wildlife"],
+    "knowsAbout": [
+      "Inner-islands navigation",
+      "Big game fishing",
+      "Snorkeling site selection",
+      "Marine wildlife"
+    ],
     "ctaTitle": "Ready to book your day with the captain?",
     "ctaButton": "See excursions",
     "whatsappCta": "Ask the captain a question"
@@ -1248,5 +1261,9 @@
       "title3": "Circuit 3. La Digue tour",
       "titleCustom": "Custom tour. Build your own itinerary"
     }
+  },
+  "reviews": {
+    "eyebrow": "Guest reviews",
+    "countLink": "{n} reviews on Google"
   }
 }

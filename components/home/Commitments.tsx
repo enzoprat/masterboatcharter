@@ -1,62 +1,73 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Leaf, Anchor, Ship, CalendarCheck } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 
-const ITEMS = [
-  { key: 'eco', icon: Leaf },
-  { key: 'captains', icon: Anchor },
-  { key: 'comfort', icon: Ship },
-  { key: 'limited', icon: CalendarCheck },
-] as const;
+/**
+ * The commitments, set as a numbered editorial list rather than four icon
+ * tiles.
+ *
+ * The previous version put a Lucide glyph in a tinted rounded square above
+ * every item — the exact component-library tic that makes a page read as
+ * assembled. A leaf does not explain "no anchoring on coral"; the sentence
+ * does. Numerals give the same visual anchor while carrying real meaning
+ * (there are four, they are ordered), and they let the type do the work.
+ */
+const ITEMS = ['eco', 'captains', 'comfort', 'limited'] as const;
 
 export default function Commitments() {
   const t = useTranslations('commitments');
 
   return (
-    <section className="relative py-24 lg:py-32 bg-sand-100">
-      {/* Soft texture */}
-      <div className="absolute inset-0 opacity-40 pointer-events-none bg-[radial-gradient(circle_at_30%_20%,#FFFFFF_0%,transparent_50%)]" />
+    <section className="relative section bg-granite-100 overflow-hidden">
+      <div
+        className="absolute inset-0 chart-contours-tight text-deep-700 pointer-events-none"
+        aria-hidden
+      />
 
       <div className="container-premium relative">
-        <div className="grid lg:grid-cols-[1fr_1.4fr] gap-12 lg:gap-20 items-start">
-          <Reveal>
-            <span className="eyebrow">{t('eyebrow')}</span>
-            <h2 className="mt-5 font-serif text-display-lg text-deep-700">
+        {/* Intro sits inline with the first item rather than centred above
+            everything — breaks the eyebrow/title/lead stack the other
+            sections use. */}
+        <div className="grid lg:grid-cols-[0.9fr_1.3fr] gap-y-12 gap-x-16 xl:gap-x-24">
+          <Reveal className="lg:sticky lg:top-32 lg:self-start">
+            <p className="text-[0.7rem] uppercase tracking-wider3 text-sand-500">
+              {t('eyebrow')}
+            </p>
+            <h2 className="mt-6 font-serif text-display-md text-deep-700 text-balance">
               {t('title')}
             </h2>
-            <p className="mt-6 text-lg text-ink-muted leading-relaxed">
+            <div className="rule-brass mt-8 max-w-[7rem]" />
+            <p className="mt-8 text-ink-muted leading-relaxed max-w-sm">
               {t('lead')}
             </p>
           </Reveal>
 
-          <div className="grid sm:grid-cols-2 gap-px bg-sand-300/40 rounded-3xl overflow-hidden border border-sand-300/50">
-            {ITEMS.map((item, i) => {
-              const Icon = item.icon;
-              return (
-                <Reveal
-                  key={item.key}
-                  delay={0.1 + i * 0.08}
-                  className="bg-sand-50 p-8 lg:p-10 transition-colors duration-500 hover:bg-white"
+          <ol className="lg:mt-2">
+            {ITEMS.map((key, i) => (
+              <Reveal
+                key={key}
+                as="li"
+                delay={i * 0.07}
+                className="group grid grid-cols-[2.75rem_1fr] sm:grid-cols-[4rem_1fr] gap-x-5 sm:gap-x-8 py-8 sm:py-10 border-t border-granite-300/60 last:border-b"
+              >
+                <span
+                  className="font-serif text-2xl sm:text-3xl text-sand-500/70 tnum leading-none pt-1 transition-colors duration-500 group-hover:text-sand-500"
+                  aria-hidden
                 >
-                  <div className="flex flex-col gap-5">
-                    <div className="inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-nature-100 text-nature-600">
-                      <Icon className="h-6 w-6" strokeWidth={1.5} />
-                    </div>
-                    <div>
-                      <h3 className="font-serif text-2xl text-deep-700 text-balance">
-                        {t(`items.${item.key}.title`)}
-                      </h3>
-                      <p className="mt-3 text-ink-muted leading-relaxed">
-                        {t(`items.${item.key}.description`)}
-                      </p>
-                    </div>
-                  </div>
-                </Reveal>
-              );
-            })}
-          </div>
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <div>
+                  <h3 className="font-serif text-xl sm:text-2xl text-deep-700 text-balance">
+                    {t(`items.${key}.title`)}
+                  </h3>
+                  <p className="mt-3 text-ink-muted leading-relaxed max-w-lg">
+                    {t(`items.${key}.description`)}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </ol>
         </div>
       </div>
     </section>

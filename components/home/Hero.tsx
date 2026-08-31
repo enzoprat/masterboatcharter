@@ -4,8 +4,6 @@ import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { motion } from 'framer-motion';
-import { ArrowDown, Anchor, Leaf, MapPin, Calendar } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -44,12 +42,11 @@ export default function Hero() {
   return (
     <section className="relative h-[100svh] min-h-[640px] w-full overflow-hidden bg-deep-900">
       {/* Background video */}
-      <motion.div
-        initial={{ scale: 1.08, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }}
-        className="absolute inset-0"
-      >
+      {/* CSS, not framer-motion: this is the LCP element. Anything that
+          starts at opacity 0 and waits for JS to reveal it is one failed
+          hydration away from a blank hero, and it delays the largest paint
+          on every visit. */}
+      <div className="absolute inset-0 animate-hero-in [animation-fill-mode:both]">
         <video
           ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
@@ -79,7 +76,7 @@ export default function Hero() {
         />
         <div className="absolute inset-0 bg-hero-overlay" />
         <div className="absolute inset-0 bg-deep-900/25" />
-      </motion.div>
+      </div>
 
       {/* Subtle grain */}
       <div
@@ -93,42 +90,30 @@ export default function Hero() {
       {/* Content */}
       <div className="relative h-full flex flex-col container-premium pt-[140px] pb-16">
         <div className="flex-1 flex flex-col justify-center max-w-4xl">
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          >
-            <span className="eyebrow-light">
-              {t('eyebrow')}
-            </span>
-          </motion.div>
+          <div className="animate-fade-up [animation-fill-mode:both]" style={{ animationDelay: '120ms' }}>
+            <span className="eyebrow-light">{t('eyebrow')}</span>
+          </div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 28 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.55, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-6 font-serif text-display-xl text-white text-shadow leading-[0.95]"
+          <h1
+            className="mt-6 font-serif text-display-xl text-white text-shadow leading-[0.95] animate-fade-up [animation-fill-mode:both]"
+            style={{ animationDelay: '200ms' }}
           >
             <span className="block">{t('title')}</span>
             <span className="block italic font-light text-turquoise-200">
               {t('titleAccent')}
             </span>
-          </motion.h1>
+          </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.85, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-8 max-w-xl text-lg lg:text-xl text-white/85 leading-relaxed text-shadow"
+          <p
+            className="mt-8 max-w-xl text-lg lg:text-xl text-white/85 leading-relaxed text-shadow animate-fade-up [animation-fill-mode:both]"
+            style={{ animationDelay: '320ms' }}
           >
             {t('subtitle')}
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.05, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="mt-10 flex flex-wrap items-center gap-3"
+          <div
+            className="mt-10 flex flex-wrap items-center gap-3 animate-fade-up [animation-fill-mode:both]"
+            style={{ animationDelay: '420ms' }}
           >
             <Link href={'/book/excursions' as any} className="btn-accent text-base px-8 py-4 shadow-premium">
               {t('ctaPrimary')}
@@ -136,74 +121,31 @@ export default function Hero() {
             <Link href="/boat-excursions" className="btn-ghost text-base px-8 py-4">
               {t('ctaSecondary')}
             </Link>
-          </motion.div>
+          </div>
         </div>
 
-        {/* Stats strip */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.25, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-white/15 bg-white/5 backdrop-blur-md max-w-4xl"
+        {/* Manifest line */}
+        <div
+          className="border-t border-white/20 pt-5 animate-fade-up [animation-fill-mode:both]"
+          style={{ animationDelay: '540ms' }}
         >
-          <Stat
-            icon={<Anchor className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
-            label={t('stats.boat')}
-          />
-          <Stat
-            icon={<Calendar className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
-            label={t('stats.since')}
-          />
-          <Stat
-            label={t('stats.local')}
-            icon={<MapPin className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
-          />
-          <Stat
-            label={t('stats.eco')}
-            icon={<Leaf className="h-4 w-4 text-turquoise-300" strokeWidth={1.5} />}
-          />
-        </motion.div>
+          {/* A manifest line, not four glass tiles with decorative icons.
+              An anchor glyph adds nothing to "1 boat · 12 guests max" — the
+              words already say it. Rules and spacing carry the structure. */}
+          <ul className="flex flex-wrap items-center gap-x-6 gap-y-2.5 sm:gap-x-9 text-[0.7rem] sm:text-[0.74rem] uppercase tracking-wider2 text-white/70">
+            {(['boat', 'since', 'local', 'eco'] as const).map((key, i) => (
+              <li key={key} className="flex items-center gap-6 sm:gap-9">
+                {i > 0 && (
+                  <span className="hidden sm:block h-3 w-px bg-white/25" aria-hidden />
+                )}
+                <span className="leading-tight">{t(`stats.${key}`)}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-        {/* Scroll hint */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.6, duration: 1 }}
-          className="hidden lg:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-white/60 text-[0.7rem] uppercase tracking-wider2"
-        >
-          <span>{t('scrollHint')}</span>
-          <motion.div
-            animate={{ y: [0, 6, 0] }}
-            transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
-          >
-            <ArrowDown className="h-4 w-4" strokeWidth={1.5} />
-          </motion.div>
-        </motion.div>
       </div>
     </section>
   );
 }
 
-function Stat({
-  label,
-  value,
-  icon,
-}: {
-  label: string;
-  value?: string;
-  icon?: React.ReactNode;
-}) {
-  return (
-    <div className="bg-deep-900/50 backdrop-blur-md px-5 py-4 sm:px-6 sm:py-5 flex flex-col gap-2">
-      <div className="flex items-center gap-2">
-        {icon}
-        {value && (
-          <span className="font-serif text-2xl text-white">{value}</span>
-        )}
-      </div>
-      <span className="text-[0.72rem] uppercase tracking-wider2 text-white/65 leading-tight">
-        {label}
-      </span>
-    </div>
-  );
-}

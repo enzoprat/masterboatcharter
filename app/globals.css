@@ -4,9 +4,19 @@
 
 @layer base {
   :root {
-    --font-display: "Cormorant Garamond", Georgia, serif;
-    --font-body: "Inter", system-ui, -apple-system, sans-serif;
+    --font-display: "Fraunces", Georgia, serif;
+    /* Real SF Pro on Apple hardware, the closest native equivalent elsewhere.
+       No webfont request — the body face costs nothing to load. */
+    --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+      "Helvetica Neue", system-ui, sans-serif;
     --header-height: 88px;
+
+    /* Section rhythm. Sections pick a step deliberately instead of all
+       running py-24 lg:py-32 — that metronome is what makes a page read
+       as generated. */
+    --pad-tight: clamp(3.5rem, 6vw, 5.5rem);
+    --pad-normal: clamp(5rem, 9vw, 8rem);
+    --pad-loose: clamp(7rem, 13vw, 11rem);
   }
 
   html {
@@ -36,6 +46,22 @@
   h1, h2, h3, h4 {
     @apply font-serif text-balance;
     font-weight: 500;
+    /* Fraunces axes: low WONK keeps it composed, slight SOFT takes the
+       brittleness off the terminals. Display sizes override opsz below. */
+    font-variation-settings: "SOFT" 20, "WONK" 0, "opsz" 40;
+  }
+
+  /* Big display type earns the optical-size axis and a touch of wonk —
+     that is where the face stops looking like a default serif. */
+  .text-display-xl,
+  .text-display-lg {
+    font-variation-settings: "SOFT" 32, "WONK" 1, "opsz" 144;
+  }
+
+  /* Prices, times, counts — align in columns, never wobble. */
+  .tnum {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
   }
 
   /* Better paragraph wrapping */
@@ -57,6 +83,41 @@
 }
 
 @layer components {
+  /* ---- Section rhythm -------------------------------------------------
+     Three deliberate steps. A page should never run the same one twice in
+     a row: compression before an important section is what makes it land. */
+  .section-tight { padding-block: var(--pad-tight); }
+  .section { padding-block: var(--pad-normal); }
+  .section-loose { padding-block: var(--pad-loose); }
+
+  /* ---- Identity motif -------------------------------------------------
+     Bathymetric contours, the native visual language of a boat charter.
+     Pure CSS: no image request, no library, composites on the GPU. */
+  .chart-contours {
+    background-image:
+      repeating-radial-gradient(
+        ellipse 120% 90% at 15% 110%,
+        transparent 0 38px,
+        currentColor 38px 39px
+      );
+    opacity: 0.07;
+  }
+
+  .chart-contours-tight {
+    background-image:
+      repeating-radial-gradient(
+        ellipse 90% 70% at 85% -10%,
+        transparent 0 22px,
+        currentColor 22px 23px
+      );
+    opacity: 0.06;
+  }
+
+  /* Brass hairline — the editorial detail that replaces a decorative icon. */
+  .rule-brass {
+    @apply h-px w-full bg-gradient-to-r from-sand-500/50 via-sand-500/20 to-transparent;
+  }
+
   /* Container with premium gutters */
   .container-premium {
     @apply mx-auto w-full max-w-[1400px] px-6 sm:px-8 lg:px-12;

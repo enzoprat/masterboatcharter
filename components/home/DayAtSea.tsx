@@ -13,14 +13,18 @@ export default function DayAtSea() {
   const steps = t.raw('steps') as Step[];
 
   return (
-    <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
+    <section className="relative section-loose bg-white overflow-hidden">
       <div className="container-premium">
-        <Reveal className="max-w-2xl mb-14 lg:mb-20">
-          <span className="eyebrow">{t('eyebrow')}</span>
-          <h2 className="mt-5 font-serif text-display-lg text-deep-700 text-balance">
+        {/* Opens like a chapter: centred, narrow, brass rule above. */}
+        <Reveal className="max-w-xl mx-auto text-center mb-16 lg:mb-24">
+          <div className="rule-brass mx-auto max-w-[4rem] bg-gradient-to-r from-transparent via-sand-500/60 to-transparent" />
+          <p className="mt-7 text-[0.7rem] uppercase tracking-wider3 text-sand-500">
+            {t('eyebrow')}
+          </p>
+          <h2 className="mt-5 font-serif text-display-md text-deep-700 text-balance">
             {t('title')}
           </h2>
-          <p className="mt-6 text-lg text-ink-muted leading-relaxed">
+          <p className="mt-6 text-ink-muted leading-relaxed">
             {t('lead')}
           </p>
         </Reveal>

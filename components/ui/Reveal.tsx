@@ -14,7 +14,7 @@ type Props = {
   distance?: number;
   once?: boolean;
   amount?: number;
-  as?: 'div' | 'span' | 'section' | 'article' | 'li' | 'header';
+  as?: 'div' | 'span' | 'section' | 'article' | 'li' | 'header' | 'dl' | 'ol';
 };
 
 export default function Reveal({

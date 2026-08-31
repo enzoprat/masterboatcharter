@@ -27,17 +27,24 @@ export default function FAQ() {
   };
 
   return (
-    <section className="relative py-24 lg:py-32 bg-white">
+    <section className="relative section-tight bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <div className="container-narrow">
-        <Reveal className="max-w-2xl text-center mx-auto">
-          <span className="eyebrow">{t('eyebrow')}</span>
-          <h2 className="mt-5 font-serif text-display-lg text-deep-700">
+        {/* Left-aligned with the question count — DayAtSea already owns the
+            centred chapter opening. */}
+        <Reveal className="flex flex-wrap items-end justify-between gap-x-8 gap-y-3">
+          <h2 className="font-serif text-display-md text-deep-700 text-balance max-w-xl">
             {t('title')}
           </h2>
+          <p className="text-[0.7rem] uppercase tracking-wider3 text-sand-500 pb-2">
+            {t('eyebrow')}
+            <span className="tnum ml-3 text-deep-300">
+              {String(items.length).padStart(2, '0')}
+            </span>
+          </p>
         </Reveal>
 
         <Reveal delay={0.1} className="mt-14 lg:mt-16 divide-y divide-sand-200 border-y border-sand-200">

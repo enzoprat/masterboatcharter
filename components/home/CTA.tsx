@@ -12,7 +12,7 @@ export default function CTA() {
   const tNav = useTranslations('nav');
 
   return (
-    <section className="relative py-24 lg:py-32 bg-white">
+    <section className="relative section bg-granite-50">
       <div className="container-premium">
         <div className="relative overflow-hidden rounded-[2.5rem] bg-deep-900 min-h-[440px] lg:min-h-[520px] flex items-center">
           <Image

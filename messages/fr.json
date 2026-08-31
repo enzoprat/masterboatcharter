@@ -850,11 +850,15 @@
     "specs": {
       "capacity": {
         "label": "Capacité",
-        "value": "12 invités"
+        "value": "12 invités",
+        "figure": "12",
+        "unit": "invités à bord"
       },
       "length": {
         "label": "Longueur",
-        "value": "9 mètres"
+        "value": "9 mètres",
+        "figure": "9",
+        "unit": "mètres de coque"
       },
       "engines": {
         "label": "Moteurs",
@@ -892,27 +896,36 @@
     "lead": "Un seul bateau. Un seul capitaine. Un seul groupe à la fois. Le Seychellois derrière Master Boat Charter explique, avec ses mots, ce que ça veut dire et pourquoi il fait comme ça.",
     "imageAlt": "Notre capitaine seychellois avec le bateau Master au port de La Digue",
     "sections": [
-        {
-          "title": "Né sur le bon rocher",
-          "body": "Né à La Digue, grandi entre le port et le récif. École sur l'île jusqu'au secondaire à Praslin, puis les bateaux de la famille. la pêche sur les bancs intérieurs avec son père dès l'adolescence. Le genre de vie où l'on connaît le nom de plus de poissons que de rues."
-        },
-        {
-          "title": "De la pêche au charter",
-          "body": "Après des années de pêche commerciale, il a vu comment le tourisme de masse traitait ces îles et a décidé qu'il préférerait en faire moins et le faire bien. Un bateau. Local. Direct. La première journée charter privée remonte à des années. même capitaine, même bateau, juste plus d'invités aujourd'hui."
-        },
-        {
-          "title": "Pourquoi un seul bateau",
-          "body": "« Si j'opère deux bateaux, je suis un manager. Je suis au téléphone, je fais de la logistique, je ne suis pas sur l'eau avec mes invités. Si j'opère un seul bateau, je suis capitaine. Je connais tous ceux à bord, je cuisine le déjeuner, je lis le ciel, je choisis le récif. C'est ce que je veux être. »"
-        },
-        {
-          "title": "Ce qu'il veut que vous sachiez",
-          "body": "Dites-nous ce qui compte le plus pour vous. Les tortues ? On planifie autour de Curieuse. Le snorkeling ? On choisit le récif sur la marée du matin. Une plage tranquille ? On sait laquelle sera vide ce jour-là. Les Seychelles sont assez petites pour qu'un capitaine qui y a grandi puisse vous donner une journée personnelle, chaque jour."
-        }
-      ],
+      {
+        "title": "Né sur le bon rocher",
+        "body": "Né à La Digue, grandi entre le port et le récif. École sur l'île jusqu'au secondaire à Praslin, puis les bateaux de la famille. la pêche sur les bancs intérieurs avec son père dès l'adolescence. Le genre de vie où l'on connaît le nom de plus de poissons que de rues."
+      },
+      {
+        "title": "De la pêche au charter",
+        "body": "Après des années de pêche commerciale, il a vu comment le tourisme de masse traitait ces îles et a décidé qu'il préférerait en faire moins et le faire bien. Un bateau. Local. Direct. La première journée charter privée remonte à des années. même capitaine, même bateau, juste plus d'invités aujourd'hui."
+      },
+      {
+        "title": "Pourquoi un seul bateau",
+        "body": "« Si j'opère deux bateaux, je suis un manager. Je suis au téléphone, je fais de la logistique, je ne suis pas sur l'eau avec mes invités. Si j'opère un seul bateau, je suis capitaine. Je connais tous ceux à bord, je cuisine le déjeuner, je lis le ciel, je choisis le récif. C'est ce que je veux être. »"
+      },
+      {
+        "title": "Ce qu'il veut que vous sachiez",
+        "body": "Dites-nous ce qui compte le plus pour vous. Les tortues ? On planifie autour de Curieuse. Le snorkeling ? On choisit le récif sur la marée du matin. Une plage tranquille ? On sait laquelle sera vide ce jour-là. Les Seychelles sont assez petites pour qu'un capitaine qui y a grandi puisse vous donner une journée personnelle, chaque jour."
+      }
+    ],
     "languagesLabel": "Langues",
-    "languages": ["Anglais (courant)", "Français (courant)", "Créole seychellois (natif)"],
+    "languages": [
+      "Anglais (courant)",
+      "Français (courant)",
+      "Créole seychellois (natif)"
+    ],
     "knowsAboutLabel": "Spécialisé en",
-    "knowsAbout": ["Navigation îles intérieures", "Pêche au gros", "Sélection des spots snorkeling", "Faune marine"],
+    "knowsAbout": [
+      "Navigation îles intérieures",
+      "Pêche au gros",
+      "Sélection des spots snorkeling",
+      "Faune marine"
+    ],
     "ctaTitle": "Prêt à réserver votre journée avec le capitaine ?",
     "ctaButton": "Voir les excursions",
     "whatsappCta": "Posez une question au capitaine"
@@ -1248,5 +1261,9 @@
       "title3": "Circuit 3. Tour de La Digue",
       "titleCustom": "Tour personnalisé. Composez votre itinéraire"
     }
+  },
+  "reviews": {
+    "eyebrow": "Avis clients",
+    "countLink": "{n} avis sur Google"
   }
 }

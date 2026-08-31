@@ -28,17 +28,25 @@ export default function ActivitiesGrid() {
   const tCommon = useTranslations('common');
 
   return (
-    <section id="activities" className="relative py-24 lg:py-36 bg-white">
+    <section id="activities" className="relative section bg-white">
       <div className="container-premium">
-        <Reveal className="max-w-3xl">
-          <span className="eyebrow">{t('sectionEyebrow')}</span>
-          <h2 className="mt-5 font-serif text-display-lg text-deep-700">
-            {t('sectionTitle')}
-          </h2>
-          <p className="mt-6 text-lg text-ink-muted leading-relaxed max-w-2xl">
-            {t('sectionLead')}
-          </p>
-        </Reveal>
+        {/* Title and lead sit side by side on a shared baseline — the other
+            sections each open differently on purpose. */}
+        <div className="grid lg:grid-cols-[1.25fr_1fr] gap-y-6 gap-x-16 items-end">
+          <Reveal>
+            <p className="text-[0.7rem] uppercase tracking-wider3 text-sand-500">
+              {t('sectionEyebrow')}
+            </p>
+            <h2 className="mt-6 font-serif text-display-lg text-deep-700 text-balance">
+              {t('sectionTitle')}
+            </h2>
+          </Reveal>
+          <Reveal delay={0.08}>
+            <p className="text-ink-muted leading-relaxed lg:pb-2">
+              {t('sectionLead')}
+            </p>
+          </Reveal>
+        </div>
 
         <div className="mt-16 lg:mt-20 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {ACTIVITIES.map((activity, i) => {

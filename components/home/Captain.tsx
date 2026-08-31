@@ -11,7 +11,7 @@ export default function Captain() {
   const t = useTranslations('captain');
 
   return (
-    <section className="relative py-24 lg:py-32 bg-white">
+    <section className="relative section-tight bg-granite-50">
       <div className="container-premium">
         <div className="grid lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-20 items-center">
           <Reveal direction="right" className="relative">

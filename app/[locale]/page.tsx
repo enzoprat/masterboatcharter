@@ -6,6 +6,7 @@ import Captain from '@/components/home/Captain';
 import DayAtSea from '@/components/home/DayAtSea';
 import Commitments from '@/components/home/Commitments';
 import Gallery from '@/components/home/Gallery';
+import Reviews from '@/components/home/Reviews';
 import FAQ from '@/components/home/FAQ';
 import CTA from '@/components/home/CTA';
 
@@ -26,6 +27,8 @@ export default async function HomePage({
       <DayAtSea />
       <Commitments />
       <Gallery />
+      {/* Renders only once real reviews exist — see lib/data/reviews.ts */}
+      <Reviews />
       <FAQ />
       <CTA />
     </>

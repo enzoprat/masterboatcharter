@@ -62,10 +62,35 @@ const config: Config = {
           muted: '#5A6F75',
           subtle: '#8A9BA0',
         },
+        /**
+         * La Digue granite — the one landform nobody else in this niche
+         * designs with. Warm grey with a pink cast; used as paper, never
+         * as an accent.
+         */
+        granite: {
+          50: '#FAF8F6',
+          100: '#F2EEEA',
+          200: '#E4DDD6',
+          300: '#CFC4BA',
+          400: '#AC9E93',
+          500: '#8A7C72',
+          600: '#6B5F57',
+          700: '#4E453F',
+          800: '#332D29',
+          900: '#1C1815',
+        },
+        /** Deep-water ground for full-bleed dark sections. */
+        abyss: {
+          DEFAULT: '#05191F',
+          600: '#0A2830',
+          700: '#072029',
+          800: '#05191F',
+          900: '#031015',
+        },
       },
       fontFamily: {
-        serif: ['var(--font-display)', 'Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['var(--font-body)', 'Inter', 'system-ui', 'sans-serif'],
+        serif: ['var(--font-display)', 'Georgia', 'serif'],
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         // Premium fluid typography
@@ -74,6 +99,9 @@ const config: Config = {
         'display-md': ['clamp(2rem, 4vw, 3.25rem)', { lineHeight: '1.05', letterSpacing: '-0.015em' }],
         'display-sm': ['clamp(1.625rem, 3vw, 2.25rem)', { lineHeight: '1.15', letterSpacing: '-0.01em' }],
         'eyebrow': ['0.75rem', { lineHeight: '1.2', letterSpacing: '0.2em' }],
+        /** Oversized editorial numerals — timings, prices, counts. */
+        'numeral': ['clamp(3.5rem, 8vw, 7rem)', { lineHeight: '0.82', letterSpacing: '-0.04em' }],
+        'numeral-sm': ['clamp(2rem, 4vw, 3rem)', { lineHeight: '0.85', letterSpacing: '-0.03em' }],
       },
       letterSpacing: {
         wider2: '0.18em',
@@ -101,6 +129,8 @@ const config: Config = {
         'scale-in': 'scaleIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
         'shimmer': 'shimmer 2.5s linear infinite',
         'float': 'float 6s ease-in-out infinite',
+        'float-sm': 'floatSm 2s ease-in-out infinite',
+        'hero-in': 'heroIn 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
         'pulse-soft': 'pulseSoft 3s ease-in-out infinite',
       },
       keyframes: {
@@ -127,6 +157,16 @@ const config: Config = {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-12px)' },
+        },
+        floatSm: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(6px)' },
+        },
+        /* Slow settle on the hero backdrop. Opacity starts at 1 so the
+           largest paint is never gated on the animation. */
+        heroIn: {
+          from: { transform: 'scale(1.06)' },
+          to: { transform: 'scale(1)' },
         },
         pulseSoft: {
           '0%, 100%': { opacity: '1' },
