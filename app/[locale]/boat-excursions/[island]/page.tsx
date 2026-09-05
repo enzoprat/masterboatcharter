@@ -69,7 +69,11 @@ export default async function Page({
   const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   const faqItems = t.raw('faq') as { q: string; a: string }[];
-  const url = `/boat-excursions/${destination.slug}`;
+  // `route` stays logical (the breadcrumb resolves it itself); `absUrl` is
+  // the localized absolute URL. Passing the EN path to JSON-LD put every FR
+  // page in the EN hierarchy — measured in production 2026-09-05.
+  const route = `/boat-excursions/${destination.slug}`;
+  const absUrl = `${SITE.url}${alternates(locale, route).canonical}`;
 
   return (
     <>
@@ -77,13 +81,13 @@ export default async function Page({
         items={[
           { name: tNav('home'), href: '/' },
           { name: tNav('excursions'), href: '/boat-excursions' },
-          { name: t('shortTitle'), href: url },
+          { name: t('shortTitle'), href: route },
         ]}
       />
       <JsonLdTouristTrip
         name={t('schemaName')}
         description={t('metaDescription')}
-        url={`${SITE.url}${url}`}
+        url={absUrl}
         price={String(destination.priceFrom)}
         duration={destination.duration}
         itinerary={destination.itinerary}

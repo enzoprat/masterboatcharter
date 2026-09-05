@@ -42,3 +42,8 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
+
+# Artefacts d'audit SEO (données extraites, caches, rapports générés)
+/data/gsc/
+/.gsc/
+/out/

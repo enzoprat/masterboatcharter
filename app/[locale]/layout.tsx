@@ -45,7 +45,11 @@ export async function generateMetadata({
   return {
     title: {
       default: t('defaultTitle'),
-      template: `%s — ${t('siteName')}`,
+      // No brand suffix. It added 22 characters to every page title and
+      // pushed 14 of 22 crawled pages past the ~60-character SERP cut —
+      // so the brand was being truncated away anyway. Google appends the
+      // site name itself when it helps. Measured 2026-09-05.
+      template: '%s',
     },
     description: t('defaultDescription'),
     keywords: [

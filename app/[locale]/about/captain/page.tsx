@@ -57,7 +57,7 @@ export default async function Page({
         name="Master Boat Charter Captain"
         jobTitle="Captain & Founder"
         description={t('lead')}
-        url="/about/captain"
+        url={alternates(locale, '/about/captain').canonical}
         image="/images/boat-marina.jpg"
         knowsLanguage={languages.map((l) => l.split(' ')[0])}
         knowsAbout={knowsAbout}

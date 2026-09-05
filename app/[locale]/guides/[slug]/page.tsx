@@ -68,7 +68,8 @@ export default async function Page({
   const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   const faqItems = t.raw('faq') as { q: string; a: string }[];
-  const url = `/guides/${guide.slug}`;
+  const route = `/guides/${guide.slug}`;
+  const absUrl = `${SITE.url}${alternates(locale, route).canonical}`;
 
   return (
     <>
@@ -76,13 +77,13 @@ export default async function Page({
         items={[
           { name: tNav('home'), href: '/' },
           { name: 'Guides', href: '/guides' },
-          { name: t('shortTitle'), href: url },
+          { name: t('shortTitle'), href: route },
         ]}
       />
       <JsonLdArticle
         headline={t('title')}
         description={t('metaDescription')}
-        url={`${SITE.url}${url}`}
+        url={absUrl}
         image={guide.image}
         datePublished={guide.datePublished}
         dateModified={guide.dateModified}
