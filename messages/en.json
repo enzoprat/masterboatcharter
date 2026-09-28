@@ -271,7 +271,7 @@
         },
         {
           "title": "What we do when the weather turns",
-          "body": "Our cancellation policy is built around weather. If the captain calls it (safety, not preference), we refund or reschedule in full. If you call it, the 72-hour rule applies. In practice, we lose 5-10 days a year to weather across all seasons. usually rescheduled within 48 hours.\n\nThe inner islands are protected enough that the day is rarely completely cancelled. We adapt the route. east coast becomes west coast, full-day becomes half-day, snorkeling site shifts. The skill of the captain is mostly in this adaptation."
+          "body": "Our cancellation policy is built around weather. If the captain calls it (safety, not preference), we refund or reschedule in full. If you call it, the booking is not refundable; we look for a reschedule subject to availability. In practice, we lose 5-10 days a year to weather across all seasons. usually rescheduled within 48 hours.\n\nThe inner islands are protected enough that the day is rarely completely cancelled. We adapt the route. east coast becomes west coast, full-day becomes half-day, snorkeling site shifts. The skill of the captain is mostly in this adaptation."
         }
       ],
       "faqTitle": "Best time to visit. frequently asked",
@@ -969,8 +969,7 @@
   },
   "reassurance": {
     "noPayment": "20% deposit only",
-    "confirm": "Express confirmation",
-    "cancel": "Free cancellation up to 72h"
+    "confirm": "Express confirmation"
   },
   "legal": {
     "title": "Master Boat Charter",
@@ -1051,7 +1050,7 @@
           },
           {
             "q": "What's your cancellation policy?",
-            "a": "Free cancellation up to 72 hours before departure. Within 72 hours we propose a reschedule subject to availability. If the captain cancels for weather reasons, a full refund or free reschedule is always offered."
+            "a": "Bookings are non-cancellable. If you cannot make it, contact us and we will try to reschedule subject to availability, though we cannot guarantee it. If the captain cancels for weather or safety reasons, a full refund or free reschedule is always offered."
           },
           {
             "q": "How quickly do you confirm a booking?",
@@ -1145,7 +1144,7 @@
       },
       {
         "q": "What's your cancellation policy?",
-        "a": "Free cancellation up to 72 hours before departure. Inside 72 hours, the slot remains reserved for you and rescheduling is offered subject to availability."
+        "a": "Bookings are non-cancellable. If something comes up, tell us as early as you can and we will look for a reschedule subject to availability, though we cannot guarantee one. If the captain cancels for weather or safety reasons, you get a full refund or a free reschedule."
       },
       {
         "q": "Is the boat suitable for children?",

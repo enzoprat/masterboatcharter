@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
  * says nothing the sentence does not; a small brass index mark keeps the
  * scannability without the component-library look.
  */
-const ITEMS = ['noPayment', 'confirm', 'cancel'] as const;
+const ITEMS = ['noPayment', 'confirm'] as const;
 
 export default function ReassuranceBar({
   variant = 'light',
@@ -22,7 +22,7 @@ export default function ReassuranceBar({
   return (
     <div
       className={cn(
-        'grid grid-cols-1 sm:grid-cols-3 gap-px rounded-2xl overflow-hidden border',
+        'grid grid-cols-1 sm:grid-cols-2 gap-px rounded-2xl overflow-hidden border',
         variant === 'dark'
           ? 'bg-white/5 border-white/10'
           : 'bg-sand-200/60 border-sand-200',

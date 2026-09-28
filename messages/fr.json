@@ -271,7 +271,7 @@
         },
         {
           "title": "Ce qu'on fait quand la météo tourne",
-          "body": "Notre politique d'annulation est construite autour de la météo. Si le capitaine appelle (sécurité, pas préférence), nous remboursons ou reportons intégralement. Si vous appelez, la règle des 72 heures s'applique. En pratique, nous perdons 5-10 jours par an pour cause de météo, toutes saisons confondues. généralement reportés sous 48 heures.\n\nLes îles intérieures sont assez protégées pour que la journée soit rarement complètement annulée. Nous adaptons la route. côte est devient côte ouest, journée complète devient demi-journée, site de snorkeling change. L'art du capitaine est surtout dans cette adaptation."
+          "body": "Notre politique d'annulation est construite autour de la météo. Si le capitaine appelle (sécurité, pas préférence), nous remboursons ou reportons intégralement. Si vous annulez de votre côté, la réservation n'est pas remboursable ; nous cherchons un report selon disponibilité. En pratique, nous perdons 5-10 jours par an pour cause de météo, toutes saisons confondues. généralement reportés sous 48 heures.\n\nLes îles intérieures sont assez protégées pour que la journée soit rarement complètement annulée. Nous adaptons la route. côte est devient côte ouest, journée complète devient demi-journée, site de snorkeling change. L'art du capitaine est surtout dans cette adaptation."
         }
       ],
       "faqTitle": "Quand partir. questions fréquentes",
@@ -969,8 +969,7 @@
   },
   "reassurance": {
     "noPayment": "20% d'acompte seulement",
-    "confirm": "Confirmation Express",
-    "cancel": "Annulation gratuite jusqu'à 72h"
+    "confirm": "Confirmation Express"
   },
   "legal": {
     "title": "Master Boat Charter",
@@ -1051,7 +1050,7 @@
           },
           {
             "q": "Quelle est la politique d'annulation ?",
-            "a": "Annulation gratuite jusqu'à 72h avant le départ. En-deçà, nous proposons un report selon disponibilité. Si le capitaine annule pour cause de météo, remboursement intégral ou report gratuit assurés."
+            "a": "Les réservations ne sont pas annulables. Si vous ne pouvez pas venir, contactez-nous : un report est proposé selon disponibilité, sans garantie. Si le capitaine annule pour cause de météo ou de sécurité, remboursement intégral ou report gratuit assurés."
           },
           {
             "q": "Sous combien de temps confirmez-vous la réservation ?",
@@ -1145,7 +1144,7 @@
       },
       {
         "q": "Quelle est votre politique d'annulation ?",
-        "a": "Annulation gratuite jusqu'à 72h avant le départ. En-deçà, le créneau reste tenu pour vous et un report est proposé selon disponibilité."
+        "a": "Les réservations ne sont pas annulables. En cas d'empêchement, prévenez-nous au plus tôt : nous cherchons un report selon disponibilité, sans garantie. Si le capitaine annule pour cause de météo ou de sécurité, remboursement intégral ou report gratuit."
       },
       {
         "q": "Le bateau convient-il aux enfants ?",

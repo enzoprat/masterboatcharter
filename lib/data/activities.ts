@@ -158,10 +158,22 @@ export const ACTIVITIES: Activity[] = [
           islands: ['La Digue', 'Anse Source d\'Argent'],
           options: [
             {
+              id: 'c3-half',
+              labelKey: 'pricing.halfDay',
+              slot: 'morning',
+              price: 70,
+              minGuests: 2,
+              includes: [
+                'pricing.drinksIncluded',
+                'pricing.snorkelingGearIncluded',
+                'pricing.toiletOnboard',
+              ],
+            },
+            {
               id: 'c3-full',
               labelKey: 'pricing.fullDay8h',
               slot: 'full',
-              price: 70,
+              price: 130,
               minGuests: 2,
               includes: [
                 'pricing.drinksIncluded',
