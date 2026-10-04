@@ -167,6 +167,7 @@ export const ACTIVITIES: Activity[] = [
                 'pricing.drinksIncluded',
                 'pricing.snorkelingGearIncluded',
                 'pricing.toiletOnboard',
+                'pricing.marineParkFees',
               ],
             },
             {
@@ -179,6 +180,8 @@ export const ACTIVITIES: Activity[] = [
                 'pricing.drinksIncluded',
                 'pricing.snorkelingGearIncluded',
                 'pricing.toiletOnboard',
+                'pricing.marineParkFees',
+                'pricing.barbecueIncluded',
               ],
             },
             {
@@ -218,6 +221,7 @@ export const ACTIVITIES: Activity[] = [
                 'pricing.drinksIncluded',
                 'pricing.snorkelingGearIncluded',
                 'pricing.toiletOnboard',
+                'pricing.marineParkFees',
               ],
             },
             {
@@ -231,6 +235,8 @@ export const ACTIVITIES: Activity[] = [
                 'pricing.drinksIncluded',
                 'pricing.snorkelingGearIncluded',
                 'pricing.toiletOnboard',
+                'pricing.marineParkFees',
+                'pricing.barbecueIncluded',
               ],
             },
           ],

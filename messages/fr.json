@@ -51,7 +51,7 @@
     "eyebrow": "Charter privé · La Digue, Seychelles",
     "title": "Les Seychelles,",
     "titleAccent": "rien que pour vous, une journée.",
-    "subtitle": "Un seul bateau, un capitaine, un groupe à la fois. Excursions privées, pêche au gros et transferts inter-îles entre La Digue, Praslin et les îles intérieures.",
+    "subtitle": "Un seul bateau, un capitaine. Excursions privées, pêche au gros et transferts inter-îles entre La Digue, Praslin et les îles intérieures.",
     "ctaPrimary": "Voir les disponibilités",
     "ctaSecondary": "Activités & tarifs",
     "scrollHint": "Faites défiler",
@@ -65,7 +65,7 @@
   "activities": {
     "sectionEyebrow": "Expériences sur-mesure",
     "sectionTitle": "Choisissez votre journée en mer",
-    "sectionLead": "Quatre façons signature de découvrir l'archipel. des îlots déserts aux profondeurs bleues.",
+    "sectionLead": "Quatre façons signature de découvrir l'archipel. des îlots aux profondeurs bleues.",
     "perPersonHalf": "/ personne · demi-journée",
     "perBoatHalf": "/ bateau · demi-journée · jusqu'à {n}",
     "perPersonFull": "/ personne · journée",
@@ -79,14 +79,14 @@
     "excursions": {
       "shortTitle": "Excursions",
       "title": "Excursions en bateau",
-      "tagline": "Îles désertes & lagons secrets",
+      "tagline": "Îles et lagons secrets",
       "shortDescription": "Explorez les plus belles îles des Seychelles. Grande Soeur, Curieuse, La Digue et au-delà. dans le respect des écosystèmes marins.",
       "description": "Découvrez des lagons cachés, des plages de sable blanc et des parcs marins protégés à bord d'un bateau privé avec votre skipper local. Chaque itinéraire est conçu pour minimiser notre empreinte et maximiser ce que vous voyez, goûtez et retenez.",
       "highlights": [
         "Bateau privé avec capitaine local",
         "Snorkeling sur sites marins protégés : tortues, poissons, coraux",
         "Palmes, masques, tubas inclus à bord",
-        "Arrêt plage et barbecue en option",
+        "Arrêt plage, barbecue à terre en journée entière",
         "Boissons incluses, toilettes à bord",
         "À partir de 2 personnes"
       ],
@@ -97,7 +97,7 @@
       "title": "Pêche au gros",
       "tagline": "Voiliers, marlins & dorades",
       "shortDescription": "Vivez la pêche au gros aux Seychelles avec un capitaine local expérimenté, dans une approche marine respectueuse.",
-      "description": "Cap au large avec des skippers qui connaissent les saisons, les courants et la bonne manière de faire. no-kill quand c'est possible, matériel léger, pas de raccourci. Snacks et boissons à bord.",
+      "description": "Cap au large avec des skippers qui connaissent les saisons, les courants et la bonne manière de faire. matériel léger, pas de raccourci. Snacks et boissons à bord.",
       "highlights": [
         "1 à 4 pêcheurs par sortie",
         "Cannes et moulinets de qualité",
@@ -124,11 +124,11 @@
       "shortTitle": "Location",
       "title": "Location de bateau privée",
       "tagline": "Le bateau est à vous pour la journée",
-      "shortDescription": "Vivez une expérience totalement privée avec skipper inclus. dessinez votre journée, votre route, vos arrêts.",
+      "shortDescription": "Vivez une expérience totalement privée avec skipper, barbecue et toilettes à bord. Dessinez votre journée, votre route, vos arrêts. tout est possible sur demande.",
       "description": "Jusqu'à dix invités, un bateau, un capitaine local, et un littoral pour composer votre propre journée. Dites-nous ce qui compte. longues nages, mouillages calmes, barbecue à terre. et nous façonnons à partir de là.",
       "highlights": [
         "Jusqu'à 12 personnes",
-        "Skipper inclus",
+        "Skipper, barbecue et toilettes à bord inclus",
         "Itinéraire sur-mesure",
         "Boissons et ombre à bord"
       ],
@@ -142,7 +142,7 @@
     "items": {
       "eco": {
         "title": "Respect des écosystèmes marins",
-        "description": "Pas d'ancrage sur les coraux, briefing avant chaque snorkeling, zéro plastique à usage unique."
+        "description": "Pas d'ancrage sur les coraux, briefing avant chaque snorkeling."
       },
       "captains": {
         "title": "Capitaine local expérimenté",
@@ -151,10 +151,6 @@
       "comfort": {
         "title": "Confort à bord",
         "description": "Toilettes à bord, boissons incluses, ombre où il en faut. Premium sans en faire trop."
-      },
-      "limited": {
-        "title": "Réservations limitées",
-        "description": "Un bateau, un groupe à la fois. Vous êtes la journée, pas un créneau."
       }
     }
   },
@@ -340,7 +336,7 @@
   "destinations": {
     "curieuse-island": {
       "shortTitle": "Île Curieuse",
-      "title": "Curieuse. Tortues géantes & plages désertes",
+      "title": "Curieuse. Tortues géantes & plages",
       "tagline": "Parc marin · Tortues d'Aldabra · Anse Papaie",
       "lead": "Une journée privée en bateau vers l'une des îles intérieures les plus aimées des Seychelles. tortues géantes d'Aldabra à terre, parc marin corallien protégé dans l'eau, déjeuner sur une plage où les seules traces sont les vôtres.",
       "imageAlt": "Lagon turquoise du parc marin de l'île Curieuse, Seychelles",
@@ -415,9 +411,9 @@
       "title": "Parc marin de Coco & les Sister Islands",
       "tagline": "Coco · Félicité · Grande & Petite Soeur",
       "lead": "Un circuit privé en bateau dans le spot de snorkeling le plus sauvage des îles intérieures. Trois îlots granitiques, une eau-miroir, des bancs de poissons coralliens, et des arrêts de plage que la plupart des visiteurs n'atteignent jamais.",
-      "imageAlt": "Cocotiers et granite rose sur une plage déserte des Seychelles",
+      "imageAlt": "Cocotiers et granite rose sur une plage des Seychelles",
       "metaTitle": "Excursion Coco Island & Sister Islands · Snorkeling depuis La Digue",
-      "metaDescription": "Excursion privée bateau au parc marin de Coco, Félicité et Sister Islands. Snorkeling cristallin, plages désertes, barbecue à terre. Dès 130€/personne, boissons incluses.",
+      "metaDescription": "Excursion privée bateau au parc marin de Coco, Félicité et Sister Islands. Snorkeling cristallin, plages, barbecue à terre. Dès 130€/personne, boissons incluses.",
       "schemaName": "Coco & Sister Islands. Excursion privée bateau depuis La Digue",
       "factDuration": "8 heures",
       "factCapacity": "Jusqu'à 10 invités",
@@ -485,8 +481,8 @@
     "sister-islands": {
       "shortTitle": "Sister Islands",
       "title": "Sister Islands. Grande Soeur, Petite Soeur & Félicité",
-      "tagline": "Jumelles granitiques · plage déserte · barbecue",
-      "lead": "Deux îlots granitiques au large de Félicité, une plage déserte sur laquelle on peut débarquer, et une baie vide qui vous fait oublier que quelqu'un d'autre utilise ces eaux. Les Sister Islands sont la journée privée la mieux gardée des îles intérieures.",
+      "tagline": "Plage · barbecue · snorkeling",
+      "lead": "Deux îlots granitiques au large de Félicité, une plage sur laquelle on peut débarquer, et une baie vide qui vous fait oublier que quelqu'un d'autre utilise ces eaux. Les Sister Islands sont la journée privée la mieux gardée des îles intérieures.",
       "imageAlt": "Rochers granitiques et sable blanc sur les Sister Islands, Seychelles",
       "metaTitle": "Excursion Sister Islands · Grande Soeur en bateau depuis La Digue",
       "metaDescription": "Journée privée en bateau à Grande Soeur et Petite Soeur depuis La Digue. Barbecue de plage, snorkeling, passage devant Félicité. 130€/personne · boissons et déjeuner inclus.",
@@ -500,7 +496,7 @@
       "sections": [
         {
           "title": "Pourquoi les Sister Islands sont le choix des connaisseurs",
-          "body": "Grande Soeur et Petite Soeur reposent à quelques kilomètres à l'est de Félicité. des jumelles granitiques avec une plage unique entre elles, pas de route, pas de jetée, pas de resort. La plupart des bateaux les croisent en route vers Coco. Nous en faisons la destination.\n\nLa baie ouest de Grande Soeur est un des débarquements les plus calmes des îles intérieures. L'eau est plate sous le vent du rocher, le sable est le même blanc aveuglant qu'Anse Source d'Argent, et la baie est assez petite pour qu'un bateau l'occupe tout entière. Une petite taxe d'accès se règle au staff de l'île à l'arrivée. elle entretient le sentier et la baie."
+          "body": "Grande Soeur et Petite Soeur reposent à quelques kilomètres à l'est de Félicité. deux îlots granitiques avec une plage unique entre eux, pas de route, pas de jetée, pas de resort. La plupart des bateaux les croisent en route vers Coco. Nous en faisons la destination.\n\nLa baie ouest de Grande Soeur est un des débarquements les plus calmes des îles intérieures. L'eau est plate sous le vent du rocher, le sable est le même blanc aveuglant qu'Anse Source d'Argent, et la baie est assez petite pour qu'un bateau l'occupe tout entière. Une petite taxe d'accès se règle au staff de l'île à l'arrivée. elle entretient le sentier et la baie."
         },
         {
           "title": "Ce qu'on fait sur une journée Sister Islands",
@@ -893,7 +889,7 @@
     "metaDescription": "Rencontrez le capitaine seychellois derrière Master Boat Charter. Né et grandi à La Digue, des années à pêcher sur les bancs intérieurs, aujourd'hui un seul bateau privé à travers les îles intérieures.",
     "eyebrow": "Le capitaine",
     "title": "L'homme à la barre.",
-    "lead": "Un seul bateau. Un seul capitaine. Un seul groupe à la fois. Le Seychellois derrière Master Boat Charter explique, avec ses mots, ce que ça veut dire et pourquoi il fait comme ça.",
+    "lead": "Un seul bateau. Un seul capitaine. Le Seychellois derrière Master Boat Charter explique, avec ses mots, ce que ça veut dire et pourquoi il fait comme ça.",
     "imageAlt": "Notre capitaine seychellois avec le bateau Master au port de La Digue",
     "sections": [
       {
@@ -947,13 +943,13 @@
       },
       {
         "time": "12:00",
-        "title": "Île déserte",
+        "title": "Île",
         "body": "Marche, baignade, escalade des rochers granitiques. Une plage où l'on ne voit aucun autre bateau quand c'est possible."
       },
       {
         "time": "13:00",
         "title": "Déjeuner à terre",
-        "body": "Barbecue sur une plage tranquille : poisson grillé, salades, fruits frais. Boissons incluses. Les invités demi-journée débarquent ici."
+        "body": "Barbecue à terre sur une plage tranquille (journées entières) : poisson grillé, salades, fruits frais. Boissons incluses."
       },
       {
         "time": "15:00",
@@ -1042,11 +1038,11 @@
         "items": [
           {
             "q": "Comment réserver une excursion en bateau ?",
-            "a": "Choisissez une date et un créneau sur la page de réservation (environ 2 minutes). Vous recevez une confirmation par email et WhatsApp sous 2 heures. Aucune carte n'est demandée à ce stade. paiement par virement ou en espèces le jour-même."
+            "a": "Choisissez une date et un créneau sur la page de réservation (environ 2 minutes). Vous recevez une confirmation par email et WhatsApp sous 2 heures. Aucune carte n'est demandée à ce stade. Le paiement se fait sur place."
           },
           {
             "q": "Faut-il payer à l'avance ?",
-            "a": "Un acompte de 20% est requis pour confirmer votre réservation. Le solde est réglé le jour de l'activité, par virement ou en espèces."
+            "a": "Un acompte de 20% est requis pour confirmer votre réservation. Le solde est réglé sur place le jour de l'activité."
           },
           {
             "q": "Quelle est la politique d'annulation ?",
@@ -1136,7 +1132,7 @@
       },
       {
         "q": "Comment payer ?",
-        "a": "Un acompte de 20% confirme la réservation. Le solde est réglé le jour de l'activité, par virement ou en espèces."
+        "a": "Un acompte de 20% confirme la réservation. Le solde est réglé sur place le jour de l'activité."
       },
       {
         "q": "Les taxes parc marin sont-elles incluses ?",
@@ -1156,7 +1152,7 @@
       },
       {
         "q": "Comment payer ?",
-        "a": "La réservation en ligne est une demande. aucune carte n'est demandée à ce stade. Nous confirmons par email et WhatsApp et organisons le paiement par virement ou en espèces le jour-même."
+        "a": "La réservation en ligne est une demande. aucune carte n'est demandée à ce stade. Nous confirmons par email et WhatsApp et le paiement se fait sur place le jour-même."
       }
     ]
   },
@@ -1175,7 +1171,7 @@
       "title": "Pourquoi choisir Master Boat Charter ?",
       "intro": "Master Boat Charter est la référence pour vos excursions en mer et locations de bateau aux Seychelles. Depuis notre base à La Digue, nous vous proposons des sorties inoubliables dans les plus beaux lagons de l'archipel.",
       "block1Title": "Une expertise locale inégalée",
-      "block1": "Notre capitaine est Seychellois et passionné par son île. Il connaît les meilleurs spots secrets : criques sauvages, îlots désertiques, fonds marins préservés. Bien plus qu'une balade, une vraie expérience authentique.",
+      "block1": "Notre capitaine est Seychellois et passionné par son île. Il connaît les meilleurs spots secrets : criques sauvages, îlots, fonds marins préservés. Bien plus qu'une balade, une vraie expérience authentique.",
       "block2Title": "Une flotte moderne et sécurisée",
       "block2": "Que vous recherchiez un bateau privé avec skipper, une sortie snorkeling, une croisière au coucher du soleil, ou un transfert rapide entre les îles, notre flotte s'adapte. Tous nos bateaux sont régulièrement contrôlés.",
       "block3Title": "Respect de la nature et des lagons",
@@ -1183,7 +1179,7 @@
       "block4Title": "Réservation simple et sécurisée",
       "block4": "Choisissez votre date, votre activité et réservez en ligne. Grâce à notre calendrier intelligent, vous ne pouvez pas réserver un créneau déjà pris, et chaque confirmation est traitée par notre équipe.",
       "block5Title": "Une expérience sur-mesure",
-      "block5": "Pique-nique sur une plage déserte ? Arrêt baignade dans un lagon turquoise ? Visite guidée de Curieuse, Saint-Pierre ou Félicité ? Chaque sortie est adaptée à vos envies.",
+      "block5": "Pique-nique sur une plage ? Arrêt baignade dans un lagon turquoise ? Visite guidée de Curieuse, Saint-Pierre ou Félicité ? Chaque sortie est adaptée à vos envies.",
       "outro": "Réservez votre excursion dès maintenant et partez à la découverte des trésors marins des Seychelles avec Master Boat Charter. votre partenaire mer & aventure."
     }
   },
@@ -1201,11 +1197,7 @@
       },
       {
         "title": "Empreinte légère",
-        "description": "Pas d'ancrage sur les coraux, pas de plastique à usage unique, briefing à chaque récif."
-      },
-      {
-        "title": "Un groupe à la fois",
-        "description": "Nous ne partageons jamais le bateau entre groupes. Votre journée vous appartient."
+        "description": "Pas d'ancrage sur les coraux, briefing à chaque récif."
       },
       {
         "title": "Prix honnêtes",

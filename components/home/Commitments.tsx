@@ -11,9 +11,9 @@ import Reveal from '@/components/ui/Reveal';
  * every item — the exact component-library tic that makes a page read as
  * assembled. A leaf does not explain "no anchoring on coral"; the sentence
  * does. Numerals give the same visual anchor while carrying real meaning
- * (there are four, they are ordered), and they let the type do the work.
+ * (they are ordered), and they let the type do the work.
  */
-const ITEMS = ['eco', 'captains', 'comfort', 'limited'] as const;
+const ITEMS = ['eco', 'captains', 'comfort'] as const;
 
 export default function Commitments() {
   const t = useTranslations('commitments');

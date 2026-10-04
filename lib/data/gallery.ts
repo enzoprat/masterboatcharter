@@ -45,10 +45,5 @@ export const GALLERY: GalleryImage[] = [
     src: '/images/fishing-gear.jpg',
     alt: 'Big game fishing rods, reels and a sailfish on the dock — Seychelles',
     span: 'md:col-span-1 md:row-span-1',
-  },
-  {
-    src: '/images/fishing-angler.jpg',
-    alt: 'Angler holding a red snapper and grouper after a charter fishing day in Seychelles',
-    span: 'md:col-span-1 md:row-span-1',
-  },
+  }
 ];
