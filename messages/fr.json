@@ -701,7 +701,7 @@
       "lead": "Trois heures sur l'eau au seul moment où les îles intérieures virent à l'or. Embarquement à 16h30, nous longeons la côte est de La Digue, tenons le bateau au large d'Anse Source d'Argent pour le coucher de soleil, et dérivons jusqu'au port sous la dernière couleur du jour.",
       "imageAlt": "Le bateau Master au coucher du soleil autour de La Digue, Seychelles",
       "metaTitle": "Croisière sunset La Digue · Bateau privé à l'heure dorée Seychelles",
-      "metaDescription": "Croisière coucher de soleil privée depuis La Digue. Anse Source d'Argent à l'heure dorée, boissons, plateau à bord. 70€/personne · 3 heures · 10 invités max.",
+      "metaDescription": "Croisière coucher de soleil privée depuis La Digue. Anse Source d'Argent à l'heure dorée, eau et sodas inclus. 70€/personne · 3 heures · 10 invités max.",
       "schemaName": "Croisière coucher de soleil La Digue. Bateau privé à l'heure dorée",
       "factDuration": "3 heures",
       "factCapacity": "Jusqu'à 10 invités",
@@ -720,18 +720,14 @@
         },
         {
           "title": "Ce qu'il y a à bord",
-          "body": "Une bouteille fraîche (vous choisissez à la réservation. pétillant, blanc, rosé ou sans alcool), eau, sodas, et une petite assiette. fruits locaux, fromage, petites bouchées. Le capitaine garde le moteur bas et la route douce. Pas de micro, pas d'animation de groupe. c'est votre soirée."
-        },
-        {
-          "title": "La version honeymoon",
-          "body": "Si vous réservez le sunset pour une occasion (voyage de noces, anniversaire, demande en mariage), dites-le. Nous ajoutons une petite surprise. des fleurs du marché local, une carte du capitaine, un itinéraire un peu plus long qui passe par Petite Anse où presque aucun autre bateau ne va. Nous faisons ça discrètement ; aucune mention de la surprise à bord."
+          "body": "Eau et sodas à bord. Une bouteille fraîche — pétillant, blanc, rosé ou sans alcool — est disponible en supplément, à choisir à la réservation. Le capitaine garde le moteur bas et la route douce. Pas de micro, pas d'animation de groupe. c'est votre soirée."
         }
       ],
       "highlightsTitle": "Ce qui est inclus dans la croisière coucher de soleil",
       "highlights": [
         "Bateau privé, votre groupe uniquement",
-        "Bouteille fraîche au choix",
-        "Petite assiette à bord",
+        "Bouteille fraîche au choix, en supplément",
+        "Eau et sodas inclus",
         "Anse Source d'Argent depuis l'eau à l'heure dorée",
         "Arrêt mouillage baignade optionnel",
         "Retour à allure douce au port"
@@ -750,7 +746,7 @@
         },
         {
           "q": "Y a-t-il à manger à bord ?",
-          "a": "Une petite assiette (fruits, fromage, petites bouchées) et boissons. Pour un dîner complet nous recommandons les restaurants du port au retour."
+          "a": "Non. Eau et sodas sont inclus à bord ; une bouteille fraîche est disponible en supplément. Pour un dîner complet nous recommandons les restaurants du port au retour."
         },
         {
           "q": "Et si le temps est couvert ?",
@@ -796,7 +792,7 @@
         },
         {
           "title": "La version coucher de soleil",
-          "body": "Réservée entre 16h30 et 19h30 selon la saison. On commence par descendre la côte est, on revient devant Anse Source d'Argent pour la lumière dorée, puis on dérive lentement vers le port sous la dernière couleur du jour. Boissons, petite assiette à bord, et le calme qu'on n'a pas en croisière de groupe."
+          "body": "Réservée entre 16h30 et 19h30 selon la saison. On commence par descendre la côte est, on revient devant Anse Source d'Argent pour la lumière dorée, puis on dérive lentement vers le port sous la dernière couleur du jour. Eau et sodas à bord, et le calme qu'on n'a pas en croisière de groupe."
         }
       ],
       "highlightsTitle": "Ce qui est inclus dans le tour de La Digue",
@@ -822,7 +818,7 @@
         },
         {
           "q": "Ce tour convient-il aux jeunes mariés ?",
-          "a": "Beaucoup réservent pour une occasion. Sur demande, nous ajoutons une petite assiette, une bouteille fraîche et un rythme plus doux."
+          "a": "Beaucoup réservent pour une occasion. Sur demande, nous ajoutons une bouteille fraîche en supplément et un rythme plus doux."
         },
         {
           "q": "Verra-t-on d'autres bateaux ?",
