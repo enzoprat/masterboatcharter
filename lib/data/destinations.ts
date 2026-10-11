@@ -134,9 +134,9 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
     image: '/images/hero-boat-flag.jpg',
     geo: { lat: -4.359, lng: 55.832 },
     priceFrom: 70,
-    duration: 'PT3H',
+    duration: 'PT2H',
     itinerary: [
-      'La Digue marina (16:30 boarding)',
+      'La Digue marina (17:00 boarding)',
       'East coast cruise',
       "Anse Source d’Argent at golden hour",
       'Return to marina (after sunset)',
