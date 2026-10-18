@@ -200,9 +200,27 @@ export default function Footer() {
 
         <div className="border-t border-white/10">
           <div className="container-premium py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/55">
-            <p>
-              © {year} {SITE.name}. {t('rights')}
-            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-x-3 gap-y-1">
+              <p>
+                © {year} {SITE.name}. {t('rights')}
+              </p>
+              <span className="hidden sm:block h-3 w-px bg-white/15" aria-hidden />
+              {/* Studio credit. Brand-name anchor only — a repeated commercial
+                  anchor across several footers reads as a link scheme. */}
+              {/* white/55 is the floor here: at white/40 the label fell to
+                  3.71:1 against the footer, under WCAG AA. */}
+              <p>
+                Réalisé par{' '}
+                <a
+                  href="https://www.pratstudio.fr"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-white/80 hover:text-white focus-visible:text-white underline-offset-2 hover:underline transition-colors"
+                >
+                  Prat Studio
+                </a>
+              </p>
+            </div>
             <p className="font-serif italic text-white/65">
               {t('experienceResponsibly')}
             </p>
