@@ -31,7 +31,7 @@ export const SLOTS: Record<SlotKey, Slot> = {
   full: {
     key: 'full',
     start: '09:00',
-    end: '17:00',
+    end: '16:00',
     blocks: ['morning', 'afternoon', 'full', 'sunset'],
   },
   sunset: {

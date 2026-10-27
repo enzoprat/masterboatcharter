@@ -40,7 +40,7 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
     image: '/images/lagoon-swim.jpg',
     geo: { lat: -4.282, lng: 55.732 },
     priceFrom: 175,
-    duration: 'PT8H',
+    duration: 'PT7H',
     itinerary: [
       'La Digue marina',
       'Curieuse Island — Anse Saint-Joseph',
@@ -56,7 +56,7 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
     image: '/images/beach-palms.jpg',
     geo: { lat: -4.303, lng: 55.851 },
     priceFrom: 130,
-    duration: 'PT8H',
+    duration: 'PT7H',
     itinerary: [
       'La Digue marina',
       'Coco Island Marine Park — main reef',
@@ -72,7 +72,7 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
     image: '/images/hero-boat-flag.jpg',
     geo: { lat: -4.3596, lng: 55.8395 },
     priceFrom: 70,
-    duration: 'PT8H',
+    duration: 'PT7H',
     itinerary: [
       'La Digue marina',
       "Anse Source d’Argent (from sea)",
@@ -88,7 +88,7 @@ export const DESTINATIONS: Record<DestinationSlug, Destination> = {
     image: '/images/beach-palms.jpg',
     geo: { lat: -4.297, lng: 55.85 },
     priceFrom: 130,
-    duration: 'PT8H',
+    duration: 'PT7H',
     itinerary: [
       'La Digue marina',
       'Grande Soeur — east beach',

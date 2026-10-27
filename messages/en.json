@@ -343,7 +343,7 @@
       "metaTitle": "Curieuse Island Tour Seychelles · Private Boat from La Digue",
       "metaDescription": "Curieuse Island day tour from La Digue: Aldabra giant tortoises, marine park snorkeling, Anse Papaie beach BBQ, St-Pierre Islet stop. €175 / person, drinks & lunch included. Local Seychellois captain.",
       "schemaName": "Curieuse Island Full-Day Private Boat Tour from La Digue",
-      "factDuration": "8 hours",
+      "factDuration": "7 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
       "factDeparture": "La Digue · Praslin on request",
@@ -377,7 +377,7 @@
         "Marine park fee guidance (payable on arrival)"
       ],
       "itineraryEyebrow": "A day on Curieuse",
-      "itineraryTitle": "Typical itinerary, 08:00 to 17:00",
+      "itineraryTitle": "Typical itinerary, 09:00 to 16:00",
       "faqTitle": "Curieuse Island. frequently asked",
       "faq": [
         {
@@ -415,7 +415,7 @@
       "metaTitle": "Coco Island & Sister Islands Tour · Snorkeling from La Digue",
       "metaDescription": "Private boat tour to Coco Island Marine Park, Félicité and Sister Islands. Glass-clear snorkeling, beaches, beach BBQ. From €130 / person, drinks included.",
       "schemaName": "Coco Island & Sister Islands Private Boat Tour from La Digue",
-      "factDuration": "8 hours",
+      "factDuration": "7 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
       "factDeparture": "La Digue marina",
@@ -449,7 +449,7 @@
         "Snorkeling gear in every size"
       ],
       "itineraryEyebrow": "A day in the marine park",
-      "itineraryTitle": "Typical itinerary, 09:00 to 17:00",
+      "itineraryTitle": "Typical itinerary, 09:00 to 16:00",
       "faqTitle": "Coco Island. frequently asked",
       "faq": [
         {
@@ -487,7 +487,7 @@
       "metaTitle": "Sister Islands Tour Seychelles · Grande Soeur Boat from La Digue",
       "metaDescription": "Private boat day to Grande Soeur and Petite Soeur from La Digue. Beach BBQ, snorkeling, Félicité passage. €130/person · drinks & lunch included.",
       "schemaName": "Sister Islands. Private Boat Day from La Digue",
-      "factDuration": "8 hours",
+      "factDuration": "7 hours",
       "factCapacity": "Up to 10 guests",
       "factDepartureLabel": "Departure",
       "factDeparture": "La Digue marina",
@@ -521,7 +521,7 @@
         "Félicité photo pass"
       ],
       "itineraryEyebrow": "A day on the Sister Islands",
-      "itineraryTitle": "Typical itinerary, 09:00 to 17:00",
+      "itineraryTitle": "Typical itinerary, 09:00 to 16:00",
       "faqTitle": "Sister Islands. frequently asked",
       "faq": [
         {
@@ -953,7 +953,7 @@
         "body": "Another reef, a quiet anchorage, or a long swim in glass-flat water."
       },
       {
-        "time": "17:00",
+        "time": "16:00",
         "title": "Return to La Digue",
         "body": "Slow ride back. The light at this hour is what people remember."
       }
@@ -1224,7 +1224,7 @@
     "perPerson": "per person",
     "halfDay": "Half day (4h)",
     "fullDay": "Full day + barbecue",
-    "fullDay8h": "Full day (8h)",
+    "fullDay8h": "Full day (7h)",
     "deepSea": "Deep-sea expedition",
     "sunset": "Sunset cruise",
     "praslinLaDigue": "Praslin ↔ La Digue",

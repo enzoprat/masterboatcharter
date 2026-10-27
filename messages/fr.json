@@ -343,7 +343,7 @@
       "metaTitle": "Excursion Île Curieuse Seychelles · Bateau privé depuis La Digue",
       "metaDescription": "Excursion à Curieuse depuis La Digue : tortues géantes d'Aldabra, snorkeling parc marin, barbecue à Anse Papaie, arrêt St-Pierre. 175€/personne, boissons et déjeuner inclus.",
       "schemaName": "Curieuse. Excursion privée journée depuis La Digue",
-      "factDuration": "8 heures",
+      "factDuration": "7 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
       "factDeparture": "La Digue · Praslin sur demande",
@@ -377,7 +377,7 @@
         "Aide pour les frais de parc marin (payables à l'arrivée)"
       ],
       "itineraryEyebrow": "Une journée à Curieuse",
-      "itineraryTitle": "Itinéraire type, 08h00 à 17h00",
+      "itineraryTitle": "Itinéraire type, 09h00 à 16h00",
       "faqTitle": "Île Curieuse. questions fréquentes",
       "faq": [
         {
@@ -415,7 +415,7 @@
       "metaTitle": "Excursion Coco Island & Sister Islands · Snorkeling depuis La Digue",
       "metaDescription": "Excursion privée bateau au parc marin de Coco, Félicité et Sister Islands. Snorkeling cristallin, plages, barbecue à terre. Dès 130€/personne, boissons incluses.",
       "schemaName": "Coco & Sister Islands. Excursion privée bateau depuis La Digue",
-      "factDuration": "8 heures",
+      "factDuration": "7 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
       "factDeparture": "Port de La Digue",
@@ -449,7 +449,7 @@
         "Matériel snorkeling dans toutes les tailles"
       ],
       "itineraryEyebrow": "Une journée dans le parc marin",
-      "itineraryTitle": "Itinéraire type, 09h00 à 17h00",
+      "itineraryTitle": "Itinéraire type, 09h00 à 16h00",
       "faqTitle": "Île Coco. questions fréquentes",
       "faq": [
         {
@@ -487,7 +487,7 @@
       "metaTitle": "Excursion Sister Islands · Grande Soeur en bateau depuis La Digue",
       "metaDescription": "Journée privée en bateau à Grande Soeur et Petite Soeur depuis La Digue. Barbecue de plage, snorkeling, passage devant Félicité. 130€/personne · boissons et déjeuner inclus.",
       "schemaName": "Sister Islands. Journée privée en bateau depuis La Digue",
-      "factDuration": "8 heures",
+      "factDuration": "7 heures",
       "factCapacity": "Jusqu'à 10 invités",
       "factDepartureLabel": "Départ",
       "factDeparture": "Port de La Digue",
@@ -521,7 +521,7 @@
         "Pass photo Félicité"
       ],
       "itineraryEyebrow": "Une journée aux Sister Islands",
-      "itineraryTitle": "Itinéraire type, 09h00 à 17h00",
+      "itineraryTitle": "Itinéraire type, 09h00 à 16h00",
       "faqTitle": "Sister Islands. questions fréquentes",
       "faq": [
         {
@@ -953,7 +953,7 @@
         "body": "Un autre récif, un mouillage calme, ou une longue nage dans une eau-miroir."
       },
       {
-        "time": "17:00",
+        "time": "16:00",
         "title": "Retour à La Digue",
         "body": "Retour à allure douce. La lumière à cette heure-là, c'est ce que les gens retiennent."
       }
@@ -1224,7 +1224,7 @@
     "perPerson": "par personne",
     "halfDay": "Demi-journée (4h)",
     "fullDay": "Journée + barbecue",
-    "fullDay8h": "Journée (8h)",
+    "fullDay8h": "Journée (7h)",
     "deepSea": "Pêche au large",
     "sunset": "Croisière coucher de soleil",
     "praslinLaDigue": "Praslin ↔ La Digue",
