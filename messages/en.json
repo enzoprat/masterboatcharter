@@ -65,7 +65,7 @@
   "activities": {
     "sectionEyebrow": "Curated experiences",
     "sectionTitle": "Choose your day at sea",
-    "sectionLead": "Four signature ways to experience the Seychelles archipelago. from castaway islands to deep-blue fishing grounds.",
+    "sectionLead": "Four signature ways to experience the Seychelles archipelago. from the islands to deep-blue fishing grounds.",
     "perPersonHalf": "/ person · half day",
     "perBoatHalf": "/ boat · half day · up to {n}",
     "perPersonFull": "/ person · full day",
@@ -336,7 +336,7 @@
   "destinations": {
     "curieuse-island": {
       "shortTitle": "Curieuse Island",
-      "title": "Curieuse Island. Giant Tortoises & Castaway Beaches",
+      "title": "Curieuse Island. Giant Tortoises & Beaches",
       "tagline": "Marine park · Aldabra tortoises · Anse Papaie",
       "lead": "A private boat day to one of the most beloved inner islands of Seychelles. Aldabra giant tortoises on land, a protected coral marine park in the water, and a beach lunch where the only footprints are yours.",
       "imageAlt": "Turquoise lagoon at Curieuse Island Marine Park, Seychelles",
@@ -481,7 +481,7 @@
     "sister-islands": {
       "shortTitle": "Sister Islands",
       "title": "Sister Islands. Grande Soeur, Petite Soeur & Félicité",
-      "tagline": "Granite twins · castaway beach · BBQ",
+      "tagline": "Beach · barbecue · snorkelling",
       "lead": "Two granite islets off Félicité, a single beach you can land on, and the kind of empty bay that makes you forget anyone else uses these waters. The Sister Islands are the inner archipelago's best-kept private day.",
       "imageAlt": "Granite rocks and white sand on the Sister Islands, Seychelles",
       "metaTitle": "Sister Islands Tour Seychelles · Grande Soeur Boat from La Digue",
@@ -496,7 +496,7 @@
       "sections": [
         {
           "title": "Why the Sister Islands are the connoisseur's pick",
-          "body": "Grande Soeur and Petite Soeur sit a couple of kilometres east of Félicité. granite twins with a single beach between them, no road, no jetty, no resort. Most boats pass them on their way to Coco. We make them the destination.\n\nThe west bay of Grande Soeur is one of the quietest landings of the inner islands. The water is glass-flat in the lee of the rock, the sand is the same blinding white as Anse Source d'Argent, and the bay is small enough that one boat takes the whole place. A small landing fee is paid to the island staff on arrival. they keep the trail and the bay clean."
+          "body": "Grande Soeur and Petite Soeur sit a couple of kilometres east of Félicité. two granite islets with a single beach between them, no road, no jetty, no resort. Most boats pass them on their way to Coco. We make them the destination.\n\nThe west bay of Grande Soeur is one of the quietest landings of the inner islands. The water is glass-flat in the lee of the rock, the sand is the same blinding white as Anse Source d'Argent, and the bay is small enough that one boat takes the whole place. A small landing fee is paid to the island staff on arrival. they keep the trail and the bay clean."
         },
         {
           "title": "What you'll do on a Sister Islands day",
