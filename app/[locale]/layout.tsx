@@ -10,6 +10,7 @@ import MobileBookBar from '@/components/layout/MobileBookBar';
 import JsonLdOrganization from '@/components/seo/JsonLdOrganization';
 import { SITE } from '@/lib/site';
 import { alternates } from '@/lib/seo';
+import { ogLocale } from '@/lib/locale';
 
 /**
  * Display face. Cormorant Garamond is the default "luxury travel" serif —
@@ -65,8 +66,8 @@ export async function generateMetadata({
     authors: [{ name: t('siteName') }],
     openGraph: {
       type: 'website',
-      locale: locale === 'fr' ? 'fr_FR' : 'en_US',
-      url: locale === 'fr' ? `${SITE.url}/fr` : SITE.url,
+      locale: ogLocale(locale),
+      url: `${SITE.url}${alternates(locale, '/').canonical}`.replace(/\/$/, ''),
       title: t('defaultTitle'),
       description: t('defaultDescription'),
       siteName: t('siteName'),

@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { getBlockedSlots, toISODate } from '@/lib/booking/availability';
+import { dateLocale } from '@/lib/locale';
 
 type Props = {
   value?: string;
@@ -37,7 +38,7 @@ export default function Calendar({ value, onChange }: Props) {
 
   const monthName = useMemo(
     () =>
-      cursor.toLocaleDateString(locale === 'fr' ? 'fr-FR' : 'en-US', {
+      cursor.toLocaleDateString(dateLocale(locale), {
         month: 'long',
         year: 'numeric',
       }),
@@ -52,7 +53,7 @@ export default function Calendar({ value, onChange }: Props) {
       d.setDate(base.getDate() + i);
       days.push(
         d
-          .toLocaleDateString(locale === 'fr' ? 'fr-FR' : 'en-US', { weekday: 'short' })
+          .toLocaleDateString(dateLocale(locale), { weekday: 'short' })
           .slice(0, 2)
       );
     }

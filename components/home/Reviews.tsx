@@ -5,6 +5,7 @@ import { Star } from 'lucide-react';
 import Reveal from '@/components/ui/Reveal';
 import { REVIEWS, AGGREGATE } from '@/lib/data/reviews';
 import { SITE } from '@/lib/site';
+import type { Review } from '@/lib/data/reviews';
 
 /**
  * Social proof, set as an editorial pull-quote rather than three identical
@@ -19,7 +20,7 @@ import { SITE } from '@/lib/site';
  */
 export default function Reviews() {
   const t = useTranslations('reviews');
-  const locale = useLocale() as 'en' | 'fr';
+  const locale = useLocale() as keyof Review['text'];
 
   if (REVIEWS.length === 0) return null;
 

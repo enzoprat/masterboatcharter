@@ -21,7 +21,7 @@ export type Review = {
   /** YYYY-MM-DD */
   date: string;
   rating: 1 | 2 | 3 | 4 | 5;
-  text: { en: string; fr: string };
+  text: { en: string; fr: string; de: string };
   source: 'google' | 'tripadvisor' | 'direct';
 };
 

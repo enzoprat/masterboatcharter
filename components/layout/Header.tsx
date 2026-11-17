@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { Link, usePathname } from '@/i18n/routing';
+import { Link, usePathname, routing } from '@/i18n/routing';
+import { LOCALE_LABEL } from '@/lib/locale';
 import { Menu, X, MessageCircle, Globe, Phone } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { SITE, whatsappLink } from '@/lib/site';
@@ -242,25 +243,54 @@ export default function Header() {
   );
 }
 
+/**
+ * With three languages a toggle no longer works — cycling would make the
+ * third one reachable only by passing through the second. All of them are
+ * shown, the current one marked and not a link.
+ */
 function LocaleSwitcher({ light }: { light: boolean }) {
   const locale = useLocale();
   const pathname = usePathname();
-  const other = locale === 'en' ? 'fr' : 'en';
 
   return (
-    <Link
-      href={pathname as any}
-      locale={other}
-      aria-label={`Switch to ${other.toUpperCase()}`}
+    <div
       className={cn(
-        'inline-flex items-center gap-1.5 rounded-full px-3 h-10 min-w-[3.25rem] justify-center text-xs font-semibold uppercase tracking-wider transition-colors border',
+        'inline-flex items-center rounded-full h-10 pl-3 pr-1 gap-1.5 text-xs font-semibold uppercase tracking-wider border',
         light
-          ? 'border-white/30 text-white hover:bg-white/10'
-          : 'border-sand-300 text-deep-600 hover:bg-sand-100 hover:text-deep-700'
+          ? 'border-white/30 text-white/70'
+          : 'border-sand-300 text-deep-400'
       )}
     >
-      <Globe className="h-3.5 w-3.5" strokeWidth={1.5} />
-      {other}
-    </Link>
+      <Globe className="h-3.5 w-3.5 shrink-0" strokeWidth={1.5} aria-hidden />
+      {routing.locales.map((l) => {
+        const current = l === locale;
+        return current ? (
+          <span
+            key={l}
+            aria-current="true"
+            className={cn(
+              'px-1.5 py-1 rounded-full',
+              light ? 'text-white' : 'text-deep-700'
+            )}
+          >
+            {LOCALE_LABEL[l as keyof typeof LOCALE_LABEL]}
+          </span>
+        ) : (
+          <Link
+            key={l}
+            href={pathname as any}
+            locale={l}
+            hrefLang={l}
+            aria-label={`Switch to ${LOCALE_LABEL[l as keyof typeof LOCALE_LABEL]}`}
+            className={cn(
+              'px-1.5 py-1 rounded-full transition-colors',
+              light ? 'hover:text-white hover:bg-white/10' : 'hover:text-deep-700 hover:bg-sand-100'
+            )}
+          >
+            {LOCALE_LABEL[l as keyof typeof LOCALE_LABEL]}
+          </Link>
+        );
+      })}
+    </div>
   );
 }

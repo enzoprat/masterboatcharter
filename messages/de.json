@@ -1,0 +1,1256 @@
+{
+  "meta": {
+    "siteName": "Master Boat Charter",
+    "tagline": "Die Seychellen, einen Tag lang für Sie allein.",
+    "defaultTitle": "Privates Bootscharter & Ausflüge · La Digue, Seychellen",
+    "defaultDescription": "Privates Bootscharter ab La Digue: Ausflüge nach Curieuse, Coco und zu den Schwesterinseln, Hochseefischen und Transfers. Ein Boot, maximal zwölf Gäste."
+  },
+  "nav": {
+    "home": "Startseite",
+    "excursions": "Bootsausflüge",
+    "fishing": "Hochseefischen",
+    "transfers": "Boots-Transfers",
+    "rental": "Bootsvermietung",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "bookNow": "Jetzt buchen",
+    "whatsapp": "WhatsApp",
+    "phone": "Anrufen",
+    "menu": "Menü",
+    "close": "Schließen"
+  },
+  "common": {
+    "discover": "Entdecken",
+    "learnMore": "Mehr erfahren",
+    "bookExperience": "Erlebnis buchen",
+    "exploreActivities": "Angebote entdecken",
+    "viewDetails": "Details ansehen",
+    "perPerson": "/ Person",
+    "from": "Ab",
+    "duration": "Dauer",
+    "capacity": "Kapazität",
+    "included": "Inklusive",
+    "notIncluded": "Nicht inklusive",
+    "highlights": "Highlights",
+    "halfDay": "Halbtags",
+    "fullDay": "Ganztags",
+    "sunset": "Sonnenuntergang",
+    "morning": "Vormittag",
+    "afternoon": "Nachmittag",
+    "selectDate": "Datum wählen",
+    "selectTime": "Uhrzeit wählen",
+    "guests": "Gäste",
+    "next": "Weiter",
+    "back": "Zurück",
+    "confirm": "Buchung bestätigen",
+    "loading": "Lädt",
+    "or": "oder",
+    "and": "und"
+  },
+  "hero": {
+    "eyebrow": "Privates Bootscharter · La Digue, Seychellen",
+    "title": "Die Seychellen,",
+    "titleAccent": "einen Tag lang für Sie allein.",
+    "subtitle": "Ein Boot, ein Kapitän. Private Ausflüge, Hochseefischen und Transfers zwischen den Inseln rund um La Digue, Praslin und die inneren Inseln.",
+    "ctaPrimary": "Verfügbarkeit prüfen",
+    "ctaSecondary": "Angebote & Preise ansehen",
+    "scrollHint": "Scrollen zum Entdecken",
+    "stats": {
+      "boat": "1 Boot · max. 12 Gäste",
+      "since": "Seit 2019 unterwegs",
+      "local": "Kapitän von den Seychellen",
+      "eco": "Kein Ankern am Korallenriff"
+    }
+  },
+  "reassurance": {
+    "noPayment": "Nur 20 % Anzahlung",
+    "confirm": "Express-Bestätigung"
+  },
+  "legal": {
+    "title": "Master Boat Charter",
+    "operator": "Betreiber",
+    "operatorValue": "Lizenzierter Bootscharter-Betreiber · Seychellen",
+    "insurance": "Versicherung",
+    "insuranceValue": "Vollständige Seehaftpflichtversicherung",
+    "registration": "Registrierung",
+    "registrationValue": "Seychelles Licensing Authority. Lizenz auf Anfrage erhältlich",
+    "termsLink": "Allgemeine Geschäftsbedingungen",
+    "privacyLink": "Datenschutzerklärung"
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Ein Blick auf die Tage, die wir gestalten"
+  },
+  "testimonials": {
+    "eyebrow": "Reisende sagen",
+    "title": "Von unseren Gästen mit fünf Sternen bewertet"
+  },
+  "reviews": {
+    "eyebrow": "Gästebewertungen",
+    "countLink": "{n} Bewertungen auf Google"
+  },
+  "guidesIndex": {
+    "metaTitle": "Seychellen Bootsreise-Tipps · Jahreszeiten & Tierwelt",
+    "metaDescription": "Praktische Tipps für die Planung Ihrer Bootstage auf den Seychellen: beste Reisezeit Monat für Monat, Walhai-Saison, Schnorchelplätze, Meeresschildkröten und mehr.",
+    "eyebrow": "Reisetipps",
+    "title": "Planen Sie Ihren Tag auf See richtig.",
+    "lead": "Kurze, klare Texte. Geschrieben von einem Kapitän, der diese Gewässer befährt, nicht von einem eingeflogenen Reiseblogger. Mit jeder Saison aktualisiert."
+  },
+  "boat": {
+    "eyebrow": "Das Boot",
+    "title": "Gebaut für die inneren Inseln",
+    "lead": "Eine moderne Center-Console, ausgerüstet für alles vom Schnorcheln bis zum Hochseefischen. Bequem, schnell, leise vor Anker.",
+    "specs": {
+      "capacity": {
+        "label": "Kapazität",
+        "value": "12 Gäste",
+        "figure": "12",
+        "unit": "Gäste an Bord"
+      },
+      "length": {
+        "label": "Länge",
+        "value": "9 Meter",
+        "figure": "9",
+        "unit": "Meter Rumpf"
+      },
+      "engines": {
+        "label": "Motoren",
+        "value": "2 × 250 PS Yamaha"
+      },
+      "shade": {
+        "label": "Schatten",
+        "value": "Durchgehendes T-Top"
+      },
+      "toilet": {
+        "label": "An Bord",
+        "value": "WC · Kühlbox · Soundsystem"
+      },
+      "safety": {
+        "label": "Sicherheit",
+        "value": "Entspricht den Sicherheitsstandards der seychellischen Seefahrt"
+      }
+    }
+  },
+  "captain": {
+    "eyebrow": "Der Kapitän",
+    "title": "Ein Seychelloise am Ruder.",
+    "lead": "Ihr Tag gehört dem Kapitän, der diese Gewässer auswendig kennt. Jedes Riff, jeden Winddreher, jede stille Bucht, die Touristen nie erreichen.",
+    "bio": "Geboren und aufgewachsen auf La Digue. Jahrelang Fischer auf den inneren Bänken, bevor er zum Charter wechselte. Er fährt bewusst nur ein Boot: So bekommt jeder Gast seine volle Aufmerksamkeit, und jedes Riff bleibt so, wie er es als Kind vorgefunden hat.",
+    "languagesLabel": "Spricht",
+    "languages": "Englisch · Französisch · Kreolisch",
+    "cta": "Stellen Sie dem Kapitän eine Frage über WhatsApp",
+    "moreLink": "Mehr über den Kapitän"
+  },
+  "day": {
+    "eyebrow": "Ein Tag auf See",
+    "title": "So sieht ein ganzer Tag auf der Master aus.",
+    "lead": "Ein typischer Ganztagesausflug. Die Zeiten verschieben sich mit Wetter, Gezeiten und Ihren Wünschen. Genau dafür fährt man privat.",
+    "steps": [
+      {
+        "time": "09:00",
+        "title": "Abfahrt von La Digue",
+        "body": "Abholung am Steg. Einweisung, Rettungswesten, Schnorchelausrüstung anpassen. Kaffee an Bord."
+      },
+      {
+        "time": "10:00",
+        "title": "Erster Schnorchelstopp",
+        "body": "Ein geschütztes Riff, das Ihr Kapitän am Morgen nach Sicht und Strömung auswählt. Schildkröten, Rifffische, Korallen."
+      },
+      {
+        "time": "12:00",
+        "title": "Insel",
+        "body": "Spazieren, schwimmen, über den Granit klettern. Wenn möglich ein Strand ohne ein anderes Boot in Sicht."
+      },
+      {
+        "time": "13:00",
+        "title": "Mittagessen an Land",
+        "body": "Grillen an einem ruhigen Strand: gegrillter Fisch, Salate, frisches Obst. Getränke inklusive."
+      },
+      {
+        "time": "15:00",
+        "title": "Zweiter Schnorchelgang oder Badestopp",
+        "body": "Ein weiteres Riff, eine stille Ankerbucht oder eine lange Runde im spiegelglatten Wasser."
+      },
+      {
+        "time": "16:00",
+        "title": "Rückkehr nach La Digue",
+        "body": "Gemächliche Rückfahrt. Das Licht zu dieser Stunde bleibt in Erinnerung."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Ein einziges Boot. Ein ganzes Archipel.",
+    "lead": "Master Boat Charter ist ein kleiner, lokaler Betrieb mit einer einfachen Idee: weniger machen, es gut machen und das Meer genau so hinterlassen, wie man es vorgefunden hat.",
+    "storyTitle": "Unsere Geschichte",
+    "story": "Angefangen haben wir mit einem Boot, einer tiefen Liebe zu diesen Gewässern und dem Ärger darüber, wie der Massentourismus mit ihnen umgeht. Jahre später ist das Boot dasselbe. Die Haltung auch. Gewachsen ist das Vertrauen: von Gästen, die wiederkommen, und von lokalen Guides und Kapitänen, die mit uns arbeiten wollen.",
+    "valuesTitle": "Wofür wir stehen",
+    "values": [
+      {
+        "title": "Lokal zuerst",
+        "description": "Seychellischer Kapitän, seychellische Lieferanten, seychellischer Rhythmus."
+      },
+      {
+        "title": "Leichter Fußabdruck",
+        "description": "Kein Ankern auf Korallen, Einweisung an jedem Riff."
+      },
+      {
+        "title": "Ehrliche Preise",
+        "description": "Was Sie sehen, zahlen Sie. Meeresparkgebühren werden genannt, keine versteckten Zusatzkosten."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt aufnehmen",
+    "title": "Planen Sie Ihren Tag auf See",
+    "lead": "Erzählen Sie uns kurz von Ihrer Reise, und wir melden uns innerhalb weniger Stunden mit einem maßgeschneiderten Vorschlag.",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon (WhatsApp bevorzugt)",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet…"
+    },
+    "infoTitle": "Direkt erreichbar",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "E-Mail",
+    "baseLabel": "Basis",
+    "baseValue": "La Digue, Seychellen"
+  },
+  "pricing": {
+    "perPerson": "pro Person",
+    "halfDay": "Halbtags (4 Std.)",
+    "fullDay": "Ganztags + Grillen",
+    "fullDay8h": "Ganztags (7 Std.)",
+    "deepSea": "Hochsee-Expedition",
+    "sunset": "Sonnenuntergangsfahrt",
+    "praslinLaDigue": "Praslin ↔ La Digue",
+    "praslinMahe": "Praslin ↔ Mahé",
+    "maheLaDigue": "Mahé ↔ La Digue",
+    "onRequest": "Auf Anfrage",
+    "transferQuote": "Individuelles Transfer-Angebot",
+    "snorkelingGearIncluded": "Masken, Schnorchel & Flossen an Bord inklusive",
+    "depositInfo": "20 % Anzahlung bestätigt die Buchung, Rest am Tag selbst",
+    "drinksIncluded": "Getränke inklusive",
+    "snackIncluded": "Snack inklusive",
+    "toiletOnboard": "WC an Bord",
+    "skipperIncluded": "Skipper inklusive",
+    "marineParkFees": "Meeresparkgebühren nicht inklusive",
+    "upTo10": "Bis zu 12 Gäste",
+    "anglersRange": "1 bis 4 Angler",
+    "barbecueIncluded": "Grillen an Land inklusive",
+    "circuits": {
+      "title1": "Route 1. Grande Soeur, Petite Soeur, Félicité, Coco",
+      "title2": "Route 2. Curieuse, Anse Lazio, Anse Georgette, St Pierre",
+      "title3": "Route 3. La Digue Rundfahrt",
+      "titleCustom": "Individuelle Tour. Stellen Sie Ihre Route selbst zusammen"
+    }
+  },
+  "activities": {
+    "sectionEyebrow": "Ausgewählte Erlebnisse",
+    "sectionTitle": "Wählen Sie Ihren Tag auf See",
+    "sectionLead": "Vier charakteristische Wege, das Archipel der Seychellen zu erleben. Von den Inseln bis zu den tiefblauen Fischgründen.",
+    "perPersonHalf": "/ Person · halbtags",
+    "perBoatHalf": "/ Boot · halbtags · bis {n}",
+    "perPersonFull": "/ Person · ganztags",
+    "perBoatFull": "/ Boot · ganztags · bis {n}",
+    "perTransfer": "/ Boot · einfache Fahrt",
+    "mostBooked": "Am häufigsten gebucht",
+    "private": "Privat",
+    "destinationsBlockEyebrow": "Wohin wir fahren",
+    "destinationsBlockTitle": "Wählen Sie die Insel, die Sie entdecken möchten",
+    "destinationsBlockLead": "Jeder Ausflug ist ein privater Tag mit einem einzigen seychellischen Kapitän. Drei charakteristische Routen, alle auf den inneren Inseln, alle in zwei Minuten buchbar.",
+    "excursions": {
+      "shortTitle": "Bootsausflüge",
+      "title": "Bootsausflüge",
+      "tagline": "Inseln & geheime Lagunen",
+      "shortDescription": "Entdecken Sie die schönsten Inseln der Seychellen: Grande Soeur, Curieuse, La Digue und darüber hinaus. Und das mit Respekt vor den örtlichen Meeresökosystemen.",
+      "description": "Entdecken Sie versteckte Lagunen, weiße Sandstrände und geschützte Meeresparks an Bord eines Privatboots mit Ihrem einheimischen Skipper. Jede Route ist darauf ausgelegt, unseren Fußabdruck klein und das, was Sie sehen, schmecken und behalten, groß zu halten.",
+      "highlights": [
+        "Privatboot mit einheimischem Kapitän",
+        "Schnorcheln an geschützten Meeresgebieten: Schildkröten, Rifffische, Korallen",
+        "Masken, Schnorchel & Flossen an Bord inklusive",
+        "Strandstopp, Grillen an Land an Ganztagestouren",
+        "Getränke inklusive, WC an Bord",
+        "Ab 2 Gästen"
+      ],
+      "fromPrice": "70 €"
+    },
+    "fishing": {
+      "shortTitle": "Hochseefischen",
+      "title": "Hochseefischen",
+      "tagline": "Reviere für Segelfisch, Marlin & Dorado",
+      "shortDescription": "Erleben Sie Hochseefischen auf den Seychellen mit unserem erfahrenen einheimischen Kapitän, mit respektvollen und nachhaltigen Methoden.",
+      "description": "Hinaus aufs offene Meer mit Skippern, die die Jahreszeiten kennen, die Strömungen und die richtige Art, das zu tun. Leichtes Gerät, keine Abkürzungen. Snacks und Getränke inklusive.",
+      "highlights": [
+        "1 bis 4 Angler pro Ausfahrt",
+        "Hochwertige Ruten, Rollen & Ausrüstung",
+        "Nachhaltige Fangmethoden",
+        "Snacks und Getränke an Bord"
+      ],
+      "fromPrice": "500 €"
+    },
+    "transfers": {
+      "shortTitle": "Boots-Transfers",
+      "title": "Private Boots-Transfers",
+      "tagline": "Von Insel zu Insel, nach Ihrem Zeitplan",
+      "shortDescription": "Reisen Sie bequem zwischen Praslin, La Digue und Mahé mit privaten Boots-Transfers, die sich nach Ihrem Programm richten.",
+      "description": "Keine Warteschlangen, keine Fahrpläne. Bewegen Sie sich zwischen den inneren Inseln, wann es Ihnen passt, mit Gepäckservice, Wasser an Bord und dem Komfort, den die öffentliche Fähre gar nicht erst verspricht.",
+      "highlights": [
+        "Abstimmung von Tür zu Steg",
+        "Sorgfältiger Umgang mit dem Gepäck",
+        "Erfrischungen an Bord",
+        "Flexible Abfahrtszeiten"
+      ],
+      "fromPrice": "Angebot"
+    },
+    "rental": {
+      "shortTitle": "Bootsvermietung",
+      "title": "Private Bootsvermietung",
+      "tagline": "Das Boot gehört Ihnen für einen Tag",
+      "shortDescription": "Ein vollständig privates Erlebnis mit Skipper, Grill und WC an Bord. Gestalten Sie Ihren Tag, Ihre Route, Ihre Stopps. Auf Anfrage ist fast alles möglich.",
+      "description": "Bis zu zwölf Gäste, ein Boot, ein einheimischer Kapitän und eine Küste, um die herum Sie Ihren eigenen Tag schreiben. Sagen Sie uns, worauf es Ihnen ankommt: lange Schwimmrunden, stille Ankerbuchten, Grillen an Land. Den Rest gestalten wir gemeinsam.",
+      "highlights": [
+        "Bis zu 12 Gäste",
+        "Skipper, Grill und WC an Bord inklusive",
+        "Stellen Sie Ihre eigene Route zusammen",
+        "Getränke und Schatten an Bord"
+      ],
+      "fromPrice": "Auf Anfrage"
+    }
+  },
+  "commitments": {
+    "eyebrow": "Unsere Verpflichtungen",
+    "title": "Ein anderer Tag auf See",
+    "lead": "Wir fahren ein einziges Boot. Das ist eine bewusste Entscheidung: Sie hält das Erlebnis persönlich, die Auswirkungen gering und die Standards hoch.",
+    "items": {
+      "eco": {
+        "title": "Respekt vor den Meeresökosystemen",
+        "description": "Kein Ankern auf Korallen, Einweisung vor jedem Schnorchelgang."
+      },
+      "captains": {
+        "title": "Erfahrener einheimischer Kapitän",
+        "description": "Ein seychellischer Skipper, der an diesen Gewässern aufgewachsen ist und sie liest wie eine zweite Sprache."
+      },
+      "comfort": {
+        "title": "Komfortables Bootserlebnis",
+        "description": "WC an Bord, Getränke inklusive, Schatten dort, wo Sie ihn brauchen. Hochwertig, ohne Schaulauf."
+      }
+    }
+  },
+  "experience": {
+    "eyebrow": "Das Erlebnis",
+    "block1": {
+      "title": "Wasser so klar, dass es verschwindet",
+      "body": "Granitinseln, die aus spiegelglatten Lagunen aufsteigen. Fischschwärme, die Sie von der Oberfläche aus zählen können. Strände ohne andere Fußspuren als Ihre eigenen. Die Seychellen sind keine Kulisse. Sie sind der ganze Punkt."
+    },
+    "block2": {
+      "title": "Immer zuerst lokal",
+      "body": "Unser Kapitän stammt von diesen Inseln. Die Fische, die er Ihnen zeigt, die Plätze, die er wählt, die Art, wie er das Wetter liest: nichts davon stammt aus einem Reiseführer. So sieht ein Tag mit jemandem aus, der hier zu Hause ist."
+    },
+    "block3": {
+      "title": "Leise und sorgfältig gemacht",
+      "body": "Wir halten die Gruppen klein, unsere Ausrüstung in Ordnung und unsere Spuren gering. Keine Lautsprecher, keine Bootskolonnen, keine Abkürzungen. Nur ein gutes Boot, ein großartiger Kapitän und der Indische Ozean."
+    }
+  },
+  "footer": {
+    "tagline": "Hochwertige, naturnahe Bootserlebnisse im Archipel der Seychellen.",
+    "contact": "Kontakt",
+    "quickLinks": "Schnellzugriff",
+    "activities": "Angebote",
+    "follow": "Folgen",
+    "legalNotice": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "rights": "Alle Rechte vorbehalten.",
+    "experienceResponsibly": "Erleben Sie die Seychellen verantwortungsvoll.",
+    "longDescription": {
+      "title": "Warum Master Boat Charter?",
+      "intro": "Master Boat Charter ist die Adresse für Bootsausflüge und Bootsvermietung auf den Seychellen. Von unserer Basis auf La Digue aus gestalten wir unvergessliche Tage in den schönsten Lagunen des Archipels.",
+      "block1Title": "Unerreichte lokale Ortskenntnis",
+      "block1": "Unser Kapitän ist Seychelloise und liebt seine Insel. Er kennt die stillen Plätze: wilde Buchten, kleine Inseln, unberührte Riffe. Weit mehr als eine Ausfahrt, ein wirklich authentisches Erlebnis.",
+      "block2Title": "Eine moderne, sichere Flotte",
+      "block2": "Ob Privatboot mit Skipper, Schnorchelausfahrt, Sonnenuntergangsfahrt oder schneller Inseltransfer: unsere Flotte richtet sich nach Ihren Wünschen. Jedes Boot wird regelmäßig auf Sicherheit und Komfort geprüft.",
+      "block3Title": "Respekt vor Natur & Lagunen",
+      "block3": "Wir setzen uns für nachhaltigen Tourismus auf den Seychellen ein. Unsere Ausflüge sind darauf ausgelegt, die Umwelt so wenig wie möglich zu belasten: kein Ankern auf Korallen, wenig Abfall, Rücksicht auf die Meerestierwelt.",
+      "block4Title": "Einfach und sicher buchen",
+      "block4": "Datum wählen, Angebot wählen und direkt online buchen. Unser Kalender verhindert Doppelbuchungen, und die Bestätigung übernimmt unser Team persönlich.",
+      "block5Title": "Ein maßgeschneidertes Erlebnis",
+      "block5": "Ein Picknick an einem Strand? Ein Badestopp in einer türkisfarbenen Lagune? Ein geführter Besuch auf Curieuse, Saint-Pierre oder Félicité? Jede Ausfahrt richtet sich nach Ihren Wünschen, für Erinnerungen, die bleiben.",
+      "outro": "Buchen Sie jetzt Ihren Ausflug und entdecken Sie die Schätze des Meeres rund um die Seychellen mit Master Boat Charter. Ihrem Partner auf See."
+    }
+  },
+  "booking": {
+    "eyebrow": "Buchung",
+    "title": "Reservieren Sie Ihren Tag",
+    "lead": "Wählen Sie Ihre Route, ein Datum und eine Uhrzeit, und erzählen Sie uns von Ihrer Gruppe. Express-Bestätigung per E-Mail und WhatsApp. 20 % Anzahlung bestätigen die Buchung, der Rest am Tag selbst.",
+    "depositLabel": "20 % Anzahlung bestätigt · Rest am Tag selbst",
+    "stepActivity": "Angebot",
+    "stepItinerary": "Route",
+    "itineraryHint": "Wählen Sie die Inseln, die Sie ansteuern möchten. Jede Route hat ihre eigene Dauer und ihren eigenen Preis.",
+    "selectItineraryFirst": "Wählen Sie zuerst Ihre Route",
+    "customTourBadge": "Maßgeschneidert",
+    "customItinerary": "Welche Inseln möchten Sie besuchen?",
+    "customItineraryPlaceholder": "Zum Beispiel: halbtags Schnorcheln an Coco Island und Félicité, Abfahrt am Vormittag von La Digue …",
+    "customItineraryNote": "Wir bestätigen die Route und senden Ihnen den Preis per E-Mail und WhatsApp.",
+    "transferRoute": "Ihre Strecke",
+    "transferRouteHint": "Sagen Sie uns, wo Sie starten und wohin Sie möchten. Wir kalkulieren jeden Transfer einzeln.",
+    "transferRoutePlaceholder": "Zum Beispiel: Praslin (Steg Baie Sainte Anne) nach La Digue, 4 Personen mit Gepäck, Ankunft mit der Fähre um 14:30 …",
+    "taxNotice": "Preise verstehen sich ohne Steuern. Meeresparkgebühren (Curieuse, St Pierre, Coco …) werden vor Ort bezahlt, wenn Sie in einem geschützten Park schnorcheln.",
+    "stepDate": "Datum & Uhrzeit",
+    "stepGuests": "Gäste",
+    "stepDetails": "Ihre Angaben",
+    "stepReview": "Übersicht",
+    "noSlots": "Für dieses Datum keine Verfügbarkeit",
+    "unavailable": "Bereits gebucht",
+    "available": "Verfügbar",
+    "selectedDate": "Gewähltes Datum",
+    "guestsCount": "Anzahl der Gäste",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "phone": "Telefon (WhatsApp bevorzugt)",
+    "comments": "Anmerkungen oder besondere Wünsche",
+    "commentsPlaceholder": "Alles, was uns hilft: Kinder an Bord, Ernährungswünsche, besondere Anlässe …",
+    "submit": "Buchungsanfrage senden",
+    "submitting": "Wird gesendet …",
+    "successTitle": "Buchungsanfrage gesendet",
+    "successBody": "Vielen Dank. Wir haben Ihre Anfrage erhalten. Die Express-Bestätigung folgt in Kürze per E-Mail und WhatsApp, mit den Zahlungshinweisen für die 20 % Anzahlung. Der gewählte Termin bleibt bis zur Bestätigung für Sie reserviert.",
+    "errorTitle": "Da ist etwas schiefgelaufen",
+    "errorBody": "Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder erreichen Sie uns direkt über WhatsApp.",
+    "policyTitle": "Ein Boot, eine Buchung",
+    "policyBody": "Master Boat Charter fährt ein einziges Boot. Sobald ein Termin gebucht ist, werden alle überschneidenden Zeiten bei sämtlichen Angeboten gesperrt. So schützen wir die Qualität jedes Tages auf See."
+  },
+  "transferQuote": {
+    "eyebrow": "Individuelles Angebot",
+    "title": "Planen Sie Ihren Transfer",
+    "lead": "Wählen Sie Abfahrts- und Zielinsel sowie Ihre Anforderungen, und wir senden Ihnen innerhalb von Minuten ein maßgeschneidertes Angebot.",
+    "fromLabel": "Abfahrtsinsel",
+    "toLabel": "Zielinsel",
+    "returnLabel": "Rückfahrt",
+    "returnYes": "Ja, Rückfahrt gewünscht",
+    "returnNo": "Nein, nur einfache Fahrt",
+    "guestsLabel": "Anzahl der Reisenden",
+    "bagsLabel": "Gepäckstücke",
+    "dateLabel": "Wunschdatum",
+    "nameLabel": "Vollständiger Name",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon (WhatsApp bevorzugt)",
+    "submit": "Angebot anfragen",
+    "submitting": "Anfrage wird gesendet …",
+    "successTitle": "Angebotsanfrage erhalten",
+    "successBody": "Vielen Dank. Unser Kapitän antwortet innerhalb von Minuten per E-Mail und WhatsApp mit einem maßgeschneiderten Angebot.",
+    "errorTitle": "Senden nicht möglich",
+    "errorBody": "Bitte versuchen Sie es erneut oder erreichen Sie uns über WhatsApp.",
+    "selectIsland": "Insel wählen",
+    "samePickError": "Abfahrts- und Zielinsel müssen unterschiedlich sein",
+    "islands": {
+      "la-digue": "La Digue",
+      "praslin": "Praslin",
+      "mahe": "Mahé",
+      "curieuse": "Curieuse",
+      "felicite": "Félicité",
+      "grande-soeur": "Grande Soeur",
+      "petite-soeur": "Petite Soeur"
+    }
+  },
+  "captainPage": {
+    "metaTitle": "Der Kapitän · Master Boat Charter, La Digue Seychellen",
+    "metaDescription": "Lernen Sie den seychellischen Kapitän hinter Master Boat Charter kennen. Auf La Digue geboren und aufgewachsen, jahrelang Fischer auf den inneren Bänken, heute mit einem einzigen Privatboot auf den inneren Inseln unterwegs.",
+    "eyebrow": "Über den Kapitän",
+    "title": "Der Mann am Ruder.",
+    "lead": "Ein Boot. Ein Kapitän. Der Seychelloise hinter Master Boat Charter erklärt mit eigenen Worten, was das bedeutet und warum er es so hält.",
+    "imageAlt": "Unser seychellischer Kapitän mit der Master Boat am Hafen von La Digue",
+    "sections": [
+      {
+        "title": "Auf dem richtigen Felsen geboren",
+        "body": "Geboren auf La Digue, aufgewachsen zwischen Hafen und Riff. Schule auf der Insel bis zu den weiterführenden Jahren auf Praslin, dann die Boote der Familie: ab früher Jugend Fischfang auf den inneren Bänken mit dem Vater. Ein Leben, in dem man mehr Fischnamen kennt als Straßennamen."
+      },
+      {
+        "title": "Vom Fischfang zum Charter",
+        "body": "Nach Jahren in der Berufsfischerei sah er, wie der Massentourismus mit diesen Inseln umging, und entschied sich, lieber weniger zu machen und es gut zu machen. Ein Boot. Lokal. Direkt. Der erste private Chartertag liegt Jahre zurück: derselbe Kapitän, dasselbe Boot, nur mehr Gäste."
+      },
+      {
+        "title": "Warum nur ein Boot",
+        "body": "„Wenn ich zwei Boote fahre, bin ich ein Manager. Dann telefoniere ich, organisiere Logistik und bin nicht mit meinen Gästen auf dem Wasser. Fahre ich ein Boot, bin ich Kapitän. Ich kenne jeden an Bord, ich koche das Mittagessen, ich lese das Wetter, ich wähle das Riff. Das will ich sein.“"
+      },
+      {
+        "title": "Was er Ihnen mitgeben möchte",
+        "body": "Sagen Sie uns, worauf es Ihnen ankommt. Schildkröten? Dann planen wir um Curieuse herum. Schnorcheln? Dann wählen wir das Riff nach der Morgentide. Ein stiller Strand? Wir wissen, welcher an diesem Tag leer sein wird. Die Seychellen sind klein genug, dass ein Kapitän, der hier aufgewachsen ist, Ihnen jeden Tag einen persönlichen Tag schenken kann."
+      }
+    ],
+    "languagesLabel": "Sprachen",
+    "languages": [
+      "Englisch (fließend)",
+      "Französisch (fließend)",
+      "Seychellenkreolisch (Muttersprache)"
+    ],
+    "knowsAboutLabel": "Spezialisiert auf",
+    "knowsAbout": [
+      "Navigation auf den inneren Inseln",
+      "Hochseefischen",
+      "Auswahl der Schnorchelplätze",
+      "Meerestierwelt"
+    ],
+    "ctaTitle": "Bereit, Ihren Tag mit dem Kapitän zu buchen?",
+    "ctaButton": "Ausflüge ansehen",
+    "whatsappCta": "Dem Kapitän eine Frage stellen"
+  },
+  "faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Von wo aus fahren Sie?",
+        "a": "Wir starten von La Digue und fahren alle inneren Inseln an: Praslin, Mahé, Curieuse, Cousin, Coco Island, Grande Soeur, Petite Soeur, Félicité, St Pierre und weitere."
+      },
+      {
+        "q": "Warum gibt es nur ein Boot?",
+        "a": "Das ist eine bewusste Entscheidung. Ein Boot bedeutet kleine Gruppen, ein persönliches Erlebnis und geringe Auswirkungen auf die Meeresumwelt. Jeder Gast bekommt unsere volle Aufmerksamkeit."
+      },
+      {
+        "q": "Sind Getränke und Essen inklusive?",
+        "a": "Getränke sind bei jeder Ausfahrt inklusive. Essen je nach Angebot: Ganztagesausflüge enthalten ein Grillen am Strand, Angeltouren enthalten Snacks. Besondere Menüs richten wir auf Anfrage ein."
+      },
+      {
+        "q": "Wie bezahle ich?",
+        "a": "Eine Anzahlung von 20 % bestätigt die Buchung. Der Restbetrag wird am Tag der Aktivität vor Ort beglichen."
+      },
+      {
+        "q": "Sind die Meeresparkgebühren inklusive?",
+        "a": "Nein. Meeresparkgebühren (für Gebiete wie Curieuse, Saint Pierre, Coco) werden vor Ort bezahlt und sind nicht im Preis enthalten."
+      },
+      {
+        "q": "Wie sind Ihre Stornobedingungen?",
+        "a": "Buchungen sind nicht stornierbar. Wenn etwas dazwischenkommt, sagen Sie uns so früh wie möglich Bescheid; wir suchen nach einem Ersatztermin, sofern verfügbar, können ihn aber nicht zusichern. Sagt der Kapitän wegen Wetter oder Sicherheit ab, erhalten Sie die volle Erstattung oder einen kostenlosen Ersatztermin."
+      },
+      {
+        "q": "Ist das Boot für Kinder geeignet?",
+        "a": "Auf jeden Fall. Das Boot ist familienfreundlich, mit Schatten, WC an Bord und Schwimmwesten in allen Größen. Sagen Sie uns, wer mitfährt, und wir bereiten alles entsprechend vor."
+      },
+      {
+        "q": "Was ist mit Seekrankheit?",
+        "a": "Zwischen den inneren Inseln der Seychellen ist das Meer meist ruhig und geschützt. Beim Hochseefischen ist der Seegang stärker. Wir beraten Sie nach den Bedingungen des Tages."
+      },
+      {
+        "q": "Wie läuft die Zahlung ab?",
+        "a": "Die Online-Buchung ist zunächst nur eine Reservierung, dafür wird keine Karte benötigt. Wir bestätigen per E-Mail und WhatsApp, und die Zahlung erfolgt am Tag selbst vor Ort."
+      }
+    ]
+  },
+  "faqPage": {
+    "metaTitle": "FAQ · Bootstouren, Buchung, Stornierung",
+    "metaDescription": "Antworten auf alle Fragen zu privaten Bootscharters auf den Seychellen: Buchung, Stornobedingungen, Leistungen, Meeresparks, Kinder, Wetter, Zahlung.",
+    "eyebrow": "Hilfe & Antworten",
+    "title": "Alles, was Sie vor der Buchung wissen wollen.",
+    "lead": "Einen privaten Bootstag im Ausland zu buchen verdient klare Antworten. Steht Ihre Frage nicht hier, schreiben Sie dem Kapitän direkt über WhatsApp.",
+    "sections": [
+      {
+        "title": "Buchung & Zahlung",
+        "items": [
+          {
+            "q": "Wie buche ich eine Bootstour bei Master Boat Charter?",
+            "a": "Wählen Sie Datum und Uhrzeit auf der Buchungsseite, das dauert etwa zwei Minuten. Innerhalb von zwei Stunden erhalten Sie eine Bestätigung per E-Mail und WhatsApp. In diesem Schritt wird keine Karte benötigt. Die Zahlung erfolgt vor Ort."
+          },
+          {
+            "q": "Muss ich im Voraus bezahlen?",
+            "a": "Eine Anzahlung von 20 % bestätigt Ihre Buchung. Der Restbetrag wird am Tag der Aktivität vor Ort beglichen."
+          },
+          {
+            "q": "Wie sind Ihre Stornobedingungen?",
+            "a": "Buchungen sind nicht stornierbar. Wenn Sie nicht kommen können, melden Sie sich bei uns; wir versuchen, einen Ersatztermin zu finden, sofern verfügbar, können das aber nicht zusichern. Sagt der Kapitän wegen Wetter oder Sicherheit ab, erhalten Sie stets die volle Erstattung oder einen kostenlosen Ersatztermin."
+          },
+          {
+            "q": "Wie schnell bestätigen Sie eine Buchung?",
+            "a": "Express-Bestätigung während der Betriebszeiten (8 bis 20 Uhr Seychellen-Zeit, UTC+4), meist innerhalb weniger Minuten über WhatsApp."
+          },
+          {
+            "q": "Kann ich für eine Gruppe von 12 oder mehr buchen?",
+            "a": "Unser Boot fasst 12 Gäste. Für größere Gruppen stimmen wir uns mit einem Partnerboot ab. Schreiben Sie dem Kapitän über WhatsApp, wir organisieren das."
+          }
+        ]
+      },
+      {
+        "title": "An Bord",
+        "items": [
+          {
+            "q": "Gibt es ein WC an Bord?",
+            "a": "Ja, ein Bord-WC mit Tür, für alle Gäste."
+          },
+          {
+            "q": "Sind Getränke und Essen inklusive?",
+            "a": "Getränke (Wasser, Softdrinks, Bier) sind bei jeder Ausfahrt inklusive. Ganztagesausflüge enthalten ein Grillen am Strand: gegrillter Fisch, Salate, frisches Obst. Bei besonderen Ernährungswünschen sagen Sie uns bei der Buchung Bescheid."
+          },
+          {
+            "q": "Stellen Sie Schnorchelausrüstung?",
+            "a": "Ja, Masken, Schnorchel und Flossen in allen Größen. Eigene Ausrüstung dürfen Sie natürlich mitbringen."
+          },
+          {
+            "q": "Ist das Boot gegen Sonne geschützt?",
+            "a": "Ja, ein durchgehendes T-Top überdacht das Cockpit. Der Bug bleibt offen für Schwimmer und Sonnenhungrige."
+          },
+          {
+            "q": "Gibt es WLAN an Bord?",
+            "a": "Nein, aber der Kapitän hat einen mobilen Hotspot dabei, für Notfälle und zum Teilen von Fotos."
+          }
+        ]
+      },
+      {
+        "title": "Tierwelt, Wetter & Praktisches",
+        "items": [
+          {
+            "q": "Können wir Meeresschildkröten sehen?",
+            "a": "Sehr oft. Karettschildkröten sind das ganze Jahr über an unseren Schnorchelplätzen rund um Curieuse, Coco und St-Pierre anzutreffen. Grüne Meeresschildkröten nisten saisonal an geschützten Stränden."
+          },
+          {
+            "q": "Wann kann man Walhaie sehen?",
+            "a": "August bis Oktober ist die Hauptsaison rund um die inneren Inseln. Außerhalb dieses Zeitraums sind Sichtungen selten; der Kapitän sagt Ihnen ehrlich, wenn es nicht die richtige Zeit ist."
+          },
+          {
+            "q": "Was ist mit Seekrankheit?",
+            "a": "Zwischen den inneren Inseln ist das Meer meist ruhig und geschützt. Beim Hochseefischen ist der Seegang stärker. Wir beraten nach der Vorhersage des Tages und können die Route anpassen."
+          },
+          {
+            "q": "Dürfen Kinder mit an Bord?",
+            "a": "Ja. Das Boot ist familienfreundlich, mit Rettungswesten in allen Größen und Schattenbereichen. Nennen Sie uns bei der Buchung das Alter der Kinder, dann bereiten wir alles entsprechend vor."
+          },
+          {
+            "q": "Was passiert bei schlechtem Wetter?",
+            "a": "Wir verlegen den Termin kostenlos oder erstatten den vollen Betrag, wenn kein Ersatztermin passt. Der Kapitän entscheidet nach Sicherheit, nicht nach Buchungslage."
+          },
+          {
+            "q": "Was soll ich mitbringen?",
+            "a": "Riffverträglichen Sonnenschutz, Handtuch, Badesachen, Hut und eine leichte Schicht für die Rückfahrt. Den Rest stellen wir: Schnorchelausrüstung, Getränke, Essen bei Ganztagestouren, Rettungswesten, Erste Hilfe."
+          }
+        ]
+      }
+    ]
+  },
+  "guides": {
+    "whale-shark-season-seychelles": {
+      "shortTitle": "Walhai-Saison",
+      "eyebrow": "Ratgeber · Tierwelt der Seychellen",
+      "title": "Wann kann man auf den Seychellen mit Walhaien schwimmen?",
+      "imageAlt": "Schnorchler schwimmt neben einem Walhai auf den Seychellen",
+      "metaTitle": "Walhai-Saison Seychellen · Wann und wo mit ihnen schwimmen",
+      "metaDescription": "Walhaie besuchen die Seychellen von August bis Oktober. Beste Monate, beste Plätze, Verhaltensregeln, was Sie erwartet. Planen Sie Ihren Schwimmgang mit einem Privatboot ab La Digue.",
+      "updatedLabel": "Aktualisiert",
+      "readTime": "6 Min. Lesezeit",
+      "lead": "Der größte Fisch der Meere zieht jedes Jahr durch die Gewässer der Seychellen. Und die inneren Inseln gehören zu den wenigen Orten der Welt, an denen man ohne Gedränge mit ihm schnorcheln kann. Hier steht alles, was Sie zur Planung brauchen.",
+      "sections": [
+        {
+          "title": "Die Walhai-Saison erklärt",
+          "body": "Walhaie (Rhincodon typus) folgen den Planktonblüten quer durch den westlichen Indischen Ozean. Auf den Seychellen dauert ihre Hauptsaison von August bis Oktober. In diesen drei Monaten sind die Sichtungen rund um Mahé und die inneren Inseln am häufigsten. Es sind Filtrierer, für Menschen harmlos, und ausgewachsen 8 bis 12 Meter lang. Die Tiere, die Sie sehen, sind meist junge Männchen zwischen 4 und 8 Metern.\n\nAußerhalb dieses Zeitraums, von November bis Juli, gibt es Sichtungen, doch sie sind selten und unberechenbar. Wenn das Schwimmen mit einem Walhai der Höhepunkt Ihrer Reise sein soll, planen Sie sie zwischen August und Oktober."
+        },
+        {
+          "title": "Die besten Monate. Und die besten Wochen darin",
+          "body": "Der September ist historisch der beste Zeitpunkt. Die Planktonblüte ist am dichtesten, der Südostpassat hat sich gelegt, und die Sicht ist ausgezeichnet, oft über 20 Meter. Der Oktober bringt wechselhafteres Wetter, dafür mehr Tiere nahe der Oberfläche. Der August ist der früheste verlässliche Monat und auf dem Wasser meist ruhiger.\n\nInnerhalb eines Monats ändern sich die Bedingungen von Woche zu Woche. Der beste Rat: Halten Sie Ihre Termine zwei bis drei Tage flexibel und lassen Sie den Kapitän das Zeitfenster wählen. Wir buchen kostenfrei um, wenn sich der gebuchte Tag als wenig aussichtsreich erweist und innerhalb von 72 Stunden ein besserer Tag frei ist."
+        },
+        {
+          "title": "Wo sie auftauchen",
+          "body": "Das Hauptgebiet liegt im tieferen Wasser vor der Westküste von Mahé, zwischen Beau Vallon und Anse Major. Von La Digue aus fahren wir das als langen Tag (10 bis 11 Stunden) mit einem Ausguck an Bord und, wenn möglich, in Abstimmung mit der Marine Conservation Society Seychelles. Näher bei uns gibt es gelegentlich Sichtungen an den Abbruchkanten vor Coco Island und südlich von Félicité, allerdings nur im September und Oktober.\n\nWenn Sie die lange Überfahrt lieber vermeiden möchten, empfehlen wir, den Walhai-Tag von Mahé aus zu starten. Den Transfer stimmen wir gern ab."
+        },
+        {
+          "title": "Was Sie erwartet. Und wie wir es verantwortungsvoll machen",
+          "body": "Eine Walhai-Begegnung ist ein Schnorchelgang, kein Tauchgang. Sie gehen etwa 30 Meter vom Tier entfernt ins Wasser, mit Flossen und freier Maske, und lassen es näher kommen. Das Tier bestimmt das Tempo. Wir jagen nie hinterher, berühren nie, füttern nie.\n\nDie Regeln der Seychellen sind eindeutig: höchstens acht Schwimmer gleichzeitig im Wasser, mindestens 3 Meter Abstand zum Kopf und 4 Meter zur Schwanzflosse, kein Blitzlicht, kein Gerätetauchen in der unmittelbaren Zone. Unser Kapitän setzt diese Regeln durch. Nur so bleibt die Population Jahr für Jahr an Schwimmer gewöhnt.\n\nEine typische Begegnung dauert 5 bis 15 Minuten pro Vorbeizug. An einem guten Tag erleben Sie drei bis fünf Vorbeizüge, mit demselben oder mit verschiedenen Tieren. An einem ruhigen Tag auch gar keinen: Das Meer ist kein Zoo. Beim Briefing am Morgen sagen wir ehrlich, was der Tag erwarten lässt."
+        },
+        {
+          "title": "Was Sie mitbringen sollten",
+          "body": "Riffverträglichen Sonnenschutz, Ihre eigene Maske, falls vorhanden (wir stellen gutes Material für alle anderen), eine Unterwasserkamera, wenn Sie fotografieren möchten (ohne Blitz), und ein langärmeliges Rashguard als Sonnenschutz für die lange Anfahrt. Getränke, Snacks und bei verlängerten Touren ein warmes Mittagessen stellen wir."
+        }
+      ],
+      "faqTitle": "Walhaie. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Ist das Schwimmen mit Walhaien sicher?",
+          "a": "Ja. Walhaie sind Filtrierer. Sie haben keine Zähne, mit denen sie beißen, kein Schlagverhalten mit der Schwanzflosse, keine Verteidigungsaggression. Die einzigen Risiken sind Sonnenbrand, Dehydrierung und die eigene Begeisterung, die einen zu nah herantreibt. Zu allen dreien weisen wir ein."
+        },
+        {
+          "q": "Wie wahrscheinlich ist eine Sichtung in der Saison?",
+          "a": "Im September rund um Mahé liegt unsere Trefferquote bei etwa 80 % an einem einzelnen Tag und rund 95 % bei zwei Versuchstagen. August und Oktober liegen bei 60 bis 70 %. Außerhalb der Saison fahren wir keine eigenen Touren."
+        },
+        {
+          "q": "Dürfen Kinder mitmachen?",
+          "a": "Sichere Schwimmer ab 10 Jahren, ja. Darunter empfehlen wir, dass der Kapitän mit dem Kind am Boot bleibt, während die Eltern ins Wasser gehen."
+        },
+        {
+          "q": "Gibt es Tauchoptionen?",
+          "a": "Gerätetauchen ist in der unmittelbaren Schnorchelzone nicht erlaubt (Tierschutzvorschrift). Nur Schnorcheln."
+        },
+        {
+          "q": "Brauche ich einen Schein oder eine Versicherung?",
+          "a": "Keinen Schein. Eine Reiseversicherung mit Wassersportdeckung ist empfehlenswert (die meisten Policen decken Schnorcheln ohnehin ab)."
+        },
+        {
+          "q": "Wie lange dauert die Tour ab La Digue?",
+          "a": "10 bis 11 Stunden von Tür zu Tür, wenn wir in das Hauptgebiet vor Mahé fahren. Ab Praslin: 8 Stunden. Viele Gäste starten lieber von Mahé aus. Wir stimmen das gern ab."
+        }
+      ],
+      "relatedEyebrow": "Ihre Reise planen",
+      "relatedTitle": "Das passt dazu",
+      "ctaTitle": "Den richtigen Moment treffen. Buchen Sie einen privaten Tag auf See",
+      "ctaLead": "Wenn Sie zwischen August und Oktober reisen, können Sie mit einem Privatboot den passenden Bedingungen folgen, statt an einen Gruppenfahrplan gebunden zu sein.",
+      "ctaButton": "Ausflüge ansehen"
+    },
+    "best-time-to-visit-seychelles": {
+      "shortTitle": "Beste Reisezeit",
+      "eyebrow": "Ratgeber · Reisen auf den Seychellen",
+      "title": "Wann ist die beste Reisezeit für die Seychellen?",
+      "imageAlt": "Master Boat Charter vor Anker unter dem Himmel der Seychellen",
+      "metaTitle": "Beste Reisezeit Seychellen · Monat für Monat (2026)",
+      "metaDescription": "Wetter, Seegang, Tierwelt und Besucherandrang auf den Seychellen, Monat für Monat. April bis Mai und September bis Oktober sind die besten Fenster. Hier steht warum.",
+      "updatedLabel": "Aktualisiert",
+      "readTime": "8 Min. Lesezeit",
+      "lead": "Die Seychellen sind das ganze Jahr über gut. Nur bedeutet „gut“ nicht immer dasselbe. Der Wind dreht, der Regen fällt an anderen Stellen, das Meer wechselt die Farbe. Für Bootsreisende stechen zwei Fenster heraus: April bis Mai und September bis Oktober. Hier die vollständige Übersicht Monat für Monat.",
+      "sections": [
+        {
+          "title": "Die zwei Monsune, die das Jahr prägen",
+          "body": "Die Seychellen haben zwei Passatwind-Zeiten. Der Nordwestmonsun läuft etwa von November bis März: wärmere Luft, mehr Feuchtigkeit, gelegentlich kräftiger Regen, ruhigere See an den Südostküsten. Der Südostmonsun läuft von Mai bis September: trockener, kühlere Nächte, windigere Tage, bewegtere See an den Ostküsten. Dazwischen liegen die Übergangsmonate April sowie Oktober und November, die das Beste aus beiden verbinden: warm, trocken, ruhig.\n\nFürs Bootfahren ist das die wichtigste Tatsache. Ruhige See + gute Sicht + wenig Regen = April, Mai, September, Oktober."
+        },
+        {
+          "title": "Monat für Monat",
+          "body": "**Januar.** Warm, schwül, gelegentlich kräftige Schauer. Sicht unter Wasser wechselhaft. Weniger Touristen; gut für Strandtage und kurze Bootsausfahrten. Walhaie: nicht in der Saison.\n\n**Februar.** Ähnlich wie der Januar. Heiß. Ein Teil der stärksten Regenfälle des Jahres fällt in kurzen Schüben. Schnorcheln auf der windabgewandten Seite der inneren Inseln funktioniert weiterhin.\n\n**März.** Der Übergang beginnt. Der Wind lässt nach, der Regen auch. Letzte Gelegenheit für ruhigstes Wasser vor dem April. Hervorragend für Sonnenuntergangsfahrten.\n\n**April.** Einer der beiden besten Monate. Heiß, trocken, See wie ein Spiegel, Sicht oft über 25 Meter. Der Andrang hält sich in Grenzen. Walhaie sind nicht in der Saison, alles andere ist auf dem Höhepunkt.\n\n**Mai.** Der Passat setzt ein. Nachts etwas kühler. Schnorcheln auf der Leeseite der inneren Inseln weiterhin ausgezeichnet. Gute Preise.\n\n**Juni.** Der Südostwind frischt auf. An Oststränden kann Seegras anlanden. Die Westseiten der inneren Inseln bleiben hervorragend. Die Segelfisch-Saison beginnt.\n\n**Juli.** Windiger. Das Wasser kühler. Hochseefischen auf dem Höhepunkt. Geschütztes Schnorcheln zwischen den inneren Inseln weiterhin gut.\n\n**August.** Ab Monatsmitte lässt der Wind nach. Erste Walhai-Sichtungen. Hochseefischen bleibt stark.\n\n**September.** Der andere beste Monat. Walhaie auf dem Höhepunkt. Die See beruhigt sich. Die Sicht wird wieder ausgezeichnet. Etwas mehr Besucher als im April.\n\n**Oktober.** Der Wind lässt weiter nach. Anfang des Monats sind noch Walhaie da. Hervorragende Bedingungen zwischen den inneren Inseln. Hochsaison für Hochzeitsreisen.\n\n**November.** Übergang zum Nordwestmonsun. Ruhige See, aber etwas Regen. Weniger los auf dem Wasser. Gutes Preis-Leistungs-Verhältnis.\n\n**Dezember.** Hochsaison für europäische Ferien. Warm, schwül, gelegentlich Regen. Für Weihnachten und Silvester sollten Sie mindestens drei Monate im Voraus buchen."
+        },
+        {
+          "title": "Wann buchen, je nachdem was Sie suchen",
+          "body": "Für einen privaten Bootstag mit maximaler Sicht: April, Mai, September, Oktober.\n\nFür Walhaie: Ende August bis Oktober. Der September ist die sicherste Wahl.\n\nFürs Hochseefischen: Juni, Juli, August.\n\nFür Hochzeitsreisen (ruhige See, gutes Licht, Sonnenuntergänge): April bis Mai oder Oktober. Ende Januar und Februar meiden, dann regnet es am meisten.\n\nFür Familien mit kleinen Kindern: April bis Mai (Übergang, ruhig) oder November (ähnlich, günstiger)."
+        },
+        {
+          "title": "Was wir tun, wenn das Wetter umschlägt",
+          "body": "Unsere Stornoregelung ist am Wetter ausgerichtet. Sagt der Kapitän ab (aus Sicherheitsgründen, nicht aus Vorliebe), erstatten oder verlegen wir vollständig. Sagen Sie ab, ist die Buchung nicht erstattungsfähig; wir suchen nach einem Ersatztermin, sofern verfügbar. In der Praxis verlieren wir über alle Jahreszeiten hinweg fünf bis zehn Tage im Jahr an das Wetter, meist mit Ersatztermin innerhalb von 48 Stunden.\n\nDie inneren Inseln sind geschützt genug, dass ein Tag selten ganz ausfällt. Wir passen die Route an: Aus der Ostküste wird die Westküste, aus dem ganzen Tag ein halber, der Schnorchelplatz wechselt. Das Können des Kapitäns steckt vor allem in dieser Anpassung."
+        }
+      ],
+      "faqTitle": "Beste Reisezeit. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Welcher Monat ist der allerbeste für eine Bootstour auf den Seychellen?",
+          "a": "Ende April oder Ende September. Der April für die ruhigste See vor den Südostwinden, der September für die Klarheit nach dem Monsun und für die Walhaie."
+        },
+        {
+          "q": "Sind Weihnachten und Neujahr eine gute Zeit?",
+          "a": "Für Stimmung und Wärme ja, aber es ist die regenreichste und teuerste Zeit. Buchen Sie mindestens vier Monate im Voraus, wenn das Ihr Fenster ist."
+        },
+        {
+          "q": "Gibt es Wirbelstürme auf den Seychellen?",
+          "a": "Die Seychellen liegen außerhalb der Hauptzugbahnen. Direkte Treffer sind selten (zuletzt 2018, als Zyklon Berguitta vorbeizog). Das Land gilt als zyklonsicher."
+        },
+        {
+          "q": "Wann sind die Preise am niedrigsten?",
+          "a": "Mai, Anfang Juni sowie Ende Oktober bis Mitte Dezember sind die ruhigeren und günstigeren Fenster. Unsere Preise bleiben das ganze Jahr gleich, aber die Unterkünfte auf den Inseln werden in diesen Monaten 30 bis 40 % günstiger."
+        },
+        {
+          "q": "Wie warm ist das Wasser?",
+          "a": "26 bis 29 °C das ganze Jahr. Einen Neoprenanzug brauchen Sie nicht. Ein Rashguard hilft bei langen Tagen in der Sonne."
+        }
+      ],
+      "relatedEyebrow": "Ihre Reise planen",
+      "relatedTitle": "Das passt dazu",
+      "ctaTitle": "Wählen Sie ein Datum, um das Wetter kümmern wir uns",
+      "ctaLead": "Bei uns zu buchen heißt: ein Kapitän liest für Sie täglich die Vorhersage. Passt Ihr Tag nicht, verlegen wir ihn.",
+      "ctaButton": "Ausflüge ansehen"
+    }
+  },
+  "destinations": {
+    "curieuse-island": {
+      "shortTitle": "Insel Curieuse",
+      "title": "Insel Curieuse. Riesenschildkröten & Strände",
+      "tagline": "Meerespark · Aldabra-Riesenschildkröten · Anse Papaie",
+      "lead": "Ein privater Bootstag zu einer der beliebtesten inneren Inseln der Seychellen. Aldabra-Riesenschildkröten an Land, ein geschützter Korallen-Meerespark im Wasser und ein Mittagessen am Strand, an dem die einzigen Fußspuren Ihre eigenen sind.",
+      "imageAlt": "Türkisfarbene Lagune im Meerespark der Insel Curieuse, Seychellen",
+      "metaTitle": "Insel Curieuse Tour Seychellen · Privatboot ab La Digue",
+      "metaDescription": "Tagestour zur Insel Curieuse ab La Digue: Aldabra-Riesenschildkröten, Schnorcheln im Meerespark, Grillen am Strand von Anse Papaie, Stopp an der Insel St-Pierre. 175 € pro Person, Getränke und Mittagessen inklusive. Einheimischer seychellischer Kapitän.",
+      "schemaName": "Ganztägige private Bootstour zur Insel Curieuse ab La Digue",
+      "factDuration": "7 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "La Digue · Praslin auf Anfrage",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig · am besten Apr–Okt",
+      "sections": [
+        {
+          "title": "Warum Curieuse der lohnendste Tag auf See zwischen den inneren Inseln ist",
+          "body": "Curieuse ist die seltene Seychellen-Insel, auf der Land, Riff und Geschichte an einem einzigen Nachmittag zusammenkommen. Einst eine Leprakolonie, heute ein Nationalpark, der um die Wiederansiedlung der Aldabra-Riesenschildkröten herum aufgebaut wurde: über hundert von ihnen bewegen sich frei auf den Wegen. Die Westküste ist geschützter Meerespark: flach, klar, voller Papageifische, Falterfische und gelegentlich einer Karettschildkröte.\n\nDen Vormittag verbringen wir vor Anker auf der Seite des Meeresparks, treiben mit der wechselnden Tide über das Riff und setzen dann den Bug an den Strand von Anse Papaie, wo Ihr Kapitän grillt, während Sie den Schildkrötenpfad gehen."
+        },
+        {
+          "title": "Was Sie im Meerespark sehen",
+          "body": "Wenn es die Bedingungen zulassen, planen wir auf dieser Tour drei Schnorchelstopps: Anse Saint-Joseph für die Tischkorallen und Sergeant-Major-Fische, die kleine Bucht unterhalb der Rangerstation für Karettschildkröten und die Südspitze für ein ruhiges Treiben in drei bis fünf Metern spiegelglattem Wasser. Bringen Sie riffverträglichen Sonnenschutz mit, alles Übrige stellen wir."
+        },
+        {
+          "title": "Das Grillen an der Anse Papaie",
+          "body": "Anse Papaie ist eine Zunge aus weißem Sand, die nur per Boot erreichbar ist. Zum Mittagessen gibt es gegrillten Fisch (je nach Tag Königsmakrele, Schnapper oder Job), Salate, frisches Obst und kühles Seybrew aus der Kühlbox. Softdrinks und Wasser sind inklusive; wenn Sie ein bestimmtes Getränk möchten, sagen Sie es bei der Buchung.\n\nDen Strand teilen Sie sich mit ein paar Landleguanen und gelegentlich einer Schildkröte, die aus dem Wald spaziert. Es ist eines der ruhigsten Strandessen, die dieses Archipel zu bieten hat."
+        },
+        {
+          "title": "Curieuse auf dem Rückweg mit der Insel St-Pierre verbinden",
+          "body": "Ist die See ruhig, legen wir auf der Rückfahrt einen Schnorchelstopp an der Insel St-Pierre ein: ein Granitfelsen einen Kilometer vor der Anse Volbert mit einer der dichtesten Ansammlungen von Rifffischen der inneren Inseln. Das verlängert den Tag um etwa 45 Minuten und gehört zu unseren meistgewünschten Extras."
+        }
+      ],
+      "highlightsTitle": "Was Ihr Tag auf Curieuse enthält",
+      "highlights": [
+        "Privatboot, keine andere Gruppe an Bord",
+        "Einheimischer seychellischer Kapitän, der jedes Riff kennt",
+        "Schnorchelausrüstung in allen Größen",
+        "Getränke (Wasser, Softdrinks, Bier) inklusive",
+        "Grillen am Strand mit gegrilltem Fisch und Salaten",
+        "Hilfe bei den Meeresparkgebühren (bei Ankunft zu zahlen)"
+      ],
+      "itineraryEyebrow": "Ein Tag auf Curieuse",
+      "itineraryTitle": "Typischer Ablauf, 09:00 bis 16:00",
+      "faqTitle": "Insel Curieuse. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Sind die Meeresparkgebühren im Preis enthalten?",
+          "a": "Nein. Die Gebühr für den Meerespark Curieuse wird bei der Ankunft an die Ranger gezahlt (derzeit rund 27 € pro Erwachsenem, Kinder unter 12 Jahren frei). Unser Kapitän kümmert sich um die Formalitäten."
+        },
+        {
+          "q": "Sehen wir die Riesenschildkröten wirklich?",
+          "a": "Fast immer. Das Schildkrötenreservat an der Anse Saint-Joseph beherbergt mehr als 200 Tiere, die sich frei bewegen. Manche sind über hundert Jahre alt."
+        },
+        {
+          "q": "Können wir das Doctor's House besuchen und zur Anse Saint-Joseph laufen?",
+          "a": "Ja. Der Weg ist leicht (etwa 30 Minuten pro Richtung), und wir legen das Mittagessen so, dass Ihnen am Nachmittag Zeit für den Spaziergang bleibt."
+        },
+        {
+          "q": "Ist die Tour für Kinder geeignet?",
+          "a": "Ja. Die Schnorchelplätze sind flach und geschützt, der Weg ist familienfreundlich, und wir stellen Rettungswesten in allen Größen."
+        },
+        {
+          "q": "Was ist mit Seekrankheit?",
+          "a": "Die Strecke von La Digue nach Curieuse verläuft innerhalb der Lagune der inneren Inseln und ist fast das ganze Jahr geschützt. Die Überfahrten dauern selten länger als 30 Minuten."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihren Tag auf Curieuse"
+    },
+    "coco-island": {
+      "shortTitle": "Coco Island",
+      "title": "Meerespark Coco Island & die Schwesterinseln",
+      "tagline": "Coco · Félicité · Grande & Petite Soeur",
+      "lead": "Eine private Bootsroute durch den ursprünglichsten Schnorchelplatz der inneren Inseln. Drei Granitinseln, glasklares Wasser, eine Vielfalt an Rifffischen, die wie gemalt wirkt, und Strandstopps, die die meisten Besucher nie erreichen.",
+      "imageAlt": "Kokospalmen und rosa Granit an einem Strand der Seychellen",
+      "metaTitle": "Coco Island & Schwesterinseln · Schnorcheltour ab La Digue",
+      "metaDescription": "Private Bootstour zum Meerespark Coco Island, nach Félicité und zu den Schwesterinseln. Glasklares Schnorcheln, Strände, Grillen am Strand. Ab 130 € pro Person, Getränke inklusive.",
+      "schemaName": "Private Bootstour Coco Island & Schwesterinseln ab La Digue",
+      "factDuration": "7 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "Hafen von La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig · am besten Mai–Sept",
+      "sections": [
+        {
+          "title": "Meerespark Coco Island. Das Juwel der inneren Inseln",
+          "body": "Coco ist eine kleine Gruppe von Granitfelsen vor Félicité, umgeben von einem Meerespark, der seit Jahrzehnten geschützt ist. Das Riff liegt nur wenige Meter unter der Oberfläche, im Windschatten der Felsen ist das Wasser spiegelglatt, und die Fischdichte ist ehrlich gesagt die beste rund um La Digue. Erwarten Sie Papageifische in allen Farben, Schwärme von Sergeant-Major-Fischen, die ansässigen Karettschildkröten und an einem guten Tag Adlerrochen entlang der Abbruchkante.\n\nDen Stopp am Vormittag legen wir auf den Stillstand der Tide: Dann ist die Sicht am besten und die Strömung am schwächsten. Kinder unter 12 Jahren betreten den Park kostenfrei; Erwachsene zahlen die Meeresparkgebühr bei Ankunft an den Ranger."
+        },
+        {
+          "title": "Mittagessen auf Grande Soeur",
+          "body": "Grande Soeur ist die größere der beiden Schwesterinseln: ein einziger Strand mit einer schief stehenden Palme, kein Resort, kein Bootsverkehr außer den wenigen Privatcharters, die an Land gehen. Zum Mittagessen wird am Strand gegrillt, während Sie schwimmen. Auf der Buchtseite ist das Wasser so flach, dass Sie 50 Meter hinauswaten können, ohne den Grund zu verlieren.\n\nWenn Sie länger am Strand bleiben möchten, tauschen wir Schnorchelzeit dagegen ein. Genau dafür ist der private Tag da."
+        },
+        {
+          "title": "Félicité, Petite Soeur und die Granitkulisse",
+          "body": "Die Route führt weiter an Félicité vorbei: halb Privatinsel, halb Six-Senses-Anwesen, mit Klippen, die 80 Meter ins tiefe Wasser abfallen, und jenen Granitformen, die die Seychellen berühmt gemacht haben. Petite Soeur ist die kleinere Zwillingsinsel: ein schmaler Streifen weißen Sandes vor einem Wald, den man nicht betreten darf. Wir fahren für das Foto nah heran und ankern auf dem Rückweg für ein letztes Bad."
+        },
+        {
+          "title": "Was diesen Tag von der Curieuse-Route unterscheidet",
+          "body": "Bei Curieuse geht es ums Land: die Schildkröten, den Pfad, die Geschichte. Bei Coco geht es ums Wasser. Das Schnorcheln ist dichter, die Inseln sind kleiner und leerer, der Tag handelt mehr vom Im-Meer-Sein als vom Darauf-Fahren. Viele Gäste machen bei einem zweitägigen Aufenthalt beides; für die zweite Buchung gewähren wir Stammgästen ein kleines Entgegenkommen."
+        }
+      ],
+      "highlightsTitle": "Was Ihr Tag auf Coco enthält",
+      "highlights": [
+        "Privatboot, nur Ihre Gruppe",
+        "Schnorcheln am fischreichsten Riff der inneren Inseln",
+        "Grillen am Strand von Grande Soeur",
+        "Getränke (Wasser, Softdrinks, Bier) inklusive",
+        "Einheimischer Kapitän · über 12 Jahre auf diesen Gewässern",
+        "Schnorchelausrüstung in jeder Größe"
+      ],
+      "itineraryEyebrow": "Ein Tag im Meerespark",
+      "itineraryTitle": "Typischer Ablauf, 09:00 bis 16:00",
+      "faqTitle": "Coco Island. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Ist die Gebühr für den Meerespark Coco inklusive?",
+          "a": "Nein. Sie wird bei Ankunft bar an den Ranger gezahlt (derzeit rund 15 € pro Erwachsenem, Kinder unter 12 Jahren frei). Unser Kapitän kümmert sich um die Formalitäten."
+        },
+        {
+          "q": "Wie ist das Schnorcheln im Vergleich zu Curieuse?",
+          "a": "Coco hat die höhere Fischdichte und tiefere Abbrüche, Curieuse die größere Korallenvielfalt und die Chance auf Schildkröten am Strand. Beides ist ausgezeichnet; viele Gäste wählen Coco für das Wasser und Curieuse für das Land."
+        },
+        {
+          "q": "Dürfen wir auf den Schwesterinseln an Land?",
+          "a": "Ja. Grande Soeur ist gegen eine kleine, am Strand zu zahlende Gebühr für private Besuche offen. Petite Soeur wird nur vom Boot aus angesehen."
+        },
+        {
+          "q": "Werden wir Schildkröten sehen?",
+          "a": "Sichtungen rund um den Meerespark sind häufig: Karettschildkröten auf den Riffplatten, sehr selten eine grüne Meeresschildkröte in tieferem Wasser."
+        },
+        {
+          "q": "Ist die Tour auch für Nichtschwimmer geeignet?",
+          "a": "Ja. Die Lagunenseite von Grande Soeur ist flach und ruhig, und für die Schnorchelstopps stellen wir Schwimmhilfen."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihren Tag auf Coco Island"
+    },
+    "sister-islands": {
+      "shortTitle": "Schwesterinseln",
+      "title": "Schwesterinseln. Grande Soeur, Petite Soeur & Félicité",
+      "tagline": "Strand · Grillen · Schnorcheln",
+      "lead": "Zwei Granitinseln vor Félicité, ein einziger Strand, an dem man an Land gehen kann, und eine leere Bucht, bei der man vergisst, dass sonst noch jemand diese Gewässer nutzt. Die Schwesterinseln sind der bestgehütete private Tag des inneren Archipels.",
+      "imageAlt": "Granitfelsen und weißer Sand auf den Schwesterinseln, Seychellen",
+      "metaTitle": "Schwesterinseln Tour Seychellen · Grande Soeur ab La Digue",
+      "metaDescription": "Privater Bootstag nach Grande Soeur und Petite Soeur ab La Digue. Grillen am Strand, Schnorcheln, Vorbeifahrt an Félicité. 130 €/Person · Getränke und Mittagessen inklusive.",
+      "schemaName": "Schwesterinseln. Privater Bootstag ab La Digue",
+      "factDuration": "7 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "Hafen von La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig · am besten Apr–Okt",
+      "sections": [
+        {
+          "title": "Warum die Schwesterinseln die Wahl der Kenner sind",
+          "body": "Grande Soeur und Petite Soeur liegen ein paar Kilometer östlich von Félicité: zwei Granitinseln mit einem einzigen Strand dazwischen, ohne Straße, ohne Steg, ohne Resort. Die meisten Boote fahren auf dem Weg nach Coco daran vorbei. Für uns sind sie das Ziel.\n\nDie Westbucht von Grande Soeur ist einer der ruhigsten Anlandeplätze der inneren Inseln. Im Windschatten des Felsens ist das Wasser spiegelglatt, der Sand ist so blendend weiß wie an der Anse Source d'Argent, und die Bucht ist klein genug, dass ein Boot sie ganz für sich hat. Bei der Ankunft wird dem Inselpersonal eine kleine Landegebühr gezahlt; davon werden Weg und Bucht sauber gehalten."
+        },
+        {
+          "title": "Was Sie an einem Tag auf den Schwesterinseln erwartet",
+          "body": "Vormittags an der Ostküste zum Schnorcheln: Die Riffplatten vor Petite Soeur wimmeln von Sergeant-Major-Fischen, Papageifischen und den ansässigen Karettschildkröten. Zum Mittagessen wird am Strand gegrillt, während Sie schwimmen. Nachmittags gehen wir auf Wunsch den Pfad quer über Grande Soeur: zwanzig Minuten Aufstieg durch Granit und Grün zu einem Aussichtspunkt über Félicité.\n\nWenn Sie Wasser dem Wandern vorziehen, tauschen wir den Pfad gegen einen zweiten Schnorchelstopp auf dem Rückweg."
+        },
+        {
+          "title": "Vorbeifahrt an Félicité und die Granitkulisse",
+          "body": "Auf Hin- und Rückweg fahren wir dicht an Félicité vorbei, der größeren Nachbarin, halb privat, halb Six-Senses-Anwesen. Ihre Klippen fallen senkrecht in 80 Meter tiefes Wasser, und die Granitformen sind die eindrucksvollsten der inneren Inseln. Wir gehen nicht an Land (kein öffentlicher Zugang), halten das Boot aber an der Südspitze für das Foto und, wenn es die Bedingungen erlauben, für ein Bad."
+        },
+        {
+          "title": "Schwesterinseln oder Coco. Was wählen?",
+          "body": "Wenn Sie Intensität im Wasser suchen, wählen Sie Coco: mehr Fische, mehr Strömung, ein kompakterer Meerespark. Wenn Sie einen Strand für sich allein möchten, wählen Sie die Schwesterinseln. Viele Gäste machen an einem Tag Coco und am nächsten die Schwesterinseln; für die zweite Buchung gewähren wir Stammgästen ein kleines Entgegenkommen."
+        }
+      ],
+      "highlightsTitle": "Was Ihr Tag auf den Schwesterinseln enthält",
+      "highlights": [
+        "Privatboot. Nur Ihre Gruppe",
+        "Grillen am Strand von Grande Soeur",
+        "Getränke (Wasser, Softdrinks, Bier) inklusive",
+        "Schnorchelausrüstung in allen Größen",
+        "Optionaler Spaziergang über Grande Soeur",
+        "Fotostopp vor Félicité"
+      ],
+      "itineraryEyebrow": "Ein Tag auf den Schwesterinseln",
+      "itineraryTitle": "Typischer Ablauf, 09:00 bis 16:00",
+      "faqTitle": "Schwesterinseln. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Gibt es eine Landegebühr auf Grande Soeur?",
+          "a": "Ja, eine kleine Gebühr, die am Strand bar an das Inselpersonal gezahlt wird (derzeit rund 15 € pro Erwachsenem, Kinder unter 12 Jahren frei). Sie dient dem Erhalt von Weg und Bucht."
+        },
+        {
+          "q": "Kann man zwischen Grande Soeur und Petite Soeur hinüberlaufen?",
+          "a": "Nein. Beide trennt ein flacher Kanal, den man bei Niedrigwasser durchschwimmen kann, was wegen der Strömung aber nicht immer sicher ist. Der Kapitän entscheidet am Tag selbst."
+        },
+        {
+          "q": "Ist der Strand wirklich privat?",
+          "a": "An den meisten Tagen ja. Ein paar Privatcharters kommen vorbei; Boote des Massentourismus machen hier nicht halt. Liegt ein anderes Boot in der Bucht, weichen wir auf den Oststrand aus."
+        },
+        {
+          "q": "Dürfen wir auf Petite Soeur an Land?",
+          "a": "Das ist ein reiner Sichtstopp, kein Anlanden. Wir ankern nah genug für gute Fotos und ein Bad."
+        },
+        {
+          "q": "Ist der Weg familienfreundlich?",
+          "a": "Ja, zwanzig Minuten gemächlicher Aufstieg auf einem markierten Pfad. Festes Schuhwerk ist empfehlenswert; riffverträgliche Schuhe stellen wir, falls Sie keine dabeihaben."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihren Tag auf den Schwesterinseln"
+    },
+    "anse-lazio": {
+      "shortTitle": "Anse Lazio",
+      "title": "Anse Lazio per Boot. Der Strand vom Wasser aus",
+      "tagline": "Praslin · Riff im Abendlicht · Anse Georgette",
+      "lead": "Der meistfotografierte Strand von Praslin, so angefahren, wie er es verdient: vom Wasser aus, wo man den ganzen Schwung der Bucht sieht, die Granitschultern und die Riffkante, die Lazios Lagune das unmögliche Türkis jeder Postkarte verleiht.",
+      "imageAlt": "Türkisfarbenes Wasser und Granit an der Anse Lazio, Praslin, Seychellen",
+      "metaTitle": "Anse Lazio Bootstour · Praslin vom Meer aus (Master Boat Charter)",
+      "metaDescription": "Privates Boot für einen halben Tag zur Anse Lazio ab La Digue. Anfahrt vom Meer, Badestopp vor Anker, Schnorcheln am Nordriff, optionaler Stopp an der Anse Georgette. 130 €/Person.",
+      "schemaName": "Anse Lazio. Privates Boot für einen halben Tag ab La Digue",
+      "factDuration": "6 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "Hafen von La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig · am besten Okt–Apr",
+      "sections": [
+        {
+          "title": "Warum die Anse Lazio vom Wasser aus schöner ist",
+          "body": "Die Anse Lazio zählt regelmäßig zu den schönsten Stränden der Welt. Über die Straße kommen Sie an einem Ende an, gehen durch die Bäume und treten auf den Sand. Per Boot sehen Sie den ganzen Bogen auf einmal: die Granitschultern, die die Bucht rahmen, die Riffbank hundert Meter vor dem Strand, den Farbverlauf von Türkis zu Tintenblau, wo das Wasser tiefer wird.\n\nWir ankern in der Bucht, Sie können an Land schwimmen (vom Wasser aus ohne Eintritt), und für den Schnorchelstopp nutzen wir das Nordriff. Das ist die beste Art, diesen Strand zu sehen, ohne ihn mit allen Straßentouristen Praslins zu teilen."
+        },
+        {
+          "title": "Das Riff auf der Nordseite",
+          "body": "Am Nordende der Anse Lazio steht ein Granitfelsen, der senkrecht in fünf bis acht Meter klares Wasser abfällt. Das Riff an dieser Flanke lebt: Papageifische, Falterfische, gelegentlich ein Adlerrochen und ein ansässiges Paar Karettschildkröten. Es ist einer der verlässlichsten Schnorchelplätze der Westseite Praslins. Die Sicht ist bei der Morgentide am besten."
+        },
+        {
+          "title": "Optionaler Stopp an der Anse Georgette",
+          "body": "Wenn es die Bedingungen erlauben, legen wir auf dem Rückweg einen kurzen Stopp an der Anse Georgette ein. Georgette gehört formal zum Resort Constance Lemuria, ist vom Meer aus aber zugänglich. Die meisten Boote können dort wegen des Riffs nicht ankern, wir kennen die Einfahrt. Sie ist leerer als Lazio und wirkt noch eine Spur abgelegener."
+        },
+        {
+          "title": "Anse Lazio oder La-Digue-Rundfahrt. Was wählen?",
+          "body": "Wählen Sie die Anse Lazio, wenn Sie einen halben Tag am berühmtesten Strand Praslins verbringen möchten, ohne den Andrang von der Straße. Wählen Sie die La-Digue-Rundfahrt, wenn Sie die Zeit lieber rund um Ihre eigene Insel verbringen und die Anse Source d'Argent vom Meer aus sehen möchten. Beides sind Halbtagestouren; wir fahren sie vormittags oder nachmittags, und Lazio gehört zu unseren bestbewerteten Alternativen am Abend."
+        }
+      ],
+      "highlightsTitle": "Was der halbe Tag an der Anse Lazio enthält",
+      "highlights": [
+        "Privatboot mit Kapitän",
+        "Schnorchelausrüstung in allen Größen",
+        "Getränke (Wasser, Softdrinks, Bier) inklusive",
+        "Schnorchelstopp am Nordriff",
+        "Optionaler Fotostopp an der Anse Georgette",
+        "Badezeit am Strand von Lazio"
+      ],
+      "itineraryEyebrow": "Ein halber Tag an der Anse Lazio",
+      "itineraryTitle": "Typischer Ablauf, 6 Stunden",
+      "faqTitle": "Anse Lazio. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Kostet der Zugang zur Anse Lazio Eintritt?",
+          "a": "Vom Meer aus nicht. Der Zugang über die Straße ist frei; wenn Sie vom Boot aus an Land schwimmen, betreten Sie einfach den öffentlichen Strand."
+        },
+        {
+          "q": "Dürfen wir an der Anse Georgette an Land?",
+          "a": "Offiziell gehört der Strand zum Resort Constance Lemuria, vom Meer aus ist er jedoch öffentlich zugänglich. Je nach Bedingungen fahren wir mit dem Boot heran und schwimmen an Land."
+        },
+        {
+          "q": "Ist die Bucht für Kinder sicher?",
+          "a": "Ja, die Lagunenseite ist flach und geschützt. Das Riff auf der Nordseite ist etwas für sichere Schwimmer."
+        },
+        {
+          "q": "Was ist mit dem Südostpassat?",
+          "a": "Von Juni bis September kann der Südost die Anse Lazio nachmittags unruhig machen. Wir passen uns an: Der Vormittagstermin ist dann die sicherere Wahl."
+        },
+        {
+          "q": "Lässt sich die Anse Lazio mit der Insel St-Pierre verbinden?",
+          "a": "Ja, häufig. Beide liegen 15 Bootsminuten auseinander; viele Gäste machen daraus einen ganzen Tag."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihren halben Tag an der Anse Lazio"
+    },
+    "st-pierre-islet": {
+      "shortTitle": "Insel St-Pierre",
+      "title": "Insel St-Pierre. Das beste Schnorcheln vor Praslin",
+      "tagline": "Korallengarten · Granitfelsen · halber Tag",
+      "lead": "Ein Granitfelsen von der Größe eines Tennisplatzes, umgeben von einem Korallengarten, über den Sie in vier Metern spiegelglattem Wasser treiben. St-Pierre ist der kürzeste und dichteste Schnorchelgang der inneren Inseln. Und unser meistgefragter halber Tag.",
+      "imageAlt": "Granitfelsen der Insel St-Pierre bei Praslin, Seychellen",
+      "metaTitle": "Insel St-Pierre Schnorcheltour Seychellen · Privatboot halbtags",
+      "metaDescription": "Halbtägige Bootstour ab La Digue zur Insel St-Pierre, einem der fischreichsten Schnorchelplätze bei Praslin. 70 €/Person, Getränke und Ausrüstung inklusive.",
+      "schemaName": "Insel St-Pierre. Private Schnorcheltour per Boot ab La Digue",
+      "factDuration": "4 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "Hafen von La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig · am besten Apr–Okt (Sicht)",
+      "sections": [
+        {
+          "title": "Warum St-Pierre der beste halbe Tag der inneren Inseln ist",
+          "body": "St-Pierre ist ein einzelner Granitfelsen vor der Anse Volbert, etwa einen Kilometer vor der Küste, auf drei Seiten umgeben von einem gesunden Korallengarten in drei bis fünf Metern Wasser. Die Fischdichte ist ehrlich gesagt die höchste, die Sie auf der Innenseite Praslins sehen: dichte Schwärme von Sergeant-Major-Fischen, Papageifische in allen Farben, oft eine Karettschildkröte, die am Grund ruht.\n\nWir setzen Sie an der Südflanke ab, wo die Strömung sanft und das Riff breiter ist, lassen Sie mit der wechselnden Tide nach Norden treiben und nehmen Sie auf der Rückseite wieder auf. Der ganze Stopp dauert etwa 90 Minuten: lang genug, um alles zu sehen, kurz genug, dass niemand ermüdet."
+        },
+        {
+          "title": "St-Pierre mit der Anse Volbert verbinden",
+          "body": "Auf dem Rückweg legen wir einen Strandstopp an der Anse Volbert ein, dem Hauptstrand Praslins an der Côte d'Or: ein langer Bogen weißen Sandes, auf der einen Seite die Hotels an der Lagune, auf der anderen die vertäuten Boote. Schwimmen, spazieren, am Kiosk eine Kokosnuss holen. Viele Gäste nutzen ihn als Mittagsstopp vor der Rückfahrt nach La Digue."
+        },
+        {
+          "title": "Wann die Sicht am besten ist",
+          "body": "St-Pierre ist ganzjährig gut, doch das beste Fenster liegt zwischen April und Oktober: schwacher Südostwind, wenig Regen, Sicht oft über 15 Meter. Dezember bis Februar kann an ruhigen Tagen ausgezeichnet sein, ist aber wechselhafter. Der Kapitän prüft die Vorhersage am Morgen und passt den Plan bei Bedarf an."
+        },
+        {
+          "title": "St-Pierre oder Meerespark Coco",
+          "body": "Coco hat mehr Fischdichte und ein größeres Gebiet, erfordert aber einen längeren Tag und die Meeresparkgebühr. St-Pierre ist kürzer, frei von Parkgebühren, und die Dichte direkt am Felsen steht Coco kaum nach. Haben Sie einen halben Tag, wählen Sie St-Pierre. Haben Sie einen ganzen, gewinnt Coco."
+        }
+      ],
+      "highlightsTitle": "Was der halbe Tag an St-Pierre enthält",
+      "highlights": [
+        "Privatboot mit Kapitän",
+        "Schnorchelausrüstung in allen Größen",
+        "Getränke (Wasser, Softdrinks, Bier) inklusive",
+        "90 Minuten am Schnorchelplatz",
+        "Strandstopp an der Anse Volbert",
+        "Keine Meeresparkgebühr"
+      ],
+      "itineraryEyebrow": "Ein halber Tag an St-Pierre",
+      "itineraryTitle": "Typischer Ablauf, 4 Stunden",
+      "faqTitle": "Insel St-Pierre. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Fällt an St-Pierre eine Meeresparkgebühr an?",
+          "a": "Nein. St-Pierre selbst liegt außerhalb der ausgewiesenen Parks. Eine Tagesgebühr ist nicht erforderlich."
+        },
+        {
+          "q": "Wie tief ist das Wasser am Schnorchelplatz?",
+          "a": "Rund um die Insel zwischen 3 und 8 Metern: flacher an der Südflanke, hinter dem Felsen fällt es auf 12 Meter ab."
+        },
+        {
+          "q": "Können Kinder hier schnorcheln?",
+          "a": "Ja. Schwimmhilfen sind vorhanden, die Südflanke ist flach und geschützt, und der Kapitän bleibt bei Bedarf im Beiboot in der Nähe."
+        },
+        {
+          "q": "Dürfen wir auf St-Pierre an Land?",
+          "a": "Es ist nackter Granit, ohne Weg und ohne Einrichtungen. Wir gehen nicht an Land. Nur Schnorcheln."
+        },
+        {
+          "q": "Lässt sich das mit Curieuse verbinden?",
+          "a": "Ja. Das verlängert den Tag um etwa eine Stunde und macht daraus einen ganzen Tag Curieuse plus St-Pierre. Sehr beliebt."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihren halben Tag an St-Pierre"
+    },
+    "sunset-cruise": {
+      "shortTitle": "Sonnenuntergangsfahrt",
+      "title": "Sonnenuntergangsfahrt La Digue. Das letzte Licht des Tages",
+      "tagline": "Anse Source d'Argent zur goldenen Stunde · Getränke · privat",
+      "lead": "Zwei Stunden auf dem Wasser zu der einzigen Zeit, in der die inneren Inseln golden werden. Wir legen um 17 Uhr ab, fahren an der Ostküste von La Digue entlang, halten das Boot zum Sonnenuntergang vor der Anse Source d'Argent und treiben unter der letzten Farbe des Tages zurück in den Hafen.",
+      "imageAlt": "Master Boat Charter bei Sonnenuntergang rund um La Digue, Seychellen",
+      "metaTitle": "Sonnenuntergangsfahrt La Digue · Privatboot zur goldenen Stunde",
+      "metaDescription": "Private Sonnenuntergangsfahrt ab La Digue. Anse Source d'Argent zur goldenen Stunde, Wasser und Softdrinks inklusive. 70 €/Person · 2 Stunden · max. 10 Gäste.",
+      "schemaName": "Sonnenuntergangsfahrt La Digue. Privatboot zur goldenen Stunde",
+      "factDuration": "2 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "Hafen von La Digue · 17:00",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig · Sonnenuntergang 18:00–19:00",
+      "sections": [
+        {
+          "title": "Warum die inneren Inseln bei Sonnenuntergang am schönsten sind",
+          "body": "Der Sonnenuntergang auf den Seychellen ist kurz: zwanzig Minuten von Gold zu Dunkel. Doch für diese zwanzig Minuten reisen die Menschen an. Der Granit von La Digue, im Nachmittagslicht rosa, wird orange und dann tiefrot. Die Lagune wechselt von Türkis zu Zinn. Das Riff zeichnet eine dunklere Linie aufs Wasser. Vom Boot aus, bei abgestelltem Motor, hört man nur die Dünung am Rumpf.\n\nWir richten die Fahrt nach dem genauen Sonnenstand des Tages: Ablegen um 17:00 Uhr, zwischen 17:45 und 18:15 Uhr vor der Anse Source d'Argent, gegen 19:00 Uhr zurück im Hafen."
+        },
+        {
+          "title": "Anse Source d'Argent zur goldenen Stunde",
+          "body": "Der Landpark schließt um 18 Uhr. Vom Meer aus bleibt der Strand so lange offen, wie Sie ihn sehen können. Wir halten das Boot 80 Meter vor der Küste: nah genug, dass die Granitformen drei Stockwerke hoch wirken, weit genug, dass die Welle niemanden am Strand stört. Passt die Tide, können Sie vom Boot steigen und zum Sand gehen. Die meisten Gäste bleiben mit einem Getränk an Bord und schauen einfach zu."
+        },
+        {
+          "title": "Was an Bord ist",
+          "body": "Wasser und Softdrinks an Bord. Eine gekühlte Flasche — Schaumwein, Weiß-, Roséwein oder alkoholfrei — ist gegen Aufpreis erhältlich und wird bei der Buchung gewählt. Der Kapitän hält die Drehzahl niedrig und die Fahrt ruhig. Kein Mikrofon, kein Gruppengeplauder: Es ist Ihr Abend."
+        }
+      ],
+      "highlightsTitle": "Was die Sonnenuntergangsfahrt enthält",
+      "highlights": [
+        "Privatboot, nur Ihre Gruppe",
+        "Gekühlte Flasche nach Wahl, gegen Aufpreis",
+        "Wasser und Softdrinks inklusive",
+        "Anse Source d'Argent vom Wasser aus zur goldenen Stunde",
+        "Optionaler Ankerstopp zum Baden",
+        "Gemächliche Rückfahrt in den Hafen"
+      ],
+      "itineraryEyebrow": "Zwei Stunden bei Sonnenuntergang",
+      "itineraryTitle": "Typischer Ablauf, 17:00 bis 19:00",
+      "faqTitle": "Sonnenuntergangsfahrt. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Wann beginnt die Fahrt?",
+          "a": "Ablegen um 17:00 Uhr. Je nach Monat und tatsächlichem Sonnenuntergang verschieben wir um bis zu 30 Minuten in beide Richtungen. Die genaue Zeit bestätigen wir am Vortag."
+        },
+        {
+          "q": "Können wir das für einen Heiratsantrag oder die Hochzeitsreise buchen?",
+          "a": "Ja. Sagen Sie es bei der Buchung, dann ergänzen wir eine kleine Überraschung (Blumen, Karte des Kapitäns, etwas längere Route). Das bleibt dezent."
+        },
+        {
+          "q": "Gibt es etwas zu essen an Bord?",
+          "a": "Nein. Wasser und Softdrinks sind an Bord inklusive; eine gekühlte Flasche gibt es gegen Aufpreis. Für ein vollständiges Abendessen empfehlen wir die Restaurants am Hafen nach der Rückkehr."
+        },
+        {
+          "q": "Was, wenn es bewölkt ist?",
+          "a": "Sieht die Vorhersage nach vollständiger Bewölkung aus, bieten wir einen kostenlosen Ersatztermin an. Leichte Bewölkung macht die Farben oft dramatischer. Am Morgen sagen wir Ihnen ehrlich, was zu erwarten ist."
+        },
+        {
+          "q": "Kann man während der Fahrt baden?",
+          "a": "Ja, wenn es das Wetter zulässt: meist ein kurzer Stopp an der Anse Source d'Argent oder der Petite Anse. Badesachen mitbringen."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihre Sonnenuntergangsfahrt"
+    },
+    "la-digue-tour": {
+      "shortTitle": "La-Digue-Rundfahrt",
+      "title": "Rund um La Digue per Boot. Anse Source d'Argent vom Wasser aus",
+      "tagline": "Anse Source d'Argent · Anse Cocos · Grande Anse",
+      "lead": "Ein halber Tag oder eine Fahrt zum Sonnenuntergang rund um La Digue, so gesehen, wie die Insel immer gesehen werden sollte: vom Wasser. Wir gleiten an der Granitküste entlang, ankern dort, wo keine Straße hinführt, und enden zur goldenen Stunde an den Stränden unter den Klippen.",
+      "imageAlt": "Master Boat Charter vor den Granitklippen von La Digue, Seychellen",
+      "metaTitle": "La Digue Bootstour · Anse Source d'Argent vom Meer aus",
+      "metaDescription": "Private Bootstour rund um La Digue, halbtags oder zum Sonnenuntergang: Anse Source d'Argent vom Wasser, Anse Cocos, Grande Anse, Petite Anse. 70 € pro Person, Getränke inklusive.",
+      "schemaName": "Private Bootstour La Digue. Strände & Sonnenuntergangsfahrt",
+      "factDuration": "4 Stunden",
+      "factCapacity": "Bis zu 10 Gäste",
+      "factDepartureLabel": "Abfahrt",
+      "factDeparture": "Hafen von La Digue",
+      "factSeasonLabel": "Saison",
+      "factSeason": "Ganzjährig",
+      "sections": [
+        {
+          "title": "Warum der beste Blick auf La Digue vom Boot aus ist",
+          "body": "Die meisten Besucher sehen La Digue vom Fahrradsattel aus. Das ist schön, aber unvollständig. Die wahre Silhouette der Insel sind ihre neun Kilometer Granitküste, die Klippen, die an der Ostseite senkrecht ins tiefe Wasser fallen, die nur vom Meer erreichbaren Strände an der Anse Cocos und der Petite Anse, und die Anse Source d'Argent bei Sonnenuntergang, wenn der Landweg geschlossen, das Wasser aber offen ist.\n\nWir fahren diese Tour in zwei Varianten: eine Vormittagsrunde mit zwei Ankerplätzen und einem Bad, und eine Sonnenuntergangsrunde, die die Anse Source d'Argent auf die goldene Stunde legt und unter einem Himmel in den Hafen zurückkehrt, den die meisten nur von Postkarten kennen."
+        },
+        {
+          "title": "Anse Source d'Argent vom Wasser aus",
+          "body": "Vom Meer aus zeigt die Anse Source d'Argent, was man vom Weg aus nicht sieht: den langen Bogen der Granitschultern hinter der berühmten Palme, die vorgelagerte Riffbank, die der Lagune ihr Türkis gibt, und bei Niedrigwasser eine Sandbank, auf der Sie in 30 Zentimeter tiefem Wasser vom Boot steigen und zum Strand laufen können.\n\nAuf der Landseite kostet der Park Eintritt; vom Wasser aus ankern wir einfach davor, und Sie schwimmen hinüber, wenn Sie mögen."
+        },
+        {
+          "title": "Anse Cocos und die Strände der Ostküste",
+          "body": "Die Anse Cocos ist einer jener Seychellen-Strände ohne bequemen Landzugang: ein langer Fußweg von der Grande Anse oder ein kurzes Stück Schwimmen vom Boot. Dasselbe gilt für die Petite Anse, einen Sandstreifen zwischen zwei Granitschultern mit einem einzigen Haus dahinter. Wir ankern im Windschatten, Sie schwimmen oder schnorcheln; der Kapitän bleibt beim Boot."
+        },
+        {
+          "title": "Die Sonnenuntergangsvariante dieser Tour",
+          "body": "Je nach Saison zwischen 16:30 und 19:30 Uhr buchbar. Wir fahren zunächst an der Ostküste nach Süden, kehren für das goldene Licht an der Anse Source d'Argent zurück und treiben dann langsam unter der letzten Farbe des Tages in den Hafen. Wasser und Softdrinks an Bord, und jene Ruhe, die es auf einer Gruppenfahrt nicht gibt."
+        }
+      ],
+      "highlightsTitle": "Was die La-Digue-Rundfahrt enthält",
+      "highlights": [
+        "Privatboot mit Skipper",
+        "Getränke (Wasser, Softdrinks, Bier) inklusive",
+        "Schnorchelausrüstung",
+        "Wahl zwischen Vormittag und Sonnenuntergang",
+        "Fotostopps an der Anse Source d'Argent vom Meer aus",
+        "Ankerstopp zum Baden"
+      ],
+      "itineraryEyebrow": "Ein halber Tag rund um die Insel",
+      "itineraryTitle": "Typischer Ablauf, 4 Stunden",
+      "faqTitle": "La-Digue-Rundfahrt. Häufige Fragen",
+      "faq": [
+        {
+          "q": "Können wir an der Anse Source d'Argent an Land?",
+          "a": "Ja. Sie schwimmen vom ankernden Boot hinüber; bei Niedrigwasser ist es kaum mehr als Waten. Die Parkgebühr an Land fällt nur an, wenn Sie weiter ins Landesinnere gehen."
+        },
+        {
+          "q": "Sonnenuntergang oder Vormittag. Was wählen?",
+          "a": "Den Sonnenuntergang für das Licht und die Ruhe. Den Vormittag, wenn Sie längere Zeit zum Schwimmen und Schnorcheln möchten."
+        },
+        {
+          "q": "Eignet sich die Tour für Hochzeitsreisende?",
+          "a": "Viele Gäste buchen sie für einen privaten Jahrestag. Auf Wunsch ergänzen wir eine gekühlte Flasche gegen Aufpreis und ein ruhigeres Tempo."
+        },
+        {
+          "q": "Werden wir andere Boote sehen?",
+          "a": "Auf dem Abschnitt an der Anse Source d'Argent manchmal ein oder zwei. Südlich der Spitze fast nie."
+        },
+        {
+          "q": "Ist die See ganzjährig ruhig?",
+          "a": "Rund um La Digue ist sie es die meiste Zeit des Jahres. An der Ostküste bringt der Südostpassat (Juni bis September) etwas Dünung. Dann passen wir die Route an."
+        }
+      ],
+      "relatedEyebrow": "Oft kombiniert mit",
+      "relatedTitle": "Weitere Tage auf See in dieser Gegend",
+      "backToPillar": "Zurück zu allen Ausflügen",
+      "ctaTitle": "Buchen Sie Ihre La-Digue-Rundfahrt"
+    }
+  }
+}

@@ -21,6 +21,7 @@ import { FORM_ENDPOINT, WEB3FORMS_KEY, whatsappLink } from '@/lib/site';
 import Calendar from './Calendar';
 import SlotPicker from './SlotPicker';
 import ReassuranceBar from '@/components/ui/ReassuranceBar';
+import { dateLocale } from '@/lib/locale';
 
 type Step = 'datetime' | 'details' | 'review';
 
@@ -585,7 +586,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                       <ReviewRow
                         label={t('selectedDate')}
                         value={new Date(date + 'T00:00:00').toLocaleDateString(
-                          locale === 'fr' ? 'fr-FR' : 'en-US',
+                          dateLocale(locale),
                           { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }
                         )}
                       />
@@ -684,7 +685,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
                   value={
                     date
                       ? new Date(date + 'T00:00:00').toLocaleDateString(
-                          locale === 'fr' ? 'fr-FR' : 'en-US',
+                          dateLocale(locale),
                           { day: 'numeric', month: 'short', year: 'numeric' }
                         )
                       : '—'
@@ -749,7 +750,7 @@ export default function BookingFlow({ slug }: { slug: ActivitySlug }) {
             <p className="text-[0.65rem] uppercase tracking-wider2 text-turquoise-200 leading-tight">
               {date
                 ? new Date(date + 'T00:00:00').toLocaleDateString(
-                    locale === 'fr' ? 'fr-FR' : 'en-US',
+                    dateLocale(locale),
                     { day: 'numeric', month: 'short' }
                   )
                 : tCommon('selectDate')}{' '}
