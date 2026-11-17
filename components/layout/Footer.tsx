@@ -210,7 +210,7 @@ export default function Footer() {
               {/* white/55 is the floor here: at white/40 the label fell to
                   3.71:1 against the footer, under WCAG AA. */}
               <p>
-                Réalisé par{' '}
+                {t('builtBy')}{' '}
                 <a
                   href="https://www.pratstudio.fr"
                   target="_blank"
